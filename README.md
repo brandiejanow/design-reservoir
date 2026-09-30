@@ -4,57 +4,34 @@ A curated global directory of design resources, knowledge platforms, institution
 
 **Design Reservoir** began as a manually maintained collection created by [Brandie Janow](https://brandiejanow.com/) before ChatGPT existed. In 2026, the collection moved from spreadsheets and Airtable into GitHub so it could become a maintained, searchable, versioned public resource.
 
-The repository is the source of truth. The active directory lives in [`data/resources.json`](data/resources.json); retired or obsolete resources are preserved in [`data/archive.json`](data/archive.json) so the history of the collection is not lost.
-
-## What belongs here
-
-Design Reservoir is for resources that help people learn, research, connect, develop, find opportunities, or understand something in design. That includes:
-
-- professional bodies, design councils, and national institutions
-- research societies, archives, indexes, and knowledge platforms
-- education, mentorship, and professional-development resources
-- methods, toolkits, prompts, and design-system resources
-- career networks, communities, and opportunities
-- business, strategy, innovation, and design-management resources
-- cross-disciplinary design platforms and futures resources
-
-The discipline taxonomy is adapted from **The Design Almanac 2026**, published by Knowledge of Design. It uses ten overlapping design families, plus a cross-disciplinary category.
+The repository is the source of truth. The human-readable master table lives in [`data/resources.csv`](data/resources.csv), and the public interface is generated from that file.
 
 ## Current status
 
-- **93 active resources**
-- **3 retired resources** preserved in the archive
+- **56 active resources**
 - links audited on **2026-09-30**
 - global expansion is ongoing
 
-## Repository structure
+## What belongs here
 
-```text
-data/
-  resources.json       canonical active directory
-  archive.json         retired / obsolete resources
-  taxonomy.json        design families and resource types
+Design Reservoir is for resources that help designers learn, research, connect, develop, find opportunities, or understand something in design. That includes professional bodies, research societies, archives, indexes, education, mentorship, methods, tools, careers, communities, business, strategy, innovation, and design-management resources.
 
-site/
-  index.html
-  styles.css
-  app.js                public search + filtering interface
+The next expansion will use the ten-family Design Atlas in *The Design Almanac 2026* as a cross-disciplinary taxonomy.
 
-scripts/
-  check_links.py        automated URL health check
+## Files you may actually care about
 
-.github/
-  workflows/
-    pages.yml           publishes the static site
-    link-check.yml      scheduled link audit
-  ISSUE_TEMPLATE/
-    suggest-resource.yml
-    correction.yml
-```
+- [`data/resources.csv`](data/resources.csv) — the directory in a spreadsheet-like table
+- [`index.html`](index.html) — the public webpage
+- [`styles.css`](styles.css) — the visual styling
+- [`app.js`](app.js) — search and filtering behavior
 
-## Contribute
+You do not need to edit the code files yourself to maintain the Reservoir.
 
-Use the repository issue forms to suggest a resource or flag a correction. Resources are reviewed for relevance, currency, and usefulness before being added.
+## Publishing
+
+The repository contains a static site ready for GitHub Pages. Once Pages is enabled for the `main` branch at the repository root, the public address will be:
+
+**https://brandiejanow.github.io/design-reservoir/**
 
 ## Licensing
 
