@@ -3,45 +3,66 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Design Reservoir — a curated global directory of design resources.">
+  <meta name="description" content="Design Reservoir — a curated directory of design resources by Brandie Janow.">
   <title>Design Reservoir — Brandie Janow</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  <header class="site-nav">
+    <a class="name" href="https://www.brandiejanow.com/" target="_top">Brandie Janow</a>
+    <nav aria-label="Brandie Janow">
+      <a href="https://www.brandiejanow.com/" target="_top">Research &amp; Writings</a>
+      <a href="https://www.brandiejanow.com/" target="_top">Frameworks</a>
+      <a href="https://www.brandiejanow.com/" target="_top">Initiatives</a>
+      <a href="https://www.brandiejanow.com/" target="_top">Speaking &amp; Advisory</a>
+      <a href="https://www.brandiejanow.com/" target="_top">Archive</a>
+    </nav>
+  </header>
+
   <main>
-    <header class="hero">
-      <p class="kicker">Brandie Janow</p>
-      <h1>Design<br>Reservoir</h1>
-      <p class="intro">A curated reservoir of design knowledge: organizations, education, research, tools, communities, business resources, and places to keep learning.</p>
-      <p class="meta"><span id="total">56</span> active resources · audited September 2026</p>
-    </header>
+    <section class="hero">
+      <p class="eyebrow">Index / Design</p>
+      <h1>Design Reservoir</h1>
+      <p class="intro">A curated directory of organizations, platforms, tools, research, education and opportunities across design.</p>
+      <p class="meta"><span id="total">—</span> resources</p>
+    </section>
 
     <section class="directory" aria-label="Design Reservoir directory">
       <div class="toolbar">
-        <input id="search" type="search" placeholder="Search the reservoir" aria-label="Search Design Reservoir">
-        <select id="status">
-          <option value="">All active resources</option>
-          <option value="Verified">Verified</option>
-          <option value="Updated URL">Updated URL</option>
-          <option value="Manual check">Manual check</option>
-        </select>
+        <label class="search">
+          <span>Search</span>
+          <input id="search" type="search" placeholder="Name, topic, organization…" autocomplete="off">
+        </label>
+        <label>
+          <span>Industry</span>
+          <select id="industry"><option value="">All industries</option></select>
+        </label>
+        <label>
+          <span>Resource type</span>
+          <select id="type"><option value="">All resource types</option></select>
+        </label>
+        <label>
+          <span>Keyword</span>
+          <select id="keyword"><option value="">All keywords</option></select>
+        </label>
       </div>
-      <p id="resultCount" class="result-count">Loading…</p>
-      <div id="grid" class="grid"></div>
-      <p id="empty" class="empty" hidden>No resources match that search.</p>
+
+      <div class="directory-head">
+        <p id="resultCount">Loading…</p>
+        <button id="clear" type="button">Clear filters</button>
+      </div>
+
+      <div id="list" class="resource-list"></div>
+      <p id="empty" class="empty" hidden>No resources match those filters.</p>
     </section>
 
-    <section class="about">
-      <p class="kicker">About</p>
-      <div>
-        <h2>A living reference, not a static list.</h2>
-        <p>Design Reservoir began as a manually maintained collection of resources for designers. It now lives as a versioned public directory so links can be checked, moved resources can be updated, and the collection can grow across disciplines and geographies.</p>
-        <p>The underlying dataset is maintained on GitHub, while this page is the human-facing interface.</p>
-      </div>
+    <section class="note">
+      <p>Design Reservoir is independently curated by Brandie Janow. Resource suggestions can be submitted for review; nothing is added automatically.</p>
     </section>
   </main>
+
   <footer>
-    <span>Design Reservoir</span>
+    <span>© 2026 Brandie Janow</span>
     <a href="https://www.brandiejanow.com/" target="_top">brandiejanow.com</a>
   </footer>
   <script src="./app.js"></script>
