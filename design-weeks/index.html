@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Design Weeks Index — a curated global index of design weeks and citywide design festivals by Brandie Janow.">
+  <title>Design Weeks Index — Brandie Janow</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="name" href="https://www.brandiejanow.com/" target="_top"><img src="../assets/b-logo.svg" alt="" aria-hidden="true"><span>Brandie Janow</span></a>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Index / Global Design</p>
+      <h1>Design Weeks<br>Index</h1>
+      <p class="intro">A growing global index of recurring design weeks and citywide design festivals, verified against current official sources.</p>
+      <p class="meta"><span id="total">—</span> verified platforms</p>
+    </section>
+    <section class="directory">
+      <div class="toolbar weeks-toolbar">
+        <label class="search"><span>Search</span><input id="search" type="search" placeholder="City, country, event, topic…" autocomplete="off"></label>
+        <label><span>Region</span><select id="region"><option value="">All regions</option></select></label>
+        <label><span>Format</span><select id="format"><option value="">All formats</option></select></label>
+        <label><span>Keyword</span><select id="keyword"><option value="">All keywords</option></select></label>
+      </div>
+      <div class="directory-head"><p id="resultCount">Loading…</p><button id="clear" type="button">Clear filters</button></div>
+      <div id="list" class="resource-list"></div>
+      <p id="empty" class="empty" hidden>No design weeks match those filters.</p>
+    </section>
+    <section class="note"><p>This index is maintained separately from Design Reservoir so annual design-week platforms can be tracked without mixing them into the resource directory.</p></section>
+  </main>
+  <footer><span>© 2026 Brandie Janow</span><a href="../">Design Reservoir</a></footer>
+  <script src="./app.js"></script>
+</body>
+</html>
