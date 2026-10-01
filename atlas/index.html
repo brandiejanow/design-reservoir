@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="The Design Atlas — 356 design disciplines across 10 families, from The Design Almanac 2026.">
+  <title>Design Atlas — Design Reservoir</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="name" href="https://www.brandiejanow.com/" target="_top"><img src="../assets/b-logo.svg" alt="" aria-hidden="true"><span>Brandie Janow</span></a>
+    <nav class="index-nav" aria-label="Design indexes">
+      <a href="../">Design Reservoir</a>
+      <a class="active" href="./">Design Atlas</a>
+      <a href="../design-weeks/">Design Weeks</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Design Reservoir / Reference</p>
+      <h1>Design Atlas</h1>
+      <p class="intro">356 disciplines across 10 overlapping families, mapped in <em>The Design Almanac 2026</em>.</p>
+      <p class="meta"><span id="total">356</span> disciplines · <span id="familyCount">10</span> families</p>
+    </section>
+    <section class="directory atlas-directory">
+      <div class="toolbar atlas-toolbar">
+        <label class="search"><span>Search</span><input id="search" type="search" placeholder="Architecture, systems, futures, typography…" autocomplete="off"></label>
+        <label><span>Design family</span><select id="family"><option value="">All families</option></select></label>
+      </div>
+      <div class="directory-head"><p id="resultCount">Loading…</p><button id="clear" type="button">Clear filters</button></div>
+      <div id="groups"></div>
+      <p id="empty" class="empty" hidden>No disciplines match that search.</p>
+    </section>
+    <section class="note"><p>The Atlas preserves the ten-family structure of <em>The Design Almanac 2026</em>. Families overlap by design; the same practice can connect to several areas of design.</p></section>
+  </main>
+  <footer><span>© 2026 Brandie Janow</span><a href="../">Design Reservoir</a></footer>
+  <script src="./app.js"></script>
+</body>
+</html>
