@@ -9,7 +9,7 @@ The repository is the source of truth. The human-readable master table lives in 
 ## Current status
 
 - **182 active Design Reservoir records**
-- **356 design disciplines** from *The Design Almanac 2026* in the searchable [Design Atlas](atlas/)
+- **hundreds of design disciplines** from *The Design Almanac 2026* in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - design weeks and citywide design festivals are maintained separately in the [Design Weeks Index](design-weeks/)
 - automated link auditing is configured to run weekly
@@ -20,7 +20,7 @@ The revised *Design Almanac 2026* is treated as a source for the Reservoir, not 
 
 The full import accounting is documented in [`data/almanac-import-manifest.csv`](data/almanac-import-manifest.csv).
 
-The ten-family Design Atlas is preserved separately as structured data in [`data/design-atlas.csv`](data/design-atlas.csv), containing all 356 disciplines.
+The ten-family Design Atlas is preserved separately as structured data in [`data/design-atlas.csv`](data/design-atlas.csv), containing the full discipline map.
 
 ## What belongs here
 
@@ -29,7 +29,7 @@ Design Reservoir is for resources that help people learn, research, connect, dev
 ## Files you may actually care about
 
 - [`data/resources.csv`](data/resources.csv) — the active directory in a spreadsheet-like table
-- [`data/design-atlas.csv`](data/design-atlas.csv) — the 356-discipline Design Atlas
+- [`data/design-atlas.csv`](data/design-atlas.csv) — the design-discipline Design Atlas
 - [`data/design-weeks.csv`](data/design-weeks.csv) — separate Design Weeks dataset
 - [`data/almanac-import-manifest.csv`](data/almanac-import-manifest.csv) — what from the Almanac went where
 - [`data/almanac-review.csv`](data/almanac-review.csv) — items intentionally held for review
