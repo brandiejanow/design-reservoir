@@ -8,10 +8,12 @@ The repository is the source of truth. The human-readable master table lives in 
 
 ## Current status
 
-- **182 active Design Reservoir records**
+- **200 active Design Reservoir records**
 - **hundreds of design disciplines** from *The Design Almanac 2026* in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - design weeks and citywide design festivals are maintained separately in the [Design Weeks Index](design-weeks/)
+- **20 upcoming global events** across design, futures and foresight in the [Events Calendar](events/)
+- Events taking place in the Gulf and Middle East are excluded from active Design Reservoir listings, as of 14 October 2026
 - automated link auditing is configured to run weekly
 
 ## Design Almanac integration
@@ -31,9 +33,11 @@ Design Reservoir is for resources that help people learn, research, connect, dev
 - [`data/resources.csv`](data/resources.csv) — the active directory in a spreadsheet-like table
 - [`data/design-atlas.csv`](data/design-atlas.csv) — the design-discipline Design Atlas
 - [`data/design-weeks.csv`](data/design-weeks.csv) — separate Design Weeks dataset
+- [`data/events.csv`](data/events.csv) — dated global events for the calendar
 - [`data/almanac-import-manifest.csv`](data/almanac-import-manifest.csv) — what from the Almanac went where
 - [`data/almanac-review.csv`](data/almanac-review.csv) — items intentionally held for review
 - [`index.html`](index.html) — public Design Reservoir webpage
+- [`events/index.html`](events/index.html) — date-organized Events Calendar
 
 You do not need to edit the code files yourself to maintain the Reservoir.
 
