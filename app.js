@@ -4,7 +4,7 @@ function parseCSV(text){const out=[];let row=[],cell="",q=false;for(let i=0;i<te
 function esc(s=""){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]))}
 function split(v){return String(v||"").split(";").map(x=>x.trim()).filter(Boolean)}
 function uniq(values){return[...new Set(values.filter(Boolean))].sort((a,b)=>a.localeCompare(b))}
-function option(el,v){const o=document.createElement("option");o.value=v;o.textContent=v;el.appendChild(o)}
+function option(el,v){if([...el.options].some(o=>o.value===v))return;const o=document.createElement("option");o.value=v;o.textContent=v;el.appendChild(o)}
 function populate(){uniq(rows.flatMap(r=>split(r.industries))).forEach(v=>option(els.industry,v));uniq(rows.map(r=>r.resource_type)).forEach(v=>option(els.type,v));uniq(rows.flatMap(r=>split(r.keywords))).forEach(v=>option(els.keyword,v))}
 function haystack(r){return[r.name,r.description,r.resource_type,r.industries,r.keywords].join(" ").toLowerCase()}
 function render(){const q=els.search.value.trim().toLowerCase(),industry=els.industry.value,type=els.type.value,keyword=els.keyword.value;const filtered=rows.filter(r=>(!q||haystack(r).includes(q))&&(!industry||split(r.industries).includes(industry))&&(!type||r.resource_type===type)&&(!keyword||split(r.keywords).includes(keyword)));els.list.innerHTML=filtered.map(r=>`<article class="resource"><h2>${esc(r.name)}</h2><p class="description">${esc(r.description||"")}</p><div class="taxonomy"><span><strong>${esc(r.resource_type)}</strong></span><span>${esc(r.industries)}</span></div><a class="visit" href="${esc(r.url)}" target="_blank" rel="noopener" aria-label="Open ${esc(r.name)}">↗</a></article>`).join("");els.count.textContent=`${filtered.length} of ${rows.length} resources`;els.empty.hidden=filtered.length!==0}
@@ -13,12 +13,13 @@ function render(){const q=els.search.value.trim().toLowerCase(),industry=els.ind
 function csvRecords(text){const parsed=parseCSV(text),head=parsed.shift();return parsed.filter(r=>r.length&&r[0]).map(r=>Object.fromEntries(head.map((h,i)=>[h,r[i]||""])))}
 function weekToResource(w){return {name:w.name,description:[w.city+(w.country?", "+w.country:""),w.edition,w.description].filter(Boolean).join(". "),url:w.url,resource_type:"Design Week",industries:"Cross-disciplinary Design",keywords:[w.keywords,w.city,w.country,"design week"].filter(Boolean).join("; "),status:w.status,last_checked:w.last_checked,source:w.source};}
 Promise.all([
-  fetch("./data/resources.csv?v=20261014b",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load resource directory");return r.text()}),
-  fetch("./data/design-weeks.csv?v=20261014b",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
+  fetch("./data/resources.csv?v=20261014c",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load resource directory");return r.text()}),
+  fetch("./data/design-weeks.csv?v=20261014c",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
 ]).then(([resourceText,weekText])=>{
   rows=[...csvRecords(resourceText),...csvRecords(weekText).map(weekToResource)].sort((a,b)=>a.name.localeCompare(b.name));
   els.total.textContent=rows.length;
   populate();
+  const initialType=params.get("type");if(initialType&&[...els.type.options].some(o=>o.value===initialType))els.type.value=initialType;
   render();
 }).catch(e=>{els.count.textContent=e.message});
 [els.search,els.industry,els.type,els.keyword].forEach(el=>el.addEventListener("input",render));els.clear.addEventListener("click",()=>{els.search.value="";els.industry.value="";els.type.value="";els.keyword.value="";render();els.search.focus()});
