@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Upcoming design, futures and foresight events worldwide, with dates and source links.">
+  <title>Events Calendar | Design Reservoir</title>
+  <link rel="canonical" href="https://brandiejanow.github.io/design-reservoir/events/">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-nav">
+    <nav aria-label="Design indexes">
+      <a href="../">Reservoir</a>
+      <a href="../atlas/">Design Atlas</a>
+      <a href="../design-weeks/">Design Weeks</a>
+      <a class="active" href="./" aria-current="page">Events Calendar</a>
+      <a href="../futures/">Futures + STEAM</a>
+      <a href="https://www.brandiejanow.com/" target="_top">BrandieJanow.com ↗</a>
+    </nav>
+    <a class="name" href="https://www.brandiejanow.com/" target="_top" aria-label="Brandie Janow"><img src="../assets/b-logo.svg" alt=""></a>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Index / Global events</p>
+      <h1>Events<br>Calendar</h1>
+      <p class="intro">Conferences, festivals and gatherings across design, futures studies, foresight, science and technology.</p>
+      <p class="meta"><span id="total">—</span> upcoming events · Last reviewed 14 October 2026</p>
+    </section>
+    <section class="directory" aria-label="Upcoming events">
+      <div class="toolbar event-toolbar">
+        <label class="search"><span>Search</span><input id="search" type="search" autocomplete="off" placeholder="Event, place, subject…"></label>
+        <label><span>Year</span><select id="year"><option value="">All years</option></select></label>
+        <label><span>Subject</span><select id="category"><option value="">All subjects</option></select></label>
+        <label><span>Region</span><select id="region"><option value="">All regions</option></select></label>
+      </div>
+      <div class="directory-head"><p id="resultCount">Loading…</p><button id="clear" type="button">Clear filters</button></div>
+      <div id="list" class="event-months"></div>
+      <p id="empty" class="empty" hidden>No events match these filters.</p>
+    </section>
+    <section class="note">
+      <p>Dates may change. Confirm with the organizer before making travel plans. Events listed only by a third-party calendar are identified by their source. Events in the Gulf and Middle East are excluded from this calendar.</p>
+      <p>For citywide festivals and recurring design-week platforms, see the <a href="../design-weeks/">Design Weeks Index</a>. The <a href="https://www.anticipate.dk/futures-foresight-events" target="_blank" rel="noopener">ANTICIPATE calendar</a> was one of the sources reviewed.</p>
+    </section>
+  </main>
+  <footer><span>© 2026 Brandie Janow</span><a href="../">Design Reservoir</a></footer>
+  <script src="./app.js"></script>
+</body>
+</html>
