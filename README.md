@@ -8,12 +8,12 @@ The repository is the source of truth. The human-readable master table lives in 
 
 ## Current status
 
-- **200 active Design Reservoir records**
+- **197 active Design Reservoir resource records**
 - **hundreds of design disciplines** from *The Design Almanac 2026* in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
-- design weeks and citywide design festivals are maintained separately in the [Design Weeks Index](design-weeks/)
+- **77 global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week**
 - **20 upcoming global events** across design, futures and foresight in the [Events Calendar](events/)
-- Events taking place in the Gulf and Middle East are excluded from active Design Reservoir listings, as of 14 October 2026
+- Places and events located in the Gulf and Middle East are excluded from active Design Reservoir listings, as of 14 October 2026. Earlier records remain recoverable through Git history.
 - automated link auditing is configured to run weekly
 
 ## Design Almanac integration
