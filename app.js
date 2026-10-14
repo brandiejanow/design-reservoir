@@ -8,5 +8,17 @@ function option(el,v){const o=document.createElement("option");o.value=v;o.textC
 function populate(){uniq(rows.flatMap(r=>split(r.industries))).forEach(v=>option(els.industry,v));uniq(rows.map(r=>r.resource_type)).forEach(v=>option(els.type,v));uniq(rows.flatMap(r=>split(r.keywords))).forEach(v=>option(els.keyword,v))}
 function haystack(r){return[r.name,r.description,r.resource_type,r.industries,r.keywords].join(" ").toLowerCase()}
 function render(){const q=els.search.value.trim().toLowerCase(),industry=els.industry.value,type=els.type.value,keyword=els.keyword.value;const filtered=rows.filter(r=>(!q||haystack(r).includes(q))&&(!industry||split(r.industries).includes(industry))&&(!type||r.resource_type===type)&&(!keyword||split(r.keywords).includes(keyword)));els.list.innerHTML=filtered.map(r=>`<article class="resource"><h2>${esc(r.name)}</h2><p class="description">${esc(r.description||"")}</p><div class="taxonomy"><span><strong>${esc(r.resource_type)}</strong></span><span>${esc(r.industries)}</span></div><a class="visit" href="${esc(r.url)}" target="_blank" rel="noopener" aria-label="Open ${esc(r.name)}">↗</a></article>`).join("");els.count.textContent=`${filtered.length} of ${rows.length} resources`;els.empty.hidden=filtered.length!==0}
-fetch("./data/resources.csv",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("Could not load directory");return r.text()}).then(text=>{const parsed=parseCSV(text),head=parsed.shift();rows=parsed.filter(r=>r.length&&r[0]).map(r=>Object.fromEntries(head.map((h,i)=>[h,r[i]||""]))).sort((a,b)=>a.name.localeCompare(b.name));els.total.textContent=rows.length;populate();render()}).catch(e=>{els.count.textContent=e.message});
+// The Design Weeks Index remains the master source for design-week listings.
+// Include those same records in the main directory under the searchable Resource type "Design Week".
+function csvRecords(text){const parsed=parseCSV(text),head=parsed.shift();return parsed.filter(r=>r.length&&r[0]).map(r=>Object.fromEntries(head.map((h,i)=>[h,r[i]||""])))}
+function weekToResource(w){return {name:w.name,description:[w.city+(w.country?", "+w.country:""),w.edition,w.description].filter(Boolean).join(". "),url:w.url,resource_type:"Design Week",industries:"Cross-disciplinary Design",keywords:[w.keywords,w.city,w.country,"design week"].filter(Boolean).join("; "),status:w.status,last_checked:w.last_checked,source:w.source};}
+Promise.all([
+  fetch("./data/resources.csv",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load resource directory");return r.text()}),
+  fetch("./data/design-weeks.csv",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
+]).then(([resourceText,weekText])=>{
+  rows=[...csvRecords(resourceText),...csvRecords(weekText).map(weekToResource)].sort((a,b)=>a.name.localeCompare(b.name));
+  els.total.textContent=rows.length;
+  populate();
+  render();
+}).catch(e=>{els.count.textContent=e.message});
 [els.search,els.industry,els.type,els.keyword].forEach(el=>el.addEventListener("input",render));els.clear.addEventListener("click",()=>{els.search.value="";els.industry.value="";els.type.value="";els.keyword.value="";render();els.search.focus()});
