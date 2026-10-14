@@ -1,11 +1,5 @@
 name: Audit Design Reservoir links
 on:
-  push:
-    branches: [main]
-    paths:
-      - "data/resources.csv"
-      - "scripts/check_links.py"
-      - ".github/workflows/link-check.yml"
   schedule:
     - cron: "17 14 * * 1"
   workflow_dispatch:
