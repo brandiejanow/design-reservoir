@@ -1,0 +1,11 @@
+.event-toolbar{grid-template-columns:minmax(200px,2fr) repeat(3,minmax(125px,1fr))}
+.event-months{margin-top:36px}.month-group{padding-top:20px;margin-bottom:52px;border-top:1px solid var(--line)}
+.month-title{margin:0 0 18px;font-size:clamp(25px,3vw,38px);font-weight:400;letter-spacing:-.035em}
+.event-entry{display:grid;grid-template-columns:78px minmax(230px,1.3fr) minmax(230px,1.5fr) 44px;align-items:start;gap:20px;padding:22px 0;border-top:1px solid var(--line)}
+.event-day{display:flex;flex-direction:column;align-items:flex-start;font-variant-numeric:tabular-nums}
+.event-day strong{font-size:30px;line-height:1;font-weight:400;letter-spacing:-.06em}.event-day span{font-size:12px;color:var(--muted);margin-top:8px}
+.event-name{font-size:19px;font-weight:400;margin:0 0 8px;line-height:1.24}.event-place{margin:0;font-size:13px;color:#555}
+.event-desc{font-size:14px;margin:0 0 10px;line-height:1.55;color:#333}.event-type{font-size:11px;color:var(--muted);margin:0 0 7px}.event-source{font-size:11px;color:var(--muted);margin:0}
+.event-link{justify-self:end;font-size:19px;text-decoration:none;line-height:1.1;padding:6px}.event-link:hover{text-decoration:underline}
+@media(max-width:1050px){.event-entry{grid-template-columns:65px minmax(170px,1fr) minmax(190px,1fr) 35px;gap:14px}}
+@media(max-width:720px){.event-toolbar{grid-template-columns:1fr 1fr}.event-toolbar .search{grid-column:1/3}.event-entry{grid-template-columns:48px minmax(0,1fr) 28px;gap:12px}.event-detail{grid-column:2/3}.event-link{grid-column:3;grid-row:1}.event-day strong{font-size:24px}.event-name{font-size:17px}}
