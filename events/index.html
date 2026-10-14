@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Upcoming design, futures and foresight events worldwide, with dates and source links.">
+  <meta name="description" content="A global calendar of dated design and futures events, plus a searchable index of recurring design weeks.">
   <title>Events Calendar | Design Reservoir</title>
   <link rel="canonical" href="https://brandiejanow.github.io/design-reservoir/events/">
   <link rel="stylesheet" href="../styles.css">
@@ -25,8 +25,9 @@
     <section class="hero">
       <p class="eyebrow">Index / Global events</p>
       <h1>Events<br>Calendar</h1>
-      <p class="intro">Conferences, festivals and gatherings across design, futures studies, foresight, science and technology.</p>
-      <p class="meta"><span id="total">—</span> upcoming events · Last reviewed 14 October 2026</p>
+      <p class="intro">Upcoming conferences and gatherings alongside a searchable directory of recurring design weeks and festivals.</p>
+      <p class="meta"><span id="total">—</span> events and recurring platforms · Last reviewed 14 October 2026</p>
+      <p class="quick-links"><a href="./?category=Design%20Week">Find Design Weeks</a><a href="./?region=North%20America">North America</a><a href="https://brandiejanow.github.io/Knowledge-of-Design/index.html" target="_blank" rel="noopener">Knowledge of Design</a></p>
     </section>
     <section class="directory" aria-label="Upcoming events">
       <div class="toolbar event-toolbar">
@@ -38,13 +39,19 @@
       <div class="directory-head"><p id="resultCount">Loading…</p><button id="clear" type="button">Clear filters</button></div>
       <div id="list" class="event-months"></div>
       <p id="empty" class="empty" hidden>No events match these filters.</p>
+      <section id="weekSection" class="week-section" aria-label="Recurring design weeks and festivals">
+        <h2 class="month-title">Design Weeks &amp; Festivals</h2>
+        <p class="week-intro">Recurring platforms remain here even when dates for the next edition are not yet announced. The edition information indicates the last confirmed or next announced schedule.</p>
+        <p id="weekCount" class="week-total"></p>
+        <div id="weeksList" class="week-cards"></div>
+      </section>
     </section>
     <section class="note">
       <p>Dates may change. Confirm with the organizer before making travel plans. Events listed only by a third-party calendar are identified by their source. Events in the Gulf and Middle East are excluded from this calendar.</p>
-      <p>For citywide festivals and recurring design-week platforms, see the <a href="../design-weeks/">Design Weeks Index</a>. The <a href="https://www.anticipate.dk/futures-foresight-events" target="_blank" rel="noopener">ANTICIPATE calendar</a> was one of the sources reviewed.</p>
+      <p>Design weeks are also maintained in the <a href="../design-weeks/">Design Weeks Index</a>. Individual futures events are listed with their organizer or source links, rather than listing another organization’s calendar as a resource.</p>
     </section>
   </main>
   <footer><span>© 2026 Brandie Janow</span><a href="../">Design Reservoir</a></footer>
-  <script src="./app.js"></script>
+  <script src="./app.js?v=20261014c"></script>
 </body>
 </html>
