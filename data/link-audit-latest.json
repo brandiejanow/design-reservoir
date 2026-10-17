@@ -1,0 +1,3433 @@
+{
+  "audit_date_utc": "2026-10-17",
+  "scope": "All three source CSV URL fields and static HTML href/src links",
+  "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
+  "total_records_tested": 425,
+  "unique_requests": 412,
+  "states": {
+    "ok": 391,
+    "restricted": 13,
+    "redirect": 16,
+    "needs-review": 4,
+    "unreachable": 1
+  },
+  "items": [
+    {
+      "collection": "resources",
+      "name": "21_21 DESIGN SIGHT",
+      "url": "https://www.2121designsight.jp/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.2121designsight.jp/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "A+D Architecture and Design Museum",
+      "url": "https://aplusd.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://aplusd.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "ACE Mentor Program of America",
+      "url": "https://www.acementor.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.acementor.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "AD PRO Directory",
+      "url": "https://www.architecturaldigest.com/adpro/directory",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.architecturaldigest.com/adpro/directory"
+    },
+    {
+      "collection": "resources",
+      "name": "ADI Design Museum",
+      "url": "https://www.adidesignmuseum.org/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.adidesignmuseum.org/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "Adobe MAX",
+      "url": "https://www.adobe.com/max.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.adobe.com/max.html"
+    },
+    {
+      "collection": "resources",
+      "name": "ADPList",
+      "url": "https://adplist.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://adplist.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Advanced Design",
+      "url": "https://advdes.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://advdes.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "AI in Design 2026 — Designer Fund",
+      "url": "https://designerfund.com/blog/ai-in-design-2026",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designerfund.com/blog/ai-in-design-2026"
+    },
+    {
+      "collection": "resources",
+      "name": "AIA Conference on Architecture & Design",
+      "url": "https://aia26.conferenceonarchitecture.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://aia26.conferenceonarchitecture.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "AIA Mentoring",
+      "url": "https://www.aia.org/career-growth/mentoring",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.aia.org/career-growth/mentoring"
+    },
+    {
+      "collection": "resources",
+      "name": "AIGA",
+      "url": "https://www.aiga.org/",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "AIGA Design Conference",
+      "url": "https://www.aiga.org/design/aiga-design-conference",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "AIGA Design Educators Community",
+      "url": "https://educators.aiga.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://educators.aiga.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Alliance Graphique Internationale (AGI)",
+      "url": "https://a-g-i.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://a-g-i.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "American Society of Interior Designers (ASID)",
+      "url": "https://www.asid.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.asid.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "American Society of Landscape Architects (ASLA)",
+      "url": "https://www.asla.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.asla.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Anticipation Conference",
+      "url": "https://anticipationconference.net/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://anticipationconference.net/"
+    },
+    {
+      "collection": "resources",
+      "name": "Architectural League of New York",
+      "url": "https://archleague.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://archleague.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Architecture & Design Museum Helsinki",
+      "url": "https://admuseo.fi/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://admuseo.fi/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "Art Basel",
+      "url": "https://www.artbasel.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.artbasel.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "arXiv",
+      "url": "https://arxiv.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Association of Illustrators",
+      "url": "https://theaoi.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://theaoi.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "ATLAS.ti",
+      "url": "https://atlasti.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://atlasti.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "ATypI — Association Typographique Internationale",
+      "url": "https://atypi.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://atypi.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "ATypI Conference",
+      "url": "https://atypi.org/conferences-events/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://atypi.org/conferences-events/"
+    },
+    {
+      "collection": "resources",
+      "name": "Australian Institute of Architects",
+      "url": "https://www.architecture.com.au/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.architecture.com.au/"
+    },
+    {
+      "collection": "resources",
+      "name": "Australian Institute of Architects National Mentoring Program",
+      "url": "https://www.architecture.com.au/cpd/national-mentoring-program",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.architecture.com.au/cpd/national-mentoring-program"
+    },
+    {
+      "collection": "resources",
+      "name": "B Lab",
+      "url": "https://www.bcorporation.net/en-us/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bcorporation.net/en-us/"
+    },
+    {
+      "collection": "resources",
+      "name": "Bauhaus-Archiv / Museum für Gestaltung",
+      "url": "https://www.bauhaus.de/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bauhaus.de/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "BEDA — Bureau of European Design Associations",
+      "url": "https://beda.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://beda.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Biennale Architettura — Venice Architecture Biennale",
+      "url": "https://www.labiennale.org/en/architecture/2027",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.labiennale.org/en/architecture/2027"
+    },
+    {
+      "collection": "resources",
+      "name": "Blush Design",
+      "url": "https://blog.blush.design/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://blog.blush.design/"
+    },
+    {
+      "collection": "resources",
+      "name": "Board of Innovation",
+      "url": "https://www.boardofinnovation.com/tools/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.boardofinnovation.com/tools/"
+    },
+    {
+      "collection": "resources",
+      "name": "BRAFA Art Fair",
+      "url": "https://www.brafa.art/en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brafa.art/en"
+    },
+    {
+      "collection": "resources",
+      "name": "Branches from the Same Tree — National Academies",
+      "url": "https://www.nationalacademies.org/read/24988/chapter/1",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nationalacademies.org/read/24988/chapter/1"
+    },
+    {
+      "collection": "resources",
+      "name": "Bread and Heart Festival",
+      "url": "https://breadandheartfestival.al/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://breadandheartfestival.al/"
+    },
+    {
+      "collection": "resources",
+      "name": "Center for Urban Pedagogy (CUP)",
+      "url": "https://welcometocup.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://welcometocup.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "ceramic brussels",
+      "url": "https://ceramic.brussels/en",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://www.ceramic.brussels/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "Chartered Society of Designers",
+      "url": "https://www.csd.org.uk/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.csd.org.uk/"
+    },
+    {
+      "collection": "resources",
+      "name": "Checklist Design",
+      "url": "https://www.checklist.design/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.checklist.design/"
+    },
+    {
+      "collection": "resources",
+      "name": "Chicago Architecture Biennial",
+      "url": "https://chicagoarchitecturebiennial.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://chicagoarchitecturebiennial.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Chicago Athenaeum",
+      "url": "https://www.chicagoathenaeum.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.chicagoathenaeum.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "CIFF Shanghai",
+      "url": "https://www.ciff-sh.com/2026/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ciff-sh.com/2026/"
+    },
+    {
+      "collection": "resources",
+      "name": "COLLECTIBLE",
+      "url": "https://collectible.design/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://collectible.design/"
+    },
+    {
+      "collection": "resources",
+      "name": "Complexity Explorer — Santa Fe Institute",
+      "url": "https://www.complexityexplorer.org/courses/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.complexityexplorer.org/courses/"
+    },
+    {
+      "collection": "resources",
+      "name": "Connected Papers",
+      "url": "https://www.connectedpapers.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.connectedpapers.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Consensus",
+      "url": "https://consensus.app/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://consensus.app/"
+    },
+    {
+      "collection": "resources",
+      "name": "Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.cooperhewitt.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Cradle to Cradle Products Innovation Institute",
+      "url": "https://c2ccertified.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://c2ccertified.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Creative Mentor Network",
+      "url": "https://www.creativementornetwork.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.creativementornetwork.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Creative Week — The One Club",
+      "url": "https://www.oneclub.org/education-events/-creative-week-2026",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.oneclub.org/education-events/-creative-week-2026"
+    },
+    {
+      "collection": "resources",
+      "name": "CreativePro Week",
+      "url": "https://creativeproweek.com/nashville-2026/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://creativeproweek.com/nashville-2026/"
+    },
+    {
+      "collection": "resources",
+      "name": "Crossref",
+      "url": "https://www.crossref.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.crossref.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Cumulus Association",
+      "url": "https://cumulusassociation.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Cumulus Conference",
+      "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-athens-2026-rootsroutes-in-design/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-athens-2026-rootsroutes-in-design/"
+    },
+    {
+      "collection": "resources",
+      "name": "d.mba",
+      "url": "https://d.mba/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://d.mba/"
+    },
+    {
+      "collection": "resources",
+      "name": "D&AD",
+      "url": "https://www.dandad.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.dandad.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Danish Design Center",
+      "url": "https://ddc.dk/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://ddc.dk/"
+    },
+    {
+      "collection": "resources",
+      "name": "Datawrapper",
+      "url": "https://www.datawrapper.de/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.datawrapper.de/"
+    },
+    {
+      "collection": "resources",
+      "name": "Decorex Africa",
+      "url": "https://www.decorex.co.za/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.decorex.co.za/"
+    },
+    {
+      "collection": "resources",
+      "name": "Decorex London",
+      "url": "https://www.decorex.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.decorex.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Atlas",
+      "url": "./atlas/",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "resources",
+      "name": "Design Better",
+      "url": "https://designbetter.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designbetter.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Council",
+      "url": "https://www.designcouncil.org.uk/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.designcouncil.org.uk/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Economy 2026 — Design Council",
+      "url": "https://www.designcouncil.org.uk/our-work/design-economy/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.designcouncil.org.uk/our-work/design-economy/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design History Society",
+      "url": "https://www.designhistorysociety.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.designhistorysociety.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Incubation",
+      "url": "https://designincubation.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designincubation.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Management Institute (DMI)",
+      "url": "https://www.dmi.org/",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Miami",
+      "url": "https://designmiami.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designmiami.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Mumbai",
+      "url": "https://designmumbai.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designmumbai.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Museum Brussels",
+      "url": "https://designmuseum.brussels/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designmuseum.brussels/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Museum Gent",
+      "url": "https://designmuseumgent.be/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designmuseumgent.be/en"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Principles",
+      "url": "https://principles.design/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://principles.design/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Research Society",
+      "url": "https://www.designresearchsociety.org/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://www.designresearchsociety.org:443/cpages/home"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Shanghai",
+      "url": "https://www.designshanghai.cn/",
+      "state": "needs-review",
+      "http_status": 400,
+      "detail": "HTTP 400"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Singapore",
+      "url": "https://designsingapore.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designsingapore.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design System Checklist",
+      "url": "https://www.designsystemchecklist.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.designsystemchecklist.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design System News",
+      "url": "https://news.design.systems/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://news.design.systems/"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Tactics",
+      "url": "https://ridd.substack.com/",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "Design Trust for Public Space",
+      "url": "https://www.designtrust.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.designtrust.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Designer Fund",
+      "url": "https://designerfund.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designerfund.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designmuseum.dk/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "Die Neue Sammlung — The Design Museum",
+      "url": "https://www.die-neue-sammlung.de/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.die-neue-sammlung.de/"
+    },
+    {
+      "collection": "resources",
+      "name": "Dongdaemun Design Plaza (DDP)",
+      "url": "https://english.seoul.go.kr/dongdaemun-digital-plaza-ddp/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://english.seoul.go.kr/dongdaemun-digital-plaza-ddp/"
+    },
+    {
+      "collection": "resources",
+      "name": "Dovetail",
+      "url": "https://dovetail.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://dovetail.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "DRS Conference",
+      "url": "https://drs2026.thedrs.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://drs2026.thedrs.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Echos",
+      "url": "https://en.echos.cc/school/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://en.echos.cc/school/"
+    },
+    {
+      "collection": "resources",
+      "name": "EDIT Napoli",
+      "url": "https://editnapoli.com/edition/2026-edition/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://editnapoli.com/edition/2026-edition/"
+    },
+    {
+      "collection": "resources",
+      "name": "Elicit",
+      "url": "https://elicit.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://elicit.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "European Commission Megatrends Hub",
+      "url": "https://knowledge-for-policy.ec.europa.eu/foresight/tool/megatrends-hub_en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://knowledge-for-policy.ec.europa.eu/foresight/tool/megatrends-hub_en"
+    },
+    {
+      "collection": "resources",
+      "name": "Fake Clients",
+      "url": "https://fakeclients.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://fakeclients.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Fast Company Design",
+      "url": "https://www.fastcompany.com/co-design",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "Female Design Council",
+      "url": "https://www.femaledesigncouncil.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.femaledesigncouncil.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "FOG Design+Art",
+      "url": "https://www.fogfair.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.fogfair.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Formex",
+      "url": "https://formex.se/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://formex.se/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "Future Days",
+      "url": "https://www.futuredays.io/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.futuredays.io/"
+    },
+    {
+      "collection": "resources",
+      "name": "Future London Academy",
+      "url": "https://futurelondonacademy.co.uk/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://futurelondonacademy.co.uk/"
+    },
+    {
+      "collection": "resources",
+      "name": "General Assembly",
+      "url": "https://generalassemb.ly/education?dateType=any&event=true&format=classes-workshops&topic=4&workshop=true",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://www.generalassemb.ly/students/events?dateType=any&event=true&format=classes-workshops&topic=4&workshop=true"
+    },
+    {
+      "collection": "resources",
+      "name": "Gephi",
+      "url": "https://gephi.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://gephi.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Good Brief",
+      "url": "https://goodbrief.io/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://goodbrief.io/"
+    },
+    {
+      "collection": "resources",
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://scholar.google.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Hamilton Wood Type & Printing Museum",
+      "url": "https://woodtype.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://woodtype.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Homo Faber Biennial",
+      "url": "https://www.homofaber.com/en/biennial/homofaber-2026",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.homofaber.com/en/biennial/homofaber-2026"
+    },
+    {
+      "collection": "resources",
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://huggingface.co/"
+    },
+    {
+      "collection": "resources",
+      "name": "IDEOU",
+      "url": "https://www.ideou.com/pages/design-thinking-resources",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ideou.com/pages/design-thinking-resources"
+    },
+    {
+      "collection": "resources",
+      "name": "If You Could",
+      "url": "https://www.ifyoucouldjobs.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ifyoucouldjobs.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "imm cologne",
+      "url": "https://www.imm-cologne.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.imm-cologne.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Industrial Designers Society of America (IDSA)",
+      "url": "https://www.idsa.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.idsa.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Institute of Classical Architecture & Art (ICAA)",
+      "url": "https://www.classicist.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.classicist.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Interior Design Show Toronto",
+      "url": "https://interiordesignshow.com/toronto/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://interiordesignshow.com/toronto/"
+    },
+    {
+      "collection": "resources",
+      "name": "International Council of Design (ICoD)",
+      "url": "https://www.theicod.org/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://www.theicod.org/en"
+    },
+    {
+      "collection": "resources",
+      "name": "International Council of Museums (ICOM)",
+      "url": "https://icom.museum/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://icom.museum/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "International Day of Education",
+      "url": "https://www.unesco.org/en/days/education",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.unesco.org/en/days/education"
+    },
+    {
+      "collection": "resources",
+      "name": "International Design Day",
+      "url": "https://www.theicod.org/en/activities/international-design-day",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.theicod.org/en/activities/international-design-day"
+    },
+    {
+      "collection": "resources",
+      "name": "International Federation of Interior Architects/Designers (IFI)",
+      "url": "https://ifiworld.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://ifiworld.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "International Interior Design Association (IIDA)",
+      "url": "https://iida.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://iida.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "International Living Future Institute",
+      "url": "https://living-future.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://living-future.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "International Museum Day",
+      "url": "https://icom.museum/en/international-museum-day-2/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://icom.museum/en/international-museum-day-2/"
+    },
+    {
+      "collection": "resources",
+      "name": "International Union of Architects (UIA)",
+      "url": "https://www.uia-architectes.org/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.uia-architectes.org/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "International Youth Day",
+      "url": "https://www.un.org/en/observances/youth-day",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.un.org/en/observances/youth-day"
+    },
+    {
+      "collection": "resources",
+      "name": "intoux design",
+      "url": "https://www.intoux.design/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://intoux.design/"
+    },
+    {
+      "collection": "resources",
+      "name": "Jia CURATED",
+      "url": "https://www.jiacurated.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.jiacurated.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "JSTOR",
+      "url": "https://www.jstor.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.jstor.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Knowledge of Design",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html"
+    },
+    {
+      "collection": "resources",
+      "name": "La Feria de Diseño Medellín",
+      "url": "https://laferiadediseno.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://laferiadediseno.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Letterform Archive",
+      "url": "https://letterformarchive.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://letterformarchive.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Litmaps",
+      "url": "https://www.litmaps.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.litmaps.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Living Future Conference",
+      "url": "https://living-future.org/events/lf26/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://living-future.org/events/lf26/"
+    },
+    {
+      "collection": "resources",
+      "name": "M+",
+      "url": "https://www.mplus.org.hk/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.mplus.org.hk/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "Maison&Objet",
+      "url": "https://www.maison-objet.com/en/paris",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.maison-objet.com/en/paris"
+    },
+    {
+      "collection": "resources",
+      "name": "MAK — Museum of Applied Arts Vienna",
+      "url": "https://www.mak.at/en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.mak.at/en"
+    },
+    {
+      "collection": "resources",
+      "name": "Marmomac",
+      "url": "https://www.marmomac.com/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.marmomac.com/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "MAXQDA",
+      "url": "https://www.maxqda.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.maxqda.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Mind-Body-Space Symposium",
+      "url": "https://www.humanise.org/event/mind-body-space-symposium",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.humanise.org/event/mind-body-space-symposium"
+    },
+    {
+      "collection": "resources",
+      "name": "MIT Media Lab",
+      "url": "https://www.media.mit.edu/about/overview/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.media.mit.edu/about/overview/"
+    },
+    {
+      "collection": "resources",
+      "name": "ML+ DESIGN",
+      "url": "https://machinelearning.design/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://machinelearning.design/"
+    },
+    {
+      "collection": "resources",
+      "name": "MoMA Architecture and Design",
+      "url": "https://www.moma.org/about/curatorial-departments/architecture-design/",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "mudac — Museum of Contemporary Design and Applied Arts",
+      "url": "https://mudac.ch/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://mudac.ch/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "Musée des Arts Décoratifs",
+      "url": "https://madparis.fr/en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://madparis.fr/en"
+    },
+    {
+      "collection": "resources",
+      "name": "Museum für Gestaltung Zürich",
+      "url": "https://museum-gestaltung.ch/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://museum-gestaltung.ch/de"
+    },
+    {
+      "collection": "resources",
+      "name": "Museum of Arts and Design",
+      "url": "https://madmuseum.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://madmuseum.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Museum of Decorative Arts in Prague",
+      "url": "https://www.upm.cz/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.upm.cz/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "Museum of Design Atlanta (MODA)",
+      "url": "https://www.museumofdesign.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.museumofdesign.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Museum of Design in Plastics (MoDiP)",
+      "url": "https://aub.ac.uk/campus/modip",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://aub.ac.uk/campus/modip"
+    },
+    {
+      "collection": "resources",
+      "name": "NASA STEM Learning Resources",
+      "url": "https://www.nasa.gov/learning-resources/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nasa.gov/learning-resources/"
+    },
+    {
+      "collection": "resources",
+      "name": "National Industrial Design Day",
+      "url": "https://www.idsa.org/events/national-industrial-design-day/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.idsa.org/events/national-industrial-design-day/"
+    },
+    {
+      "collection": "resources",
+      "name": "NCARB Architectural Experience Program (AXP)",
+      "url": "https://www.ncarb.org/gain-axp-experience",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ncarb.org/gain-axp-experience"
+    },
+    {
+      "collection": "resources",
+      "name": "New Designers",
+      "url": "https://www.newdesigners.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.newdesigners.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "NOMAD",
+      "url": "https://www.nomad-circle.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nomad-circle.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "OECD OPSI Futures and Foresight Guide",
+      "url": "https://oecd-opsi.org/guide/futures-and-foresight/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://oecd-opsi.org/guide/futures-and-foresight/"
+    },
+    {
+      "collection": "resources",
+      "name": "OECD Strategic Foresight Toolkit for Resilient Public Policy",
+      "url": "https://www.oecd.org/en/publications/foresight-toolkit-for-resilient-public-policy_bcdd9304-en.html",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "OFFF Barcelona",
+      "url": "https://www.offf.barcelona/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.offf.barcelona/"
+    },
+    {
+      "collection": "resources",
+      "name": "OpenAlex",
+      "url": "https://openalex.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://openalex.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "OpenRefine",
+      "url": "https://openrefine.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://openrefine.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Oslo Architecture Triennale",
+      "url": "https://oslotriennale.no/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://oslotriennale.no/"
+    },
+    {
+      "collection": "resources",
+      "name": "Oslo Design Fair",
+      "url": "https://oslodesignfair.no/en/oslo-design-fair/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://oslodesignfair.no/"
+    },
+    {
+      "collection": "resources",
+      "name": "Overleaf",
+      "url": "https://www.overleaf.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.overleaf.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "PAD Fairs",
+      "url": "https://www.padesignart.com/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.padesignart.com/en/"
+    },
+    {
+      "collection": "resources",
+      "name": "Pan-African Architecture Biennale",
+      "url": "https://www.panafricanbiennale.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.panafricanbiennale.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Paperpal",
+      "url": "https://paperpal.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://paperpal.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Paperpile",
+      "url": "https://paperpile.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://paperpile.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Participatory Design Conference (PDC)",
+      "url": "https://www.pdc2026.polimi.it/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.pdc2026.polimi.it/"
+    },
+    {
+      "collection": "resources",
+      "name": "Pictoplasma",
+      "url": "https://pictoplasma.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://pictoplasma.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Practice of Architecture",
+      "url": "https://practiceofarchitecture.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://practiceofarchitecture.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Project Jupyter",
+      "url": "https://jupyter.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://jupyter.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Rayyan",
+      "url": "https://www.rayyan.ai/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.rayyan.ai/"
+    },
+    {
+      "collection": "resources",
+      "name": "Red Dot Design Museum Essen",
+      "url": "https://www.red-dot-design-museum.org/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://www.red-dot-design-museum.org/essen"
+    },
+    {
+      "collection": "resources",
+      "name": "Red Dot Design Museum Singapore",
+      "url": "https://museum.red-dot.sg/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://museum.red-dot.sg/"
+    },
+    {
+      "collection": "resources",
+      "name": "Regenerative Ecologies of Design & Production (RED&Pro)",
+      "url": "https://cordis.europa.eu/project/id/101286792",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cordis.europa.eu/project/id/101286792"
+    },
+    {
+      "collection": "resources",
+      "name": "ResearchRabbit",
+      "url": "https://www.researchrabbit.ai/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.researchrabbit.ai/"
+    },
+    {
+      "collection": "resources",
+      "name": "RIBA Future Architects",
+      "url": "https://www.riba.org/learn/become-an-architect/apprenticeships/future-architects/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.riba.org/learn/become-an-architect/apprenticeships/future-architects/"
+    },
+    {
+      "collection": "resources",
+      "name": "Right Aligned Academy",
+      "url": "https://rightalignedacademy.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://rightalignedacademy.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Salone del Mobile.Milano",
+      "url": "https://www.salonemilano.it/en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.salonemilano.it/en"
+    },
+    {
+      "collection": "resources",
+      "name": "Science Gallery Network",
+      "url": "https://sciencegallery.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://sciencegallery.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Scite",
+      "url": "https://scite.ai/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://scite.ai/"
+    },
+    {
+      "collection": "resources",
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.semanticscholar.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Sharpen",
+      "url": "https://sharpen.design/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://sharpen.design/"
+    },
+    {
+      "collection": "resources",
+      "name": "Singapore Art Week",
+      "url": "https://www.artweek.sg/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.artweek.sg/"
+    },
+    {
+      "collection": "resources",
+      "name": "Society for Experiential Graphic Design (SEGD)",
+      "url": "https://segd.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://segd.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Society of Architectural Historians",
+      "url": "https://sah.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://sah.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Society of Typographic Aficionados (SOTA)",
+      "url": "https://www.typecon.com/sota",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.typecon.com/sota"
+    },
+    {
+      "collection": "resources",
+      "name": "Speculative Futures / Design Futures Initiative (DFI)",
+      "url": "https://www.speculativefutures.design/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.speculativefutures.design/"
+    },
+    {
+      "collection": "resources",
+      "name": "State of the Designer 2026 — Figma",
+      "url": "https://www.figma.com/reports/state-of-the-designer-2026/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.figma.com/reports/state-of-the-designer-2026/"
+    },
+    {
+      "collection": "resources",
+      "name": "SuperFriendly",
+      "url": "https://superfriendlydesign.systems/",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "Taiwan Design Museum",
+      "url": "https://www.tdri.org.tw/en/service-and-space/taiwan-design-museum",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.tdri.org.tw/en/service-and-space/taiwan-design-museum"
+    },
+    {
+      "collection": "resources",
+      "name": "TDC Conference",
+      "url": "https://tdc.org/event/tdc-conference-type-drives-commerce-2026/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://tdc.org/event/tdc-conference-type-drives-commerce-2026/"
+    },
+    {
+      "collection": "resources",
+      "name": "Texas Society of Architects (TxA)",
+      "url": "https://texasarchitects.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://texasarchitects.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Textile Intersections",
+      "url": "https://www.imperial.ac.uk/events/212446/material-intelligence-textile-intersections-exhibition/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.imperial.ac.uk/events/212446/material-intelligence-textile-intersections-exhibition/"
+    },
+    {
+      "collection": "resources",
+      "name": "The American Institute of Architects",
+      "url": "https://www.aia.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.aia.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "The Design Kids",
+      "url": "https://thedesignkids.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://thedesignkids.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "The Design Museum",
+      "url": "https://designmuseum.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designmuseum.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "The Design Society",
+      "url": "https://www.designsociety.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.designsociety.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "The Dots",
+      "url": "https://the-dots.com/",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "The Experiential Design Index",
+      "url": "https://sitara.systems/experiential-design-index/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://sitara.systems/experiential-design-index/"
+    },
+    {
+      "collection": "resources",
+      "name": "The Millennium Project",
+      "url": "https://www.millennium-project.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.millennium-project.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "The Moment",
+      "url": "https://www.themoment.is/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.themoment.is/"
+    },
+    {
+      "collection": "resources",
+      "name": "The One Club for Creativity",
+      "url": "https://www.oneclub.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.oneclub.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "The Pitch Canvas",
+      "url": "https://best3minutes.com/the-pitch-canvas/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://best3minutes.com/the-pitch-canvas/"
+    },
+    {
+      "collection": "resources",
+      "name": "The Royal Institute of British Architects",
+      "url": "https://www.riba.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.riba.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "The Swiss Innovation Academy",
+      "url": "https://store.swissinnovation.academy/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://store.swissinnovation.academy/"
+    },
+    {
+      "collection": "resources",
+      "name": "Triennale Milano",
+      "url": "https://triennale.org/en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://triennale.org/en"
+    },
+    {
+      "collection": "resources",
+      "name": "Tropy",
+      "url": "https://tropy.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://tropy.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "TxA Annual Conference & Design Expo",
+      "url": "https://texasarchitects.org/event/txa-conference-calendar/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://texasarchitects.org/event/txa-conference-calendar/"
+    },
+    {
+      "collection": "resources",
+      "name": "Type Directors Club",
+      "url": "https://tdc.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://tdc.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Typographics",
+      "url": "https://2026.typographics.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://2026.typographics.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "U.S. Green Building Council (USGBC)",
+      "url": "https://www.usgbc.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.usgbc.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "UCDA Design Conference",
+      "url": "https://www.ucda.com/events/231/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ucda.com/events/231/"
+    },
+    {
+      "collection": "resources",
+      "name": "UCLA Art Sci Center and Lab",
+      "url": "https://www.artsci.ucla.edu/research",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.artsci.ucla.edu/research"
+    },
+    {
+      "collection": "resources",
+      "name": "UIA World Congress of Architects",
+      "url": "https://uia2026bcn.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://uia2026bcn.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Uneed",
+      "url": "https://www.uneed.best/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.uneed.best/"
+    },
+    {
+      "collection": "resources",
+      "name": "UNESCO Futures Literacy Resources",
+      "url": "https://www.unesco.org/en/futures-literacy/resources",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.unesco.org/en/futures-literacy/resources"
+    },
+    {
+      "collection": "resources",
+      "name": "UNESCO Open Science Toolkit",
+      "url": "https://www.unesco.org/en/open-science/toolkit",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.unesco.org/en/open-science/toolkit"
+    },
+    {
+      "collection": "resources",
+      "name": "University & College Designers Association (UCDA)",
+      "url": "https://www.ucda.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ucda.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "UXtweak",
+      "url": "https://www.uxtweak.com/",
+      "state": "ok",
+      "http_status": 202,
+      "final_url": "https://www.uxtweak.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "Van Alen Institute",
+      "url": "https://www.vanalen.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.vanalen.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.vam.ac.uk/"
+    },
+    {
+      "collection": "resources",
+      "name": "Vitra Design Museum",
+      "url": "https://www.design-museum.de/en/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://www.design-museum.de/en/information.html"
+    },
+    {
+      "collection": "resources",
+      "name": "World Architecture Day",
+      "url": "https://www.uia-architectes.org/en/architecture-events/world-architecture-days/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.uia-architectes.org/en/architecture-events/world-architecture-days/"
+    },
+    {
+      "collection": "resources",
+      "name": "World Art Day",
+      "url": "https://www.unesco.org/en/days/world-art",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.unesco.org/en/days/world-art"
+    },
+    {
+      "collection": "resources",
+      "name": "World Creativity and Innovation Day",
+      "url": "https://www.un.org/en/observances/world-creativity-and-innovation-day",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.un.org/en/observances/world-creativity-and-innovation-day"
+    },
+    {
+      "collection": "resources",
+      "name": "World Design Organization",
+      "url": "https://wdo.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://wdo.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "World Engineering Day for Sustainable Development",
+      "url": "https://www.unesco.org/en/days/engineering-sustainable-development",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.unesco.org/en/days/engineering-sustainable-development"
+    },
+    {
+      "collection": "resources",
+      "name": "World Environment Day",
+      "url": "https://www.un.org/en/observances/environment-day/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.un.org/en/observances/environment-day/"
+    },
+    {
+      "collection": "resources",
+      "name": "World Habitat Day",
+      "url": "https://www.un.org/en/observances/habitat-day",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.un.org/en/observances/habitat-day"
+    },
+    {
+      "collection": "resources",
+      "name": "World Industrial Design Day",
+      "url": "https://wdo.org/programmes/widd/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://wdo.org/programmes/widd/"
+    },
+    {
+      "collection": "resources",
+      "name": "World Information Architecture Day",
+      "url": "https://www.information-architecture.world/worldiaday",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.information-architecture.world/worldiaday"
+    },
+    {
+      "collection": "resources",
+      "name": "World Intellectual Property Day",
+      "url": "https://www.wipo.int/en/web/ipday",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.wipo.int/en/web/ipday"
+    },
+    {
+      "collection": "resources",
+      "name": "World Mental Health Day",
+      "url": "https://www.who.int/campaigns/world-mental-health-day",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.who.int/campaigns/world-mental-health-day"
+    },
+    {
+      "collection": "resources",
+      "name": "World Science Day for Peace and Development",
+      "url": "https://www.unesco.org/en/days/science-peace-development",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.unesco.org/en/days/science-peace-development"
+    },
+    {
+      "collection": "resources",
+      "name": "World Thinking Day",
+      "url": "https://www.wagggs.org/en/what-we-do/world-thinking-day/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.wagggs.org/en/what-we-do/world-thinking-day/"
+    },
+    {
+      "collection": "resources",
+      "name": "World Tourism Day",
+      "url": "https://www.unwto.org/world-tourism-day",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "World Urbanism Day / World Town Planning Day",
+      "url": "https://www.rtpi.org.uk/find-my-rtpi/rtpi-nations/international/world-town-planning-day/",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "World Usability Day",
+      "url": "https://worldusabilityday.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://worldusabilityday.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Zenodo",
+      "url": "https://zenodo.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://zenodo.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Zotero",
+      "url": "https://www.zotero.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.zotero.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "ZⓈONAMACO DISEÑO",
+      "url": "https://zsonamaco.com/zsonamaco-diseno/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://zsonamaco.com/zsonamaco-diseno/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "3daysofdesign",
+      "url": "https://www.3daysofdesign.dk/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.3daysofdesign.dk/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Anchorage Design Week",
+      "url": "https://www.worlddesignweeks.org/members/anchorage-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/anchorage-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Atlanta Design Festival",
+      "url": "https://atlantadesignfestival.net/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://atlantadesignfestival.net/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Bangkok Design Week",
+      "url": "https://www.bangkokdesignweek.com/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://www.bangkokdesignweek.com/bkkdw2027"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Barcelona Design Week",
+      "url": "https://barcelonadesignweek.com/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://barcelonadesignweek.com/en/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Beijing Design Week",
+      "url": "https://www.worlddesignweeks.org/members/beijing-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/beijing-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Berlin Design Week",
+      "url": "https://berlindesignweek.com/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://berlindesignweek.com/en/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Bogotá Design Festival",
+      "url": "https://www.bogotadesignfestival.co/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bogotadesignfestival.co/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Bucharest Design Festival",
+      "url": "https://www.institute.ro/BDF-Editie-2026",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.institute.ro/BDF-Editie-2026"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Caracas Design Week",
+      "url": "https://www.worlddesignweeks.org/members/caracas-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/caracas-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Chengdu Creativity & Design Week",
+      "url": "https://www.worlddesignweeks.org/members/chengdu-creativity-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/chengdu-creativity-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Chiang Mai Design Week",
+      "url": "https://www.worlddesignweeks.org/members/chiang-mai-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/chiang-mai-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Czech Design Week",
+      "url": "https://www.worlddesignweeks.org/members/czech-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/czech-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Dallas Design Week",
+      "url": "https://www.dallasmarketcenter.com/calendar/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.dallasmarketcenter.com/calendar/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "DC Design Week",
+      "url": "https://www.dcdesignweek.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.dcdesignweek.org/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Design Mumbai",
+      "url": "https://www.worlddesignweeks.org/members/design-mumbai",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/design-mumbai"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Design Week Lagos",
+      "url": "https://designweeklagos.com/",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Design Week Mexico",
+      "url": "https://www.worlddesignweeks.org/members/design-week-mexico",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/design-week-mexico"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Design Week Philippines",
+      "url": "https://www.worlddesignweeks.org/members/design-week-philippines",
+      "state": "needs-review",
+      "http_status": 404,
+      "detail": "HTTP 404"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Design Week Santiago",
+      "url": "https://www.worlddesignweeks.org/members/design-week-santiago",
+      "state": "needs-review",
+      "http_status": 404,
+      "detail": "HTTP 404"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Design Week South Africa",
+      "url": "https://designweeksouthafrica.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designweeksouthafrica.com/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "DESIGNART TOKYO",
+      "url": "https://www.designart.jp/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.designart.jp/en/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "DesignBlok — Prague International Design Festival",
+      "url": "https://www.designblok.cz/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.designblok.cz/en/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "DesignTO Festival",
+      "url": "https://designto.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designto.org/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Detroit Month of Design",
+      "url": "https://www.detroitmonthofdesign.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.detroitmonthofdesign.org/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Dutch Design Week",
+      "url": "https://ddw.nl/en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://ddw.nl/en"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "DW! São Paulo Design Week",
+      "url": "https://www.worlddesignweeks.org/members/dw-sao-paulo-design-week",
+      "state": "needs-review",
+      "http_status": 404,
+      "detail": "HTTP 404"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Galicia Design Week",
+      "url": "https://gdw.gal/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://gdw.gal/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Gdynia Design Days",
+      "url": "https://gdyniadesigndays.eu/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://gdyniadesigndays.eu/en"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Hebei International Design Week",
+      "url": "https://www.worlddesignweeks.org/members/hebei-international-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/hebei-international-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Helsinki Design Week",
+      "url": "https://helsinkidesignweek.com/?lang=en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://helsinkidesignweek.com/?lang=en"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Indy Design Week",
+      "url": "https://www.indydesignweek.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.indydesignweek.com/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Irish Design Week",
+      "url": "https://www.dcci.ie/whats-on/irish-design-week-2026/keynotes/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.dcci.ie/whats-on/irish-design-week-2026/keynotes/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Isan Creative Festival",
+      "url": "https://www.isancreativefestival.com/en/isancf2026",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.isancreativefestival.com/en/isancf2026"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Lima Design Week",
+      "url": "https://www.limadesignweek.pe/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.limadesignweek.pe/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Lisbon Design Week",
+      "url": "https://lisbondesignweek.com/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://lisbondesignweek.com/en"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Łódź Design Festival",
+      "url": "https://lodzdesign.com/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://lodzdesign.com/en/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "London Design Festival",
+      "url": "https://londondesignfestival.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://londondesignfestival.com/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Madrid Design Festival",
+      "url": "https://madriddesignfestival.lafabrica.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://madriddesignfestival.lafabrica.com/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Melbourne Design Week",
+      "url": "https://designweek.melbourne/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designweek.melbourne/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Milan Design Week / Fuorisalone",
+      "url": "https://www.fuorisalone.it/en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.fuorisalone.it/en"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Munich Creative Business Week",
+      "url": "https://www.worlddesignweeks.org/members/munich-creative-business-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/munich-creative-business-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Nairobi Design Week",
+      "url": "https://www.worlddesignweeks.org/festivals/nairobi-design-week-2026",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/festivals/nairobi-design-week-2026"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Nashville Design Week",
+      "url": "https://www.nashvilledesignweek.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nashvilledesignweek.org/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "New Zealand Design Week",
+      "url": "https://aucklanddesignweek.com/press/adw-2026/",
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "NYCxDESIGN Festival",
+      "url": "https://www.nycxdesign.org/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://www.nycxdesign.org/welcome"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Paris Design Week",
+      "url": "https://www.maison-objet.com/en/paris-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.maison-objet.com/en/paris-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Queretaro Design Week",
+      "url": "https://www.worlddesignweeks.org/members/queretaro-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/queretaro-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Romanian Design Week",
+      "url": "https://www.worlddesignweeks.org/members/romanian-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/romanian-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "RPDC Design Week",
+      "url": "https://www.worlddesignweeks.org/members/rpdc-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/rpdc-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "San Diego Design Week",
+      "url": "https://sddesignweek.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://sddesignweek.org/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Seattle Design Festival",
+      "url": "https://seadesignfest.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://seadesignfest.org/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Seoul Design Festival",
+      "url": "https://seoul.designfestival.co.kr/en/main/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://seoul.designfestival.co.kr/en/main/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Shenzhen Design Week",
+      "url": "https://www.worlddesignweeks.org/members/shenzhen-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/shenzhen-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Singapore Design Biennale",
+      "url": "https://sdb.designsingapore.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://sdb.designsingapore.org/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Stockholm Design Week",
+      "url": "https://stockholmdesignweek.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://stockholmdesignweek.com/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Texas Design Week",
+      "url": "https://www.texasdesignweek.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.texasdesignweek.com/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Tijuana Design Week",
+      "url": "https://www.worlddesignweeks.org/members/tijuana-design-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/tijuana-design-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Ukrainian Design & Innovation Week",
+      "url": "https://www.worlddesignweeks.org/members/ukrainian-design-innovation-week",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.worlddesignweeks.org/members/ukrainian-design-innovation-week"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Venice Design Week",
+      "url": "https://www.venicedesignweek.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.venicedesignweek.com/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Vienna Design Week",
+      "url": "https://www.viennadesignweek.at/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.viennadesignweek.at/en/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Zagreb Design Week",
+      "url": "https://www.zagrebdesignweek.com/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.zagrebdesignweek.com/en/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Zurich Design Weeks",
+      "url": "https://designweeks.ch/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://2026.designweeks.ch/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Arctic Design Week",
+      "url": "https://www.arcticdesignweek.fi/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.arcticdesignweek.fi/en/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Montréal Design Week",
+      "url": "https://2026.semainedesigndemontreal.com/en/a-propos",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://2026.semainedesigndemontreal.com/en/a-propos"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Pan Afrikan Design Week",
+      "url": "https://thepadi.org/adw2026sa/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://thepadi.org/adw2026sa/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Business of Design Week",
+      "url": "https://www.bodw.com/en/",
+      "state": "ok",
+      "http_status": 202,
+      "final_url": "https://www.bodw.com/en/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Taiwan Design Week",
+      "url": "https://www.tdri.org.tw/en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.tdri.org.tw/en"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Genova Design Week",
+      "url": "https://www.didegenova.it/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.didegenova.it/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Open – Design Week Frankfurt RheinMain",
+      "url": "https://wdc2026.org/en/constellations/open",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://wdc2026.org/en/constellations/open"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Design Fest Gent",
+      "url": "https://www.designfestgent.be/en/home",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.designfestgent.be/en/home"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "DesignMarch",
+      "url": "https://designmarch.is/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://www.honnunarmidstod.is/en/honnunarmars"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Lake Como Design Festival",
+      "url": "https://www.lakecomodesignfestival.com/en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.lakecomodesignfestival.com/en"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Tallinn Design Festival / Disainiöö",
+      "url": "https://www.tallinndesignfestival.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.tallinndesignfestival.com/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "DESIGNTIDE TOKYO",
+      "url": "https://designtide.tokyo/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designtide.tokyo/en/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "LA Design Week/end",
+      "url": "https://www.ladesignweekend.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ladesignweekend.com/"
+    },
+    {
+      "collection": "events",
+      "name": "Sandoll SAISIOT 2026",
+      "url": "https://www.sandollcloud.com/saisiot",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.sandollcloud.com/saisiot"
+    },
+    {
+      "collection": "events",
+      "name": "Cultures of Speculation: How to Integrate Imaginaries of the Yet-to-Come into Our Ethnographies",
+      "url": "https://www.anthro.unibe.ch/about_us/anthropology_research_seminar/index_eng.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.anthro.unibe.ch/about_us/anthropology_research_seminar/index_eng.html"
+    },
+    {
+      "collection": "events",
+      "name": "Science Fiction Congress by ZIRP",
+      "url": "https://www.anticipate.dk/futures-foresight-events/science-fiction-congress-by-zirp",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.anticipate.dk/futures-foresight-events/science-fiction-congress-by-zirp"
+    },
+    {
+      "collection": "events",
+      "name": "CrossDive 2026",
+      "url": "https://www.crossdive.in/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.crossdive.in/"
+    },
+    {
+      "collection": "events",
+      "name": "PUSH UX 2026",
+      "url": "https://push-conference.com/program",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://push-conference.com/program"
+    },
+    {
+      "collection": "events",
+      "name": "Calgary Futures Forum 2026",
+      "url": "https://www.calgaryfutures.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.calgaryfutures.com/"
+    },
+    {
+      "collection": "events",
+      "name": "AURORA Biennial 2026 — States of Becoming",
+      "url": "https://dallasaurora.com/Biennial",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://dallasaurora.com/Biennial"
+    },
+    {
+      "collection": "events",
+      "name": "Texas Design Week Dallas 2026",
+      "url": "https://www.texasdesignweek.com/schedule",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.texasdesignweek.com/schedule"
+    },
+    {
+      "collection": "events",
+      "name": "Leading Design London 2026",
+      "url": "https://leadingdesign.com/conferences/london-2026",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://leadingdesign.com/conferences/london-2026"
+    },
+    {
+      "collection": "events",
+      "name": "Design Policy Days 2026",
+      "url": "https://wdc2026.org/en/constellations/design-policy-days",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://wdc2026.org/en/constellations/design-policy-days"
+    },
+    {
+      "collection": "events",
+      "name": "Vision Weekend USA 2026",
+      "url": "https://foresight.org/events/vision-weekend-usa-2026/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://foresight.org/events/vision-weekend-usa-2026/"
+    },
+    {
+      "collection": "events",
+      "name": "Rog Forum 2026 — More Than Us",
+      "url": "https://www.center-rog.si/en/rog-forum-2026/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.center-rog.si/en/rog-forum-2026/"
+    },
+    {
+      "collection": "events",
+      "name": "UNESCO World Futures Day 2026 — Futures of Inequalities",
+      "url": "https://www.unesco.org/en/articles/world-futures-day-2026-futures-inequalities",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.unesco.org/en/articles/world-futures-day-2026-futures-inequalities"
+    },
+    {
+      "collection": "events",
+      "name": "Built Design Week Miami 2026",
+      "url": "https://www.instagram.com/built_inc/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbuilt_inc%2F&is_from_rle"
+    },
+    {
+      "collection": "events",
+      "name": "CoMuseum Futures 2026",
+      "url": "https://thecomuseum.org/conference/comuseum-2026/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://thecomuseum.org/conference/comuseum-2026/"
+    },
+    {
+      "collection": "events",
+      "name": "World Futures Day — Young Voices 2027",
+      "url": "https://www.teachthefuture.org/event-details/world-futures-day-young-voices-2027?lang=pt",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.teachthefuture.org/event-details/world-futures-day-young-voices-2027?lang=pt"
+    },
+    {
+      "collection": "events",
+      "name": "Foresight Practitioner Conference 2027",
+      "url": "https://forecasters.org/events/foresight-practitioner-conference-2027/",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "events",
+      "name": "SXSW 2027",
+      "url": "https://sxsw.com/2026/south-by-southwest-2027-dates-announced/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://sxsw.com/2026/south-by-southwest-2027-dates-announced/"
+    },
+    {
+      "collection": "events",
+      "name": "Oceania Futures and Foresight Symposium 2027",
+      "url": "https://sites.google.com/view/oceania-futurists-symposium/home",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://sites.google.com/view/oceania-futurists-symposium/home"
+    },
+    {
+      "collection": "events",
+      "name": "AiX Conference 2027",
+      "url": "https://aixconf.co.uk/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://aixconf.co.uk/"
+    },
+    {
+      "collection": "events",
+      "name": "UXLx 2027",
+      "url": "https://www.ux-lx.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ux-lx.com/"
+    },
+    {
+      "collection": "events",
+      "name": "IASP 2027 Global Conference",
+      "url": "https://iaspglobalconference.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://iaspglobalconference.org/"
+    },
+    {
+      "collection": "events",
+      "name": "3daysofdesign 2027",
+      "url": "https://www.3daysofdesign.dk/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.3daysofdesign.dk/"
+    },
+    {
+      "collection": "events",
+      "name": "Rulebreaker Future Congress 2027",
+      "url": "https://zukunftskongress.2bahead.com/rulebreaker",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://zukunftskongress.2bahead.com/rulebreaker"
+    },
+    {
+      "collection": "events",
+      "name": "Futures Conference 2027: Varieties of Futures Knowledge",
+      "url": "https://www.utu.fi/en/news/events/futures-conference-2027-varieties-of-futures-knowledge-theories-and-practices",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.utu.fi/en/news/events/futures-conference-2027-varieties-of-futures-knowledge-theories-and-practices"
+    },
+    {
+      "collection": "events",
+      "name": "Curious2027 Future Insight Conference",
+      "url": "https://www.curiousfutureinsight.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.curiousfutureinsight.org/"
+    },
+    {
+      "collection": "events",
+      "name": "ATINER 13th Annual International Symposium on Foresight",
+      "url": "https://www.atiner.gr/foresight",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.atiner.gr/foresight"
+    },
+    {
+      "collection": "events",
+      "name": "Copenhagen Architecture Biennial 2027",
+      "url": "https://www.cafx.dk/biennial/biennial-home",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.cafx.dk/biennial/biennial-home"
+    },
+    {
+      "collection": "events",
+      "name": "LA Design Week/end 2027",
+      "url": "https://www.ladesignweekend.com/2027-sign-up",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ladesignweekend.com/2027-sign-up"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "https://brandiejanow.github.io/design-reservoir/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/design-reservoir/"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./styles.css?v=20261014c",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./research-tools/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./atlas/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./design-weeks/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./events/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./futures/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./research-tools/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./?type=Design%20Week",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./events/?category=Design%20Week",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "https://github.com/brandiejanow/design-reservoir",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/brandiejanow/design-reservoir"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./app.js?v=20261014c",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../styles.css",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "./styles.css",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../research-tools/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../atlas/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "./",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../events/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../futures/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "./app.js?v=20261014b",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "https://brandiejanow.github.io/design-reservoir/events/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/design-reservoir/events/"
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../styles.css?v=20261014c",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "./styles.css?v=20261014c",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../research-tools/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../atlas/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../design-weeks/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "./",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../futures/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "./?category=Design%20Week",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "./?region=North%20America",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html"
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "./app.js?v=20261014c",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../styles.css",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "./styles.css",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../research-tools/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../atlas/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../design-weeks/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../events/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "./",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "./app.js?v=20261017a",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "https://brandiejanow.github.io/design-reservoir/research-tools/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/design-reservoir/research-tools/"
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../styles.css",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "./styles.css",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../research-tools/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../atlas/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../design-weeks/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../events/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../futures/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../?type=Research%20Tool",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "./app.js",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../styles.css",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "./styles.css",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../research-tools/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "./",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../design-weeks/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../events/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../futures/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "./app.js",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    }
+  ]
+}
