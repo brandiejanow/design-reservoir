@@ -1,0 +1,30 @@
+name: Refresh upcoming Design Reservoir events
+on:
+  schedule:
+    - cron: "20 13 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  expire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Remove completed dated events
+        run: python scripts/refresh_events.py
+      - name: Commit active-calendar changes
+        run: |
+          if ! git diff --quiet -- data/events.csv; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/events.csv
+            git commit -m "Expire completed dated events"
+            git push
+          else
+            echo "No dated events to expire"
+          fi
