@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit Design Reservoir URLs without treating a reportable bad link as a program crash."""
+"""Audit resource, festival and event URLs without turning external failures into build crashes."""
 import csv
 import json
 import os
@@ -10,7 +10,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data" / "resources.csv"
+DATA_FILES = [("resources", ROOT / "data" / "resources.csv"), ("design-weeks", ROOT / "data" / "design-weeks.csv"), ("events", ROOT / "data" / "events.csv")]
 REPORT = ROOT / "link-report.json"
 UA = "Mozilla/5.0 DesignReservoirLinkCheck/1.1"
 
@@ -64,17 +64,18 @@ def check(url):
 
 
 def main():
-    with DATA.open(encoding="utf-8", newline="") as source:
-        rows = list(csv.DictReader(source))
     results = []
-    for row in rows:
-        try:
-            result = check(row.get("url"))
-        except Exception as exc:
-            result = {"status": None, "final_url": row.get("url"), "state": "needs-review", "detail": f"Check error: {str(exc)[:160]}"}
-        result.update({"name": row.get("name", ""), "url": row.get("url", "")})
-        results.append(result)
-        time.sleep(0.1)
+    for collection, data_path in DATA_FILES:
+        with data_path.open(encoding="utf-8", newline="") as source:
+            rows = list(csv.DictReader(source))
+        for row in rows:
+            try:
+                result = check(row.get("url"))
+            except Exception as exc:
+                result = {"status": None, "final_url": row.get("url"), "state": "needs-review", "detail": f"Check error: {str(exc)[:160]}"}
+            result.update({"collection": collection, "name": row.get("name", ""), "url": row.get("url", "")})
+            results.append(result)
+            time.sleep(0.1)
 
     review = [item for item in results if item["state"] not in ("ok", "restricted")]
     summary = {"checked": len(results), "needs_review": len(review), "results": results}
