@@ -8,7 +8,7 @@ The repository is the source of truth. The human-readable master table lives in 
 
 ## Current status
 
-- **195 active Design Reservoir resource records**
+- **197 active Design Reservoir resource records**
 - **hundreds of design disciplines** from *The Design Almanac 2026* in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **77 global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
