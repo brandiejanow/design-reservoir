@@ -69,7 +69,7 @@
     },
     {
       "collection": "resources",
-      "name": "AI in Design 2026 — Designer Fund",
+      "name": "AI in Design 2026: Designer Fund",
       "url": "https://designerfund.com/blog/ai-in-design-2026",
       "state": "ok",
       "http_status": 200,
@@ -205,7 +205,7 @@
     },
     {
       "collection": "resources",
-      "name": "ATypI — Association Typographique Internationale",
+      "name": "ATypI: Association Typographique Internationale",
       "url": "https://atypi.org/",
       "state": "ok",
       "http_status": 200,
@@ -253,7 +253,7 @@
     },
     {
       "collection": "resources",
-      "name": "BEDA — Bureau of European Design Associations",
+      "name": "BEDA: Bureau of European Design Associations",
       "url": "https://beda.org/",
       "state": "ok",
       "http_status": 200,
@@ -261,7 +261,7 @@
     },
     {
       "collection": "resources",
-      "name": "Biennale Architettura — Venice Architecture Biennale",
+      "name": "Biennale Architettura: Venice Architecture Biennale",
       "url": "https://www.labiennale.org/en/architecture/2027",
       "state": "ok",
       "http_status": 200,
@@ -285,7 +285,7 @@
     },
     {
       "collection": "resources",
-      "name": "Branches from the Same Tree — National Academies",
+      "name": "Branches from the Same Tree: National Academies",
       "url": "https://www.nationalacademies.org/read/24988/chapter/1",
       "state": "ok",
       "http_status": 200,
@@ -365,7 +365,7 @@
     },
     {
       "collection": "resources",
-      "name": "Complexity Explorer — Santa Fe Institute",
+      "name": "Complexity Explorer: Santa Fe Institute",
       "url": "https://www.complexityexplorer.org/courses/",
       "state": "ok",
       "http_status": 200,
@@ -524,7 +524,7 @@
     },
     {
       "collection": "resources",
-      "name": "Design Economy 2026 — Design Council",
+      "name": "Design Economy 2026: Design Council",
       "url": "https://www.designcouncil.org.uk/our-work/design-economy/",
       "state": "ok",
       "http_status": 200,
@@ -668,7 +668,7 @@
     },
     {
       "collection": "resources",
-      "name": "Die Neue Sammlung — The Design Museum",
+      "name": "Die Neue Sammlung: The Design Museum",
       "url": "https://www.die-neue-sammlung.de/",
       "state": "ok",
       "http_status": 200,
@@ -1076,7 +1076,7 @@
     },
     {
       "collection": "resources",
-      "name": "MAK — Museum of Applied Arts Vienna",
+      "name": "MAK: Museum of Applied Arts Vienna",
       "url": "https://www.mak.at/en",
       "state": "ok",
       "http_status": 200,
@@ -1124,7 +1124,7 @@
     },
     {
       "collection": "resources",
-      "name": "mudac — Museum of Contemporary Design and Applied Arts",
+      "name": "mudac: Museum of Contemporary Design and Applied Arts",
       "url": "https://mudac.ch/en/",
       "state": "ok",
       "http_status": 200,
@@ -1508,7 +1508,7 @@
     },
     {
       "collection": "resources",
-      "name": "State of the Designer 2026 — Figma",
+      "name": "State of the Designer 2026: Figma",
       "url": "https://www.figma.com/reports/state-of-the-designer-2026/",
       "state": "ok",
       "http_status": 200,
@@ -2132,7 +2132,7 @@
     },
     {
       "collection": "design-weeks",
-      "name": "DesignBlok — Prague International Design Festival",
+      "name": "DesignBlok: Prague International Design Festival",
       "url": "https://www.designblok.cz/en/",
       "state": "ok",
       "http_status": 200,
@@ -2604,7 +2604,7 @@
     },
     {
       "collection": "events",
-      "name": "AURORA Biennial 2026 — States of Becoming",
+      "name": "AURORA Biennial 2026: States of Becoming",
       "url": "https://dallasaurora.com/Biennial",
       "state": "ok",
       "http_status": 200,
@@ -2612,7 +2612,7 @@
     },
     {
       "collection": "events",
-      "name": "UCDA Design Conference 2026 — Duality",
+      "name": "UCDA Design Conference 2026: Duality",
       "url": "https://www.ucda.com/events/231/",
       "state": "ok",
       "http_status": 200,
@@ -2676,7 +2676,7 @@
     },
     {
       "collection": "events",
-      "name": "Cumulus Dunedin 2026 — Design at the End of the Earth",
+      "name": "Cumulus Dunedin 2026: Design at the End of the Earth",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-dunedin-2026-design-at-the-end-of-the-earth/",
       "state": "ok",
       "http_status": 200,
@@ -2684,7 +2684,7 @@
     },
     {
       "collection": "events",
-      "name": "Rog Forum 2026 — More Than Us",
+      "name": "Rog Forum 2026: More Than Us",
       "url": "https://www.center-rog.si/en/rog-forum-2026/",
       "state": "ok",
       "http_status": 200,
@@ -2692,7 +2692,7 @@
     },
     {
       "collection": "events",
-      "name": "UNESCO World Futures Day 2026 — Futures of Inequalities",
+      "name": "UNESCO World Futures Day 2026: Futures of Inequalities",
       "url": "https://www.unesco.org/en/articles/world-futures-day-2026-futures-inequalities",
       "state": "ok",
       "http_status": 200,
@@ -2708,7 +2708,7 @@
     },
     {
       "collection": "events",
-      "name": "Bangkok Design Week 2027 — Design to Last",
+      "name": "Bangkok Design Week 2027: Design to Last",
       "url": "https://www.bangkokdesignweek.com/bkkdw2027",
       "state": "ok",
       "http_status": 200,
@@ -2724,7 +2724,7 @@
     },
     {
       "collection": "events",
-      "name": "New Zealand Design Week 2027 — Restore + Reimagine",
+      "name": "New Zealand Design Week 2027: Restore + Reimagine",
       "url": "https://nzdesignweek.com/",
       "state": "ok",
       "http_status": 200,
@@ -2732,7 +2732,7 @@
     },
     {
       "collection": "events",
-      "name": "World Futures Day — Young Voices 2027",
+      "name": "World Futures Day: Young Voices 2027",
       "url": "https://www.teachthefuture.org/event-details/world-futures-day-young-voices-2027?lang=pt",
       "state": "ok",
       "http_status": 200,
@@ -2820,7 +2820,7 @@
     },
     {
       "collection": "events",
-      "name": "Cumulus Glasgow 2027 — Life After Limits",
+      "name": "Cumulus Glasgow 2027: Life After Limits",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-glasgow-2027-life-after-limits-creative-practices-for-the-21st-century/",
       "state": "ok",
       "http_status": 200,
@@ -2884,7 +2884,7 @@
     },
     {
       "collection": "events",
-      "name": "Cumulus Rio 2027 — The Shifting Patterns of Design Diversity",
+      "name": "Cumulus Rio 2027: The Shifting Patterns of Design Diversity",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-rio-2027-shifting-patterns-of-design-diversity/",
       "state": "ok",
       "http_status": 200,
