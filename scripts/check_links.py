@@ -172,7 +172,7 @@ def main():
     print(json.dumps({"date": today, "items": len(output), "states": tally, "review": flagged[:35]}, indent=2))
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as handle:
-            handle.write(f"## Design Reservoir full link audit — {today}\n\n")
+            handle.write(f"## Design Reservoir full link audit: {today}\n\n")
             handle.write(f"Checked **{len(output)}** linked records, {len(unique)} unique requests.\n\n")
             handle.write(f"States: {json.dumps(tally)}.\n\n")
             handle.write("Manual review: " + str(len(flagged)) + " flags. See committed JSON or run artifact.\n\n")
