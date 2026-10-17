@@ -1,9 +1,12 @@
 name,workflow
+arXiv,Discover & map literature
 ATLAS.ti,Qualitative & field research
 Connected Papers,Discover & map literature
 Consensus,Discover & map literature
+CORE Open Access Research,Discover & map literature
 Crossref,Discover & map literature
 Datawrapper,Analyze & visualize data
+Directory of Open Access Journals (DOAJ),Discover & map literature
 Dovetail,Qualitative & field research
 Elicit,Discover & map literature
 Gephi,Analyze & visualize data
@@ -13,8 +16,11 @@ Hugging Face,Publish & collaborate
 JSTOR,Discover & map literature
 Litmaps,Discover & map literature
 MAXQDA,Qualitative & field research
+OECD Data Explorer,Analyze & visualize data
+OpenAIRE EXPLORE,Discover & map literature
 OpenAlex,Discover & map literature
 OpenRefine,Analyze & visualize data
+ORCID,Publish & collaborate
 Overleaf,Write & manage references
 Paperpal,Write & manage references
 Paperpile,Write & manage references
@@ -27,4 +33,3 @@ Tropy,Qualitative & field research
 UXtweak,Qualitative & field research
 Zenodo,Publish & collaborate
 Zotero,Write & manage references
-arXiv,Discover & map literature
