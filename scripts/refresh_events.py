@@ -8,6 +8,7 @@ design-week directory entries.
 import csv
 import datetime as dt
 import io
+import re
 from pathlib import Path
 
 PATH = Path(__file__).resolve().parents[1] / "data" / "events.csv"
@@ -43,6 +44,17 @@ def main():
     writer.writeheader()
     writer.writerows(kept)
     PATH.write_text(out.getvalue(), encoding="utf-8")
+    readme = PATH.parents[1] / "README.md"
+    if readme.is_file():
+        original_readme = readme.read_text(encoding="utf-8")
+        new_readme = re.sub(
+            r"\*\*\d+ current or forthcoming dated global events\*\*",
+            f"**{len(kept)} current or forthcoming dated global events**",
+            original_readme,
+            count=1,
+        )
+        if new_readme != original_readme:
+            readme.write_text(new_readme, encoding="utf-8")
     print(f"Removed {len(removed)} completed events from active calendar: {', '.join(removed)}")
 
 
