@@ -3,22 +3,57 @@ on:
   schedule:
     - cron: "17 14 * * 1"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/resources.csv"
+      - "data/events.csv"
+      - "data/design-weeks.csv"
+      - "scripts/check_links.py"
+      - "research-tools/**"
+      - ".github/workflows/link-check.yml"
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: design-reservoir-link-audit
+  cancel-in-progress: true
 jobs:
   audit:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Check resource URLs
+      - name: Check resource, design-week, event and page URLs
         run: python scripts/check_links.py
-      - name: Upload link report
+      - name: Upload full link audit
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: design-reservoir-link-report
-          path: link-report.json
+          path: data/link-audit-latest.json
           if-no-files-found: ignore
+      - name: Publish latest link report for editorial review
+        run: |
+          if [ -f data/link-audit-latest.json ] && ! git diff --quiet -- data/link-audit-latest.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/link-audit-latest.json
+            git commit -m "Refresh public URL health report [skip ci]"
+            git push
+          elif [ -f data/link-audit-latest.json ]; then
+            # On first run, the audit JSON is untracked; capture it.
+            if git ls-files --error-unmatch data/link-audit-latest.json >/dev/null 2>&1; then
+              echo "No new URL health changes"
+            else
+              git config user.name "github-actions[bot]"
+              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+              git add data/link-audit-latest.json
+              git commit -m "Publish initial URL health report [skip ci]"
+              git push
+            fi
+          fi
