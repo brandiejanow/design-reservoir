@@ -8,11 +8,11 @@ The repository is the source of truth. The human-readable master table lives in 
 
 ## Current status
 
-- **210 active research and reference resource records**
+- **211 active research and reference resource records**
 - **hundreds of design disciplines** from *The Design Almanac 2026* in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **76 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
-- **27 current or forthcoming dated global events** across design, futures and foresight in the [Events Calendar](events/), including Texas Design Week Dallas; the calendar also includes a searchable directory of recurring Design Weeks
+- **29 current or forthcoming dated global events** across design, futures and foresight in the [Events Calendar](events/), including Texas Design Week Dallas; the calendar also includes a searchable directory of recurring Design Weeks
 - ANTICIPATE is used as an event research source only: the calendar lists the individual applicable events, not ANTICIPATE itself as a directory entry
 - [Knowledge of Design](https://brandiejanow.github.io/Knowledge-of-Design/index.html) is a resource in the main directory, linked to its official public website
 - Places and events located in the Gulf and Middle East are excluded from active Design Reservoir listings, as of 14 October 2026. Earlier records remain recoverable through Git history.
