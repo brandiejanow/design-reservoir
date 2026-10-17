@@ -4,11 +4,11 @@ A curated academic-facing research index across design, futures and foresight, a
 
 **Design Reservoir** began as a manually maintained collection created by [Brandie Janow](https://brandiejanow.com/) before ChatGPT existed. In 2026, the collection moved from spreadsheets and Airtable into GitHub so it could become a maintained, searchable, versioned public resource.
 
-The repository is the source of truth. The human-readable master table lives in [`data/resources.csv`](data/resources.csv), and the public interface is generated from that file.
+The repository is the source of truth. The human-readable master table lives in [`data/resources.csv`](data/resources.csv), and the public interface is generated from that file. The dedicated [Research Tools Index](research-tools/) displays the curated research tools through workflow filters.
 
 ## Current status
 
-- **211 active research and reference resource records**
+- **238 active research and reference resource records**, including **29 research tools** classified by research workflow
 - **hundreds of design disciplines** from *The Design Almanac 2026* in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **76 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
@@ -19,6 +19,15 @@ The repository is the source of truth. The human-readable master table lives in 
 - automated URL auditing checks resources, design weeks and dated events weekly
 - a daily workflow removes dated events from the active calendar after their end date; previous records remain accessible through Git history
 - completed annual festival editions are labelled as concluded until a future edition has been confirmed
+
+## Research tools and scholarly workflows
+
+The [Research Tools Index](research-tools/) is curated around scholarly discovery, assessing evidence, writing and references, qualitative/field research, data analysis and visualization, and open publication/collaboration. It includes tools used in futures, STEAM, cultural research, humanities and design; research software is not a substitute for original evidence. Source descriptions disclose scope limitations, publishing access, AI reliability and relevant commercial restrictions when known.
+
+- The master tool records remain in [`data/resources.csv`](data/resources.csv) under resource type `Research Tool`.
+- [`data/research-tool-workflows.csv`](data/research-tool-workflows.csv) holds only the workflow classifications for the separate page, avoiding duplicated descriptions and URLs.
+- [`data/research-tool-review.csv`](data/research-tool-review.csv) records deliberately excluded, transitional or unresolved candidates. An inaccessible website alone does not establish that a provider is defunct.
+- New candidates require review of their original provider documentation and a demonstrable research use; tools that are discontinued, unverifiable, overly narrow or duplicative should not automatically remain active.
 
 ## Design Almanac integration
 
@@ -52,6 +61,7 @@ Design Reservoir is an academic-facing knowledge resource spanning **futures / f
 ## Files you may actually care about
 
 - [`data/resources.csv`](data/resources.csv) — the active directory in a spreadsheet-like table
+- [`research-tools/index.html`](research-tools/index.html) — dedicated research-tool directory filtered by scholarly workflow
 - [`data/design-atlas.csv`](data/design-atlas.csv) — the design-discipline Design Atlas
 - [`data/design-weeks.csv`](data/design-weeks.csv) — separate Design Weeks dataset
 - [`data/events.csv`](data/events.csv) — dated global events for the calendar
