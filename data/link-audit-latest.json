@@ -2,13 +2,13 @@
   "audit_date_utc": "2026-10-17",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 435,
-  "unique_requests": 414,
+  "total_records_tested": 442,
+  "unique_requests": 419,
   "states": {
-    "ok": 407,
-    "restricted": 16,
+    "ok": 415,
+    "restricted": 15,
     "redirect": 11,
-    "unreachable": 1
+    "needs-review": 1
   },
   "items": [
     {
@@ -822,9 +822,9 @@
       "collection": "resources",
       "name": "Google Scholar",
       "url": "https://scholar.google.com/",
-      "state": "restricted",
-      "http_status": 403,
-      "detail": "HTTP 403"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://scholar.google.com/"
     },
     {
       "collection": "resources",
@@ -935,7 +935,7 @@
       "name": "International Federation of Interior Architects/Designers (IFI)",
       "url": "https://ifiworld.org/",
       "state": "ok",
-      "http_status": 200,
+      "http_status": 202,
       "final_url": "https://ifiworld.org/"
     },
     {
@@ -1940,6 +1940,14 @@
     },
     {
       "collection": "design-weeks",
+      "name": "Arctic Design Week",
+      "url": "https://www.arcticdesignweek.fi/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.arcticdesignweek.fi/en/"
+    },
+    {
+      "collection": "design-weeks",
       "name": "Atlanta Design Festival",
       "url": "https://atlantadesignfestival.net/",
       "state": "ok",
@@ -1996,6 +2004,22 @@
     },
     {
       "collection": "design-weeks",
+      "name": "Business of Design Week",
+      "url": "https://www.bodw.com/en/",
+      "state": "ok",
+      "http_status": 202,
+      "final_url": "https://www.bodw.com/en/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Cairo Design Week",
+      "url": "https://cairodesignweek.net/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cairodesignweek.net/"
+    },
+    {
+      "collection": "design-weeks",
       "name": "Caracas Design Week",
       "url": "https://www.worlddesignweeks.org/members/caracas-design-week",
       "state": "ok",
@@ -2041,6 +2065,22 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.dcdesignweek.org/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Design Doha Biennial",
+      "url": "https://designdoha.org.qa/en/biennial/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designdoha.org.qa/en/biennial/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Design Fest Gent",
+      "url": "https://www.designfestgent.be/en/home",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.designfestgent.be/en/home"
     },
     {
       "collection": "design-weeks",
@@ -2100,6 +2140,22 @@
     },
     {
       "collection": "design-weeks",
+      "name": "DesignMarch",
+      "url": "https://designmarch.is/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://www.honnunarmidstod.is/en/honnunarmars"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "DESIGNTIDE TOKYO",
+      "url": "https://designtide.tokyo/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designtide.tokyo/en/"
+    },
+    {
+      "collection": "design-weeks",
       "name": "DesignTO Festival",
       "url": "https://designto.org/",
       "state": "ok",
@@ -2113,6 +2169,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.detroitmonthofdesign.org/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Dubai Design Week",
+      "url": "https://www.dubaidesignweek.ae/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.dubaidesignweek.ae/"
     },
     {
       "collection": "design-weeks",
@@ -2135,7 +2199,7 @@
       "name": "Galicia Design Week",
       "url": "https://gdw.gal/",
       "state": "ok",
-      "http_status": 200,
+      "http_status": 202,
       "final_url": "https://gdw.gal/"
     },
     {
@@ -2145,6 +2209,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://gdyniadesigndays.eu/en"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Genova Design Week",
+      "url": "https://www.didegenova.it/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.didegenova.it/"
     },
     {
       "collection": "design-weeks",
@@ -2185,6 +2257,22 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.isancreativefestival.com/en/isancf2026"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "LA Design Week/end",
+      "url": "https://www.ladesignweekend.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ladesignweekend.com/"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Lake Como Design Festival",
+      "url": "https://www.lakecomodesignfestival.com/en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.lakecomodesignfestival.com/en"
     },
     {
       "collection": "design-weeks",
@@ -2244,6 +2332,14 @@
     },
     {
       "collection": "design-weeks",
+      "name": "Montréal Design Week",
+      "url": "https://2026.semainedesigndemontreal.com/en/a-propos",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://2026.semainedesigndemontreal.com/en/a-propos"
+    },
+    {
+      "collection": "design-weeks",
       "name": "Munich Creative Business Week",
       "url": "https://www.worlddesignweeks.org/members/munich-creative-business-week",
       "state": "ok",
@@ -2281,6 +2377,22 @@
       "state": "redirect",
       "http_status": 200,
       "final_url": "https://www.nycxdesign.org/welcome"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Open – Design Week Frankfurt RheinMain",
+      "url": "https://wdc2026.org/en/constellations/open",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://wdc2026.org/en/constellations/open"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Pan Afrikan Design Week",
+      "url": "https://thepadi.org/adw2026sa/",
+      "state": "ok",
+      "http_status": 202,
+      "final_url": "https://thepadi.org/adw2026sa/"
     },
     {
       "collection": "design-weeks",
@@ -2364,6 +2476,22 @@
     },
     {
       "collection": "design-weeks",
+      "name": "Taiwan Design Week",
+      "url": "https://www.tdri.org.tw/en",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.tdri.org.tw/en"
+    },
+    {
+      "collection": "design-weeks",
+      "name": "Tallinn Design Festival / Disainiöö",
+      "url": "https://www.tallinndesignfestival.com/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.tallinndesignfestival.com/"
+    },
+    {
+      "collection": "design-weeks",
       "name": "Texas Design Week",
       "url": "https://www.texasdesignweek.com/",
       "state": "ok",
@@ -2390,9 +2518,9 @@
       "collection": "design-weeks",
       "name": "Venice Design Week",
       "url": "https://www.venicedesignweek.com/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.venicedesignweek.com/"
     },
     {
       "collection": "design-weeks",
@@ -2417,110 +2545,6 @@
       "state": "redirect",
       "http_status": 200,
       "final_url": "https://2026.designweeks.ch/"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "Arctic Design Week",
-      "url": "https://www.arcticdesignweek.fi/en/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.arcticdesignweek.fi/en/"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "Montréal Design Week",
-      "url": "https://2026.semainedesigndemontreal.com/en/a-propos",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://2026.semainedesigndemontreal.com/en/a-propos"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "Pan Afrikan Design Week",
-      "url": "https://thepadi.org/adw2026sa/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://thepadi.org/adw2026sa/"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "Business of Design Week",
-      "url": "https://www.bodw.com/en/",
-      "state": "ok",
-      "http_status": 202,
-      "final_url": "https://www.bodw.com/en/"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "Taiwan Design Week",
-      "url": "https://www.tdri.org.tw/en",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.tdri.org.tw/en"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "Genova Design Week",
-      "url": "https://www.didegenova.it/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.didegenova.it/"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "Open – Design Week Frankfurt RheinMain",
-      "url": "https://wdc2026.org/en/constellations/open",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://wdc2026.org/en/constellations/open"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "Design Fest Gent",
-      "url": "https://www.designfestgent.be/en/home",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.designfestgent.be/en/home"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "DesignMarch",
-      "url": "https://designmarch.is/",
-      "state": "redirect",
-      "http_status": 200,
-      "final_url": "https://www.honnunarmidstod.is/en/honnunarmars"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "Lake Como Design Festival",
-      "url": "https://www.lakecomodesignfestival.com/en",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.lakecomodesignfestival.com/en"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "Tallinn Design Festival / Disainiöö",
-      "url": "https://www.tallinndesignfestival.com/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.tallinndesignfestival.com/"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "DESIGNTIDE TOKYO",
-      "url": "https://designtide.tokyo/en/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://designtide.tokyo/en/"
-    },
-    {
-      "collection": "design-weeks",
-      "name": "LA Design Week/end",
-      "url": "https://www.ladesignweekend.com/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.ladesignweekend.com/"
     },
     {
       "collection": "events",
@@ -2572,6 +2596,14 @@
     },
     {
       "collection": "events",
+      "name": "Dubai Design Week 2026",
+      "url": "https://www.dubaidesignweek.ae/visit2/",
+      "state": "needs-review",
+      "http_status": 404,
+      "detail": "HTTP 404"
+    },
+    {
+      "collection": "events",
       "name": "AURORA Biennial 2026 — States of Becoming",
       "url": "https://dallasaurora.com/Biennial",
       "state": "ok",
@@ -2585,6 +2617,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.ucda.com/events/231/"
+    },
+    {
+      "collection": "events",
+      "name": "Design Doha Biennial 2026",
+      "url": "https://designdoha.org.qa/en/biennial/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designdoha.org.qa/en/biennial/"
     },
     {
       "collection": "events",
@@ -2620,6 +2660,22 @@
     },
     {
       "collection": "events",
+      "name": "Dubai Future Week 2026",
+      "url": "https://www.dubaifuture.ae/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.dubaifuture.ae/"
+    },
+    {
+      "collection": "events",
+      "name": "Cairo Design Week 2026",
+      "url": "https://cairodesignweek.net/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cairodesignweek.net/"
+    },
+    {
+      "collection": "events",
       "name": "Cumulus Dunedin 2026 — Design at the End of the Earth",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-dunedin-2026-design-at-the-end-of-the-earth/",
       "state": "ok",
@@ -2647,7 +2703,7 @@
       "name": "CoMuseum Futures 2026",
       "url": "https://thecomuseum.org/conference/comuseum-2026/",
       "state": "ok",
-      "http_status": 200,
+      "http_status": 202,
       "final_url": "https://thecomuseum.org/conference/comuseum-2026/"
     },
     {
