@@ -65,18 +65,18 @@ Design Reservoir is an academic-facing knowledge resource spanning **futures / f
 
 ## Files you may actually care about
 
-- [`data/resources.csv`](data/resources.csv) — the active directory in a spreadsheet-like table
-- [`research-tools/index.html`](research-tools/index.html) — dedicated research-tool directory filtered by scholarly workflow
-- [`data/design-atlas.csv`](data/design-atlas.csv) — the design-discipline Design Atlas
-- [`data/design-weeks.csv`](data/design-weeks.csv) — separate Design Weeks dataset
-- [`data/events.csv`](data/events.csv) — dated global events for the calendar
-- [`data/editorial-review.csv`](data/editorial-review.csv) — excluded or retired entries and explicit reasons
-- [`data/link-audit-latest.json`](data/link-audit-latest.json) — most recent automated URL audit, including redirects, access restrictions and failures
-- [`data/almanac-import-manifest.csv`](data/almanac-import-manifest.csv) — what from the Almanac went where
-- [`data/almanac-review.csv`](data/almanac-review.csv) — items intentionally held from the Almanac
-- [`data/curation-review.csv`](data/curation-review.csv) — screened submissions and obsolete or unconfirmed resources, with reasons and next actions
-- [`index.html`](index.html) — public Design Reservoir webpage
-- [`events/index.html`](events/index.html) — date-organized Events Calendar
+- [`data/resources.csv`](data/resources.csv): the active directory in a spreadsheet-like table
+- [`research-tools/index.html`](research-tools/index.html): dedicated research-tool directory filtered by scholarly workflow
+- [`data/design-atlas.csv`](data/design-atlas.csv): the design-discipline Design Atlas
+- [`data/design-weeks.csv`](data/design-weeks.csv): separate Design Weeks dataset
+- [`data/events.csv`](data/events.csv): dated global events for the calendar
+- [`data/editorial-review.csv`](data/editorial-review.csv): excluded or retired entries and explicit reasons
+- [`data/link-audit-latest.json`](data/link-audit-latest.json): most recent automated URL audit, including redirects, access restrictions and failures
+- [`data/almanac-import-manifest.csv`](data/almanac-import-manifest.csv): what from the Almanac went where
+- [`data/almanac-review.csv`](data/almanac-review.csv): items intentionally held from the Almanac
+- [`data/curation-review.csv`](data/curation-review.csv): screened submissions and obsolete or unconfirmed resources, with reasons and next actions
+- [`index.html`](index.html): public Design Reservoir webpage
+- [`events/index.html`](events/index.html): date-organized Events Calendar
 
 You do not need to edit the code files yourself to maintain the Reservoir.
 
