@@ -2,11 +2,11 @@
   "audit_date_utc": "2026-10-18",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 477,
-  "unique_requests": 434,
+  "total_records_tested": 494,
+  "unique_requests": 445,
   "states": {
-    "ok": 444,
-    "restricted": 21,
+    "ok": 462,
+    "restricted": 20,
     "redirect": 12
   },
   "items": [
@@ -918,9 +918,9 @@
       "collection": "resources",
       "name": "Google Scholar",
       "url": "https://scholar.google.com/",
-      "state": "restricted",
-      "http_status": 403,
-      "detail": "HTTP 403"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://scholar.google.com/"
     },
     {
       "collection": "resources",
@@ -3078,7 +3078,7 @@
     {
       "collection": "page-link",
       "name": "index.html",
-      "url": "./styles.css?v=20261018inquiries",
+      "url": "./styles.css?v=20261018related",
       "context": "index.html",
       "state": "ok",
       "http_status": 200
@@ -3155,6 +3155,33 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/"
     },
     {
       "collection": "page-link",
@@ -3192,7 +3219,7 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
-      "url": "../styles.css",
+      "url": "../styles.css?v=20261018related",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200
@@ -3200,7 +3227,7 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
-      "url": "./styles.css",
+      "url": "./styles.css?v=20261018related",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200
@@ -3281,11 +3308,29 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
       "url": "https://brandiejanow.github.io/Knowledge-of-Design/",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200,
       "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/"
     },
     {
       "collection": "page-link",
@@ -3307,7 +3352,7 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
-      "url": "./app.js?v=20261017e",
+      "url": "./app.js?v=20261018k1",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200
@@ -3332,7 +3377,7 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
-      "url": "../styles.css?v=20261018inquiries",
+      "url": "../styles.css?v=20261018related",
       "context": "events/index.html",
       "state": "ok",
       "http_status": 200
@@ -3340,7 +3385,7 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
-      "url": "./styles.css?v=20261018inquiries",
+      "url": "./styles.css?v=20261018related",
       "context": "events/index.html",
       "state": "ok",
       "http_status": 200
@@ -3417,6 +3462,33 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/"
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/"
     },
     {
       "collection": "page-link",
@@ -3454,7 +3526,7 @@
     {
       "collection": "page-link",
       "name": "futures/index.html",
-      "url": "../styles.css",
+      "url": "../styles.css?v=20261018related",
       "context": "futures/index.html",
       "state": "ok",
       "http_status": 200
@@ -3462,7 +3534,7 @@
     {
       "collection": "page-link",
       "name": "futures/index.html",
-      "url": "./styles.css",
+      "url": "./styles.css?v=20261018related",
       "context": "futures/index.html",
       "state": "ok",
       "http_status": 200
@@ -3539,6 +3611,33 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/"
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/"
     },
     {
       "collection": "page-link",
@@ -3585,7 +3684,7 @@
     {
       "collection": "page-link",
       "name": "research-tools/index.html",
-      "url": "../styles.css",
+      "url": "../styles.css?v=20261018related",
       "context": "research-tools/index.html",
       "state": "ok",
       "http_status": 200
@@ -3593,7 +3692,7 @@
     {
       "collection": "page-link",
       "name": "research-tools/index.html",
-      "url": "./styles.css",
+      "url": "./styles.css?v=20261018related",
       "context": "research-tools/index.html",
       "state": "ok",
       "http_status": 200
@@ -3682,6 +3781,33 @@
     {
       "collection": "page-link",
       "name": "research-tools/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/"
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/"
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
       "url": "https://github.com/brandiejanow/design-reservoir",
       "context": "research-tools/index.html",
       "state": "ok",
@@ -3733,7 +3859,7 @@
     {
       "collection": "page-link",
       "name": "atlas/index.html",
-      "url": "../styles.css",
+      "url": "../styles.css?v=20261018related",
       "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
@@ -3741,7 +3867,7 @@
     {
       "collection": "page-link",
       "name": "atlas/index.html",
-      "url": "./styles.css",
+      "url": "./styles.css?v=20261018related",
       "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
@@ -3818,6 +3944,33 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/"
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/"
     },
     {
       "collection": "page-link",
