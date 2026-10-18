@@ -2,12 +2,13 @@
   "audit_date_utc": "2026-10-18",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 530,
-  "unique_requests": 468,
+  "total_records_tested": 522,
+  "unique_requests": 462,
   "states": {
-    "ok": 499,
-    "restricted": 19,
-    "redirect": 12
+    "ok": 489,
+    "restricted": 21,
+    "redirect": 11,
+    "needs-review": 1
   },
   "items": [
     {
@@ -926,9 +927,9 @@
       "collection": "resources",
       "name": "Google Scholar",
       "url": "https://scholar.google.com/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://scholar.google.com/"
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
     },
     {
       "collection": "resources",
@@ -966,9 +967,9 @@
       "collection": "resources",
       "name": "IEEE Xplore Digital Library",
       "url": "https://ieeexplore.ieee.org/",
-      "state": "redirect",
-      "http_status": 200,
-      "final_url": "https://ieeexplore.ieee.org/Xplore/home.jsp"
+      "state": "needs-review",
+      "http_status": 418,
+      "detail": "HTTP 418"
     },
     {
       "collection": "resources",
@@ -2934,9 +2935,9 @@
       "collection": "events",
       "name": "Foresight Practitioner Conference 2027",
       "url": "https://forecasters.org/events/foresight-practitioner-conference-2027/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://forecasters.org/events/foresight-practitioner-conference-2027/"
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
     },
     {
       "collection": "events",
@@ -3150,14 +3151,6 @@
     {
       "collection": "page-link",
       "name": "index.html",
-      "url": "./design-knowledge/",
-      "context": "index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "index.html",
       "url": "./atlas/",
       "context": "index.html",
       "state": "ok",
@@ -3187,22 +3180,6 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.brandiejanow.com/"
-    },
-    {
-      "collection": "page-link",
-      "name": "index.html",
-      "url": "./design-ecosystems/",
-      "context": "index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "index.html",
-      "url": "./design-knowledge/",
-      "context": "index.html",
-      "state": "ok",
-      "http_status": 200
     },
     {
       "collection": "page-link",
@@ -3477,14 +3454,6 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
-      "url": "../design-knowledge/",
-      "context": "design-weeks/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-weeks/index.html",
       "url": "../atlas/",
       "context": "design-weeks/index.html",
       "state": "ok",
@@ -3624,14 +3593,6 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
-      "url": "../design-knowledge/",
-      "context": "events/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "events/index.html",
       "url": "../atlas/",
       "context": "events/index.html",
       "state": "ok",
@@ -3746,14 +3707,6 @@
       "collection": "page-link",
       "name": "futures/index.html",
       "url": "../design-ecosystems/",
-      "context": "futures/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "futures/index.html",
-      "url": "../design-knowledge/",
       "context": "futures/index.html",
       "state": "ok",
       "http_status": 200
@@ -3893,14 +3846,6 @@
       "collection": "page-link",
       "name": "research-tools/index.html",
       "url": "../design-ecosystems/",
-      "context": "research-tools/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "research-tools/index.html",
-      "url": "../design-knowledge/",
       "context": "research-tools/index.html",
       "state": "ok",
       "http_status": 200
@@ -4203,14 +4148,6 @@
       "collection": "page-link",
       "name": "atlas/index.html",
       "url": "../design-ecosystems/",
-      "context": "atlas/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "atlas/index.html",
-      "url": "../design-knowledge/",
       "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
