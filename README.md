@@ -113,3 +113,8 @@ Do not use em dashes in website copy, research writing, public data labels, meta
 ## Related projects
 
 Brandie Janow also founded [Knowledge of Design](https://brandiejanow.github.io/Knowledge-of-Design/), a distinct interdisciplinary research initiative, and publishes [Saudi Creative Economy](https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/), an independent research study.
+
+## Publication review standard
+
+Public copy describes research, methods, participants, evidence, dates and findings in clear, direct sentences. Use American English, affirmative wording and varied sentence structures. Keep the focus on information that readers can verify or investigate. Original quotations, formal institution names, historical event titles, citations and URLs retain their source wording. Review public pages, search descriptions, data labels and publication summaries before each release.
+
