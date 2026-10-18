@@ -8,7 +8,7 @@ The repository is the source of truth. The human-readable master table lives in 
 
 ## Current status
 
-- **261 active research and reference resource records**, including **34 research tools** classified by research workflow
+- **260 active research and reference resource records**, including **34 research tools** classified by research workflow
 - **365 classified Design Atlas entries** across ten families, with two practices intentionally appearing in more than one family in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **78 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
@@ -20,9 +20,9 @@ The repository is the source of truth. The human-readable master table lives in 
 - a daily workflow removes dated events from the active calendar after their end date; previous records remain accessible through Git history
 - completed annual festival editions are labelled as concluded until a future edition has been confirmed
 
-## Design ecosystems research
+## Knowledge of Design research
 
-The [Design Ecosystems](design-ecosystems/) page develops an evidence-led research framework for examining relationships, institutions, production capacity, access and the continuity of design practice. Its [research register](data/research-inquiries.csv) distinguishes documented conceptual work from open questions. The [Knowledge of Design original archive](https://brandiejanow.github.io/Knowledge-of-Design/) remains an independent primary resource in the directory, not a duplicate section of Design Reservoir.
+Original research inquiries, including [Design Ecosystems](https://brandiejanow.github.io/Knowledge-of-Design/design-ecosystems.html), are maintained in the separate Knowledge of Design archive. Design Reservoir links to that initiative as a scholarly resource while maintaining its broader global directory.
 
 ## Research tools and scholarly workflows
 
@@ -36,7 +36,7 @@ The [Research Tools Index](research-tools/) is curated around scholarly discover
 
 **Browse by page or resource type**
 
-The top navigation contains pages only: Design Atlas, Design Weeks, and Events Calendar. Research tools, academic journals, archives and other record types belong to the filters in the main index. The Design Atlas page is no longer counted as its own resource record.
+The primary navigation focuses on Design Atlas, Design Weeks and Events Calendar. Research tools, academic journals, archives and other record types belong to the filters in the main index. The Design Atlas page is no longer counted as its own resource record.
 
 **Browsable keyword filters**
 
