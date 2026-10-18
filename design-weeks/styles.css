@@ -1,9 +1,5 @@
 .hero h1{line-height:1.02}.week-place{margin:0;color:#393939;font-size:14px;line-height:1.5}.week-edition{font-size:11px;color:var(--muted);margin-top:8px}.week-description{margin:0;color:#393939;font-size:14px;line-height:1.55}.week-meta{display:flex;flex-direction:column;gap:7px;font-size:11px;color:var(--muted)}.week-row{grid-template-columns:minmax(200px,1.05fr) minmax(320px,1.8fr) minmax(180px,.8fr) 48px}@media(max-width:1050px){.week-row{grid-template-columns:1fr 1.7fr 42px}.week-meta{grid-column:1/3;flex-direction:row;flex-wrap:wrap;gap:6px 18px}}@media(max-width:700px){.week-row{grid-template-columns:1fr 40px}.week-description{grid-column:1/3}.week-meta{grid-column:1/3}}
-/* Distinct research feature, clearly separate from the festival index. */
-.week-feature{margin:0;padding:36px clamp(22px,5vw,74px);display:grid;grid-template-columns:minmax(230px,.8fr) minmax(0,1.2fr);gap:34px 60px;background:#e8edff;border-bottom:1px solid #b8c7ff;color:#152452}
-.week-feature-eyebrow{display:block;font-size:11px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;margin-bottom:15px}
-.week-feature h2{font-size:clamp(30px,3.6vw,50px);font-weight:400;line-height:1.08;letter-spacing:-.04em;margin:0}
-.week-feature-copy p{font-size:15px;line-height:1.7;max-width:780px;margin:0 0 22px}
-.week-feature-copy a{display:inline-block;font-size:13px;font-weight:600;text-underline-offset:5px}
-.week-feature-copy a:hover{color:#164dbb}
-@media(max-width:730px){.week-feature{grid-template-columns:1fr;gap:18px;padding:30px 23px}.week-feature-copy p{font-size:14px}}
+/* KoD is an ordinary directory row with a subtle research-initiative distinction. */
+.week-row.kod-row{background:#eef2ff;border-left:3px solid #7885bb;padding-left:clamp(14px,2vw,26px)}
+.week-row.kod-row h2{color:#304c90}
+.week-row.kod-row .week-meta strong{color:#304c90}
