@@ -2,21 +2,22 @@
   "audit_date_utc": "2026-10-18",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 494,
-  "unique_requests": 445,
+  "total_records_tested": 498,
+  "unique_requests": 449,
   "states": {
-    "ok": 462,
+    "unreachable": 11,
+    "ok": 454,
     "restricted": 20,
-    "redirect": 12
+    "redirect": 13
   },
   "items": [
     {
       "collection": "resources",
       "name": "21_21 DESIGN SIGHT",
       "url": "https://www.2121designsight.jp/en/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.2121designsight.jp/en/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "resources",
@@ -494,17 +495,17 @@
       "collection": "resources",
       "name": "Cumulus Association",
       "url": "https://cumulusassociation.org/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://cumulusassociation.org/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "resources",
       "name": "Cumulus Conference",
       "url": "https://cumulusassociation.org/events/cumulus-conferences",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://cumulusassociation.org/events/cumulus-conferences"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "resources",
@@ -622,9 +623,9 @@
       "collection": "resources",
       "name": "Design Mumbai",
       "url": "https://designmumbai.com/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://designmumbai.com/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "resources",
@@ -918,9 +919,9 @@
       "collection": "resources",
       "name": "Google Scholar",
       "url": "https://scholar.google.com/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://scholar.google.com/"
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
     },
     {
       "collection": "resources",
@@ -1039,7 +1040,7 @@
       "name": "International Federation of Interior Architects/Designers (IFI)",
       "url": "https://ifiworld.org/",
       "state": "ok",
-      "http_status": 202,
+      "http_status": 200,
       "final_url": "https://ifiworld.org/"
     },
     {
@@ -2318,9 +2319,9 @@
       "collection": "design-weeks",
       "name": "DESIGNTIDE TOKYO",
       "url": "https://designtide.tokyo/en/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://designtide.tokyo/en/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "design-weeks",
@@ -2358,16 +2359,16 @@
       "collection": "design-weeks",
       "name": "DW! São Paulo Design Week",
       "url": "https://dwsemanadedesign.com.br/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://dwsemanadedesign.com.br/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "design-weeks",
       "name": "Galicia Design Week",
       "url": "https://gdw.gal/",
       "state": "ok",
-      "http_status": 202,
+      "http_status": 200,
       "final_url": "https://gdw.gal/"
     },
     {
@@ -2559,7 +2560,7 @@
       "name": "Pan Afrikan Design Week",
       "url": "https://thepadi.org/adw2026sa/",
       "state": "ok",
-      "http_status": 202,
+      "http_status": 200,
       "final_url": "https://thepadi.org/adw2026sa/"
     },
     {
@@ -2686,9 +2687,9 @@
       "collection": "design-weeks",
       "name": "Venice Design Week",
       "url": "https://www.venicedesignweek.com/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.venicedesignweek.com/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "design-weeks",
@@ -2846,9 +2847,9 @@
       "collection": "events",
       "name": "Cumulus Dunedin 2026: Design at the End of the Earth",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-dunedin-2026-design-at-the-end-of-the-earth/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-dunedin-2026-design-at-the-end-of-the-earth/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "events",
@@ -2871,7 +2872,7 @@
       "name": "CoMuseum Futures 2026",
       "url": "https://thecomuseum.org/conference/comuseum-2026/",
       "state": "ok",
-      "http_status": 202,
+      "http_status": 200,
       "final_url": "https://thecomuseum.org/conference/comuseum-2026/"
     },
     {
@@ -2886,9 +2887,9 @@
       "collection": "events",
       "name": "DW! São Paulo Design Week 2027",
       "url": "https://dwsemanadedesign.com.br/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://dwsemanadedesign.com.br/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "events",
@@ -2918,9 +2919,9 @@
       "collection": "events",
       "name": "Foresight Practitioner Conference 2027",
       "url": "https://forecasters.org/events/foresight-practitioner-conference-2027/",
-      "state": "restricted",
-      "http_status": 403,
-      "detail": "HTTP 403"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://forecasters.org/events/foresight-practitioner-conference-2027/"
     },
     {
       "collection": "events",
@@ -2990,9 +2991,9 @@
       "collection": "events",
       "name": "Cumulus Glasgow 2027: Life After Limits",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-glasgow-2027-life-after-limits-creative-practices-for-the-21st-century/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-glasgow-2027-life-after-limits-creative-practices-for-the-21st-century/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "events",
@@ -3054,9 +3055,9 @@
       "collection": "events",
       "name": "Cumulus Rio 2027: The Shifting Patterns of Design Diversity",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-rio-2027-shifting-patterns-of-design-diversity/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-rio-2027-shifting-patterns-of-design-diversity/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "page-link",
@@ -3078,7 +3079,7 @@
     {
       "collection": "page-link",
       "name": "index.html",
-      "url": "./styles.css?v=20261018related",
+      "url": "./styles.css?v=20261018discovery",
       "context": "index.html",
       "state": "ok",
       "http_status": 200
@@ -3155,6 +3156,39 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "https://github.com/brandiejanow/design-reservoir/issues/new?template=suggest-resource.yml",
+      "context": "index.html",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fbrandiejanow%2Fdesign-reservoir%2Fissues%2Fnew%3Ftemplate%3Dsuggest-resource.yml"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./?q=Getty%20Research%20Institute",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./?q=UNESCO%20Futures%20Literacy",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./?q=European%20Partnership%20for%20Resilient%20Cultural%20Heritage",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
     },
     {
       "collection": "page-link",
@@ -3203,7 +3237,7 @@
     {
       "collection": "page-link",
       "name": "index.html",
-      "url": "./app.js?v=20261018inquiries",
+      "url": "./app.js?v=20261018discovery",
       "context": "index.html",
       "state": "ok",
       "http_status": 200
