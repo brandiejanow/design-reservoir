@@ -5,10 +5,9 @@
   "total_records_tested": 472,
   "unique_requests": 427,
   "states": {
-    "ok": 438,
-    "restricted": 21,
-    "redirect": 12,
-    "temporary-error": 1
+    "ok": 440,
+    "restricted": 20,
+    "redirect": 12
   },
   "items": [
     {
@@ -919,9 +918,9 @@
       "collection": "resources",
       "name": "Google Scholar",
       "url": "https://scholar.google.com/",
-      "state": "restricted",
-      "http_status": 403,
-      "detail": "HTTP 403"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://scholar.google.com/"
     },
     {
       "collection": "resources",
@@ -2087,9 +2086,9 @@
       "collection": "resources",
       "name": "ZⓈONAMACO DISEÑO",
       "url": "https://zsonamaco.com/zsonamaco-diseno/",
-      "state": "temporary-error",
-      "http_status": 500,
-      "detail": "HTTP 500"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://zsonamaco.com/zsonamaco-diseno/"
     },
     {
       "collection": "design-weeks",
@@ -3062,7 +3061,7 @@
     {
       "collection": "page-link",
       "name": "index.html",
-      "url": "./assets/favicon.png",
+      "url": "./assets/favicon.png?v=20261018square",
       "context": "index.html",
       "state": "ok",
       "http_status": 200
@@ -3186,7 +3185,7 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
-      "url": "../assets/favicon.png",
+      "url": "../assets/favicon.png?v=20261018square",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200
@@ -3308,7 +3307,7 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
-      "url": "../assets/favicon.png",
+      "url": "../assets/favicon.png?v=20261018square",
       "context": "events/index.html",
       "state": "ok",
       "http_status": 200
@@ -3430,7 +3429,7 @@
     {
       "collection": "page-link",
       "name": "futures/index.html",
-      "url": "../assets/favicon.png",
+      "url": "../assets/favicon.png?v=20261018square",
       "context": "futures/index.html",
       "state": "ok",
       "http_status": 200
@@ -3552,7 +3551,7 @@
     {
       "collection": "page-link",
       "name": "research-tools/index.html",
-      "url": "../assets/favicon.png",
+      "url": "../assets/favicon.png?v=20261018square",
       "context": "research-tools/index.html",
       "state": "ok",
       "http_status": 200
@@ -3682,7 +3681,7 @@
     {
       "collection": "page-link",
       "name": "atlas/index.html",
-      "url": "../assets/favicon.png",
+      "url": "../assets/favicon.png?v=20261018square",
       "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
