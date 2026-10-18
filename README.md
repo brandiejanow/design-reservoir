@@ -8,7 +8,7 @@ The repository is the source of truth. The human-readable master table lives in 
 
 ## Current status
 
-- **255 active research and reference resource records**, including **34 research tools** classified by research workflow
+- **260 active research and reference resource records**, including **34 research tools** classified by research workflow
 - **365 classified Design Atlas entries** across ten families, with two practices intentionally appearing in more than one family in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **78 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
