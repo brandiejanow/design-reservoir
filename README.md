@@ -2,9 +2,17 @@
 
 A curated academic-facing research index across design, futures and foresight, and STEAM (science, technology, engineering, arts and mathematics). It connects research, institutions, methods, education, professional pathways, opportunities and relevant recurring public platforms.
 
-**Design Reservoir** began as a manually maintained collection created by [Brandie Janow](https://brandiejanow.com/) before ChatGPT existed. In 2026, the collection moved from spreadsheets and Airtable into GitHub so it could become a maintained, searchable, versioned public resource.
+**Design Reservoir** began circa 2020 as a collection maintained manually by [Brandie Janow](https://brandiejanow.com/) in spreadsheets and Airtable. In 2026, it moved to GitHub as a maintained, searchable and versioned public resource.
 
 The repository is the source of truth. The human-readable master table lives in [`data/resources.csv`](data/resources.csv), and the public interface is generated from that file. Research tools are selected from the main directory using **Resource type → Research Tool**. The separate research-tools page remains available for direct links but is not part of the main navigation.
+
+## Reading the resource counts
+
+The homepage combines two datasets into a single searchable interface: **260 core resource records** in `data/resources.csv` and **78 recurring design weeks** in `data/design-weeks.csv`. That produces **338 searchable entries**. The counts refer to different collections and are displayed separately in the interface.
+
+## Suggest a research resource
+
+Use the [Resource suggestion form](https://github.com/brandiejanow/design-reservoir/issues/new?template=suggest-resource.yml) to recommend an official scholarly source, institution, archive, educational resource, research tool, or relevant design platform. Submissions enter an editorial review process for relevance, provenance, currency and duplication.
 
 ## Current status
 
