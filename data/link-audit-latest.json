@@ -2,11 +2,12 @@
   "audit_date_utc": "2026-10-18",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 522,
-  "unique_requests": 462,
+  "total_records_tested": 519,
+  "unique_requests": 460,
   "states": {
-    "ok": 489,
+    "ok": 476,
     "restricted": 21,
+    "unreachable": 10,
     "redirect": 11,
     "needs-review": 1
   },
@@ -495,17 +496,17 @@
       "collection": "resources",
       "name": "Cumulus Association",
       "url": "https://cumulusassociation.org/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://cumulusassociation.org/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "resources",
       "name": "Cumulus Conference",
       "url": "https://cumulusassociation.org/events/cumulus-conferences",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://cumulusassociation.org/events/cumulus-conferences"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "resources",
@@ -631,9 +632,9 @@
       "collection": "resources",
       "name": "Design Mumbai",
       "url": "https://designmumbai.com/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://designmumbai.com/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "resources",
@@ -1130,14 +1131,6 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html"
-    },
-    {
-      "collection": "resources",
-      "name": "Knowledge of Design: Research Inquiry",
-      "url": "https://brandiejanow.github.io/design-reservoir/design-knowledge/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://brandiejanow.github.io/design-reservoir/design-knowledge/"
     },
     {
       "collection": "resources",
@@ -1727,9 +1720,9 @@
       "collection": "resources",
       "name": "The Design Kids",
       "url": "https://thedesignkids.org/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://thedesignkids.org/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "resources",
@@ -2375,9 +2368,9 @@
       "collection": "design-weeks",
       "name": "DW! São Paulo Design Week",
       "url": "https://dwsemanadedesign.com.br/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://dwsemanadedesign.com.br/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "design-weeks",
@@ -2703,9 +2696,9 @@
       "collection": "design-weeks",
       "name": "Venice Design Week",
       "url": "https://www.venicedesignweek.com/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.venicedesignweek.com/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "design-weeks",
@@ -2863,9 +2856,9 @@
       "collection": "events",
       "name": "Cumulus Dunedin 2026: Design at the End of the Earth",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-dunedin-2026-design-at-the-end-of-the-earth/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-dunedin-2026-design-at-the-end-of-the-earth/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "events",
@@ -2903,9 +2896,9 @@
       "collection": "events",
       "name": "DW! São Paulo Design Week 2027",
       "url": "https://dwsemanadedesign.com.br/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://dwsemanadedesign.com.br/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "events",
@@ -3007,9 +3000,9 @@
       "collection": "events",
       "name": "Cumulus Glasgow 2027: Life After Limits",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-glasgow-2027-life-after-limits-creative-practices-for-the-21st-century/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-glasgow-2027-life-after-limits-creative-practices-for-the-21st-century/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "events",
@@ -3071,9 +3064,9 @@
       "collection": "events",
       "name": "Cumulus Rio 2027: The Shifting Patterns of Design Diversity",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-rio-2027-shifting-patterns-of-design-diversity/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-rio-2027-shifting-patterns-of-design-diversity/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "page-link",
@@ -3991,14 +3984,6 @@
     {
       "collection": "page-link",
       "name": "design-ecosystems/index.html",
-      "url": "../design-knowledge/",
-      "context": "design-ecosystems/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-ecosystems/index.html",
       "url": "../atlas/",
       "context": "design-ecosystems/index.html",
       "state": "ok",
@@ -4060,14 +4045,6 @@
       "collection": "page-link",
       "name": "design-ecosystems/index.html",
       "url": "../",
-      "context": "design-ecosystems/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-ecosystems/index.html",
-      "url": "../design-knowledge/",
       "context": "design-ecosystems/index.html",
       "state": "ok",
       "http_status": 200
