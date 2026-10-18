@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="site-nav">
+  <header id="top" class="site-nav">
     <a class="site-home" href="../">Design Reservoir</a>
     <nav class="desktop-nav" aria-label="Sections">
-      <a href="../design-ecosystems/">Design Ecosystems</a>
+
       <a href="../atlas/">Design Atlas</a>
       <a href="../design-weeks/" class="active" aria-current="page">Design Weeks</a>
       <a href="../events/">Events Calendar</a>
@@ -22,7 +22,7 @@
       <summary>Explore <span class="menu-symbol" aria-hidden="true">☰</span></summary>
       <nav aria-label="Mobile sections">
         <a href="../">All Resources</a>
-        <a href="../design-ecosystems/">Design Ecosystems</a>
+
         <a href="../atlas/">Design Atlas</a>
         <a href="../design-weeks/" class="active" aria-current="page">Design Weeks</a>
         <a href="../events/">Events Calendar</a>
@@ -37,6 +37,10 @@
       <p class="intro">A global index of recurring design weeks and citywide design festivals, bringing together their programs, locations, and design communities.</p>
       <p class="meta"><span id="total">…</span> design weeks and festivals</p>
     </section>
+<aside class="week-feature" aria-label="Featured Knowledge of Design initiative">
+     <div class="week-feature-heading"><span class="week-feature-eyebrow">Beyond the calendar</span><h2>Knowledge of Design</h2></div>
+     <div class="week-feature-copy"><p>A global initiative advancing design as a field of knowledge through STEAM, research and interdisciplinary dialogue. Explore its Riyadh editions, KoD Connect conversations and original scholarship.</p><a href="https://brandiejanow.github.io/Knowledge-of-Design/" target="_blank" rel="noopener">Explore Knowledge of Design ↗</a></div>
+   </aside>
     <section class="directory">
       <div class="toolbar weeks-toolbar">
         <label class="search"><span>Search</span><input id="search" type="search" placeholder="City, country, event, topic…" autocomplete="off"></label>
@@ -48,9 +52,9 @@
       <div id="list" class="resource-list"></div>
       <p id="empty" class="empty" hidden>No design weeks match those filters.</p>
     </section>
-    <section class="note"><p>This index is maintained separately from Design Reservoir so annual design-week platforms can be tracked without mixing them into the resource directory.</p></section>
+    
   </main>
-  <footer><span>© 2026 Brandie Janow</span><span><a href="../">Design Reservoir</a> · <a href="https://www.brandiejanow.com/" target="_top">brandiejanow.com</a></span></footer>
+  <footer class="reservoir-footer"><p>Design Reservoir is independently curated by Brandie Janow and built and maintained on <a href="https://github.com/brandiejanow/design-reservoir" target="_blank" rel="noopener">GitHub</a> as a versioned public resource.</p><nav aria-label="Footer navigation"><a href="../">Home</a><a href="#top" class="back-to-top">Back to top ↑</a></nav></footer>
   <script src="./app.js?v=20261017e"></script>
 </body>
 </html>
