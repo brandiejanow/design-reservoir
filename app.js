@@ -17,8 +17,12 @@ Promise.all([
   fetch("./data/resources.csv?v=20261017d",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load resource directory");return r.text()}),
   fetch("./data/design-weeks.csv?v=20261014c",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
 ]).then(([resourceText,weekText])=>{
-  rows=[...csvRecords(resourceText),...csvRecords(weekText).map(weekToResource)].sort((a,b)=>a.name.localeCompare(b.name));
+  const resourceRows=csvRecords(resourceText),weekRows=csvRecords(weekText).map(weekToResource);
+  rows=[...resourceRows,...weekRows].sort((a,b)=>a.name.localeCompare(b.name));
   els.total.textContent=rows.length;
+  const coreTotal=document.querySelector("#coreTotal"),weekTotal=document.querySelector("#weekTotal");
+  if(coreTotal)coreTotal.textContent=resourceRows.length;
+  if(weekTotal)weekTotal.textContent=weekRows.length;
   populate();
   const initialType=params.get("type");if(initialType&&[...els.type.options].some(o=>o.value===initialType))els.type.value=initialType;
   const initialQuery=params.get("q");if(initialQuery)els.search.value=initialQuery;
