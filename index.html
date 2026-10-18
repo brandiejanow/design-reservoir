@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="A growing global index of design knowledge, research, institutions, methods, archives, disciplines and opportunities, spanning STEAM, GLAM, futures and foresight.">
@@ -41,7 +42,7 @@
     <section class="hero">
       <p class="eyebrow">Design knowledge / Global index</p>
       <h1>Design <span class="reservoir-word">Reservoir</span></h1>
-      <p class="intro">A public reference for design research, education, institutions, methods and events across design, STEAM, futures and cultural heritage.</p>
+      <p class="intro">Design Reservoir is an independent reference for design research and practice, bringing together academic sources, institutions, archives, methods and opportunities across STEAM, futures and cultural heritage. Explore the Design Atlas, discover design weeks and events, or search the directory for resources supporting research, teaching and creative work.</p>
       <p class="meta"><span id="total">…</span> resources</p>
     </section>
 
@@ -71,6 +72,11 @@
       </div>
 
       <div id="list" class="resource-list"></div>
+      <nav id="pager" class="pagination" aria-label="Directory pages" hidden>
+        <button id="prevPage" type="button">Previous</button>
+        <span id="pageInfo" aria-live="polite"></span>
+        <button id="nextPage" type="button">Next</button>
+      </nav>
       <p id="empty" class="empty" hidden>No resources match those filters.</p>
     </section>
 

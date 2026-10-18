@@ -50,3 +50,12 @@ body.embed .site-nav,body.embed footer{display:none}body.embed .hero{padding-top
  body.embed .site-nav{display:flex}
  body.embed .hero{padding-top:46px}
 }
+
+/* Short directory pages keep the main index easy to browse. */
+.pagination{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:26px 0 0;font-size:13px}
+.pagination[hidden]{display:none}
+.pagination button{border:1px solid var(--ink);background:transparent;color:var(--ink);padding:11px 19px;cursor:pointer;font:inherit}
+.pagination button:hover:not(:disabled){background:var(--ink);color:var(--paper)}
+.pagination button:disabled{opacity:.26;cursor:default}
+.pagination span{color:var(--muted)}
+@media(max-width:700px){.pagination{gap:10px}.pagination button{padding:10px 13px}}
