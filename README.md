@@ -67,7 +67,7 @@ Design Reservoir is an academic-facing knowledge resource spanning **futures / f
 - Prefer identifiable publishers, original research or primary-source documentation, specific learning/research value, clear provenance, and working public URLs.
 - Evaluate submitted links as candidates: do not add everything received. Assess academic/research relevance, current operation, and whether an existing entry already covers the same resource.
 - Distinguish verified official websites from independently validated academic findings; a working website alone is not evidence of research quality.
-- Treat commercial/paid directories transparently, including eligibility, membership, or editorial-selection conditions.
+- Treat commercial/paid directories transparently, including eligibility, membership, or editorial-selection requirements.
 - Keep permanent research records distinct from date-sensitive events and expiring competitions or calls. Remove completed or cancelled items from the **active events calendar**, preserving earlier states in Git history.
 - Keep a recurring institution or festival only while current operation can be established; when its most recent edition has ended, do not describe that edition as upcoming.
 - Do not add an inactive or superseded institution merely because its historic name appears on another index.
@@ -79,7 +79,7 @@ Design Reservoir is an academic-facing knowledge resource spanning **futures / f
 - Editorial checks of cancellations, replacements, new findings, classification quality, and evidence of continuing operation remain necessary: URL health alone cannot prove an event is happening.
 - Preserve original references, publisher credit and licensing constraints; the dataset has no blanket open license.
 
-## Files you may actually care about
+## Repository files
 
 - [`data/resources.csv`](data/resources.csv): the active directory in a spreadsheet-like table
 - [`research-tools/index.html`](research-tools/index.html): dedicated research-tool directory filtered by scholarly workflow
