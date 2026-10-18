@@ -8,7 +8,7 @@ The repository is the source of truth. The human-readable master table lives in 
 
 ## Current status
 
-- **262 active research and reference resource records**, including **34 research tools** classified by research workflow
+- **261 active research and reference resource records**, including **34 research tools** classified by research workflow
 - **365 classified Design Atlas entries** across ten families, with two practices intentionally appearing in more than one family in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **78 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
@@ -20,15 +20,9 @@ The repository is the source of truth. The human-readable master table lives in 
 - a daily workflow removes dated events from the active calendar after their end date; previous records remain accessible through Git history
 - completed annual festival editions are labelled as concluded until a future edition has been confirmed
 
-## Ongoing research inquiries
+## Design ecosystems research
 
-The Reservoir now contains two interpretive research pages alongside its browsable indexes:
-
-- [Design Ecosystems](design-ecosystems/): a framework for studying design culture, relationships, systemic gaps, infrastructure, participation and change through time.
-- [Knowledge of Design](design-knowledge/): a framework for examining how inquiry, STEAM, making, futures, life-centric thinking and GLAM contribute to design knowledge.
-- [Research inquiry register](data/research-inquiries.csv): seventeen questions with evidence approaches, research status and source basis. The register distinguishes published conceptual frameworks from developing hypotheses and ongoing empirical research.
-
-The pages synthesize relevant public research from the Knowledge of Design archive and the intellectual framework and research agenda developed in 2026. They do not publish confidential participant testimony or present untested propositions as universal measurements. They are housed in Design Reservoir, while the separate [Knowledge of Design archive](https://brandiejanow.github.io/Knowledge-of-Design/) remains the source for the complete public original publications and session records.
+The [Design Ecosystems](design-ecosystems/) page develops an evidence-led research framework for examining relationships, institutions, production capacity, access and the continuity of design practice. Its [research register](data/research-inquiries.csv) distinguishes documented conceptual work from open questions. The [Knowledge of Design original archive](https://brandiejanow.github.io/Knowledge-of-Design/) remains an independent primary resource in the directory, not a duplicate section of Design Reservoir.
 
 ## Research tools and scholarly workflows
 
