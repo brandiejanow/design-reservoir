@@ -1,13 +1,14 @@
 {
-  "audit_date_utc": "2026-10-17",
+  "audit_date_utc": "2026-10-18",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 442,
-  "unique_requests": 419,
+  "total_records_tested": 492,
+  "unique_requests": 430,
   "states": {
-    "ok": 415,
-    "restricted": 15,
-    "redirect": 11,
+    "ok": 456,
+    "restricted": 19,
+    "redirect": 12,
+    "unreachable": 4,
     "needs-review": 1
   },
   "items": [
@@ -34,6 +35,22 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.acementor.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "ACM Digital Library",
+      "url": "https://dl.acm.org/",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
+      "name": "ACM SIGCHI",
+      "url": "https://sigchi.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://sigchi.org/"
     },
     {
       "collection": "resources",
@@ -205,19 +222,19 @@
     },
     {
       "collection": "resources",
-      "name": "ATypI: Association Typographique Internationale",
-      "url": "https://atypi.org/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://atypi.org/"
-    },
-    {
-      "collection": "resources",
       "name": "ATypI Conference",
       "url": "https://atypi.org/conferences-events/",
       "state": "ok",
       "http_status": 200,
       "final_url": "https://atypi.org/conferences-events/"
+    },
+    {
+      "collection": "resources",
+      "name": "ATypI: Association Typographique Internationale",
+      "url": "https://atypi.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://atypi.org/"
     },
     {
       "collection": "resources",
@@ -397,6 +414,14 @@
     },
     {
       "collection": "resources",
+      "name": "Copenhagen Institute of Interaction Design (CIID)",
+      "url": "https://www.ciid.dk/interaction-design-programme",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ciid.dk/interaction-design-programme"
+    },
+    {
+      "collection": "resources",
       "name": "CORE Open Access Research",
       "url": "https://core.ac.uk/",
       "state": "ok",
@@ -477,6 +502,14 @@
     },
     {
       "collection": "resources",
+      "name": "DARIAH-EU",
+      "url": "https://www.dariah.eu/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.dariah.eu/"
+    },
+    {
+      "collection": "resources",
       "name": "Datawrapper",
       "url": "https://www.datawrapper.de/",
       "state": "ok",
@@ -498,13 +531,6 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.decorex.com/"
-    },
-    {
-      "collection": "resources",
-      "name": "Design Atlas",
-      "url": "./atlas/",
-      "state": "ok",
-      "http_status": 200
     },
     {
       "collection": "resources",
@@ -604,6 +630,14 @@
     },
     {
       "collection": "resources",
+      "name": "Design Science (Cambridge University Press)",
+      "url": "https://www.cambridge.org/core/journals/design-science",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.cambridge.org/core/journals/design-science"
+    },
+    {
+      "collection": "resources",
       "name": "Design Shanghai",
       "url": "https://www.designshanghai.com/shanghai-homepage",
       "state": "ok",
@@ -676,6 +710,14 @@
     },
     {
       "collection": "resources",
+      "name": "Digital Public Library of America (DPLA)",
+      "url": "https://dp.la/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://dp.la/"
+    },
+    {
+      "collection": "resources",
       "name": "Directory of Open Access Journals (DOAJ)",
       "url": "https://doaj.org/",
       "state": "restricted",
@@ -729,6 +771,22 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://knowledge-for-policy.ec.europa.eu/foresight/tool/megatrends-hub_en"
+    },
+    {
+      "collection": "resources",
+      "name": "European Partnership for Resilient Cultural Heritage (RCH)",
+      "url": "https://www.heritageresearch-hub.eu/european-partnership-for-resilient-cultural-heritage/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.heritageresearch-hub.eu/european-partnership-for-resilient-cultural-heritage/"
+    },
+    {
+      "collection": "resources",
+      "name": "Europeana for Research",
+      "url": "https://www.europeana.eu/en/research",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
     },
     {
       "collection": "resources",
@@ -804,6 +862,14 @@
     },
     {
       "collection": "resources",
+      "name": "Getty Research Institute",
+      "url": "https://www.getty.edu/research-institute/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.getty.edu/research-institute/"
+    },
+    {
+      "collection": "resources",
       "name": "GitHub",
       "url": "https://github.com/",
       "state": "ok",
@@ -822,9 +888,9 @@
       "collection": "resources",
       "name": "Google Scholar",
       "url": "https://scholar.google.com/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://scholar.google.com/"
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
     },
     {
       "collection": "resources",
@@ -857,6 +923,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.ideou.com/pages/design-thinking-resources"
+    },
+    {
+      "collection": "resources",
+      "name": "IEEE Xplore Digital Library",
+      "url": "https://ieeexplore.ieee.org/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://ieeexplore.ieee.org/Xplore/home.jsp"
     },
     {
       "collection": "resources",
@@ -935,7 +1009,7 @@
       "name": "International Federation of Interior Architects/Designers (IFI)",
       "url": "https://ifiworld.org/",
       "state": "ok",
-      "http_status": 202,
+      "http_status": 200,
       "final_url": "https://ifiworld.org/"
     },
     {
@@ -945,6 +1019,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://iida.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "International Journal of Design",
+      "url": "https://www.ijdesign.org/index.php/IJDesign",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ijdesign.org/index.php/IJDesign"
     },
     {
       "collection": "resources",
@@ -1108,6 +1190,14 @@
     },
     {
       "collection": "resources",
+      "name": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://ocw.mit.edu/"
+    },
+    {
+      "collection": "resources",
       "name": "ML+ DESIGN",
       "url": "https://machinelearning.design/",
       "state": "ok",
@@ -1180,11 +1270,27 @@
     },
     {
       "collection": "resources",
+      "name": "NASA Open Science",
+      "url": "https://science.nasa.gov/open-science/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://science.nasa.gov/open-science/"
+    },
+    {
+      "collection": "resources",
       "name": "NASA STEM Learning Resources",
       "url": "https://www.nasa.gov/learning-resources/",
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.nasa.gov/learning-resources/"
+    },
+    {
+      "collection": "resources",
+      "name": "National Center for Science and Engineering Statistics (NCSES)",
+      "url": "https://ncses.nsf.gov/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://ncses.nsf.gov/"
     },
     {
       "collection": "resources",
@@ -1209,6 +1315,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.newdesigners.com/"
+    },
+    {
+      "collection": "resources",
+      "name": "NIST AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nist.gov/itl/ai-risk-management-framework"
     },
     {
       "collection": "resources",
@@ -1476,6 +1590,14 @@
     },
     {
       "collection": "resources",
+      "name": "Smithsonian Open Access",
+      "url": "https://www.si.edu/openaccess",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
       "name": "Society for Experiential Graphic Design (SEGD)",
       "url": "https://segd.org/",
       "state": "ok",
@@ -1633,6 +1755,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://store.swissinnovation.academy/"
+    },
+    {
+      "collection": "resources",
+      "name": "The World in 2050: Global UNESCO Chair Lecture Series",
+      "url": "https://www.eurac.edu/en/unesco-chair/unesco-lehrstuhl/the-world-in-2050-designing-global-futures",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.eurac.edu/en/unesco-chair/unesco-lehrstuhl/the-world-in-2050-designing-global-futures"
     },
     {
       "collection": "resources",
@@ -1958,9 +2088,9 @@
       "collection": "design-weeks",
       "name": "Bangkok Design Week",
       "url": "https://www.bangkokdesignweek.com/bkkdw2027",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.bangkokdesignweek.com/bkkdw2027"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "design-weeks",
@@ -2199,7 +2329,7 @@
       "name": "Galicia Design Week",
       "url": "https://gdw.gal/",
       "state": "ok",
-      "http_status": 202,
+      "http_status": 200,
       "final_url": "https://gdw.gal/"
     },
     {
@@ -2254,9 +2384,9 @@
       "collection": "design-weeks",
       "name": "Isan Creative Festival",
       "url": "https://www.isancreativefestival.com/en/isancf2026",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.isancreativefestival.com/en/isancf2026"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "design-weeks",
@@ -2391,7 +2521,7 @@
       "name": "Pan Afrikan Design Week",
       "url": "https://thepadi.org/adw2026sa/",
       "state": "ok",
-      "http_status": 202,
+      "http_status": 200,
       "final_url": "https://thepadi.org/adw2026sa/"
     },
     {
@@ -2518,9 +2648,9 @@
       "collection": "design-weeks",
       "name": "Venice Design Week",
       "url": "https://www.venicedesignweek.com/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.venicedesignweek.com/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "design-weeks",
@@ -2548,11 +2678,11 @@
     },
     {
       "collection": "events",
-      "name": "Sandoll SAISIOT 2026",
-      "url": "https://www.sandollcloud.com/saisiot",
+      "name": "Global UNESCO Chair Lecture Series IV: The World in 2050",
+      "url": "https://www.eurac.edu/en/unesco-chair/unesco-lehrstuhl/the-world-in-2050-designing-global-futures",
       "state": "ok",
       "http_status": 200,
-      "final_url": "https://www.sandollcloud.com/saisiot"
+      "final_url": "https://www.eurac.edu/en/unesco-chair/unesco-lehrstuhl/the-world-in-2050-designing-global-futures"
     },
     {
       "collection": "events",
@@ -2703,16 +2833,16 @@
       "name": "CoMuseum Futures 2026",
       "url": "https://thecomuseum.org/conference/comuseum-2026/",
       "state": "ok",
-      "http_status": 202,
+      "http_status": 200,
       "final_url": "https://thecomuseum.org/conference/comuseum-2026/"
     },
     {
       "collection": "events",
       "name": "Bangkok Design Week 2027: Design to Last",
       "url": "https://www.bangkokdesignweek.com/bkkdw2027",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.bangkokdesignweek.com/bkkdw2027"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "events",
@@ -2918,7 +3048,7 @@
     {
       "collection": "page-link",
       "name": "index.html",
-      "url": "./research-tools/",
+      "url": "./about/",
       "context": "index.html",
       "state": "ok",
       "http_status": 200
@@ -2950,7 +3080,39 @@
     {
       "collection": "page-link",
       "name": "index.html",
-      "url": "./futures/",
+      "url": "./",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./about/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./atlas/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./design-weeks/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./events/",
       "context": "index.html",
       "state": "ok",
       "http_status": 200
@@ -2963,48 +3125,6 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.brandiejanow.com/"
-    },
-    {
-      "collection": "page-link",
-      "name": "index.html",
-      "url": "https://www.brandiejanow.com/",
-      "context": "index.html",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.brandiejanow.com/"
-    },
-    {
-      "collection": "page-link",
-      "name": "index.html",
-      "url": "./research-tools/",
-      "context": "index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "index.html",
-      "url": "./?type=Design%20Week",
-      "context": "index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "index.html",
-      "url": "./events/?category=Design%20Week",
-      "context": "index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "index.html",
-      "url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html",
-      "context": "index.html",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html"
     },
     {
       "collection": "page-link",
@@ -3059,7 +3179,7 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
-      "url": "../research-tools/",
+      "url": "../about/",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200
@@ -3075,7 +3195,7 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
-      "url": "./",
+      "url": "../design-weeks/",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200
@@ -3091,7 +3211,39 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
-      "url": "../futures/",
+      "url": "../",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../about/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../atlas/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../design-weeks/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../events/",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200
@@ -3166,7 +3318,7 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
-      "url": "../research-tools/",
+      "url": "../about/",
       "context": "events/index.html",
       "state": "ok",
       "http_status": 200
@@ -3190,7 +3342,7 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
-      "url": "./",
+      "url": "../events/",
       "context": "events/index.html",
       "state": "ok",
       "http_status": 200
@@ -3198,7 +3350,39 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
-      "url": "../futures/",
+      "url": "../",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../about/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../atlas/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../design-weeks/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../events/",
       "context": "events/index.html",
       "state": "ok",
       "http_status": 200
@@ -3211,40 +3395,6 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.brandiejanow.com/"
-    },
-    {
-      "collection": "page-link",
-      "name": "events/index.html",
-      "url": "https://www.brandiejanow.com/",
-      "context": "events/index.html",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.brandiejanow.com/"
-    },
-    {
-      "collection": "page-link",
-      "name": "events/index.html",
-      "url": "./?category=Design%20Week",
-      "context": "events/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "events/index.html",
-      "url": "./?category=Futures%20%26%20Foresight",
-      "context": "events/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "events/index.html",
-      "url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html",
-      "context": "events/index.html",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html"
     },
     {
       "collection": "page-link",
@@ -3289,7 +3439,7 @@
     {
       "collection": "page-link",
       "name": "futures/index.html",
-      "url": "../research-tools/",
+      "url": "../about/",
       "context": "futures/index.html",
       "state": "ok",
       "http_status": 200
@@ -3321,7 +3471,39 @@
     {
       "collection": "page-link",
       "name": "futures/index.html",
-      "url": "./",
+      "url": "../",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../about/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../atlas/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../design-weeks/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../events/",
       "context": "futures/index.html",
       "state": "ok",
       "http_status": 200
@@ -3396,7 +3578,7 @@
     {
       "collection": "page-link",
       "name": "research-tools/index.html",
-      "url": "../research-tools/",
+      "url": "../about/",
       "context": "research-tools/index.html",
       "state": "ok",
       "http_status": 200
@@ -3428,7 +3610,39 @@
     {
       "collection": "page-link",
       "name": "research-tools/index.html",
-      "url": "../futures/",
+      "url": "../",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../about/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../atlas/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../design-weeks/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../events/",
       "context": "research-tools/index.html",
       "state": "ok",
       "http_status": 200
@@ -3468,6 +3682,161 @@
     },
     {
       "collection": "page-link",
+      "name": "about/index.html",
+      "url": "https://brandiejanow.github.io/design-reservoir/about/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/design-reservoir/about/"
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../styles.css",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../about/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../atlas/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../design-weeks/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../events/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../about/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../atlas/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../design-weeks/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../events/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../atlas/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../design-weeks/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../events/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "about/index.html",
+      "url": "../",
+      "context": "about/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
       "name": "atlas/index.html",
       "url": "../styles.css",
       "context": "atlas/index.html",
@@ -3493,7 +3862,7 @@
     {
       "collection": "page-link",
       "name": "atlas/index.html",
-      "url": "../research-tools/",
+      "url": "../about/",
       "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
@@ -3501,7 +3870,7 @@
     {
       "collection": "page-link",
       "name": "atlas/index.html",
-      "url": "./",
+      "url": "../atlas/",
       "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
@@ -3525,7 +3894,39 @@
     {
       "collection": "page-link",
       "name": "atlas/index.html",
-      "url": "../futures/",
+      "url": "../",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../about/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../atlas/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../design-weeks/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../events/",
       "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
