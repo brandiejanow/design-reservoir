@@ -1,0 +1,38 @@
+name: Suggest a resource
+description: Recommend a research resource for editorial review.
+title: "[Resource suggestion] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Design Reservoir is an independently curated research directory. Suggestions are assessed for research relevance, provenance, current operation and overlap with existing records.
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: Official organization, publication, archive or tool name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official website or source URL
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance to research
+      description: Explain how the source supports design, STEAM, GLAM, futures, scholarship or professional inquiry.
+      placeholder: What can a researcher learn or do using this source?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Context or supporting evidence
+      description: Publisher, research output, access requirements, dates, or other useful context.
+    validations:
+      required: false
