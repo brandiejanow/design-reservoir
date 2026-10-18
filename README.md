@@ -32,7 +32,7 @@ The [Research Tools Index](research-tools/) is curated around scholarly discover
 
 **Browse by page or resource type**
 
-The top navigation contains pages only: About, Design Atlas, Design Weeks, and Events Calendar. Research tools, academic journals, archives and other record types belong to the filters in the main index. The Design Atlas page is no longer counted as its own resource record.
+The top navigation contains pages only: Design Atlas, Design Weeks, and Events Calendar. Research tools, academic journals, archives and other record types belong to the filters in the main index. The Design Atlas page is no longer counted as its own resource record.
 
 **Browsable keyword filters**
 
@@ -79,7 +79,6 @@ Design Reservoir is an academic-facing knowledge resource spanning **futures / f
 - [`data/almanac-import-manifest.csv`](data/almanac-import-manifest.csv): what from the Almanac went where
 - [`data/almanac-review.csv`](data/almanac-review.csv): items intentionally held from the Almanac
 - [`data/curation-review.csv`](data/curation-review.csv): screened submissions and obsolete or unconfirmed resources, with reasons and next actions
-- [`about/index.html`](about/index.html): concise About page
 - [`index.html`](index.html): public Design Reservoir webpage
 - [`events/index.html`](events/index.html): date-organized Events Calendar
 
