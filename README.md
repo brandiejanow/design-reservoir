@@ -101,3 +101,7 @@ No open license has been applied yet. Please do not republish the dataset wholes
 ## Editorial writing style
 
 Do not use em dashes in website copy, research writing, public data labels, metadata, or documentation. Use commas, colons, parentheses, or full stops as appropriate. Preserve the intended meaning and source attribution when revising historical text. Treat this as the standard for future updates.
+
+## Related projects
+
+Brandie Janow also founded [Knowledge of Design](https://brandiejanow.github.io/Knowledge-of-Design/), a distinct interdisciplinary research initiative, and publishes [Saudi Creative Economy](https://brandiejanow.github.io/Saudi-Creative-Ecosystem-Observatory/), an independent research study.
