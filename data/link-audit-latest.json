@@ -2,13 +2,13 @@
   "audit_date_utc": "2026-10-18",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 485,
-  "unique_requests": 429,
+  "total_records_tested": 472,
+  "unique_requests": 427,
   "states": {
-    "ok": 450,
+    "ok": 438,
     "restricted": 21,
     "redirect": 12,
-    "unreachable": 2
+    "temporary-error": 1
   },
   "items": [
     {
@@ -1959,9 +1959,9 @@
       "collection": "resources",
       "name": "World Design Organization",
       "url": "https://wdo.org/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://wdo.org/"
     },
     {
       "collection": "resources",
@@ -1999,9 +1999,9 @@
       "collection": "resources",
       "name": "World Industrial Design Day",
       "url": "https://wdo.org/programmes/widd/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://wdo.org/programmes/widd/"
     },
     {
       "collection": "resources",
@@ -2087,9 +2087,9 @@
       "collection": "resources",
       "name": "ZⓈONAMACO DISEÑO",
       "url": "https://zsonamaco.com/zsonamaco-diseno/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://zsonamaco.com/zsonamaco-diseno/"
+      "state": "temporary-error",
+      "http_status": 500,
+      "detail": "HTTP 500"
     },
     {
       "collection": "design-weeks",
@@ -3062,6 +3062,14 @@
     {
       "collection": "page-link",
       "name": "index.html",
+      "url": "./assets/favicon.png",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
       "url": "https://brandiejanow.github.io/design-reservoir/",
       "context": "index.html",
       "state": "ok",
@@ -3178,6 +3186,14 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
+      "url": "../assets/favicon.png",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
       "url": "../styles.css",
       "context": "design-weeks/index.html",
       "state": "ok",
@@ -3286,6 +3302,14 @@
       "name": "design-weeks/index.html",
       "url": "./app.js?v=20261017e",
       "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../assets/favicon.png",
+      "context": "events/index.html",
       "state": "ok",
       "http_status": 200
     },
@@ -3406,6 +3430,14 @@
     {
       "collection": "page-link",
       "name": "futures/index.html",
+      "url": "../assets/favicon.png",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
       "url": "../styles.css",
       "context": "futures/index.html",
       "state": "ok",
@@ -3514,6 +3546,14 @@
       "name": "futures/index.html",
       "url": "./app.js?v=20261017a",
       "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../assets/favicon.png",
+      "context": "research-tools/index.html",
       "state": "ok",
       "http_status": 200
     },
@@ -3641,156 +3681,9 @@
     },
     {
       "collection": "page-link",
-      "name": "about/index.html",
-      "url": "https://brandiejanow.github.io/design-reservoir/about/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://brandiejanow.github.io/design-reservoir/about/"
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../styles.css",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../about/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../atlas/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../design-weeks/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../events/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../about/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../atlas/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../design-weeks/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../events/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "https://www.brandiejanow.com/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.brandiejanow.com/"
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../atlas/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../design-weeks/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../events/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "https://www.brandiejanow.com/",
-      "context": "about/index.html",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.brandiejanow.com/"
-    },
-    {
-      "collection": "page-link",
-      "name": "about/index.html",
-      "url": "../",
-      "context": "about/index.html",
+      "name": "atlas/index.html",
+      "url": "../assets/favicon.png",
+      "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
     },
