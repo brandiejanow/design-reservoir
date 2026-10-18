@@ -4,12 +4,12 @@ A curated academic-facing research index across design, futures and foresight, a
 
 **Design Reservoir** began as a manually maintained collection created by [Brandie Janow](https://brandiejanow.com/) before ChatGPT existed. In 2026, the collection moved from spreadsheets and Airtable into GitHub so it could become a maintained, searchable, versioned public resource.
 
-The repository is the source of truth. The human-readable master table lives in [`data/resources.csv`](data/resources.csv), and the public interface is generated from that file. The dedicated [Research Tools Index](research-tools/) displays the curated research tools through workflow filters.
+The repository is the source of truth. The human-readable master table lives in [`data/resources.csv`](data/resources.csv), and the public interface is generated from that file. Research tools are selected from the main directory using **Resource type → Research Tool**. The separate research-tools page remains available for direct links but is not part of the main navigation.
 
 ## Current status
 
-- **242 active research and reference resource records**, including **34 research tools** classified by research workflow
-- **hundreds of design disciplines** from *The Design Almanac 2026* in the searchable [Design Atlas](atlas/)
+- **255 active research and reference resource records**, including **34 research tools** classified by research workflow
+- **365 classified Design Atlas entries** across ten families, with two practices intentionally appearing in more than one family in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **78 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
 - **43 current or forthcoming dated global events** across design, futures and foresight in the [Events Calendar](events/), including Texas Design Week Dallas; the calendar also includes a searchable directory of recurring Design Weeks
@@ -30,6 +30,10 @@ The [Research Tools Index](research-tools/) is curated around scholarly discover
 - New candidates require review of their original provider documentation and a demonstrable research use; tools that are discontinued, unverifiable, overly narrow or duplicative should not automatically remain active.
 
 
+**Browse by page or resource type**
+
+The top navigation contains pages only: About, Design Atlas, Design Weeks, and Events Calendar. Research tools, academic journals, archives and other record types belong to the filters in the main index. The Design Atlas page is no longer counted as its own resource record.
+
 **Browsable keyword filters**
 
 The general and design-week directories preserve original source keywords for full-text searching but show a compact selection of recurring topics in their dropdowns. This prevents hundreds of one-off keywords from overwhelming users without hiding those topics from search.
@@ -40,7 +44,7 @@ The revised *Design Almanac 2026* is treated as a source for the Reservoir, not 
 
 The full import accounting is documented in [`data/almanac-import-manifest.csv`](data/almanac-import-manifest.csv).
 
-The ten-family Design Atlas is preserved separately as structured data in [`data/design-atlas.csv`](data/design-atlas.csv), containing the full discipline map.
+The ten-family Design Atlas is preserved separately as structured data in [`data/design-atlas.csv`](data/design-atlas.csv). It retains the Almanac classification and records later reviewed additions with source labels.
 
 ## What belongs here
 
@@ -75,6 +79,7 @@ Design Reservoir is an academic-facing knowledge resource spanning **futures / f
 - [`data/almanac-import-manifest.csv`](data/almanac-import-manifest.csv): what from the Almanac went where
 - [`data/almanac-review.csv`](data/almanac-review.csv): items intentionally held from the Almanac
 - [`data/curation-review.csv`](data/curation-review.csv): screened submissions and obsolete or unconfirmed resources, with reasons and next actions
+- [`about/index.html`](about/index.html): concise About page
 - [`index.html`](index.html): public Design Reservoir webpage
 - [`events/index.html`](events/index.html): date-organized Events Calendar
 
