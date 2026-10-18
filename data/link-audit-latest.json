@@ -2,12 +2,13 @@
   "audit_date_utc": "2026-10-18",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 497,
-  "unique_requests": 435,
+  "total_records_tested": 485,
+  "unique_requests": 429,
   "states": {
-    "ok": 464,
+    "ok": 450,
     "restricted": 21,
-    "redirect": 12
+    "redirect": 12,
+    "unreachable": 2
   },
   "items": [
     {
@@ -1958,9 +1959,9 @@
       "collection": "resources",
       "name": "World Design Organization",
       "url": "https://wdo.org/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://wdo.org/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "resources",
@@ -1998,9 +1999,9 @@
       "collection": "resources",
       "name": "World Industrial Design Day",
       "url": "https://wdo.org/programmes/widd/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://wdo.org/programmes/widd/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "resources",
@@ -3086,14 +3087,6 @@
     {
       "collection": "page-link",
       "name": "index.html",
-      "url": "./about/",
-      "context": "index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "index.html",
       "url": "./atlas/",
       "context": "index.html",
       "state": "ok",
@@ -3119,14 +3112,6 @@
       "collection": "page-link",
       "name": "index.html",
       "url": "./",
-      "context": "index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "index.html",
-      "url": "./about/",
       "context": "index.html",
       "state": "ok",
       "http_status": 200
@@ -3217,14 +3202,6 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
-      "url": "../about/",
-      "context": "design-weeks/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-weeks/index.html",
       "url": "../atlas/",
       "context": "design-weeks/index.html",
       "state": "ok",
@@ -3250,14 +3227,6 @@
       "collection": "page-link",
       "name": "design-weeks/index.html",
       "url": "../",
-      "context": "design-weeks/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-weeks/index.html",
-      "url": "../about/",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200
@@ -3356,14 +3325,6 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
-      "url": "../about/",
-      "context": "events/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "events/index.html",
       "url": "../atlas/",
       "context": "events/index.html",
       "state": "ok",
@@ -3389,14 +3350,6 @@
       "collection": "page-link",
       "name": "events/index.html",
       "url": "../",
-      "context": "events/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "events/index.html",
-      "url": "../about/",
       "context": "events/index.html",
       "state": "ok",
       "http_status": 200
@@ -3477,14 +3430,6 @@
     {
       "collection": "page-link",
       "name": "futures/index.html",
-      "url": "../about/",
-      "context": "futures/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "futures/index.html",
       "url": "../atlas/",
       "context": "futures/index.html",
       "state": "ok",
@@ -3510,14 +3455,6 @@
       "collection": "page-link",
       "name": "futures/index.html",
       "url": "../",
-      "context": "futures/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "futures/index.html",
-      "url": "../about/",
       "context": "futures/index.html",
       "state": "ok",
       "http_status": 200
@@ -3616,14 +3553,6 @@
     {
       "collection": "page-link",
       "name": "research-tools/index.html",
-      "url": "../about/",
-      "context": "research-tools/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "research-tools/index.html",
       "url": "../atlas/",
       "context": "research-tools/index.html",
       "state": "ok",
@@ -3649,14 +3578,6 @@
       "collection": "page-link",
       "name": "research-tools/index.html",
       "url": "../",
-      "context": "research-tools/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "research-tools/index.html",
-      "url": "../about/",
       "context": "research-tools/index.html",
       "state": "ok",
       "http_status": 200
@@ -3900,14 +3821,6 @@
     {
       "collection": "page-link",
       "name": "atlas/index.html",
-      "url": "../about/",
-      "context": "atlas/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "atlas/index.html",
       "url": "../atlas/",
       "context": "atlas/index.html",
       "state": "ok",
@@ -3933,14 +3846,6 @@
       "collection": "page-link",
       "name": "atlas/index.html",
       "url": "../",
-      "context": "atlas/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "atlas/index.html",
-      "url": "../about/",
       "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
