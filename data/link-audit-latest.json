@@ -5,19 +5,19 @@
   "total_records_tested": 498,
   "unique_requests": 449,
   "states": {
-    "unreachable": 11,
-    "ok": 454,
+    "ok": 464,
     "restricted": 20,
-    "redirect": 13
+    "redirect": 13,
+    "unreachable": 1
   },
   "items": [
     {
       "collection": "resources",
       "name": "21_21 DESIGN SIGHT",
       "url": "https://www.2121designsight.jp/en/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.2121designsight.jp/en/"
     },
     {
       "collection": "resources",
@@ -495,17 +495,17 @@
       "collection": "resources",
       "name": "Cumulus Association",
       "url": "https://cumulusassociation.org/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/"
     },
     {
       "collection": "resources",
       "name": "Cumulus Conference",
       "url": "https://cumulusassociation.org/events/cumulus-conferences",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/events/cumulus-conferences"
     },
     {
       "collection": "resources",
@@ -623,9 +623,9 @@
       "collection": "resources",
       "name": "Design Mumbai",
       "url": "https://designmumbai.com/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designmumbai.com/"
     },
     {
       "collection": "resources",
@@ -2319,9 +2319,9 @@
       "collection": "design-weeks",
       "name": "DESIGNTIDE TOKYO",
       "url": "https://designtide.tokyo/en/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designtide.tokyo/en/"
     },
     {
       "collection": "design-weeks",
@@ -2359,9 +2359,9 @@
       "collection": "design-weeks",
       "name": "DW! São Paulo Design Week",
       "url": "https://dwsemanadedesign.com.br/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://dwsemanadedesign.com.br/"
     },
     {
       "collection": "design-weeks",
@@ -2847,9 +2847,9 @@
       "collection": "events",
       "name": "Cumulus Dunedin 2026: Design at the End of the Earth",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-dunedin-2026-design-at-the-end-of-the-earth/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-dunedin-2026-design-at-the-end-of-the-earth/"
     },
     {
       "collection": "events",
@@ -2887,9 +2887,9 @@
       "collection": "events",
       "name": "DW! São Paulo Design Week 2027",
       "url": "https://dwsemanadedesign.com.br/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://dwsemanadedesign.com.br/"
     },
     {
       "collection": "events",
@@ -2991,9 +2991,9 @@
       "collection": "events",
       "name": "Cumulus Glasgow 2027: Life After Limits",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-glasgow-2027-life-after-limits-creative-practices-for-the-21st-century/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-glasgow-2027-life-after-limits-creative-practices-for-the-21st-century/"
     },
     {
       "collection": "events",
@@ -3055,9 +3055,9 @@
       "collection": "events",
       "name": "Cumulus Rio 2027: The Shifting Patterns of Design Diversity",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-rio-2027-shifting-patterns-of-design-diversity/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-rio-2027-shifting-patterns-of-design-diversity/"
     },
     {
       "collection": "page-link",
