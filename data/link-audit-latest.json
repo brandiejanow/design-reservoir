@@ -2,11 +2,11 @@
   "audit_date_utc": "2026-10-18",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 472,
-  "unique_requests": 427,
+  "total_records_tested": 530,
+  "unique_requests": 468,
   "states": {
-    "ok": 440,
-    "restricted": 20,
+    "ok": 499,
+    "restricted": 19,
     "redirect": 12
   },
   "items": [
@@ -588,6 +588,14 @@
     },
     {
       "collection": "resources",
+      "name": "Design Ecosystems: Research Inquiry",
+      "url": "https://brandiejanow.github.io/design-reservoir/design-ecosystems/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/design-reservoir/design-ecosystems/"
+    },
+    {
+      "collection": "resources",
       "name": "Design History Society",
       "url": "https://www.designhistorysociety.org/",
       "state": "ok",
@@ -1121,6 +1129,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/index.html"
+    },
+    {
+      "collection": "resources",
+      "name": "Knowledge of Design: Research Inquiry",
+      "url": "https://brandiejanow.github.io/design-reservoir/design-knowledge/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/design-reservoir/design-knowledge/"
     },
     {
       "collection": "resources",
@@ -2918,9 +2934,9 @@
       "collection": "events",
       "name": "Foresight Practitioner Conference 2027",
       "url": "https://forecasters.org/events/foresight-practitioner-conference-2027/",
-      "state": "restricted",
-      "http_status": 403,
-      "detail": "HTTP 403"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://forecasters.org/events/foresight-practitioner-conference-2027/"
     },
     {
       "collection": "events",
@@ -3078,7 +3094,7 @@
     {
       "collection": "page-link",
       "name": "index.html",
-      "url": "./styles.css?v=20261017e",
+      "url": "./styles.css?v=20261018inquiries",
       "context": "index.html",
       "state": "ok",
       "http_status": 200
@@ -3119,6 +3135,22 @@
       "collection": "page-link",
       "name": "index.html",
       "url": "./",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./design-ecosystems/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./design-knowledge/",
       "context": "index.html",
       "state": "ok",
       "http_status": 200
@@ -3155,6 +3187,22 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./design-ecosystems/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./design-knowledge/",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
     },
     {
       "collection": "page-link",
@@ -3177,8 +3225,180 @@
     {
       "collection": "page-link",
       "name": "index.html",
-      "url": "./app.js?v=20261017e",
+      "url": "./app.js?v=20261018inquiries",
       "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "https://brandiejanow.github.io/design-reservoir/design-knowledge/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/design-reservoir/design-knowledge/"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../assets/favicon.png",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../styles.css",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../research-subjects/styles.css",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../atlas/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../design-weeks/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../events/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../design-ecosystems/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../design-knowledge/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../atlas/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../design-weeks/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../events/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../?q=GLAM",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/research.html",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/research.html"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/making-a-design-culture.html",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/making-a-design-culture.html"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../atlas/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../design-ecosystems/",
+      "context": "design-knowledge/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-knowledge/index.html",
+      "url": "../",
+      "context": "design-knowledge/index.html",
       "state": "ok",
       "http_status": 200
     },
@@ -3242,6 +3462,22 @@
       "collection": "page-link",
       "name": "design-weeks/index.html",
       "url": "../",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../design-ecosystems/",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../design-knowledge/",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200
@@ -3324,7 +3560,7 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
-      "url": "../styles.css?v=20261017e",
+      "url": "../styles.css?v=20261018inquiries",
       "context": "events/index.html",
       "state": "ok",
       "http_status": 200
@@ -3332,7 +3568,7 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
-      "url": "./styles.css?v=20261017e",
+      "url": "./styles.css?v=20261018inquiries",
       "context": "events/index.html",
       "state": "ok",
       "http_status": 200
@@ -3373,6 +3609,22 @@
       "collection": "page-link",
       "name": "events/index.html",
       "url": "../",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../design-ecosystems/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
+      "url": "../design-knowledge/",
       "context": "events/index.html",
       "state": "ok",
       "http_status": 200
@@ -3486,6 +3738,22 @@
       "collection": "page-link",
       "name": "futures/index.html",
       "url": "../",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../design-ecosystems/",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../design-knowledge/",
       "context": "futures/index.html",
       "state": "ok",
       "http_status": 200
@@ -3624,6 +3892,22 @@
     {
       "collection": "page-link",
       "name": "research-tools/index.html",
+      "url": "../design-ecosystems/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../design-knowledge/",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
       "url": "../atlas/",
       "context": "research-tools/index.html",
       "state": "ok",
@@ -3675,6 +3959,179 @@
       "name": "research-tools/index.html",
       "url": "./app.js",
       "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "https://brandiejanow.github.io/design-reservoir/design-ecosystems/",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/design-reservoir/design-ecosystems/"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../assets/favicon.png",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../styles.css",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../research-subjects/styles.css",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../atlas/",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../design-weeks/",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../events/",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../design-ecosystems/",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../design-knowledge/",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../atlas/",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../design-weeks/",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../events/",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "https://www.brandiejanow.com/",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.brandiejanow.com/"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/making-a-design-culture.html",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/making-a-design-culture.html"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/making-a-design-culture.html",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/making-a-design-culture.html"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "https://brandiejanow.github.io/Knowledge-of-Design/research.html",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/research.html"
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../design-knowledge/",
+      "context": "design-ecosystems/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-ecosystems/index.html",
+      "url": "../",
+      "context": "design-ecosystems/index.html",
       "state": "ok",
       "http_status": 200
     },
@@ -3738,6 +4195,22 @@
       "collection": "page-link",
       "name": "atlas/index.html",
       "url": "../",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../design-ecosystems/",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../design-knowledge/",
       "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
