@@ -2,14 +2,13 @@
   "audit_date_utc": "2026-10-18",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 519,
-  "unique_requests": 460,
+  "total_records_tested": 504,
+  "unique_requests": 446,
   "states": {
-    "ok": 476,
-    "restricted": 21,
-    "unreachable": 10,
-    "redirect": 11,
-    "needs-review": 1
+    "ok": 471,
+    "restricted": 20,
+    "unreachable": 1,
+    "redirect": 12
   },
   "items": [
     {
@@ -136,9 +135,9 @@
       "collection": "resources",
       "name": "AIGA Design Educators Community",
       "url": "https://educators.aiga.org/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://educators.aiga.org/"
+      "state": "unreachable",
+      "http_status": null,
+      "detail": "URLError; URLError"
     },
     {
       "collection": "resources",
@@ -496,17 +495,17 @@
       "collection": "resources",
       "name": "Cumulus Association",
       "url": "https://cumulusassociation.org/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/"
     },
     {
       "collection": "resources",
       "name": "Cumulus Conference",
       "url": "https://cumulusassociation.org/events/cumulus-conferences",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/events/cumulus-conferences"
     },
     {
       "collection": "resources",
@@ -632,9 +631,9 @@
       "collection": "resources",
       "name": "Design Mumbai",
       "url": "https://designmumbai.com/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designmumbai.com/"
     },
     {
       "collection": "resources",
@@ -928,9 +927,9 @@
       "collection": "resources",
       "name": "Google Scholar",
       "url": "https://scholar.google.com/",
-      "state": "restricted",
-      "http_status": 403,
-      "detail": "HTTP 403"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://scholar.google.com/"
     },
     {
       "collection": "resources",
@@ -968,9 +967,9 @@
       "collection": "resources",
       "name": "IEEE Xplore Digital Library",
       "url": "https://ieeexplore.ieee.org/",
-      "state": "needs-review",
-      "http_status": 418,
-      "detail": "HTTP 418"
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://ieeexplore.ieee.org/Xplore/home.jsp"
     },
     {
       "collection": "resources",
@@ -1049,7 +1048,7 @@
       "name": "International Federation of Interior Architects/Designers (IFI)",
       "url": "https://ifiworld.org/",
       "state": "ok",
-      "http_status": 200,
+      "http_status": 202,
       "final_url": "https://ifiworld.org/"
     },
     {
@@ -1720,9 +1719,9 @@
       "collection": "resources",
       "name": "The Design Kids",
       "url": "https://thedesignkids.org/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://thedesignkids.org/"
     },
     {
       "collection": "resources",
@@ -2368,16 +2367,16 @@
       "collection": "design-weeks",
       "name": "DW! São Paulo Design Week",
       "url": "https://dwsemanadedesign.com.br/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://dwsemanadedesign.com.br/"
     },
     {
       "collection": "design-weeks",
       "name": "Galicia Design Week",
       "url": "https://gdw.gal/",
       "state": "ok",
-      "http_status": 200,
+      "http_status": 202,
       "final_url": "https://gdw.gal/"
     },
     {
@@ -2569,7 +2568,7 @@
       "name": "Pan Afrikan Design Week",
       "url": "https://thepadi.org/adw2026sa/",
       "state": "ok",
-      "http_status": 200,
+      "http_status": 202,
       "final_url": "https://thepadi.org/adw2026sa/"
     },
     {
@@ -2696,9 +2695,9 @@
       "collection": "design-weeks",
       "name": "Venice Design Week",
       "url": "https://www.venicedesignweek.com/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.venicedesignweek.com/"
     },
     {
       "collection": "design-weeks",
@@ -2856,9 +2855,9 @@
       "collection": "events",
       "name": "Cumulus Dunedin 2026: Design at the End of the Earth",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-dunedin-2026-design-at-the-end-of-the-earth/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-dunedin-2026-design-at-the-end-of-the-earth/"
     },
     {
       "collection": "events",
@@ -2881,7 +2880,7 @@
       "name": "CoMuseum Futures 2026",
       "url": "https://thecomuseum.org/conference/comuseum-2026/",
       "state": "ok",
-      "http_status": 200,
+      "http_status": 202,
       "final_url": "https://thecomuseum.org/conference/comuseum-2026/"
     },
     {
@@ -2896,9 +2895,9 @@
       "collection": "events",
       "name": "DW! São Paulo Design Week 2027",
       "url": "https://dwsemanadedesign.com.br/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://dwsemanadedesign.com.br/"
     },
     {
       "collection": "events",
@@ -3000,9 +2999,9 @@
       "collection": "events",
       "name": "Cumulus Glasgow 2027: Life After Limits",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-glasgow-2027-life-after-limits-creative-practices-for-the-21st-century/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-glasgow-2027-life-after-limits-creative-practices-for-the-21st-century/"
     },
     {
       "collection": "events",
@@ -3064,9 +3063,9 @@
       "collection": "events",
       "name": "Cumulus Rio 2027: The Shifting Patterns of Design Diversity",
       "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-rio-2027-shifting-patterns-of-design-diversity/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-rio-2027-shifting-patterns-of-design-diversity/"
     },
     {
       "collection": "page-link",
@@ -3097,6 +3096,14 @@
       "collection": "page-link",
       "name": "index.html",
       "url": "./",
+      "context": "index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "index.html",
+      "url": "./design-ecosystems/",
       "context": "index.html",
       "state": "ok",
       "http_status": 200
@@ -3202,178 +3209,6 @@
     },
     {
       "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "https://brandiejanow.github.io/design-reservoir/design-knowledge/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://brandiejanow.github.io/design-reservoir/design-knowledge/"
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../assets/favicon.png",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../styles.css",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../research-subjects/styles.css",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../atlas/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../design-weeks/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../events/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../design-ecosystems/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../design-knowledge/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../atlas/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../design-weeks/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../events/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "https://www.brandiejanow.com/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://www.brandiejanow.com/"
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../?q=GLAM",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "https://brandiejanow.github.io/Knowledge-of-Design/research.html",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/research.html"
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "https://brandiejanow.github.io/Knowledge-of-Design/making-a-design-culture.html",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://brandiejanow.github.io/Knowledge-of-Design/making-a-design-culture.html"
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../atlas/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../design-ecosystems/",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
-      "name": "design-knowledge/index.html",
-      "url": "../",
-      "context": "design-knowledge/index.html",
-      "state": "ok",
-      "http_status": 200
-    },
-    {
-      "collection": "page-link",
       "name": "design-weeks/index.html",
       "url": "../assets/favicon.png?v=20261018square",
       "context": "design-weeks/index.html",
@@ -3400,6 +3235,14 @@
       "collection": "page-link",
       "name": "design-weeks/index.html",
       "url": "../",
+      "context": "design-weeks/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "design-weeks/index.html",
+      "url": "../design-ecosystems/",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200
@@ -3546,6 +3389,14 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
+      "url": "../design-ecosystems/",
+      "context": "events/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "events/index.html",
       "url": "../atlas/",
       "context": "events/index.html",
       "state": "ok",
@@ -3660,6 +3511,14 @@
       "collection": "page-link",
       "name": "futures/index.html",
       "url": "../",
+      "context": "futures/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "futures/index.html",
+      "url": "../design-ecosystems/",
       "context": "futures/index.html",
       "state": "ok",
       "http_status": 200
@@ -3799,6 +3658,14 @@
       "collection": "page-link",
       "name": "research-tools/index.html",
       "url": "../",
+      "context": "research-tools/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "research-tools/index.html",
+      "url": "../design-ecosystems/",
       "context": "research-tools/index.html",
       "state": "ok",
       "http_status": 200
@@ -4085,6 +3952,14 @@
       "collection": "page-link",
       "name": "atlas/index.html",
       "url": "../",
+      "context": "atlas/index.html",
+      "state": "ok",
+      "http_status": 200
+    },
+    {
+      "collection": "page-link",
+      "name": "atlas/index.html",
+      "url": "../design-ecosystems/",
       "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
