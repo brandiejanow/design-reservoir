@@ -2,14 +2,12 @@
   "audit_date_utc": "2026-10-18",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 492,
-  "unique_requests": 430,
+  "total_records_tested": 497,
+  "unique_requests": 435,
   "states": {
-    "ok": 456,
-    "restricted": 19,
-    "redirect": 12,
-    "unreachable": 4,
-    "needs-review": 1
+    "ok": 464,
+    "restricted": 21,
+    "redirect": 12
   },
   "items": [
     {
@@ -83,6 +81,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://advdes.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Aga Khan Documentation Center at MIT",
+      "url": "https://libraries.mit.edu/akdc/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://libraries.mit.edu/akdc/"
     },
     {
       "collection": "resources",
@@ -182,6 +188,14 @@
     },
     {
       "collection": "resources",
+      "name": "Archnet",
+      "url": "https://www.archnet.org/",
+      "state": "restricted",
+      "http_status": 429,
+      "detail": "HTTP 429"
+    },
+    {
+      "collection": "resources",
       "name": "Art Basel",
       "url": "https://www.artbasel.com/",
       "state": "ok",
@@ -195,6 +209,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://arxiv.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Asia Art Archive Research Collections",
+      "url": "https://aaa.org.hk/en/collections/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://aaa.org.hk/en/collections/"
     },
     {
       "collection": "resources",
@@ -315,6 +337,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://breadandheartfestival.al/"
+    },
+    {
+      "collection": "resources",
+      "name": "Canadian Centre for Architecture",
+      "url": "https://www.cca.qc.ca/en/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.cca.qc.ca/en/"
     },
     {
       "collection": "resources",
@@ -1486,6 +1516,14 @@
     },
     {
       "collection": "resources",
+      "name": "Qatar Digital Library",
+      "url": "https://www.qdl.qa/en",
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
+    },
+    {
+      "collection": "resources",
       "name": "Rayyan",
       "url": "https://www.rayyan.ai/",
       "state": "ok",
@@ -2088,9 +2126,9 @@
       "collection": "design-weeks",
       "name": "Bangkok Design Week",
       "url": "https://www.bangkokdesignweek.com/bkkdw2027",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bangkokdesignweek.com/bkkdw2027"
     },
     {
       "collection": "design-weeks",
@@ -2384,9 +2422,9 @@
       "collection": "design-weeks",
       "name": "Isan Creative Festival",
       "url": "https://www.isancreativefestival.com/en/isancf2026",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.isancreativefestival.com/en/isancf2026"
     },
     {
       "collection": "design-weeks",
@@ -2648,9 +2686,9 @@
       "collection": "design-weeks",
       "name": "Venice Design Week",
       "url": "https://www.venicedesignweek.com/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.venicedesignweek.com/"
     },
     {
       "collection": "design-weeks",
@@ -2727,10 +2765,10 @@
     {
       "collection": "events",
       "name": "Dubai Design Week 2026",
-      "url": "https://www.dubaidesignweek.ae/visit2/",
-      "state": "needs-review",
-      "http_status": 404,
-      "detail": "HTTP 404"
+      "url": "https://www.dubaidesignweek.ae/visit/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.dubaidesignweek.ae/visit/"
     },
     {
       "collection": "events",
@@ -2840,9 +2878,9 @@
       "collection": "events",
       "name": "Bangkok Design Week 2027: Design to Last",
       "url": "https://www.bangkokdesignweek.com/bkkdw2027",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bangkokdesignweek.com/bkkdw2027"
     },
     {
       "collection": "events",
@@ -3960,7 +3998,7 @@
     {
       "collection": "page-link",
       "name": "atlas/index.html",
-      "url": "./app.js",
+      "url": "./app.js?v=20261018a",
       "context": "atlas/index.html",
       "state": "ok",
       "http_status": 200
