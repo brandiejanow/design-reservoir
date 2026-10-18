@@ -21,6 +21,7 @@ Promise.all([
   els.total.textContent=rows.length;
   populate();
   const initialType=params.get("type");if(initialType&&[...els.type.options].some(o=>o.value===initialType))els.type.value=initialType;
+  const initialQuery=params.get("q");if(initialQuery)els.search.value=initialQuery;
   render();
 }).catch(e=>{els.count.textContent=e.message});
 [els.search,els.industry,els.type,els.keyword].forEach(el=>el.addEventListener("input",()=>{currentPage=1;render()}));els.clear.addEventListener("click",()=>{els.search.value="";els.industry.value="";els.type.value="";els.keyword.value="";currentPage=1;render();els.search.focus()});function changePage(direction){currentPage+=direction;render();document.querySelector(".directory-head").scrollIntoView({behavior:"smooth",block:"start"})}els.prev.addEventListener("click",()=>changePage(-1));els.next.addEventListener("click",()=>changePage(1));
