@@ -3,3 +3,8 @@
 .week-row.kod-row{background:#eef2ff;border-left:3px solid #7885bb;padding-left:clamp(14px,2vw,26px)}
 .week-row.kod-row h2{color:#304c90}
 .week-row.kod-row .week-meta strong{color:#304c90}
+
+/* Filter all design-week records by their verified disciplinary coverage. */
+.weeks-toolbar{grid-template-columns:minmax(200px,1.6fr) repeat(4,minmax(125px,1fr))}
+@media(max-width:1050px){.weeks-toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.weeks-toolbar{grid-template-columns:1fr}}
