@@ -12,14 +12,15 @@ function render(){const q=els.search.value.trim().toLowerCase(),industry=els.ind
 // The Design Weeks Index remains the master source for design-week listings.
 // Include those same records in the main directory under the searchable Resource type "Design Week".
 function csvRecords(text){const parsed=parseCSV(text),head=parsed.shift();return parsed.filter(r=>r.length&&r[0]).map(r=>Object.fromEntries(head.map((h,i)=>[h,r[i]||""])))}
-function weekToResource(w){return {name:w.name,description:[w.city+(w.country?", "+w.country:""),w.edition,w.description].filter(Boolean).join(". "),url:w.url,resource_type:w.format&&w.format!=="Design Week"?"Design Week; "+w.format:"Design Week",industries:w.industries||"Cross-disciplinary Design",keywords:[w.keywords,w.city,w.country,"design week"].filter(Boolean).join("; "),status:w.status,last_checked:w.last_checked,source:w.source};}
+function weekToResource(w){return {name:w.name,description:[w.city+(w.country?", "+w.country:""),w.edition,w.description].filter(Boolean).join(". "),url:w.url,resource_type:w.format&&w.format!=="Design Week"?"Design Week; "+w.format+(w.format==="Design Biennial"?"; Biennial & Exhibition":""):"Design Week",industries:w.industries||"Cross-disciplinary Design",keywords:[w.keywords,w.city,w.country,"design week"].filter(Boolean).join("; "),status:w.status,last_checked:w.last_checked,source:w.source};}
 Promise.all([
-  fetch("./data/resources.csv?v=20261018education331",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load resource directory");return r.text()}),
+  fetch("./data/resources.csv?v=20261019architecture353",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load resource directory");return r.text()}),
   fetch("./data/design-weeks.csv?v=20261018taxonomy",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
 ]).then(([resourceText,weekText])=>{
   const resourceRows=csvRecords(resourceText),weekRows=csvRecords(weekText).map(weekToResource);
   rows=[...resourceRows,...weekRows].sort((a,b)=>a.name.localeCompare(b.name));
   populate();
+  const initialIndustry=params.get("industry");if(initialIndustry&&[...els.industry.options].some(o=>o.value===initialIndustry))els.industry.value=initialIndustry;
   const initialType=params.get("type");if(initialType&&[...els.type.options].some(o=>o.value===initialType))els.type.value=initialType;
   const initialQuery=params.get("q");if(initialQuery)els.search.value=initialQuery;
   render();
