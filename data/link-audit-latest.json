@@ -5,10 +5,9 @@
   "total_records_tested": 488,
   "unique_requests": 439,
   "states": {
-    "ok": 452,
+    "ok": 453,
     "restricted": 22,
-    "redirect": 13,
-    "unreachable": 1
+    "redirect": 13
   },
   "items": [
     {
@@ -2735,9 +2734,9 @@
       "collection": "design-weeks",
       "name": "Venice Design Week",
       "url": "https://www.venicedesignweek.com/",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.venicedesignweek.com/"
     },
     {
       "collection": "design-weeks",
@@ -3234,7 +3233,7 @@
     {
       "collection": "page-link",
       "name": "index.html",
-      "url": "./app.js?v=20261018industry",
+      "url": "./app.js?v=20261018taxonomy",
       "context": "index.html",
       "state": "ok",
       "http_status": 200
@@ -3365,7 +3364,7 @@
     {
       "collection": "page-link",
       "name": "design-weeks/index.html",
-      "url": "./app.js?v=20261018k1",
+      "url": "./app.js?v=20261018taxonomy",
       "context": "design-weeks/index.html",
       "state": "ok",
       "http_status": 200
@@ -3505,7 +3504,7 @@
     {
       "collection": "page-link",
       "name": "events/index.html",
-      "url": "./app.js?v=20261017e",
+      "url": "./app.js?v=20261018taxonomy",
       "context": "events/index.html",
       "state": "ok",
       "http_status": 200
