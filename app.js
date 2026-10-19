@@ -1,5 +1,5 @@
 const params=new URLSearchParams(location.search);if(params.get("embed")==="1")document.body.classList.add("embed");
-const els={search:document.querySelector("#search"),industry:document.querySelector("#industry"),type:document.querySelector("#type"),keyword:document.querySelector("#keyword"),list:document.querySelector("#list"),count:document.querySelector("#resultCount"),empty:document.querySelector("#empty"),total:document.querySelector("#total"),clear:document.querySelector("#clear"),pager:document.querySelector("#pager"),prev:document.querySelector("#prevPage"),next:document.querySelector("#nextPage"),pageInfo:document.querySelector("#pageInfo")};let rows=[],currentPage=1;const PAGE_SIZE=12;
+const els={search:document.querySelector("#search"),industry:document.querySelector("#industry"),type:document.querySelector("#type"),keyword:document.querySelector("#keyword"),list:document.querySelector("#list"),count:document.querySelector("#resultCount"),empty:document.querySelector("#empty"),clear:document.querySelector("#clear"),pager:document.querySelector("#pager"),prev:document.querySelector("#prevPage"),next:document.querySelector("#nextPage"),pageInfo:document.querySelector("#pageInfo")};let rows=[],currentPage=1;const PAGE_SIZE=12;
 function parseCSV(text){const out=[];let row=[],cell="",q=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(q){if(c==='"'&&n==='"'){cell+='"';i++}else if(c==='"'){q=false}else cell+=c}else{if(c==='"')q=true;else if(c===','){row.push(cell);cell=""}else if(c==='\n'){row.push(cell);out.push(row);row=[];cell=""}else if(c!=='\r')cell+=c}}if(cell.length||row.length){row.push(cell);out.push(row)}return out}
 function esc(s=""){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]))}
 function split(v){return String(v||"").split(";").map(x=>x.trim()).filter(Boolean)}
@@ -19,10 +19,6 @@ Promise.all([
 ]).then(([resourceText,weekText])=>{
   const resourceRows=csvRecords(resourceText),weekRows=csvRecords(weekText).map(weekToResource);
   rows=[...resourceRows,...weekRows].sort((a,b)=>a.name.localeCompare(b.name));
-  els.total.textContent=rows.length;
-  const coreTotal=document.querySelector("#coreTotal"),weekTotal=document.querySelector("#weekTotal");
-  if(coreTotal)coreTotal.textContent=resourceRows.length;
-  if(weekTotal)weekTotal.textContent=weekRows.length;
   populate();
   const initialType=params.get("type");if(initialType&&[...els.type.options].some(o=>o.value===initialType))els.type.value=initialType;
   const initialQuery=params.get("q");if(initialQuery)els.search.value=initialQuery;
