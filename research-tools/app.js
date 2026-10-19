@@ -13,7 +13,7 @@ function render(){
 }
 Promise.all([fetch("../data/resources.csv",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Research records unavailable");return r.text()}),fetch("../data/research-tool-workflows.csv",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Workflow classifications unavailable");return r.text()})]).then(([a,b])=>{
  const stages=new Map(records(b).map(r=>[r.name,r.workflow]));
- rows=records(a).filter(r=>r.resource_type==="Research Tool").map(r=>({...r,workflow:stages.get(r.name)||"Other research tools"})).sort((x,y)=>x.name.localeCompare(y.name));
+ rows=records(a).filter(r=>r.resource_type.split(";").map(x=>x.trim()).includes("Research Tool")).map(r=>({...r,workflow:stages.get(r.name)||"Other research tools"})).sort((x,y)=>x.name.localeCompare(y.name));
  for(const stage of ORDER){if(rows.some(r=>r.workflow===stage)){const option=document.createElement("option");option.value=stage;option.textContent=stage;els.workflow.appendChild(option)}}
  els.total.textContent=rows.length;render();
 }).catch(e=>{els.count.textContent=e.message;els.empty.hidden=true});
