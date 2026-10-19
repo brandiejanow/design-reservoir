@@ -13,8 +13,8 @@ function weekCard(w){return '<article class="week-card"><div><h3>'+esc(w.name)+'
 function weekPriority(w){return ["Texas Design Week","Dallas Design Week","Nashville Design Week"].indexOf(w.name)}
 function render(){
  const q=els.search.value.trim().toLowerCase(),year=els.year.value,cat=els.category.value,region=els.region.value;
- const found=rows.filter(r=>(!q||[r.name,r.city,r.country,r.category,r.description].join(" ").toLowerCase().includes(q))&&(!year||r.start_date.startsWith(year))&&(!cat||r.category===cat)&&(!region||r.region===region));
- const matchingWeeks=weeks.filter(w=>(!q||[w.name,w.city,w.country,w.description,w.keywords].join(" ").toLowerCase().includes(q))&&!year&&(!cat||cat==="Design Week")&&(!region||w.region===region))
+ const found=rows.filter(r=>(!q||[r.name,r.city,r.country,r.category,r.description,r.keywords].join(" ").toLowerCase().includes(q))&&(!year||r.start_date.startsWith(year))&&(!cat||r.category===cat)&&(!region||r.region===region));
+ const matchingWeeks=weeks.filter(w=>(!q||[w.name,w.city,w.country,w.description,w.keywords,w.industries].join(" ").toLowerCase().includes(q))&&!year&&(!cat||cat==="Design Week")&&(!region||w.region===region))
  .sort((a,b)=>{const x=weekPriority(a),y=weekPriority(b);return (x<0?999:x)-(y<0?999:y)||a.name.localeCompare(b.name)});
  const groups=new Map();found.forEach(r=>{const m=month(r.start_date);if(!groups.has(m))groups.set(m,[]);groups.get(m).push(r)});
  els.list.innerHTML=[...groups].map(([m,items])=>'<section class="month-group"><h2 class="month-title">'+esc(m)+'</h2>'+items.map(entry).join("")+'</section>').join("");
@@ -25,8 +25,8 @@ function render(){
  els.empty.hidden=found.length+matchingWeeks.length!==0;
 }
 Promise.all([
- fetch("../data/events.csv?v=20261017e",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load events");return r.text()}),
- fetch("../data/design-weeks.csv?v=20261017e",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
+ fetch("../data/events.csv?v=20261018taxonomy",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load events");return r.text()}),
+ fetch("../data/design-weeks.csv?v=20261018taxonomy",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
 ]).then(([eventText,weekText])=>{
  const todayUTC=new Date().toISOString().slice(0,10);
  rows=records(eventText).filter(r=>r.end_date>=todayUTC).sort((a,b)=>a.start_date.localeCompare(b.start_date)||a.name.localeCompare(b.name));
