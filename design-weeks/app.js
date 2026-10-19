@@ -10,11 +10,11 @@ function populate(){uniq(rows.map(r=>r.region)).forEach(v=>add(els.region,v));un
 function render(){const q=els.search.value.toLowerCase().trim(),reg=els.region.value,fmt=els.format.value,key=els.keyword.value;const filtered=rows.filter(r=>(!q||[r.name,r.city,r.country,r.description,r.keywords].join(" ").toLowerCase().includes(q))&&(!reg||r.region===reg)&&(!fmt||r.format===fmt)&&(!key||split(r.keywords).some(x=>x.toLowerCase()===key.toLowerCase())));els.list.innerHTML=filtered.map(r=>`<article class="resource week-row${r.isResearch?" kod-row":""}"><div><h2>${esc(r.name)}</h2><p class="week-place">${esc([r.city,r.country].filter(Boolean).join(", "))}</p><p class="week-edition">${esc(r.edition)}</p></div><p class="week-description">${esc(r.description)}</p><div class="week-meta"><span><strong>${esc(r.region)}</strong></span><span>${esc(r.format)}</span></div><a class="visit" href="${esc(r.url)}" target="_blank" rel="noopener" aria-label="Open ${esc(r.name)}">↗</a></article>`).join("");els.count.textContent=`${filtered.length} of ${rows.length} platforms`;els.empty.hidden=filtered.length!==0}
 fetch("../data/design-weeks.csv?v=20261017d",{cache:"no-store"}).then(r=>r.text()).then(t=>{const p=parseCSV(t),h=p.shift();const weekRows=p.filter(r=>r[0]).map(r=>Object.fromEntries(h.map((x,i)=>[x,r[i]||""])));
 const kod={
-name:"Knowledge of Design",city:"Global initiative",country:"",region:"",format:"Research Initiative",
-edition:"Research, publications, annual editions and public programming",
-description:"An international inquiry advancing design as a field of knowledge, bringing together STEAM, scholarly research, practice and cross-disciplinary exchange.",
+name:"Knowledge of Design",city:"Global initiative",country:"",region:"",format:"Research / Index & Directory",
+edition:"Research, public index and directory, editions and KoD Connect",
+description:"Public index and research archive documenting people, talks, research, design education, editions and international programs across STEAM and design.",
 url:"https://brandiejanow.github.io/Knowledge-of-Design/",
-keywords:"research; STEAM; design knowledge; education; public programming; futures; publications",
+keywords:"research; index; directory; STEAM; design knowledge; education; design weeks; public programming; futures; publications",
 isResearch:true
 };
 rows=[...weekRows,kod].sort((a,b)=>a.name.localeCompare(b.name));
