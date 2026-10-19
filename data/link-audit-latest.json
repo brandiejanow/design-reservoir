@@ -5,10 +5,9 @@
   "total_records_tested": 488,
   "unique_requests": 439,
   "states": {
-    "ok": 453,
-    "restricted": 21,
-    "redirect": 12,
-    "needs-review": 1,
+    "ok": 452,
+    "restricted": 22,
+    "redirect": 13,
     "unreachable": 1
   },
   "items": [
@@ -936,9 +935,9 @@
       "collection": "resources",
       "name": "Google Scholar",
       "url": "https://scholar.google.com/",
-      "state": "ok",
-      "http_status": 200,
-      "final_url": "https://scholar.google.com/"
+      "state": "restricted",
+      "http_status": 403,
+      "detail": "HTTP 403"
     },
     {
       "collection": "resources",
@@ -976,9 +975,9 @@
       "collection": "resources",
       "name": "IEEE Xplore Digital Library",
       "url": "https://ieeexplore.ieee.org/",
-      "state": "needs-review",
-      "http_status": 418,
-      "detail": "HTTP 418"
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://ieeexplore.ieee.org/Xplore/home.jsp"
     },
     {
       "collection": "resources",
