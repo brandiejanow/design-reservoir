@@ -110,6 +110,15 @@ No open license has been applied yet. Please do not republish the dataset wholes
 
 Do not use em dashes in website copy, research writing, public data labels, metadata, or documentation. Use commas, colons, parentheses, or full stops as appropriate. Preserve the intended meaning and source attribution when revising historical text. Treat this as the standard for future updates.
 
+## Classification and link review
+
+- **Resource type** identifies what a resource provides, such as an index, archive, research source, professional organization, event or tool. Multiple accurate types use semicolons; the public filters recognize each type.
+- **Industries** identifies the disciplines genuinely addressed by the resource. Use the same labels in the main directory, Design Weeks and Design Atlas. Assign research, futures, STEAM and heritage only when the publisher's content supports them.
+- **Keywords** identify the topics, methods, locations and uses described by the source. Preserve specific tags instead of adding broad subjects to every entry.
+- **Design Weeks** records retain their actual format (week, festival or biennial), location, subjects and next confirmed or last documented edition. Knowledge of Design is separately identified as a research initiative and directory, rather than counted as a design festival.
+- **Events** use consistent subject classifications and searchable keywords. Dates must come from organizers or documented primary sources.
+- The automated link audit checks source URLs and page links, distinguishes redirects and access restrictions, and retains results in `data/link-audit-latest.json`. HTTP 403/429 responses are not automatically treated as broken links. Verify the current purpose and date of each source separately from URL accessibility.
+
 ## Publication review standard
 
 Public copy describes research, methods, participants, evidence, dates and findings in clear, direct sentences. Use American English, affirmative wording and varied sentence structures. Keep the focus on information that readers can verify or investigate. Original quotations, formal institution names, historical event titles, citations and URLs retain their source wording. Review public pages, search descriptions, data labels and publication summaries before each release.
