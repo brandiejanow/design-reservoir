@@ -8,15 +8,15 @@ The repository is the source of truth. The human-readable master table lives in 
 
 ## Reading the resource counts
 
-The homepage combines two datasets into a single searchable interface: **261 core resource records** in `data/resources.csv` and **78 recurring design weeks** in `data/design-weeks.csv`. That produces **339 searchable entries**. The counts refer to different collections and are displayed separately in the interface.
+The homepage combines two datasets into a single searchable interface: **328 core resource records** in `data/resources.csv` and **78 recurring design weeks** in `data/design-weeks.csv`. That produces **406 searchable entries**. The counts refer to different collections and are displayed separately in the interface.
 
 ## Suggest a research resource
 
-Use the [Resource suggestion form](https://github.com/brandiejanow/design-reservoir/issues/new?template=suggest-resource.yml) to recommend an official scholarly source, institution, archive, educational resource, research tool, or relevant design platform. Submissions enter an editorial review process for relevance, provenance, currency and duplication.
+Use the [Resource suggestion form](https://github.com/brandiejanow/design-reservoir/issues/new?template=suggest-resource.yml) to recommend an official scholarly source, institution, archive, educational resource, research tool, or relevant design platform. Submissions enter an editorial review process for relevance, provenance, currency and duplication. The Academic Research filter includes scholarly journals, universities, teaching collections and academic-facing research initiatives.
 
 ## Current status
 
-- **261 active research and reference resource records**, including **34 research tools** classified by research workflow
+- **328 active research and reference resource records**, including **34 research tools** classified by research workflow
 - **365 classified Design Atlas entries** across ten families, with two practices intentionally appearing in more than one family in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **78 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
@@ -24,7 +24,7 @@ Use the [Resource suggestion form](https://github.com/brandiejanow/design-reserv
 - ANTICIPATE is used as an event research source only: the calendar lists the individual applicable events, not ANTICIPATE itself as a directory entry
 - [Knowledge of Design](https://brandiejanow.github.io/Knowledge-of-Design/index.html) is a resource in the main directory, linked to its official public website
 - Academic and cultural research sources from the Middle East and Gulf are included when relevant. Current events outside Saudi Arabia are assessed individually, while Saudi event listings remain restricted to eligible 2027-and-later programs. Earlier editorial decisions remain accessible through Git history.
-- automated URL auditing checks resource entries, design weeks, dated events and internal page links on source updates and weekly
+- automated URL auditing checks resource entries, design weeks, dated events and internal page links weekly and on manual request
 - a daily workflow removes dated events from the active calendar after their end date; previous records remain accessible through Git history
 - completed annual festival editions are labelled as concluded until a future edition has been confirmed
 
@@ -74,7 +74,7 @@ Design Reservoir is an academic-facing knowledge resource spanning **futures / f
 
 **Maintenance**
 
-- [Automated full-link audit](.github/workflows/link-check.yml): on source changes and weekly, checks directory resources, design weeks, events and HTML page links, publishing [`data/link-audit-latest.json`](data/link-audit-latest.json) and a workflow artifact. HTTP status is evidence of URL reachability, **not** evidence that an institution or event is still active.
+- [Automated full-link audit](.github/workflows/link-check.yml): weekly or manually, checks directory resources, design weeks, events and HTML page links, publishing a downloadable report as a workflow artifact; the repository JSON is a historical snapshot. HTTP status is evidence of URL reachability, **not** evidence that an institution or event is still active.
 - [Daily event expiration](.github/workflows/refresh-events.yml): removes records whose end dates have passed from `data/events.csv`.
 - Editorial checks of cancellations, replacements, new findings, classification quality, and evidence of continuing operation remain necessary: URL health alone cannot prove an event is happening.
 - Preserve original references, publisher credit and licensing constraints; the dataset has no blanket open license.
@@ -87,7 +87,7 @@ Design Reservoir is an academic-facing knowledge resource spanning **futures / f
 - [`data/design-weeks.csv`](data/design-weeks.csv): separate Design Weeks dataset
 - [`data/events.csv`](data/events.csv): dated global events for the calendar
 - [`data/editorial-review.csv`](data/editorial-review.csv): excluded or retired entries and explicit reasons
-- [`data/link-audit-latest.json`](data/link-audit-latest.json): most recent automated URL audit, including redirects, access restrictions and failures
+- [`data/link-audit-latest.json`](data/link-audit-latest.json): last committed URL audit snapshot; current reports are in the GitHub Actions artifacts
 - [`data/almanac-import-manifest.csv`](data/almanac-import-manifest.csv): what from the Almanac went where
 - [`data/almanac-review.csv`](data/almanac-review.csv): items intentionally held from the Almanac
 - [`data/curation-review.csv`](data/curation-review.csv): screened submissions and obsolete or unconfirmed resources, with reasons and next actions
