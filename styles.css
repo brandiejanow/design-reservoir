@@ -68,11 +68,6 @@ body.embed .site-nav,body.embed footer{display:none}body.embed .hero{padding-top
 .reservoir-footer .back-to-top{font-weight:500;white-space:nowrap}
 @media(max-width:700px){.reservoir-footer nav{margin-left:0}}
 
-/* Links to the author's related, independently maintained research. */
-.related-work{max-width:1600px;margin:auto;padding:24px clamp(22px,5vw,74px);border-top:1px solid var(--line);background:var(--paper)}
-.related-work p{max-width:1150px;margin:0;color:#454545;font-size:12px;line-height:1.7}
-.related-work a{text-underline-offset:4px;font-weight:500}
-
 /* Compact discovery entrance, search and featured research. */
 .compact-hero{padding-top:clamp(29px,3.9vw,59px);padding-bottom:24px}
 .compact-hero .eyebrow{margin-bottom:16px}
