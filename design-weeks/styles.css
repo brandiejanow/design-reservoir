@@ -1,8 +1,6 @@
 .hero h1{line-height:1.02}.week-place{margin:0;color:#393939;font-size:14px;line-height:1.5}.week-edition{font-size:11px;color:var(--muted);margin-top:8px}.week-description{margin:0;color:#393939;font-size:14px;line-height:1.55}.week-meta{display:flex;flex-direction:column;gap:7px;font-size:11px;color:var(--muted)}.week-row{grid-template-columns:minmax(200px,1.05fr) minmax(320px,1.8fr) minmax(180px,.8fr) 48px}@media(max-width:1050px){.week-row{grid-template-columns:1fr 1.7fr 42px}.week-meta{grid-column:1/3;flex-direction:row;flex-wrap:wrap;gap:6px 18px}}@media(max-width:700px){.week-row{grid-template-columns:1fr 40px}.week-description{grid-column:1/3}.week-meta{grid-column:1/3}}
-/* KoD is an ordinary directory row with a subtle research-initiative distinction. */
-.week-row.kod-row{background:#eef2ff;border-left:3px solid #7885bb;padding-left:clamp(14px,2vw,26px)}
+/* The Knowledge of Design title uses a different text color, with identical row layout. */
 .week-row.kod-row h2{color:#304c90}
-.week-row.kod-row .week-meta strong{color:#304c90}
 
 /* Filter all design-week records by their verified disciplinary coverage. */
 .weeks-toolbar{grid-template-columns:minmax(200px,1.6fr) repeat(4,minmax(125px,1fr))}
