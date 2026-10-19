@@ -26,7 +26,7 @@ Use the [Resource suggestion form](https://github.com/brandiejanow/design-reserv
 - Academic and cultural research sources from the Middle East and Gulf are included when relevant. Current events outside Saudi Arabia are assessed individually, while Saudi event listings remain restricted to eligible 2027-and-later programs. Earlier editorial decisions remain accessible through Git history.
 - automated URL auditing checks resource entries, design weeks, dated events and internal page links weekly and on manual request
 - a daily workflow removes dated events from the active calendar after their end date; previous records remain accessible through Git history
-- completed annual festival editions are labelled as concluded until a future edition has been confirmed
+- completed annual festival editions are labeled as concluded until a future edition has been confirmed
 
 ## Knowledge of Design research
 
@@ -68,7 +68,7 @@ Design Reservoir is an academic-facing knowledge resource spanning **futures / f
 - Evaluate submitted links as candidates: do not add everything received. Assess academic/research relevance, current operation, and whether an existing entry already covers the same resource.
 - Distinguish verified official websites from independently validated academic findings; a working website alone is not evidence of research quality.
 - Treat commercial/paid directories transparently, including eligibility, membership, or editorial-selection requirements.
-- Keep permanent research records distinct from date-sensitive events and expiring competitions or calls. Remove completed or cancelled items from the **active events calendar**, preserving earlier states in Git history.
+- Keep permanent research records distinct from date-sensitive events and expiring competitions or calls. Remove completed or canceled items from the **active events calendar**, preserving earlier states in Git history.
 - Keep a recurring institution or festival only while current operation can be established; when its most recent edition has ended, do not describe that edition as upcoming.
 - Do not add an inactive or superseded institution merely because its historic name appears on another index.
 
