@@ -175,7 +175,7 @@ def main():
             handle.write(f"## Design Reservoir full link audit: {today}\n\n")
             handle.write(f"Checked **{len(output)}** linked records, {len(unique)} unique requests.\n\n")
             handle.write(f"States: {json.dumps(tally)}.\n\n")
-            handle.write("Manual review: " + str(len(flagged)) + " flags. See committed JSON or run artifact.\n\n")
+            handle.write("Manual review: " + str(len(flagged)) + " flags. See the current workflow artifact.\n\n")
             for item in flagged[:30]:
                 handle.write(f"- {item['collection']} · {item['name']} · {item['state']} · {item['url']}\n")
 
