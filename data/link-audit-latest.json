@@ -2,14 +2,14 @@
   "audit_date_utc": "2026-10-19",
   "scope": "All three source CSV URL fields and static HTML href/src links",
   "note": "A 200 response verifies reachability only; it does not verify event dates, editorial suitability or peer review. HTTP 403/429 is not proof of a dead link.",
-  "total_records_tested": 483,
-  "unique_requests": 434,
+  "total_records_tested": 488,
+  "unique_requests": 439,
   "states": {
-    "ok": 448,
+    "ok": 453,
     "restricted": 21,
-    "redirect": 11,
+    "redirect": 12,
     "needs-review": 1,
-    "unreachable": 2
+    "unreachable": 1
   },
   "items": [
     {
@@ -51,6 +51,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://sigchi.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "AD PRO Directory (Architectural Digest)",
+      "url": "https://www.architecturaldigest.com/adpro/directory",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://www.architecturaldigest.com/adpro/directory"
     },
     {
       "collection": "resources",
@@ -494,6 +502,14 @@
     },
     {
       "collection": "resources",
+      "name": "Culturalyst Dallas",
+      "url": "https://dallas.culturalyst.com/explore",
+      "state": "restricted",
+      "http_status": 429,
+      "detail": "HTTP 429"
+    },
+    {
+      "collection": "resources",
       "name": "Cumulus Association",
       "url": "https://cumulusassociation.org/",
       "state": "ok",
@@ -920,9 +936,9 @@
       "collection": "resources",
       "name": "Google Scholar",
       "url": "https://scholar.google.com/",
-      "state": "restricted",
-      "http_status": 403,
-      "detail": "HTTP 403"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://scholar.google.com/"
     },
     {
       "collection": "resources",
@@ -1622,6 +1638,22 @@
     },
     {
       "collection": "resources",
+      "name": "Service Design Network",
+      "url": "https://www.service-design-network.org/",
+      "state": "redirect",
+      "http_status": 200,
+      "final_url": "https://service-design-network.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "Service Design Tools",
+      "url": "https://servicedesigntools.org/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://servicedesigntools.org/"
+    },
+    {
+      "collection": "resources",
       "name": "Sharpen",
       "url": "https://sharpen.design/",
       "state": "ok",
@@ -1715,6 +1747,14 @@
       "state": "ok",
       "http_status": 200,
       "final_url": "https://www.aia.org/"
+    },
+    {
+      "collection": "resources",
+      "name": "The Design Index",
+      "url": "https://designindex.directory/",
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://designindex.directory/"
     },
     {
       "collection": "resources",
@@ -2760,9 +2800,9 @@
       "collection": "events",
       "name": "PUSH UX 2026",
       "url": "https://push-conference.com/program",
-      "state": "unreachable",
-      "http_status": null,
-      "detail": "URLError; URLError"
+      "state": "ok",
+      "http_status": 200,
+      "final_url": "https://push-conference.com/program"
     },
     {
       "collection": "events",
