@@ -85,3 +85,6 @@ body.embed .site-nav,body.embed footer{display:none}body.embed .hero{padding-top
 .directory{padding-top:13px}
 @media(max-width:820px){.search-intro{display:block}.search-intro p{margin-top:7px}.search-section .toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.compact-hero{padding:24px 22px 21px}.compact-hero h1{font-size:clamp(46px,10vw,73px)}.compact-hero .intro{font-size:17px}.search-section{padding:25px 22px}.search-section .toolbar{grid-template-columns:1fr}}
+
+/* KoD keeps the same directory row styling; only its title color differs. */
+.resource h2.kod-title{color:#304c90}
