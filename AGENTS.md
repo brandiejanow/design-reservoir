@@ -26,3 +26,14 @@ Use original dated records and existing research workbooks. Clearly distinguish 
 Write directly in natural American English. Avoid inflated claims, business jargon, repeated author names, stock praise, contractions, em dashes, and the verb "shape" in any form. Avoid words including empower, vibrant, fusion, synergy, foster, treasure, trove, tapestry, delve, dive, hub, innovative, innovation, catalyst, unlock, passion, meaningful, unleash, nurture, tailored, grow, rich, gem, and tangible. Describe actual people, decisions, locations, materials, institutions, and evidence instead.
 
 Preserve approved site structures and previously published history. Make targeted edits rather than broad redesigns unless requested. Verify links, source boundaries, dates, and public claims before each release.
+
+## Editorial check before every publication
+Read the complete affected page before and after editing, including headings, captions, alt text, navigation, figures, and the source data displayed by code. Also check linked pages for duplicated or contradictory summaries. Do not rewrite approved pages simply to standardize their style.
+
+Count noticeable repeated words within each section and across the page. Watch especially for institution, system, research, knowledge, community, practice, framework, and design. These are legitimate terms where they have specific meanings, but do not repeat them mechanically in adjacent sentences. When repetition is unnecessary, rewrite the sentence to name the actual actor or action: for example, university, museum, council, agency, client, maker, teacher, curator, contract, curriculum, supplier, or policy. Choose based on what the evidence actually says. Do not substitute fancy synonyms just to vary vocabulary.
+
+Write so practicing designers and design scholars can recognize precise claims, real cases, traceable research methods, and justified conclusions. Prefer concrete nouns, verbs, examples, and specific circumstances over broad philosophical wording. Remove repeated introductory and concluding claims, and avoid captions that merely repeat the heading or preceding paragraph. Use restraint, consistency, and the existing site's design standards.
+
+Do not casually change archival event names, legally registered names, institutional job titles, official program names, historical themes, bibliographic titles, or verbatim research quotes because a restricted word appears inside them. Those source names and quotes must remain exact; instead edit surrounding prose. Never present the fact of a participant's remark as a representative industry finding without sufficient evidence.
+
+Before publishing, recheck the whole revised page rather than only the edited paragraph, verify the factual citation and internal links, and preserve the author's distinctive voice. If wording is uncertain, be accurate and simple rather than grand.
