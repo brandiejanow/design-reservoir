@@ -16,6 +16,8 @@ function weekPriority(w){return ["Texas Design Week","Dallas Design Week","Nashv
 // Permanent platforms, completed editions and undated programs belong in the Design Weeks Index.
 function upcomingWeek(w){
  const e=w.edition||"";
+ // A concluded edition is not an upcoming event, even if related exhibitions carry on.
+ if(/\b(concluded|completed)\b/i.test(e)&&!/\bupcoming\b/i.test(e))return false;
  const year=Number(todayISO.slice(0,4)),month=Number(todayISO.slice(5,7)),day=Number(todayISO.slice(8,10));
  if(/\b20\d{2}\b/.test(e) && [...e.matchAll(/\b20\d{2}\b/g)].some(m=>Number(m[0])>year))return true;
  if(!e.includes(String(year)))return false;
