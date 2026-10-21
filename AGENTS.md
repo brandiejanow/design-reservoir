@@ -19,6 +19,13 @@ Credit the researcher close to the title, normally once rather than throughout t
 
 Keep a clear difference between (a) earlier independently written work, (b) a later KoD research program based partly on that work, and (c) a university or institutional program. Never imply that an institution adopted a proposal or developed its own plans because of earlier advice without direct evidence. Unpublished and confidential advisory documents remain private unless publication rights, consent, and sensitive content have been checked.
 
+## Education source selection
+The directory is not a catalog of commercial online classes. Never add Coursera courses or categories, or similar third-party course marketplaces and aggregators such as Udemy, Skillshare, MasterClass, Domestika, or LinkedIn Learning. Do not add standalone short-course sales pages from independent training platforms, even when their subjects are relevant to design.
+
+Prefer first-party educational and research resources from established universities, scholarly institutes, museums, and recognized art and design schools. Examples explicitly approved by the curator include MIT, Parsons at The New School, and Sotheby's Institute of Art. Include their official academic resources, course catalogs, continuing-education programs, and research collections when useful. Evaluate independent specialist providers individually based on substantive resources beyond selling a class; do not assume any paid course qualifies merely because it covers design.
+
+Do not delete museums, university programs, public lectures, professional associations, or research archives because they offer classes alongside their other activities. An education tag is not by itself grounds for exclusion. Check for previously indexed Coursera-like resources before adding new entries.
+
 ## Source and visual rules
 Use original dated records and existing research workbooks. Clearly distinguish a proposal, a delivered activity, a coded observation, and a measured result. Explain the source, denominator, and method for charts. Do not invent response counts or use a category count as evidence of popularity or impact. Use appropriate charts, maps, timelines, relationship diagrams, and explanatory models when they clarify the subject. Follow each site's existing visual identity; KoD's colors and typography come from styles.css.
 
