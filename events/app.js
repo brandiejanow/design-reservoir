@@ -10,7 +10,14 @@ function month(s){return dt(s).toLocaleDateString("en-US",{month:"long",year:"nu
 function opt(el,v){if(!v||[...el.options].some(o=>o.value===v))return;const o=document.createElement("option");o.value=v;o.textContent=v;el.appendChild(o)}
 function populate(){[...new Set(rows.map(r=>r.start_date.slice(0,4)))].sort().forEach(x=>opt(els.year,x));[...new Set([...rows.map(r=>r.category),"Design Week"])].sort().forEach(x=>opt(els.category,x));[...new Set([...rows.map(r=>r.region),...weeks.map(w=>w.region)])].sort().forEach(x=>opt(els.region,x))}
 function entry(r){const ongoing=r.start_date<todayISO;const day=ongoing?"Now":dt(r.start_date).toLocaleDateString("en-US",{day:"numeric",timeZone:"UTC"});const end=(r.end_date||r.start_date)===r.start_date?"":dt(r.end_date).toLocaleDateString("en-US",{month:"short",day:"numeric",year:ongoing?"numeric":undefined,timeZone:"UTC"});return '<article class="event-entry"><div class="event-day"><strong>'+esc(day)+'</strong><span>'+esc(ongoing?"through "+end:end?"to "+end:"one day")+'</span></div><div><h3 class="event-name">'+esc(r.name)+'</h3><p class="event-place">'+esc(r.city+(r.city==="Online"||r.country==="Online"?"":", "+r.country))+'</p></div><div class="event-detail"><p class="event-type">'+esc(r.category)+'</p><p class="event-desc">'+esc(r.description)+'</p><p class="event-source">Source: '+esc(r.source)+'</p></div><a class="event-link" target="_blank" rel="noopener noreferrer" href="'+esc(r.url)+'" aria-label="Event details: '+esc(r.name)+'">↗</a></article>'}
-function weekCard(w){return '<article class="week-card"><div><h3>'+esc(w.name)+'</h3><p>'+esc(w.city+", "+w.country)+'</p><p class="week-edition">'+esc(w.edition||"Dates to be confirmed")+'</p></div><a target="_blank" rel="noopener noreferrer" href="'+esc(w.url)+'" aria-label="Visit '+esc(w.name)+'">↗</a></article>'}
+function displayWeekEdition(w){
+ const e=w.edition||"Dates to be confirmed";
+ const parts=e.split(";").map(p=>p.trim()).filter(Boolean);
+ if(parts.length<2)return e;
+ const visible=parts.filter(p=>upcomingWeek({edition:p})||(/dates to be confirmed/i.test(p)&&!/\b20\d{2}\b/.test(p)));
+ return visible.length?visible.join("; "):e;
+}
+function weekCard(w){return '<article class="week-card"><div><h3>'+esc(w.name)+'</h3><p>'+esc(w.city+", "+w.country)+'</p><p class="week-edition">'+esc(displayWeekEdition(w))+'</p></div><a target="_blank" rel="noopener noreferrer" href="'+esc(w.url)+'" aria-label="Visit '+esc(w.name)+'">↗</a></article>'}
 function weekPriority(w){return ["Texas Design Week","Dallas Design Week","Nashville Design Week"].indexOf(w.name)}
 // The Events Calendar lists only current and forthcoming editions.
 // Permanent platforms, completed editions and undated programs belong in the Design Weeks Index.
