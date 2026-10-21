@@ -88,3 +88,9 @@ body.embed .site-nav,body.embed footer{display:none}body.embed .hero{padding-top
 
 /* KoD keeps the same directory row styling; only its title color differs. */
 .resource h2.kod-title{color:#304c90}
+
+/* Clear primary navigation through paginated directory results. */
+.pagination #nextPage{background:#304c90;color:#fff;border-color:#304c90;font-weight:600;min-width:138px;box-shadow:0 2px 6px rgba(0,0,0,.12)}
+.pagination #nextPage:hover:not(:disabled){background:#1c3268;border-color:#1c3268;color:#fff}
+.pagination #nextPage:focus-visible{outline:3px solid #304c90;outline-offset:3px}
+.pagination #nextPage:disabled{background:#e7e7e7;border-color:#d0d0d0;color:#6f6f6f;box-shadow:none;opacity:1}
