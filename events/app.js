@@ -64,6 +64,7 @@ Promise.all([
  els.total.textContent=rows.length+weeks.length;
  populate();
  for(const k of ["year","category","region"]){const v=params.get(k);if(v&&[...els[k].options].some(o=>o.value===v))els[k].value=v}
+ const query=params.get("q");if(query)els.search.value=query;
  render();
 }).catch(e=>{els.count.textContent=e.message});
 [els.search,els.year,els.category,els.region].forEach(el=>el.addEventListener("input",render));
