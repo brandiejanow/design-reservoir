@@ -55,8 +55,8 @@ function render(){
  els.empty.hidden=found.length+matchingWeeks.length!==0;
 }
 Promise.all([
- fetch("../data/events.csv?v=20261021upcoming",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load events");return r.text()}),
- fetch("../data/design-weeks.csv?v=20261021upcoming",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
+ fetch("../data/events.csv?v=20261026events",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load events");return r.text()}),
+ fetch("../data/design-weeks.csv?v=20261026events",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
 ]).then(([eventText,weekText])=>{
  todayISO=todayLocalISO();
  rows=records(eventText).filter(r=>r.start_date&&(r.end_date||r.start_date)>=todayISO).sort((a,b)=>a.start_date.localeCompare(b.start_date)||a.name.localeCompare(b.name));
