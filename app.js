@@ -15,7 +15,7 @@ function csvRecords(text){const parsed=parseCSV(text),head=parsed.shift();return
 function weekToResource(w){return {name:w.name,description:[w.city+(w.country?", "+w.country:""),w.edition,w.description].filter(Boolean).join(". "),url:w.url,resource_type:w.format&&w.format!=="Design Week"?"Design Week; "+w.format+(w.format==="Design Biennial"?"; Biennial & Exhibition":""):"Design Week",industries:w.industries||"Cross-disciplinary Design",keywords:[w.keywords,w.city,w.country,"design week"].filter(Boolean).join("; "),status:w.status,last_checked:w.last_checked,source:w.source};}
 Promise.all([
   fetch("./data/resources.csv?v=20261028foresight",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load resource directory");return r.text()}),
-  fetch("./data/design-weeks.csv?v=20261018taxonomy",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
+  fetch("./data/design-weeks.csv?v=20261028cleanevents",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
 ]).then(([resourceText,weekText])=>{
   const resourceRows=csvRecords(resourceText),weekRows=csvRecords(weekText).map(weekToResource);
   rows=[...resourceRows,...weekRows].sort((a,b)=>a.name.localeCompare(b.name));
