@@ -55,7 +55,7 @@ function render(){
  els.empty.hidden=found.length+matchingWeeks.length!==0;
 }
 Promise.all([
- fetch("../data/events.csv?v=20261028cleanevents",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load events");return r.text()}),
+ fetch("../data/events.csv?v=20261030expired",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load events");return r.text()}),
  fetch("../data/design-weeks.csv?v=20261028cleanevents",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Could not load design weeks");return r.text()})
 ]).then(([eventText,weekText])=>{
  todayISO=todayLocalISO();
