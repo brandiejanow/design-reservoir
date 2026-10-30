@@ -36,8 +36,8 @@ fetch("../data/design-atlas.csv",{cache:"no-store"}).then(r=>{if(!r.ok)throw Err
  els.familyCount.textContent=unique(rows.map(r=>r.family)).length;
  els.disciplineCount.textContent=rows.length;
  const files=await Promise.allSettled([
-  fetch("../data/resources.csv?v=20261022atlaslinks",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("resources");return r.text()}),
-  fetch("../data/events.csv?v=20261022atlaslinks",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("events");return r.text()})
+  fetch("../data/resources.csv?v=20261030futureforum",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("resources");return r.text()}),
+  fetch("../data/events.csv?v=20261030expired",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("events");return r.text()})
  ]);
  if(files[0].status==="fulfilled")resourceRows=csvRecords(files[0].value).map(r=>({search:[r.name,r.description,r.keywords].join(" ").toLowerCase()}));
  if(files[1].status==="fulfilled"){
