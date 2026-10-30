@@ -8,7 +8,7 @@ The repository is the source of truth. The human-readable master table lives in 
 
 ## Reading the resource counts
 
-The homepage combines two datasets into a single searchable interface: **390 core resource records** in `data/resources.csv` and **78 recurring design weeks** in `data/design-weeks.csv`. That produces **468 searchable entries**. The counts refer to different collections and are displayed separately in the interface.
+The homepage combines two datasets into a single searchable interface: **402 core resource records** in `data/resources.csv` and **76 recurring design weeks** in `data/design-weeks.csv`. That produces **478 searchable entries**. The counts refer to different collections and are displayed separately in the interface.
 
 ## Suggest a research resource
 
@@ -16,17 +16,17 @@ Use the [Resource suggestion form](https://github.com/brandiejanow/design-reserv
 
 ## Current status
 
-- **390 active research and reference resource records**, including **35 research tools** classified by research workflow
+- **402 active research and reference resource records**, including **35 research tools** classified by research workflow
 - **365 classified Design Atlas entries** across ten families, with two practices intentionally appearing in more than one family in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
-- **78 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
-- **126 current or forthcoming dated global events** across design, futures and foresight in the [Events Calendar](events/), including Texas Design Week Dallas; the calendar also includes a searchable directory of recurring Design Weeks
+- **76 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
+- **125 current or forthcoming dated global events** across design, futures and foresight in the [Events Calendar](events/), including Texas Design Week Dallas; the calendar also includes a searchable directory of recurring Design Weeks
 - ANTICIPATE is used as an event research source only: the calendar lists the individual applicable events, not ANTICIPATE itself as a directory entry
 - [Knowledge of Design](https://brandiejanow.github.io/Knowledge-of-Design/index.html) is a resource in the main directory, linked to its official public website
 - Academic and cultural research sources from the Middle East and Gulf are included when relevant. Current events outside Saudi Arabia are assessed individually, while Saudi event listings remain restricted to eligible 2027-and-later programs. Earlier editorial decisions remain accessible through Git history.
 - automated URL auditing checks resource entries, design weeks, dated events and internal page links weekly and on manual request
 - a daily workflow removes dated events from the active calendar after their end date; previous records remain accessible through Git history
-- completed annual festival editions are labeled as concluded until a future edition has been confirmed
+- completed festival editions are excluded from the Events Calendar; their permanent listings stay in the Design Weeks Index even when next-edition dates are unannounced
 
 ## Knowledge of Design research
 
