@@ -1,0 +1,92 @@
+{
+  "review_date": "2026-11-05",
+  "sources": [
+    "https://researchthroughdesign.org/call-for-contributions/",
+    "https://researchthroughdesign.org/conference-series/",
+    "https://researchthroughdesign.org/rtd-roams-2027-full-call-for-contributions-launched/"
+  ],
+  "before": {
+    "resources": 457,
+    "events": 126,
+    "design_weeks": 76
+  },
+  "after": {
+    "resources": 458,
+    "events": 129,
+    "design_weeks": 76,
+    "searchable_entries": 534
+  },
+  "resource_additions": [
+    {
+      "name": "Research Through Design (RTD): Conference Series and Proceedings",
+      "description": "Practice-based design research conference series with curated artifact exhibitions, facilitated roundtable discussions and publicly linked proceedings from its 2013-2019 editions. Returns in 2027 as university-hosted RTD Roams, welcoming researchers, independent practitioners and work in progress. The archive is separate from dated submission calls and conference meetings.",
+      "url": "https://researchthroughdesign.org/conference-series/",
+      "resource_type": "Conference & Research Platform; Archive & Collection; Education & Research",
+      "industries": "Academic Research; Research, History & Education; Design Education; Cross-disciplinary Design",
+      "keywords": "Research Through Design; RTD; practice-based research; research through design; artifacts; roundtable discussion; material inquiry; situated knowledge; proceedings; Figshare; DOI; independent researchers",
+      "status": "Verified",
+      "last_checked": "2026-11-05",
+      "audit_note": "Official conference-series archive, November 4 announcement and 2027 call inspected November 5, 2026. Series paused after 2019 and now has confirmed 2027 activity. Older simultaneity wording is inconsistent with the distinct July dates; use the dated call. Public links do not establish a blanket reuse license; check rights per proceeding. The current call promises DOI publication for accepted abstracts with attendance, not automatic journal acceptance. No third-party text or images reproduced.",
+      "previous_url": "",
+      "source": "https://researchthroughdesign.org/conference-series/; https://researchthroughdesign.org/rtd-roams-2027-full-call-for-contributions-launched/; https://researchthroughdesign.org/call-for-contributions/"
+    }
+  ],
+  "event_additions": [
+    {
+      "start_date": "2027-02-01",
+      "end_date": "2027-02-01",
+      "name": "RTD Roams 2027: Extended Abstract Submission Deadline",
+      "city": "Online submission",
+      "country": "Online",
+      "region": "Online",
+      "category": "Research, History & Education",
+      "description": "Shared submission deadline for RTD Roams in Melbourne, York and Tokyo. Submit an anonymized abstract of up to 1,000 words excluding references and captions, plus 6-8 images at 300 dpi. Open to independent practitioners, researchers and students. One double-blind review round; work must include a research artifact or material trace. No submission fee; accepted authors must attend their selected site in person and pay registration. Submission template and final instructions remain forthcoming; no cutoff time or time zone is specified.",
+      "url": "https://researchthroughdesign.org/call-for-contributions/",
+      "source": "Official RTD Roams call and organizer announcement dated November 4, 2026; verified November 5, 2026. https://researchthroughdesign.org/rtd-roams-2027-full-call-for-contributions-launched/",
+      "keywords": "RTD; Research Through Design; call for contributions; submission deadline; extended abstract; practice-based research; double-blind review; design research; 2027"
+    },
+    {
+      "start_date": "2027-07-06",
+      "end_date": "2027-07-08",
+      "name": "RTD Roams 2027: Naarm / Melbourne",
+      "city": "Melbourne / Naarm",
+      "country": "Australia",
+      "region": "Oceania",
+      "category": "Research, History & Education",
+      "description": "Research Through Design gathering hosted by RMIT and Monash University on situated knowledge, materiality and relationality. Curated research artifacts and work in progress support roundtable discussions. In-person participation; no hybrid attendance. Shared abstract deadline February 1, 2027; organizer-listed standard registration AUD 350, with final fee details and concessions to follow. Accepted abstracts receive DOIs through Figshare subject to author attendance.",
+      "url": "https://researchthroughdesign.org/call-for-contributions/",
+      "source": "Official RTD Roams call and organizer announcement dated November 4, 2026; verified November 5, 2026. https://researchthroughdesign.org/rtd-roams-2027-full-call-for-contributions-launched/",
+      "keywords": "RTD; Research Through Design; RMIT; Monash University; Melbourne; Naarm; practice-based research; artifacts; material inquiry; situated knowledge; design education"
+    },
+    {
+      "start_date": "2027-07-26",
+      "end_date": "2027-07-28",
+      "name": "RTD Roams 2027: Tokyo",
+      "city": "Tokyo",
+      "country": "Japan",
+      "region": "Asia",
+      "category": "Research, History & Education",
+      "description": "Research Through Design gathering hosted by Musashino Art University on situated knowledge, materiality and relationality. Curated research artifacts and work in progress support roundtable discussions. In-person participation; no hybrid attendance. Shared abstract deadline February 1, 2027; organizer-listed standard registration JPY 54,000, with final fee details and concessions to follow. Accepted abstracts receive DOIs through Figshare subject to author attendance.",
+      "url": "https://researchthroughdesign.org/call-for-contributions/",
+      "source": "Official RTD Roams call and organizer announcement dated November 4, 2026; verified November 5, 2026. https://researchthroughdesign.org/rtd-roams-2027-full-call-for-contributions-launched/",
+      "keywords": "RTD; Research Through Design; Musashino Art University; Tokyo; Japan; practice-based research; artifacts; material inquiry; situated knowledge; design education"
+    }
+  ],
+  "retired_by_recorded_end_date": [],
+  "held_review": {
+    "name": "RTD Roams 2027: York exact dates",
+    "review_date": "2026-11-05",
+    "decision": "Hold exact-date calendar entry; institution and call are verified",
+    "reason": "Organizer specifies only the week of July 12, 2027, at University of York with Royal College of Art and University of Brighton. No exact start/end days established. Older pages describe simultaneous meetings, but the new call gives separate July dates. Do not invent a July 12-14 or full-week event. Registration and submission are distinct; the call states in-person attendance is mandatory for accepted publication.",
+    "reference_url": "https://researchthroughdesign.org/call-for-contributions/; https://researchthroughdesign.org/rtd-roams-2027-full-call-for-contributions-launched/",
+    "next_action": "Publish the York meeting when exact dates are announced. Its February 1 submission deadline is already covered by the shared call entry. Check final fees, template, submission link and publication license individually."
+  },
+  "rights": "Independent summaries only. No blanket proceedings license confirmed; use item-level publisher permissions. DOI allocation does not itself grant a reuse license.",
+  "validation": "All pre-existing resource rows and all unexpired event rows preserved without content changes. Logical CSV rows checked against headers; new names and dates checked for duplicates. Expiration uses recorded end dates, not proof that an event took place. Design Weeks and all website code are unchanged.",
+  "sha256_after": {
+    "data/resources.csv": "c42b3df30b19cb676f7e77a3c92756de1bece8b35b55799e6c808b50c961da6c",
+    "data/events.csv": "413b6b3cbd2527652b1dc5cbc1bd2acbf6b2536e8375c4ffdc6b9a09995d337c",
+    "data/curation-review.csv": "c6bd9f454815521b395b53e0d0ee076b5ffbb02d4cd2ceb5341f0fb4ba23de24",
+    "README.md": "9e4f7d5957fd82bbbe16070d7d4e6cf79a6c3649b7c277bf9e67cb1a89f5a4d1"
+  }
+}
