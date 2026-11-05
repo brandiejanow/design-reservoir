@@ -1,0 +1,291 @@
+{
+  "review_date": "2026-11-05",
+  "manifest_sha256": "861c9a56bfba50f39a7c3e5c12ac1561e716a92762eba844bb13d71fdc59faf0",
+  "source": "Curator-supplied affiliation names verified against official organization sources",
+  "candidate_parent_resources": 51,
+  "before_core_resources": 415,
+  "added_count": 42,
+  "updated_existing_count": 9,
+  "retained_existing_count": 0,
+  "after_core_resources": 457,
+  "recurring_design_weeks_unchanged": 76,
+  "searchable_entries": 533,
+  "dated_events_unchanged": 126,
+  "added": [
+    {
+      "name": "American Correctional Association (ACA)",
+      "url": "https://www.aca.org/"
+    },
+    {
+      "name": "American Council of Engineering Companies (ACEC)",
+      "url": "https://www.acec.org/"
+    },
+    {
+      "name": "American College of Healthcare Architects (ACHA)",
+      "url": "https://www.healtharchitects.org/"
+    },
+    {
+      "name": "American Concrete Institute (ACI)",
+      "url": "https://www.concrete.org/"
+    },
+    {
+      "name": "Architectural Engineering Institute (AEI), ASCE",
+      "url": "https://www.asce.org/communities/institutes-and-technical-groups/architectural-engineering-institute/"
+    },
+    {
+      "name": "Audio Engineering Society (AES)",
+      "url": "https://aes.org/"
+    },
+    {
+      "name": "American Institute of Aeronautics and Astronautics (AIAA)",
+      "url": "https://aiaa.org/"
+    },
+    {
+      "name": "ASHRAE",
+      "url": "https://www.ashrae.org/"
+    },
+    {
+      "name": "American Society of Mechanical Engineers (ASME)",
+      "url": "https://www.asme.org/"
+    },
+    {
+      "name": "American Society of Plumbing Engineers (ASPE)",
+      "url": "https://aspe.org/"
+    },
+    {
+      "name": "American Society of Theatre Consultants (ASTC)",
+      "url": "https://theatreconsultants.org/"
+    },
+    {
+      "name": "ASTM International",
+      "url": "https://www.astm.org/"
+    },
+    {
+      "name": "AVIXA: Audiovisual and Integrated Experience Association",
+      "url": "https://www.avixa.org/"
+    },
+    {
+      "name": "Black Architects and Interior Designers Association (BAIDA)",
+      "url": "https://www.baida.ca/"
+    },
+    {
+      "name": "Building Commissioning Certification Board (BCCB)",
+      "url": "https://bccbonline.org/"
+    },
+    {
+      "name": "Construction Management Association of America (CMAA)",
+      "url": "https://www.cmaanet.org/"
+    },
+    {
+      "name": "CoreNet Global",
+      "url": "https://www.corenetglobal.org/"
+    },
+    {
+      "name": "CREW Network",
+      "url": "https://crewnetwork.org/"
+    },
+    {
+      "name": "Construction Specifications Institute (CSI)",
+      "url": "https://www.csiresources.org/"
+    },
+    {
+      "name": "Design-Build Institute of America (DBIA)",
+      "url": "https://dbia.org/"
+    },
+    {
+      "name": "Center for Health Design",
+      "url": "https://www.healthdesign.org/"
+    },
+    {
+      "name": "Fitwel",
+      "url": "https://www.fitwel.org/"
+    },
+    {
+      "name": "Illuminating Engineering Society (IES)",
+      "url": "https://ies.org/"
+    },
+    {
+      "name": "Commercial Real Estate Development Association (CREDA, formerly NAIOP)",
+      "url": "https://www.credaglobal.org/"
+    },
+    {
+      "name": "National Association of Women in Construction (NAWIC)",
+      "url": "https://nawic.org/"
+    },
+    {
+      "name": "National Council of Structural Engineers Associations (NCSEA)",
+      "url": "https://www.ncsea.com/"
+    },
+    {
+      "name": "NEWH: The Global Hospitality Network",
+      "url": "https://newh.org/"
+    },
+    {
+      "name": "National Fire Protection Association (NFPA)",
+      "url": "https://www.nfpa.org/"
+    },
+    {
+      "name": "National Organization of Minority Architects (NOMA)",
+      "url": "https://www.noma.net/"
+    },
+    {
+      "name": "National Society of Black Engineers (NSBE)",
+      "url": "https://nsbe.org/"
+    },
+    {
+      "name": "National Society of Professional Engineers (NSPE)",
+      "url": "https://www.nspe.org/"
+    },
+    {
+      "name": "Project Management Institute (PMI)",
+      "url": "https://www.pmi.org/"
+    },
+    {
+      "name": "RESET: Building Performance Standards",
+      "url": "https://www.reset.build/"
+    },
+    {
+      "name": "Society of American Military Engineers (SAME)",
+      "url": "https://www.same.org/"
+    },
+    {
+      "name": "Society for College and University Planning (SCUP)",
+      "url": "https://www.scup.org/"
+    },
+    {
+      "name": "Society for Design Administration (SDA)",
+      "url": "https://www.sdanational.org/"
+    },
+    {
+      "name": "Society for Marketing Professional Services (SMPS)",
+      "url": "https://smps.org/"
+    },
+    {
+      "name": "Society of Women Engineers (SWE)",
+      "url": "https://swe.org/"
+    },
+    {
+      "name": "Urban Land Institute (ULI)",
+      "url": "https://uli.org/"
+    },
+    {
+      "name": "U.S. Institute of Building Documentation (USIBD)",
+      "url": "https://usibd.org/"
+    },
+    {
+      "name": "United States Institute for Theatre Technology (USITT)",
+      "url": "https://www.usitt.org/"
+    },
+    {
+      "name": "Women in Healthcare",
+      "url": "https://www.womeninhealthcare.org/"
+    }
+  ],
+  "updated_existing": [
+    {
+      "name": "American Institute of Architects (AIA)",
+      "previous_name": "The American Institute of Architects",
+      "url": "https://www.aia.org/"
+    },
+    {
+      "name": "American Society of Interior Designers (ASID)",
+      "previous_name": "American Society of Interior Designers (ASID)",
+      "url": "https://www.asid.org/"
+    },
+    {
+      "name": "American Society of Landscape Architects (ASLA)",
+      "previous_name": "American Society of Landscape Architects (ASLA)",
+      "url": "https://www.asla.org/"
+    },
+    {
+      "name": "Industrial Designers Society of America (IDSA)",
+      "previous_name": "Industrial Designers Society of America (IDSA)",
+      "url": "https://www.idsa.org/"
+    },
+    {
+      "name": "International Interior Design Association (IIDA)",
+      "previous_name": "International Interior Design Association (IIDA)",
+      "url": "https://iida.org/"
+    },
+    {
+      "name": "Living Future",
+      "previous_name": "International Living Future Institute",
+      "url": "https://living-future.org/"
+    },
+    {
+      "name": "Royal Institute of British Architects (RIBA)",
+      "previous_name": "The Royal Institute of British Architects",
+      "url": "https://www.riba.org/"
+    },
+    {
+      "name": "Society for Experiential Graphic Design (SEGD)",
+      "previous_name": "Society for Experiential Graphic Design (SEGD)",
+      "url": "https://segd.org/"
+    },
+    {
+      "name": "U.S. Green Building Council (USGBC)",
+      "previous_name": "U.S. Green Building Council (USGBC)",
+      "url": "https://www.usgbc.org/"
+    }
+  ],
+  "retained_existing": [],
+  "credential_and_label_mappings": [
+    {
+      "label": "Assoc. AIA",
+      "decision": "Represent through American Institute of Architects, not a separate organization",
+      "source": "https://www.aia.org/about-aia/professional-standards/using-the-aia-designation"
+    },
+    {
+      "label": "FAIA",
+      "decision": "AIA Fellowship designation, not a separate organization",
+      "source": "https://www.aia.org/about-aia/professional-standards/using-the-aia-designation"
+    },
+    {
+      "label": "NOMA/NOMAS",
+      "decision": "One NOMA parent record; NOMAS denotes its student membership and chapters",
+      "source": "https://www.noma.net/members/"
+    },
+    {
+      "label": "CPD - Continuing Professional Development",
+      "decision": "Generic professional-development activity, not an identifiable membership organization; no separate resource created",
+      "source": "Curator-supplied label explicitly expands CPD as Continuing Professional Development"
+    },
+    {
+      "label": "WIA - Women in Architecture",
+      "decision": "Generic chapter/network label. Represent as a searchable topic under AIA; AIA Dallas provides a verified example, not proof that the supplied label meant that chapter. No invented national organization.",
+      "source": "https://www.aiadallas.org/network/women-in-architecture/"
+    },
+    {
+      "label": "Conditioning Engineers (partially visible)",
+      "decision": "ASHRAE is an inferred identification of the cropped label, independently verified as a relevant building-services organization. The full name was not visible in the screenshot.",
+      "source": "https://www.ashrae.org/membership"
+    },
+    {
+      "label": "CCP",
+      "decision": "Certified Commissioning Professional is represented by its issuer, the Building Commissioning Certification Board",
+      "source": "https://bccbonline.org/ccp/directory/"
+    },
+    {
+      "label": "EDAC",
+      "decision": "Evidence-Based Design Accreditation and Certification is represented by the Center for Health Design",
+      "source": "https://www.healthdesign.org/certification-outreach/edac"
+    },
+    {
+      "label": "Fitwel Ambassador",
+      "decision": "Credential represented through the continuing Fitwel standard and professional program, not as an association membership",
+      "source": "https://www.fitwel.org/ambassadors"
+    },
+    {
+      "label": "LFA - Living Futures Accreditation",
+      "decision": "Correct formal title is Living Future Accreditation; represent through the Living Future organization",
+      "source": "https://living-future.org/LFA/"
+    },
+    {
+      "label": "RESET Accredited Professional",
+      "decision": "Credential represented through RESET's continuing building-performance standard and professional program",
+      "source": "https://www.reset.build/programs/ap"
+    }
+  ],
+  "validation": "CSV schema and row counts checked; no duplicate new destination URLs; every unrelated pre-existing resource preserved; event and design-week files unchanged; original descriptions retained for existing resources.",
+  "rights": "Descriptions are independently written. Linked standards, publications, directories and teaching materials retain their publishers' rights and access terms. Public access is not a blanket reuse license."
+}
