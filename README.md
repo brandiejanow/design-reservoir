@@ -21,7 +21,7 @@ Use the [Resource suggestion form](https://github.com/brandiejanow/design-reserv
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **76 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
 - **129 current or forthcoming dated global events** across design, futures and foresight in the [Events Calendar](events/), including Texas Design Week Dallas; the calendar also includes a searchable directory of recurring Design Weeks
-- ANTICIPATE is used as an event research source only: the calendar lists the individual applicable events, not ANTICIPATE itself as a directory entry
+- ANTICIPATE's individual original research publications are indexed as separate reference resources, while its event calendar is treated as a discovery source. Dated events require confirmation from their original organizers.
 - [Knowledge of Design](https://brandiejanow.github.io/Knowledge-of-Design/index.html) is a resource in the main directory, linked to its official public website
 - Academic and cultural research sources from the Middle East and Gulf are included when relevant. Current events outside Saudi Arabia are assessed individually, while Saudi event listings remain restricted to eligible 2027-and-later programs. Earlier editorial decisions remain accessible through Git history.
 - automated URL auditing checks resource entries, design weeks, dated events and internal page links weekly and on manual request
@@ -30,7 +30,7 @@ Use the [Resource suggestion form](https://github.com/brandiejanow/design-reserv
 
 ## Knowledge of Design research
 
-Original research inquiries, including [Design Ecosystems](https://brandiejanow.github.io/Knowledge-of-Design/design-ecosystems.html), are maintained in the separate Knowledge of Design archive. Design Reservoir links to that initiative as a scholarly resource while maintaining its broader global directory.
+Original research inquiries, including [Design Ecosystems](https://brandiejanow.github.io/Knowledge-of-Design/research.html#design-ecosystems), are maintained in the separate Knowledge of Design archive. Design Reservoir links to that initiative as a scholarly resource while maintaining its broader global directory.
 
 ## Research tools and scholarly workflows
 
