@@ -1,0 +1,116 @@
+name: Apply verified GPAU forum review 2026-11-07
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/curate-gpau-20261107.yml']
+permissions:
+  contents: write
+concurrency:
+  group: curate-gpau-20261107
+  cancel-in-progress: false
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Apply one verified event and reconcile counts
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import csv, datetime, hashlib, io, json, pathlib, re, subprocess
+          root = pathlib.Path('.')
+          path = root / 'data/events.csv'
+          old_bytes = path.read_bytes()
+          expected_blob = '1aa5b8adbd3daec630c79b8b3091a361667ce24b'
+          blob = hashlib.sha1(b'blob ' + str(len(old_bytes)).encode() + b'\0' + old_bytes).hexdigest()
+          if blob != expected_blob:
+              raise SystemExit('Events changed after review; stop rather than overwrite concurrent work.')
+          def read_table(p):
+              text = p.read_text(encoding='utf-8-sig')
+              all_rows = list(csv.reader(io.StringIO(text)))
+              header = all_rows[0]
+              records = [r for r in all_rows[1:] if any(r)]
+              if any(len(r) != len(header) for r in records):
+                  raise SystemExit('Malformed CSV in ' + str(p))
+              return header, [dict(zip(header, r)) for r in records]
+          header, before = read_table(path)
+          expected_header = ['start_date','end_date','name','city','country','region','category','description','url','source','keywords']
+          assert header == expected_header
+          assert 100 <= len(before) <= 300
+          url = 'https://gpaunit.org/performance-excellence-digital-forum'
+          name = 'Performance Excellence Digital Forum 2026'
+          assert not any(r['url'].split('?')[0].rstrip('/') == url or r['name'].casefold() == name.casefold() for r in before), 'Duplicate event; stop for editorial review.'
+          review_date = '2026-11-07'
+          event = {
+              'start_date': '2026-12-09',
+              'end_date': '2026-12-09',
+              'name': name,
+              'city': 'Online',
+              'country': 'Online',
+              'region': 'Online',
+              'category': 'Social, Systems & Strategic',
+              'description': 'Free online GPAU forum on strategy execution, organizational maturity, performance measurement, AI and institutional improvement, with academic discussions, PMI research and organizational case studies. December 9, 09:30-15:30 UTC (03:30-09:30 U.S. Central; 12:30-18:30 Riyadh). Registration required. A provider-led professional event that also promotes paid assessments and training, not a peer-reviewed research conference. Some speakers remain unannounced; recordings are not confirmed.',
+              'url': url,
+              'source': 'GPAU official dated agenda and The KPI Institute announcement of October 14, 2026, checked November 7, 2026. https://news.kpiinstitute.org/gpau-announces-performance-excellence-digital-forum-2026/ Original summary; no blanket reuse license established. Online event, distinct from the separate Riyadh awards gala.',
+              'keywords': 'GPAU; Global Performance Audit Unit; performance measurement; organizational maturity; strategy execution; institutional evaluation; AI; PMI; management research; online forum; performance culture'
+          }
+          assert datetime.date.fromisoformat(event['end_date']) >= datetime.date.fromisoformat(review_date)
+          output = io.StringIO()
+          csv.DictWriter(output, fieldnames=header, lineterminator='\n').writerow(event)
+          separator = b'' if old_bytes.endswith((b'\n', b'\r')) else b'\n'
+          new_bytes = old_bytes + separator + output.getvalue().encode('utf-8')
+          path.write_bytes(new_bytes)
+          _, after = read_table(path)
+          assert after[:-1] == before and after[-1] == event
+          assert len(after) == len(before) + 1
+          assert path.read_bytes().startswith(old_bytes)
+          resource_path = root / 'data/resources.csv'
+          week_path = root / 'data/design-weeks.csv'
+          _, resources = read_table(resource_path)
+          _, weeks = read_table(week_path)
+          expired = [r['name'] for r in after if (r['end_date'] or r['start_date']) < review_date]
+          assert not expired, 'Unexpected expired records; do not publish misleading active counts.'
+          readme = root / 'README.md'
+          original = readme.read_text(encoding='utf-8')
+          replacement, n = re.subn(r'\*\*\d+ current or forthcoming dated global events\*\*', '**' + str(len(after)) + ' current or forthcoming dated global events**', original)
+          assert n == 1
+          readme.write_text(replacement, encoding='utf-8')
+          audit = {
+              'review_date': review_date,
+              'decision': 'Added one dated professional event; no permanent provider or report entry added.',
+              'event': event,
+              'sources': [url, 'https://news.kpiinstitute.org/gpau-announces-performance-excellence-digital-forum-2026/', 'https://gpaunit.org/about-us', 'https://gpaunit.org/gpau-maturity-model-framework', 'https://gpaunit.org/insights/research-surveys'],
+              'editorial_fit': 'Selected for strategy, institutional evaluation and performance-measurement research. Commercial assessments and training are disclosed. University participation does not make all provider claims independently validated.',
+              'methodological_boundary': 'GPAU explicitly states that its maturity models assess management tools, processes and architecture, not whether organizations achieve their performance targets. Maturity scores must not be presented as measured organizational impact.',
+              'geographic_boundary': 'This is a globally accessible online forum, not a Saudi-hosted physical event. Riyadh is the advertised agenda time zone. The separate 2027 Riyadh gala was not added.',
+              'access_and_rights': 'Free event registration is advertised; no registration submitted. Presentations are advertised for attendees, but a recording was not confirmed. Full Maturity Outlook reports require registration and were not examined. Copyright remains with original publishers; no text or images copied.',
+              'unresolved': ['Final speakers for sessions marked to be announced', 'Recording availability', 'Full report methodology, sampling and reuse permissions'],
+              'before': {'events': len(before), 'resources': len(resources), 'design_weeks': len(weeks)},
+              'after': {'events': len(after), 'resources': len(resources), 'design_weeks': len(weeks), 'searchable_directory_entries': len(resources) + len(weeks)},
+              'resource_additions': 0,
+              'event_additions': 1,
+              'removals': 0,
+              'duplicates_added': 0,
+              'retirement_rule': 'Existing daily expiry removes this dated record after December 9, 2026; earlier state remains in Git history.',
+              'validation': 'CSV schema checked. Every existing event preserved byte-for-byte as the original prefix. Resources, design weeks and website code unchanged. README event count reconciled. No conclusion about event occurrence inferred from HTTP status.',
+              'events_sha256': hashlib.sha256(new_bytes).hexdigest()
+          }
+          audit_path = root / 'data/gpau-forum-review-2026-11-07.json'
+          assert not audit_path.exists()
+          audit_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          expected_paths = {'README.md', 'data/events.csv', 'data/gpau-forum-review-2026-11-07.json'}
+          changed = set(subprocess.check_output(['git', 'diff', '--name-only'], text=True).splitlines())
+          untracked = set(subprocess.check_output(['git', 'ls-files', '--others', '--exclude-standard'], text=True).splitlines())
+          assert changed | untracked == expected_paths, (changed, untracked)
+          print(json.dumps({'before': audit['before'], 'after': audit['after'], 'added': name}, indent=2))
+          PY
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/events.csv README.md data/gpau-forum-review-2026-11-07.json
+          git commit -m 'Add verified GPAU December 2026 online forum with research and access caveats'
+          git push origin HEAD:main
