@@ -1,0 +1,46 @@
+{
+  "review_date": "2026-11-08",
+  "decision": "Added one research-communication and printmaking tool; no event, institution, article or duplicate collection record added.",
+  "resource": {
+    "name": "Print Studio",
+    "description": "Open-source browser tool maintained by Dario Rodighiero for composing screen-printing separations from collection visualizations. Its current Surprise Machines project represents 213,330 Harvard Art Museums images as colored marks. Supports A2/A3 sheets, one, two or three inks or CMYK, and 300/400 dpi PNG films with a color proof. Useful for teaching print production and communicating collection research; no general dataset-upload interface is documented.",
+    "url": "https://rodighiero.github.io/print-studio/",
+    "resource_type": "Research Tool; Education & Research",
+    "industries": "Graphic & Communication Design; Digital / UX / Product; Arts & Cultural Heritage; Design Education; STEAM",
+    "keywords": "Print Studio; Dario Rodighiero; Surprise Machines; data visualization; screen printing; halftone; color separation; CMYK; printmaking; digital humanities; cultural collections; research communication; PixPlot; UMAP; open-source software",
+    "status": "Verified source",
+    "last_checked": "2026-11-08",
+    "audit_note": "README, interface source, package metadata, LICENSE and deployment workflow inspected. GitHub run 42367850502 confirms successful tests, build and Pages deployment on 2026-11-07 at source commit 8e4bac1fe492da9158aa2ebd6849aa11d4514cdf. Live interactive rendering and export were not independently tested because the viewer could not be retrieved. Current interface exposes only Surprise Machines; new collections require source/data adaptation. The related 2022 article supports research provenance, not independent validation of this newer tool or printed output. Code is MIT-licensed; included museum images and metadata are explicitly excluded. Check rights per source asset; no collection-wide reuse permission inferred. High-resolution exports may require several hundred megabytes of memory.",
+    "previous_url": "",
+    "source": "https://github.com/rodighiero/print-studio; https://github.com/rodighiero/print-studio/blob/8e4bac1fe492da9158aa2ebd6849aa11d4514cdf/README.md; https://github.com/rodighiero/print-studio/blob/8e4bac1fe492da9158aa2ebd6849aa11d4514cdf/LICENSE; https://github.com/rodighiero/print-studio/actions/runs/42367850502; https://metalab.harvard.edu/p/surprise-machines/; https://doi.org/10.1075/idj.22013.rod"
+  },
+  "workflow": "Analyze & visualize data",
+  "before": {
+    "resources": 458,
+    "research_tools": 35,
+    "design_weeks": 76,
+    "events": 125,
+    "searchable_entries": 534
+  },
+  "after": {
+    "resources": 459,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "events": 125,
+    "searchable_entries": 535
+  },
+  "additions": 1,
+  "removals": 0,
+  "events_changed": false,
+  "design_weeks_changed": false,
+  "unresolved": [
+    "Live browser rendering and export were not independently tested.",
+    "No general dataset-upload interface is documented.",
+    "Physical screen-printing fidelity and item-level collection reuse permissions were not assessed."
+  ],
+  "provenance": "Print Studio is a newer code project maintained by Dario Rodighiero; the earlier Surprise Machines collaboration and its 2022 article are credited separately. Its UMAP arrangement reflects model-based visual similarity, not historical, geographic or causal relations.",
+  "rights": "MIT license applies to code, not all included museum imagery or metadata. Linked article is CC BY 4.0 according to the publisher; that license does not extend to the whole collection. No third-party images, source code or article text copied into Design Reservoir.",
+  "validation": "Schema validated; exact name and URL duplication checked across full current resource data. Existing resource and workflow bytes preserved as prefixes. Only four README count tokens changed. Event and design-week files and website code untouched. No manual runtime or print-production test claimed.",
+  "source_commit": "8e4bac1fe492da9158aa2ebd6849aa11d4514cdf",
+  "sha256_resources_after": "c7c4ea8a0e7d7d38eb2c3192db06e7c4928526a8721ccec55bf92554f81a9277"
+}
