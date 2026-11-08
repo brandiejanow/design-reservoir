@@ -1,0 +1,29 @@
+name: Apply academic resource scan 2026-11-08
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/curate-deep-scan-20261108.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: reservoir-deep-scan-20261108
+  cancel-in-progress: false
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Validate and apply reviewed records
+        run: python3 scripts/apply_deep_scan_20261108.py
+      - name: Commit only reviewed data and accounting
+        run: |
+          git diff --check
+          git add data/resources.csv data/events.csv README.md data/deep-scan-review-2026-11-08.json data/deep-scan-summary-2026-11-08.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Publish reviewed academic resources, archive funding and CERN summit; correct ACM access'
+          git push origin HEAD:main
