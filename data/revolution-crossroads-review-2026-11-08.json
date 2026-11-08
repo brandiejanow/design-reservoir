@@ -1,0 +1,49 @@
+{
+  "review_date": "2026-11-08",
+  "name": "Revolution Crossroads",
+  "decision": "Retain existing Archive & Collection / Research & Reference entry; record archival-method benchmark without adding a duplicate.",
+  "submitted_reference": "https://www.si.edu/revolution-crossroads",
+  "existing_directory_url": "https://huggingface.co/RevolutionCrossroads",
+  "provenance": "Smithsonian Institution and Library of Congress collaboration bringing together Smithsonian museum records, Library of Congress newspapers and publicly available National Archives Revolutionary War pension files. The historical focus does not mean every source document was created during 1770-1810.",
+  "verification": {
+    "repository": "Read the existing Revolution Crossroads record in data/resources.csv at blob c75c7d97492b0c7022c3ef9198e3a20e13fdc39b. Its classification, accessible dataset destination and reuse caution remain appropriate.",
+    "primary_sources": "Directly inspected the project's Hugging Face organization page and Smithsonian collection, OCR results, named-entity occurrences and NARA pension dataset cards. Read indexed Smithsonian project and project-manager descriptions. Direct retrieval of the Smithsonian overview and data-hug article returned 404 in this environment; this is not evidence that the project has ceased operating.",
+    "operation": "Public organization and dataset pages provide current processing documentation, revision information, source references and recent update activity. No conclusion about archival completeness or extraction accuracy is inferred from URL reachability.",
+    "limits": "No bulk dataset download, independent transcription-accuracy evaluation, full preservation audit or interactive cross-collection search test was performed. Some dataset-card summary figures and viewer totals differ; aggregate counts are not reproduced in this review."
+  },
+  "documented_archival_practices": [
+    "The collection records, AI-extracted text and extracted entity occurrences are documented as distinct layers. Processing outputs do not replace institutional source records.",
+    "OCR outputs retain collection labels, source filenames and page references, with additional block-level positioning information. Dataset cards explain how to trace derived text to source inputs.",
+    "The OCR and entity cards document processing runs and named dataset revisions for reproducible analysis. Block-, page- and file-level tables describe different representations, not independent collections to sum together.",
+    "Named-entity rows are occurrences, not verified distinct identities or relationships. The project states that model confidence is not calibrated accuracy and that human source checking remains necessary.",
+    "The Smithsonian project-manager account explains that apparently shared fields such as creator can have different meanings across collections; cross-collection transformation requires subject and cataloging expertise."
+  ],
+  "access_and_rights": "The reviewed Smithsonian collection, OCR-results and entity-occurrence cards identify CC0 1.0; the NARA card identifies public-domain source material. The derived-output cards direct users to originating collections for underlying image and record rights. No blanket permission for all linked material is inferred, and no third-party files or collection content were copied into Design Reservoir.",
+  "reviewer_recommendations_for_future_archives": [
+    "Preserve originals separately from transcriptions, standardized metadata and interpretation. Give each source item a stable identifier and link every derivative to it.",
+    "Record original author, date, originating project or institution, source location, rights, processing method, version and review status. Cross-reference related collections without transferring authorship or ownership.",
+    "Keep machine-suggested names, dates and relationships provisional until checked against the underlying record. Track human corrections and unresolved readings.",
+    "Document the exact version used in a publication. Distinguish source items from pages, text blocks and repeated mentions when reporting counts.",
+    "Treat this as a benchmark for description, discovery and research access, not as a reason to replace preservation copies, backups or confidentiality controls with a public website or machine-learning repository."
+  ],
+  "sources": [
+    "https://www.si.edu/revolution-crossroads",
+    "https://www.si.edu/revolution-crossroads/stories/data-hug",
+    "https://huggingface.co/RevolutionCrossroads",
+    "https://huggingface.co/datasets/RevolutionCrossroads/si_us_revolutionary_era_collections",
+    "https://huggingface.co/datasets/RevolutionCrossroads/RevX_OCR_results",
+    "https://huggingface.co/datasets/RevolutionCrossroads/RevX_NER_Entity_Occurrences",
+    "https://huggingface.co/datasets/RevolutionCrossroads/nara_revolutionary_war_pension_files"
+  ],
+  "changes": {
+    "review_records_added": 1,
+    "public_resources_added": 0,
+    "public_resources_removed": 0,
+    "events_added": 0,
+    "events_removed": 0,
+    "resources_csv_changed": false,
+    "events_csv_changed": false,
+    "design_weeks_csv_changed": false,
+    "website_code_changed": false
+  }
+}
