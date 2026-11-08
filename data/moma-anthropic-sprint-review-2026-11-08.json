@@ -1,0 +1,29 @@
+{
+  "review_date": "2026-11-08",
+  "name": "Creative Sprint | MoMA x Anthropic",
+  "reference_url": "https://docs.google.com/forms/d/e/1FAIpQLSddhbaNuQ05XVQ7nIsJkQRJAPST9ih29cwcyIzUmVkHYrNhOg/viewform",
+  "decision": "Hold dated listing: year omitted and geographic eligibility contradictory",
+  "source_provenance": "The submitted Google Form was publicly readable and its footer identifies MoMA.org as the creating organization. The form describes a Museum of Modern Art collaboration with Anthropic. Searches did not locate a separate dated organizer announcement corroborating the year. An accessible form is not proof that its announced opportunity is current.",
+  "program": "An application-selected creative sprint around the prompt Create Connections. The form describes up to 50 participants working in pairs with Claude and other creative tools on projects with a digitally native component. Individual applicants may be paired. Remote preparation is followed by two mandatory onsite days at MoMA and presentations to museum senior staff. This is a temporary practice opportunity, not a peer-reviewed research conference or a permanent academic resource.",
+  "announced_schedule_without_inferred_year": {
+    "application_deadline": "November 19",
+    "remote_stage": "November 30 to December 2",
+    "onsite_stage": "December 3 to December 4",
+    "year": null,
+    "deadline_time_and_time_zone": null
+  },
+  "eligibility_conflict": "The introduction permits applications from anywhere, while the Application & Eligibility section limits participation to NYC and the surrounding tri-state area. Do not advertise worldwide eligibility or infer that willingness to travel resolves the residence requirement.",
+  "access_and_rights": "The inspected form does not specify participation fees, travel or accommodation support, project ownership, licensing, or rights to publish participants' work. Do not describe the opportunity as funded, free, remotely attendable in full, or openly licensed. No application or personal information was submitted.",
+  "editorial_fit": "Potential fit for a dated opportunity across design, creative technology, arts and STEAM once the year and eligibility are resolved. The two named organizations do not establish recurring-program status or academic validation of outcomes.",
+  "duplication_review": "Repository searches for Anthropic and the exact phrase Creative Sprint returned no matches. No public listing was created, so no duplicate was introduced.",
+  "next_action": "Require an explicit year from the organizer and clarification of the geographic restriction before adding the application deadline or sprint to the active calendar. Check funding, participation terms and project rights separately. If the dates have already passed when resolved, retain only this review history rather than publishing an active event.",
+  "changes": {
+    "review_records_added": 1,
+    "public_resources_added": 0,
+    "events_added": 0,
+    "removals": 0,
+    "resources_csv_changed": false,
+    "events_csv_changed": false,
+    "design_weeks_csv_changed": false
+  }
+}
