@@ -1,0 +1,51 @@
+{
+  "review_date": "2026-11-07",
+  "decision": "Added one dated professional event; no permanent provider or report entry added.",
+  "event": {
+    "start_date": "2026-12-09",
+    "end_date": "2026-12-09",
+    "name": "Performance Excellence Digital Forum 2026",
+    "city": "Online",
+    "country": "Online",
+    "region": "Online",
+    "category": "Social, Systems & Strategic",
+    "description": "Free online GPAU forum on strategy execution, organizational maturity, performance measurement, AI and institutional improvement, with academic discussions, PMI research and organizational case studies. December 9, 09:30-15:30 UTC (03:30-09:30 U.S. Central; 12:30-18:30 Riyadh). Registration required. A provider-led professional event that also promotes paid assessments and training, not a peer-reviewed research conference. Some speakers remain unannounced; recordings are not confirmed.",
+    "url": "https://gpaunit.org/performance-excellence-digital-forum",
+    "source": "GPAU official dated agenda and The KPI Institute announcement of October 14, 2026, checked November 7, 2026. https://news.kpiinstitute.org/gpau-announces-performance-excellence-digital-forum-2026/ Original summary; no blanket reuse license established. Online event, distinct from the separate Riyadh awards gala.",
+    "keywords": "GPAU; Global Performance Audit Unit; performance measurement; organizational maturity; strategy execution; institutional evaluation; AI; PMI; management research; online forum; performance culture"
+  },
+  "sources": [
+    "https://gpaunit.org/performance-excellence-digital-forum",
+    "https://news.kpiinstitute.org/gpau-announces-performance-excellence-digital-forum-2026/",
+    "https://gpaunit.org/about-us",
+    "https://gpaunit.org/gpau-maturity-model-framework",
+    "https://gpaunit.org/insights/research-surveys"
+  ],
+  "editorial_fit": "Selected for strategy, institutional evaluation and performance-measurement research. Commercial assessments and training are disclosed. University participation does not make all provider claims independently validated.",
+  "methodological_boundary": "GPAU explicitly states that its maturity models assess management tools, processes and architecture, not whether organizations achieve their performance targets. Maturity scores must not be presented as measured organizational impact.",
+  "geographic_boundary": "This is a globally accessible online forum, not a Saudi-hosted physical event. Riyadh is the advertised agenda time zone. The separate 2027 Riyadh gala was not added.",
+  "access_and_rights": "Free event registration is advertised; no registration submitted. Presentations are advertised for attendees, but a recording was not confirmed. Full Maturity Outlook reports require registration and were not examined. Copyright remains with original publishers; no text or images copied.",
+  "unresolved": [
+    "Final speakers for sessions marked to be announced",
+    "Recording availability",
+    "Full report methodology, sampling and reuse permissions"
+  ],
+  "before": {
+    "events": 126,
+    "resources": 458,
+    "design_weeks": 76
+  },
+  "after": {
+    "events": 127,
+    "resources": 458,
+    "design_weeks": 76,
+    "searchable_directory_entries": 534
+  },
+  "resource_additions": 0,
+  "event_additions": 1,
+  "removals": 0,
+  "duplicates_added": 0,
+  "retirement_rule": "Existing daily expiry removes this dated record after December 9, 2026; earlier state remains in Git history.",
+  "validation": "CSV schema checked. Every existing event preserved byte-for-byte as the original prefix. Resources, design weeks and website code unchanged. README event count reconciled. No conclusion about event occurrence inferred from HTTP status.",
+  "events_sha256": "c8c164d926d3184fc1c86c97cc7ad83bdeb410efc11daf5d69a42dcb2b3b089d"
+}
