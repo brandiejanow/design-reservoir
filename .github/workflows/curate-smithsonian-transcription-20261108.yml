@@ -1,0 +1,113 @@
+name: Curate Smithsonian Transcription Center 2026-11-08
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/curate-smithsonian-transcription-20261108.yml]
+permissions:
+  contents: write
+concurrency:
+  group: curate-smithsonian-transcription-20261108
+  cancel-in-progress: false
+jobs:
+  curate:
+    if: github.repository == 'brandiejanow/design-reservoir'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Add verified resource while preserving existing records
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import csv, hashlib, io, json
+          from pathlib import Path
+          from urllib.parse import urlparse
+          def blob(data):
+              return hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+          def rows(data):
+              table=list(csv.reader(io.StringIO(data.decode('utf-8-sig'))))
+              assert table and all(len(r)==len(table[0]) for r in table[1:] if r), 'Invalid CSV row'
+              return table[0], [dict(zip(table[0], r)) for r in table[1:] if r]
+          p=Path('data/resources.csv')
+          original=p.read_bytes()
+          assert blob(original)=='c75c7d97492b0c7022c3ef9198e3a20e13fdc39b', 'Resource file changed: re-review before writing'
+          header, existing=rows(original)
+          assert len(existing)==459
+          assert header==['name','description','url','resource_type','industries','keywords','status','last_checked','audit_note','previous_url','source']
+          name='Smithsonian Transcription Center'
+          assert not any(r['name'].strip().casefold()==name.casefold() or urlparse(r['url']).hostname=='transcription.si.edu' for r in existing), 'Duplicate candidate'
+          readme=Path('README.md')
+          old_readme=readme.read_bytes()
+          assert blob(old_readme)=='9be950a370067eb059d0c6b067c45999b681ed51', 'README changed: re-review before writing'
+          untouched=['data/events.csv','data/design-weeks.csv','data/research-tool-workflows.csv','index.html','app.js']
+          originals={f:Path(f).read_bytes() for f in untouched}
+          _,events=rows(originals['data/events.csv'])
+          _,weeks=rows(originals['data/design-weeks.csv'])
+          assert len(weeks)==76
+          entry={
+            'name':name,
+            'description':"Smithsonian digital volunteering program and public collection of transcribed historical documents and audio. Provides source-linked transcripts, transcription and review guides, and teaching resources across art, design, history and science. Volunteers compare text with originals; some completed transcripts receive additional Smithsonian expert review. A reference for archival access and collaborative documentation, not a service for uploading private archives.",
+            'url':'https://transcription.si.edu/',
+            'resource_type':'Archive & Collection; Research & Reference; Education & Research; Community & Network',
+            'industries':'Arts & Cultural Heritage; Academic Research; Research, History & Education; Design Education; STEAM',
+            'keywords':'Smithsonian; Transcription Center; archives; transcription; digital humanities; primary sources; manuscript research; historical documents; audio transcription; digital volunteering; crowdsourcing; review; archival methods; cultural heritage; science history; collections',
+            'status':'Verified source',
+            'last_checked':'2026-11-08',
+            'audit_note':"Official About, FAQs, current transcription and review instructions, completed-project directory, Community Agreement and release notes reviewed. Ongoing operation supported by project access and October 29, 2026 release, not HTTP status alone. Homepage timed out in this review; subpages were readable. Volunteers may transcribe without an account; reviewing requires one and accounts require age 14 or older. Staff expert approval is additional for some transcripts, not universal. Instructions preserve original spelling, separate Notes from transcript and mark uncertain readings. Smithsonian reports saving issues and recommends keeping a separate copy before saving or submitting. No live submission, account creation, independent accuracy test or preservation audit performed. Public access is not a blanket reuse license: follow item-level rights and Smithsonian terms. Volunteer agreement relinquishes transcript IP but does not license all underlying collections. Distinct from Smithsonian Open Access, Learning Lab and Revolution Crossroads; no separate guide or dated event added.",
+            'previous_url':'',
+            'source':'https://transcription.si.edu/about; https://transcription.si.edu/faqs; https://transcription.si.edu/instructions/transcribe; https://transcription.si.edu/instructions/review; https://transcription.si.edu/completed-projects; https://transcription.si.edu/community/agreement; https://transcription.si.edu/release-notes; https://www.si.edu/termsofuse'
+          }
+          output=io.StringIO(newline='')
+          writer=csv.DictWriter(output,fieldnames=header,lineterminator='\n')
+          writer.writerow(entry)
+          updated=original+(b'' if original.endswith(b'\n') else b'\n')+output.getvalue().encode('utf-8')
+          _,after=rows(updated)
+          assert len(after)==460 and after[:-1]==existing and after[-1]==entry
+          assert updated.startswith(original)
+          text=old_readme.decode('utf-8')
+          for before, replacement in [('**459 core resource records**','**460 core resource records**'),('**459 active research and reference resource records**','**460 active research and reference resource records**'),('**535 searchable entries**','**536 searchable entries**')]:
+              assert text.count(before)==1, 'Unexpected README count wording'
+              text=text.replace(before,replacement)
+          review={
+            'review_date':'2026-11-08',
+            'name':name,
+            'decision':'Added one continuing archival resource and methods reference; no event or duplicate Smithsonian record added.',
+            'resource':entry,
+            'source_scope':'Reviewed current institutional documentation and completed-project pages, not every transcript or collection. Smithsonian terms were available through indexed official text; direct terms-page retrieval failed. No copyrighted source content or collection images copied.',
+            'archival_method_benchmark':[
+              'Preserve source wording, including spelling and grammar; distinguish transcription from translation or interpretation.',
+              'Record uncertainty explicitly and keep explanatory comments in separate notes rather than silently completing missing text.',
+              'Use a different reviewer to compare the whole transcript with its source; corrections require another review.',
+              'Retain source catalog links and separate draft, reviewed, published and expert-approved states.',
+              'Provide a way to correct completed transcripts. Community-reviewed does not necessarily mean expert-approved.',
+              'For our own archives, keep preservation originals, rights and access controls separate from public transcription and search. The Smithsonian program is not a hosting service for private archives.'
+            ],
+            'access':'Public reference material and self-directed digital volunteering. Account required to review; no account or contribution was submitted. No claim of paid work or certified service hours.',
+            'rights':'No blanket open license assigned. The Community Agreement states volunteers retain no IP rights to transcripts; underlying image and collection restrictions remain item-specific. Consult Smithsonian terms and source catalog records.',
+            'current_operation':'Release notes document a September 2026 redesign and an October 29, 2026 saving hotfix. The site still advises keeping a copy before saving or submitting. Homepage timeout is not evidence of closure.',
+            'unresolved':['Live save/publish workflow not tested.','No independent transcription-accuracy assessment.','Item-specific reuse permissions require checking before reproduction.'],
+            'before':{'resources':459,'research_tools':sum('Research Tool' in r['resource_type'].split('; ') for r in existing),'design_weeks':len(weeks),'events':len(events),'searchable_entries':459+len(weeks)},
+            'after':{'resources':460,'research_tools':sum('Research Tool' in r['resource_type'].split('; ') for r in after),'design_weeks':len(weeks),'events':len(events),'searchable_entries':460+len(weeks)},
+            'changes':{'resources_added':1,'resources_removed':0,'events_added':0,'events_removed':0,'duplicates_added':0},
+            'validation':'Full CSV schema and exact-name/domain duplicate checks passed. All existing resource bytes and records preserved. Only three README count tokens changed. Events, design weeks, research-tool classifications and website code unchanged.',
+            'resources_sha256':hashlib.sha256(updated).hexdigest()
+          }
+          review_path=Path('data/smithsonian-transcription-review-2026-11-08.json')
+          assert not review_path.exists(), 'Review record exists'
+          p.write_bytes(updated)
+          readme.write_bytes(text.encode('utf-8'))
+          review_path.write_text(json.dumps(review,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          assert all(Path(f).read_bytes()==v for f,v in originals.items())
+          print(json.dumps({'before':review['before'],'after':review['after'],'added':name}))
+          PY
+      - name: Commit verified directory and review
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/resources.csv README.md data/smithsonian-transcription-review-2026-11-08.json
+          git diff --cached --check
+          git commit -m 'Add Smithsonian Transcription Center with source-review and archival-use boundaries'
+          git push origin HEAD:main
