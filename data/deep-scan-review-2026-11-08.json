@@ -1,0 +1,489 @@
+{
+  "review_date": "2026-11-08",
+  "scope": "Targeted global discovery across futures, design scholarship and education, STEAM, archives, methods and datasets. Review against the existing directory, not a claim to have audited every external link or all resources on the internet.",
+  "manifest": "data/deep-scan-manifest-2026-11-08.json",
+  "manifest_sha256": "bc3f9d3d1d63f2137339137419995e0d472dacf1667990de6bb685184f38b84f",
+  "before": {
+    "resources": 460,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "events": 125,
+    "searchable_entries": 536
+  },
+  "after": {
+    "resources": 490,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "events": 127,
+    "searchable_entries": 566
+  },
+  "resource_candidates_reviewed": 30,
+  "resources_added": 30,
+  "resources_updated": 1,
+  "resources_removed": 0,
+  "events_added": 2,
+  "events_retired_by_recorded_end_date": 0,
+  "added": [
+    {
+      "name": "Policy Horizons Canada: Foresight Training Resources",
+      "url": "https://horizons.service.canada.ca/en/resources/",
+      "group": "Futures and foresight",
+      "resource_type": "Methods & Toolkits; Education & Research; Research & Reference",
+      "access_rights": "Public reading. No blanket reuse license established in the reviewed pages; check government and item-specific terms before adaptation or republication.",
+      "sources": [
+        "https://horizons.service.canada.ca/en/resources/",
+        "https://horizons.service.canada.ca/en/our-work/learning-materials/foresight-training-manual-module-1-introduction-to-foresight/index.shtml"
+      ]
+    },
+    {
+      "name": "Journal of Futures Studies",
+      "url": "https://jfsdigital.org/",
+      "group": "Futures and foresight",
+      "resource_type": "Academic Journal; Research & Reference",
+      "access_rights": "Journal identifies CC BY-NC-ND 4.0. From January 2026 the publisher lists fees for research articles and essays, while perspectives essays remain free to publish; verify terms for each submission.",
+      "sources": [
+        "https://jfsdigital.org/homepage/",
+        "https://jfsdigital.org/statement-of-open-access/",
+        "https://ojs.jfsdigital.org/index.php/jfs/announcement"
+      ]
+    },
+    {
+      "name": "ISS African Futures",
+      "url": "https://futures.issafrica.org/",
+      "group": "Futures and foresight",
+      "resource_type": "Research & Reference; Academic Resource",
+      "access_rights": "Original African Futures text, data and visualizations are offered under CC BY with source and author attribution. Third-party data retain their original terms.",
+      "sources": [
+        "https://futures.issafrica.org/about/",
+        "https://futures.issafrica.org/geographic/regions/africa/",
+        "https://issafrica.org/topics/african-futures"
+      ]
+    },
+    {
+      "name": "Finland Futures Research Centre (University of Turku)",
+      "url": "https://www.utu.fi/en/university/turku-school-of-economics/finland-futures-research-centre",
+      "group": "Futures and foresight",
+      "resource_type": "Education & Research; Research & Reference; Academic Resource",
+      "access_rights": "Public institutional information and publication routes; access and reuse rights vary by publication. Degree enrollment, fees and eligibility are separate.",
+      "sources": [
+        "https://www.utu.fi/en/university/turku-school-of-economics/finland-futures-research-centre",
+        "https://www.utu.fi/en/university/turku-school-of-economics/finland-futures-research-centre/research",
+        "https://www.utu.fi/en/university/turku-school-of-economics/finland-futures-research-centre/news/publications"
+      ]
+    },
+    {
+      "name": "Biosphere Futures",
+      "url": "https://biospherefutures.net/",
+      "group": "Futures and foresight",
+      "resource_type": "Index & Directory; Research & Reference",
+      "access_rights": "Site identifies CC BY-SA 4.0 for Stockholm Resilience Centre and individual authors. Linked original studies and third-party material require separate rights checks.",
+      "sources": [
+        "https://biospherefutures.net/the-future-of-the-biosphere/",
+        "https://biospherefutures.net/scenarios/",
+        "https://www.pnnl.gov/publications/biosphere-futures-database-social-ecological-scenarios"
+      ]
+    },
+    {
+      "name": "RSD Systemic Design Repository",
+      "url": "https://rsdsymposium.org/",
+      "group": "Design scholarship and methods",
+      "resource_type": "Archive & Collection; Research & Reference; Conference & Research Platform",
+      "access_rights": "Association specifies CC BY-NC-ND 4.0 for proceedings. Individual third-party components and other publication types may have separate terms.",
+      "sources": [
+        "https://systemic-design.org/publishing/symposia-proceedings/",
+        "https://rsdsymposium.org/proceedings/",
+        "https://rsdsymposium.org/papers/"
+      ]
+    },
+    {
+      "name": "Systemic Design Practice Wheel",
+      "url": "https://www.newknow.how/resources/systemic-design-practice-wheel",
+      "group": "Design scholarship and methods",
+      "resource_type": "Methods & Toolkits; Research & Reference",
+      "access_rights": "Creator specifies CC BY-NC for the Wheel and permits attributed noncommercial use, sharing and adaptation. Check linked article and other assets separately.",
+      "sources": [
+        "https://emmablomkamp.com/practice",
+        "https://www.newknow.how/resources/systemic-design-practice-wheel"
+      ]
+    },
+    {
+      "name": "Diseña",
+      "url": "https://revistadisena.uc.cl/index.php/Disena/",
+      "group": "Design scholarship and methods",
+      "resource_type": "Academic Journal; Research & Reference",
+      "access_rights": "Free reading without registration; publisher identifies CC BY-SA 4.0. Preserve attribution and check separately credited images and third-party material.",
+      "sources": [
+        "https://revistadisena.uc.cl/index.php/Disena/about",
+        "https://revistadisena.uc.cl/index.php/Disena/issue/view/4137"
+      ]
+    },
+    {
+      "name": "Cubic Journal",
+      "url": "https://cubicjournal.org/",
+      "group": "Design scholarship and methods",
+      "resource_type": "Academic Journal; Research & Reference",
+      "access_rights": "Articles CC BY 4.0; series metadata CC0. Publisher states no submission or article-processing charges. Check credited third-party content individually.",
+      "sources": [
+        "https://cubicjournal.org/index.php/cubic/about",
+        "https://cubicjournal.org/index.php/cubic/issue/view/8"
+      ]
+    },
+    {
+      "name": "FormAkademisk",
+      "url": "https://journals.oslomet.no/formakademisk",
+      "group": "Design scholarship and methods",
+      "resource_type": "Academic Journal; Research & Reference",
+      "access_rights": "Publisher specifies CC BY 4.0. Free reading does not establish zero author expense because language-editing requirements apply.",
+      "sources": [
+        "https://journals.oslomet.no/index.php/formakademisk/about",
+        "https://journals.oslomet.no/formakademisk/issue/view/563"
+      ]
+    },
+    {
+      "name": "Dsource: Design Learning Resource",
+      "url": "https://www.dsource.in/",
+      "group": "Design scholarship and methods",
+      "resource_type": "Education & Research; Research & Reference; Archive & Collection",
+      "access_rights": "Public learning material; no collection-wide reuse license verified. Text, images and contributor materials retain their respective rights.",
+      "sources": [
+        "https://www.dsource.in/about",
+        "https://dsource.in/design-fundamentals",
+        "https://www.dsource.in/course"
+      ]
+    },
+    {
+      "name": "Cambridge Inclusive Design Toolkit",
+      "url": "https://www.inclusivedesigntoolkit.com/",
+      "group": "Design scholarship and methods",
+      "resource_type": "Methods & Toolkits; Education & Research; Research & Reference",
+      "access_rights": "Free online access is described by Cambridge; print publications and other products are separate. No blanket license for copying tools or imagery established.",
+      "sources": [
+        "https://www-edc.eng.cam.ac.uk/research/inclusive-design",
+        "https://www.eng.cam.ac.uk/news/inclusive-design-toolkit",
+        "https://www.inclusivedesigntoolkit.com/"
+      ]
+    },
+    {
+      "name": "Participedia",
+      "url": "https://participedia.net/",
+      "group": "Design scholarship and methods",
+      "resource_type": "Index & Directory; Research & Reference; Education & Research",
+      "access_rights": "About page links CC BY-NC-SA 3.0. Check exceptions and underlying sources before reuse; no data or personal information submitted.",
+      "sources": [
+        "https://participedia.net/about",
+        "https://participedia.net/terms"
+      ]
+    },
+    {
+      "name": "NID Master of Design in Design Education",
+      "url": "https://www.nid.edu/academics/programmes/master-of-design-mdes/design-education-mdes.html",
+      "group": "Design scholarship and methods",
+      "resource_type": "Education & Research; Academic Resource",
+      "access_rights": "Public program description; admissions, eligibility, fees and curriculum reuse remain subject to NID terms. No application submitted.",
+      "sources": [
+        "https://www.nid.edu/academics/programmes/master-of-design-mdes/design-education-mdes.html",
+        "https://www.nid.edu/"
+      ]
+    },
+    {
+      "name": "Arts at CERN",
+      "url": "https://arts.cern/",
+      "group": "STEAM and materials",
+      "resource_type": "Education & Research; Archive & Collection; Careers & Opportunities",
+      "access_rights": "Public project descriptions; website copyright retained. Residencies are selection-based and artwork, imagery and publication rights are item-specific.",
+      "sources": [
+        "https://arts.cern/about-us/",
+        "https://arts.cern/archive/",
+        "https://arts.cern/event/the-hybrid-nexus-cern-art-and-science-summit-2026-19-and-20-november/"
+      ]
+    },
+    {
+      "name": "CHEMARTS (Aalto University)",
+      "url": "https://chemarts.aalto.fi/",
+      "group": "STEAM and materials",
+      "resource_type": "Education & Research; Research & Reference",
+      "access_rights": "Site states all rights reserved. Some publications have digital editions, but rights must be checked individually; neither the entire site nor its images are assumed openly licensed.",
+      "sources": [
+        "https://chemarts.aalto.fi/",
+        "https://www.aalto.fi/en/minors/chemarts-minor",
+        "https://research.aalto.fi/en/publications/the-chemarts-cookbook/"
+      ]
+    },
+    {
+      "name": "Materiom Commons",
+      "url": "https://www.materiom.org/solutions/commons",
+      "group": "STEAM and materials",
+      "resource_type": "Research & Reference; Community & Network",
+      "access_rights": "Platform terms identify CC BY-NC-SA 4.0 for contributed content while reserving rights in website design and other proprietary elements. Free access requires signup; commercial services are separate.",
+      "sources": [
+        "https://www.materiom.org/solutions/commons",
+        "https://www.materiom.org/terms-and-conditions"
+      ]
+    },
+    {
+      "name": "Exploratorium Tinkering Studio",
+      "url": "https://www.exploratorium.edu/tinkering",
+      "group": "STEAM and materials",
+      "resource_type": "Education & Research; Methods & Toolkits",
+      "access_rights": "Public resources remain subject to Exploratorium terms and individual activity notices. No blanket license inferred from the program's sharing approach.",
+      "sources": [
+        "https://www.exploratorium.edu/tinkering",
+        "https://www.exploratorium.edu/tinkering/projects"
+      ]
+    },
+    {
+      "name": "Materials Project",
+      "url": "https://materialsproject.org/",
+      "group": "STEAM and materials",
+      "resource_type": "Research & Reference; Academic Resource",
+      "access_rights": "Project identifies CC BY 4.0 for data; code has separate open-source licenses. Account/API conditions apply. Cite database versions and relevant property papers.",
+      "sources": [
+        "https://docs.materialsproject.org/",
+        "https://docs.materialsproject.org/frequently-asked-questions",
+        "https://doi.org/10.17188/1693272",
+        "https://www.mgi.gov/content/materials-project"
+      ]
+    },
+    {
+      "name": "Healthy Materials Lab (Parsons School of Design)",
+      "url": "https://healthymaterialslab.org/",
+      "group": "STEAM and materials",
+      "resource_type": "Education & Research; Research & Reference",
+      "access_rights": "No blanket reuse license established. Some academic resources require an institutional account and separate courses are paid; refer to item-level terms.",
+      "sources": [
+        "https://healthymaterialslab.org/",
+        "https://healthymaterialslab.org/about"
+      ]
+    },
+    {
+      "name": "Digital Preservation Handbook (Digital Preservation Coalition)",
+      "url": "https://www.dpconline.org/handbook",
+      "group": "Archives and preservation",
+      "resource_type": "Methods & Toolkits; Research & Reference",
+      "access_rights": "Publisher permits English-language reuse with required acknowledgements, excluding logos; detailed handbook conditions and third-party credits apply. Translation permission is requested separately.",
+      "sources": [
+        "https://www.dpconline.org/handbook",
+        "https://www.dpconline.org/handbook/contents"
+      ]
+    },
+    {
+      "name": "Digital Curation Centre: Research Data Guidance",
+      "url": "https://www.dcc.ac.uk/guidance",
+      "group": "Archives and preservation",
+      "resource_type": "Methods & Toolkits; Research & Reference; Education & Research",
+      "access_rights": "Guidance is free to access, but the site retains copyright unless explicitly stated otherwise. Check individual guide licenses before copying or adaptation.",
+      "sources": [
+        "https://www.dcc.ac.uk/guidance",
+        "https://dcc.ac.uk/guidance/curation-lifecycle-model/"
+      ]
+    },
+    {
+      "name": "IIIF: Standards and Cookbook",
+      "url": "https://iiif.io/get-started/cookbook/",
+      "group": "Archives and preservation",
+      "resource_type": "Methods & Toolkits; Standards & Certification; Research & Reference",
+      "access_rights": "IIIF specifications use CC BY; supporting JSON examples, contexts and test fixtures are dedicated under CC0. These permissions do not license the images or documents displayed through IIIF.",
+      "sources": [
+        "https://iiif.io/get-started/cookbook/",
+        "https://iiif.io/api/annex/notes/disclaimer/"
+      ]
+    },
+    {
+      "name": "UCLA Modern Endangered Archives Program (MEAP)",
+      "url": "https://meap.library.ucla.edu/",
+      "group": "Archives and preservation",
+      "resource_type": "Archive & Collection; Education & Research; Careers & Opportunities",
+      "access_rights": "Public guidance and openly accessible resulting collections do not imply unrestricted reuse of every item. Source rights, consent and grant publication requirements must be checked separately.",
+      "sources": [
+        "https://meap.library.ucla.edu/",
+        "https://meap.library.ucla.edu/call-for-applications/",
+        "https://meap.library.ucla.edu/about/project-eligibility/"
+      ]
+    },
+    {
+      "name": "British Library Endangered Archives Programme",
+      "url": "https://eap.bl.uk/",
+      "group": "Archives and preservation",
+      "resource_type": "Archive & Collection; Education & Research; Research & Reference",
+      "access_rights": "Free research access does not confer blanket reuse rights. Consult collection records, partner restrictions and source-item permissions before reproduction.",
+      "sources": [
+        "https://eap.bl.uk/",
+        "https://eap.bl.uk/tools"
+      ]
+    },
+    {
+      "name": "Mathaf Encyclopedia of Modern and Contemporary Arab Art",
+      "url": "https://mathaf.org.qa/en/encyclopedia/",
+      "group": "Archives and preservation",
+      "resource_type": "Research & Reference; Archive & Collection; Academic Resource",
+      "access_rights": "Free reading. Mathaf requires written permission for public image reproduction and directs users to external rights holders for non-Mathaf material; no blanket open license assigned.",
+      "sources": [
+        "https://mathaf.org.qa/en/encyclopedia/",
+        "https://mathaf.org.qa/en/learn/research/",
+        "https://mathaf.org.qa/en/encyclopedia/rights-and-reproductions/"
+      ]
+    },
+    {
+      "name": "VADS: Visual Arts Data Service",
+      "url": "https://vads.ac.uk/",
+      "group": "Archives and preservation",
+      "resource_type": "Archive & Collection; Research & Reference; Academic Resource",
+      "access_rights": "Provider permits noncommercial educational and research use. Images, underlying artworks and catalog records retain their owners' copyrights; other uses require contacting the relevant collection owner.",
+      "sources": [
+        "https://vads.ac.uk/digital/custom/about/",
+        "https://vads.ac.uk/digital/custom/copyright/"
+      ]
+    },
+    {
+      "name": "WIPO Global Design Database",
+      "url": "https://www.wipo.int/en/web/global-design-database",
+      "group": "Public data and accessibility",
+      "resource_type": "Index & Directory; Research & Reference",
+      "access_rights": "Free searching is not an open-data license. WIPO FAQ explicitly prohibits automated querying and bulk or automated downloading; national-office agreements restrict redistribution.",
+      "sources": [
+        "https://www.wipo.int/en/web/global-design-database",
+        "https://www.wipo.int/en/web/global-design-database/faqs_designdb"
+      ]
+    },
+    {
+      "name": "UNCTAD Data Hub: Creative Goods and Services",
+      "url": "https://unctadstat.unctad.org/insights/theme/233",
+      "group": "Public data and accessibility",
+      "resource_type": "Research & Reference; Academic Resource",
+      "access_rights": "No blanket redistribution license established in the inspected page. Preserve source, extraction date, metadata and any third-party restrictions when using statistics.",
+      "sources": [
+        "https://unctadstat.unctad.org/insights/theme/233",
+        "https://unctadstat2.unctad.org/insights/theme/97"
+      ]
+    },
+    {
+      "name": "W3C WAI Accessibility Tutorials",
+      "url": "https://www.w3.org/WAI/tutorials/",
+      "group": "Public data and accessibility",
+      "resource_type": "Methods & Toolkits; Education & Research; Research & Reference",
+      "access_rights": "W3C permissive-license and WAI reuse rules apply unless otherwise noted. Preserve attribution, notices and any item-specific exceptions; trademarks and linked third-party material are separate.",
+      "sources": [
+        "https://www.w3.org/WAI/tutorials/",
+        "https://www.w3.org/copyright/"
+      ]
+    }
+  ],
+  "updated_existing": [
+    "ACM Digital Library"
+  ],
+  "duplicate_candidates_not_added": [],
+  "events": [
+    {
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-16",
+      "name": "UCLA MEAP 2026-27: Preliminary Grant Application Deadline",
+      "city": "Online submission",
+      "country": "Online",
+      "region": "Online",
+      "category": "Research, History & Education",
+      "description": "Preliminary deadline for UCLA Library's Modern Endangered Archives Program planning, project and regional grants for at-risk twentieth- and twenty-first-century cultural records. Collections must be held outside the US, Canada, UK and EU, and applicants must be institutionally affiliated. Current round excludes proposals to digitize audiovisual collections, which are reserved for a separate planned 2027 call. Submit in English through the official portal; no cutoff time or time zone is specified on the reviewed page.",
+      "url": "https://meap.library.ucla.edu/call-for-applications/",
+      "source": "Official UCLA MEAP 2026-27 call and project-eligibility page, reviewed 2026-11-08. https://meap.library.ucla.edu/about/project-eligibility/ No application submitted; eligibility and source rights require individual review.",
+      "keywords": "UCLA; MEAP; grant deadline; endangered archives; digitization; preservation; cultural heritage; institutional applications; research funding"
+    },
+    {
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-20",
+      "name": "The Hybrid Nexus: CERN Art and Science Summit 2026",
+      "city": "Geneva",
+      "country": "Switzerland",
+      "region": "Europe",
+      "category": "STEAM",
+      "description": "Arts at CERN summit at CERN Science Gateway connecting artistic inquiry, particle physics, quantum technologies and AI through talks, discussions, performances and film screenings. November 19 evening program and November 20 full-day program have separate free registration. English, with French interpretation advertised for the opening evening. A livestream was not confirmed; linked Indico registration pages could not be inspected.",
+      "url": "https://arts.cern/event/the-hybrid-nexus-cern-art-and-science-summit-2026-19-and-20-november/",
+      "source": "Arts at CERN official dated program and CERN Science Gateway 2026-27 season, reviewed 2026-11-08. https://sciencegateway.cern/season-26-27 Dates derive from organizer program, not HTTP status; no registration submitted or blanket reuse rights inferred.",
+      "keywords": "CERN; Arts at CERN; Hybrid Nexus; art science; quantum technologies; AI; artistic research; interdisciplinary research; Geneva; summit"
+    }
+  ],
+  "event_duplicates_not_added": [],
+  "retired": [],
+  "held_and_excluded": [
+    {
+      "name": "Centre for Strategic Futures Singapore",
+      "decision": "Hold public listing pending publisher linking-permission clarification",
+      "reason": "Official 2026 handbook and institutional role are strong subject matches, but the site's Terms of Use explicitly request prior permission for hyperlinks. No permission request or legal conclusion is made. Retain as a researched lead rather than silently ignoring the stated condition.",
+      "sources": [
+        "https://www.csf.gov.sg/who-we-are/",
+        "https://www.csf.gov.sg/media-centre/thinking-about-tomorrow/",
+        "https://www.csf.gov.sg/terms-of-use/"
+      ]
+    },
+    {
+      "name": "FLORA: Empowering Design Education in the Age of AI",
+      "decision": "Do not add elapsed dated gathering; retain teaching benchmark",
+      "reason": "Organizer's indexed announcement advertises Friday November 6, and Luma confirms Brooklyn, restricted faculty/administrator admission and host approval. The advertised date has passed as of November 8; occurrence itself was not independently verified. No lecture recording, teaching materials or validated assessment framework was examined.",
+      "sources": [
+        "https://luma.com/floraai-xx4d",
+        "https://to.linkedin.com/company/floraai"
+      ]
+    },
+    {
+      "name": "Design Schools Through Design Theory",
+      "decision": "Research benchmark only; full text remains unreviewed",
+      "reason": "The supplied CGScholar page confirms the title, journal and publisher but exposes only a truncated abstract. Do not claim to have reviewed its complete methods or findings, and do not confuse it with the different 2019 pedagogical-genealogy article. No standalone directory record added.",
+      "sources": [
+        "https://cgscholar.com/publishers/articles/design-schools-through-design-theory"
+      ]
+    },
+    {
+      "name": "British Library EAP 2026 preliminary application call",
+      "decision": "Exclude elapsed opportunity; add continuing archive separately",
+      "reason": "Official archive homepage specifies November 6, 2026 at midday GMT. This deadline is already past; the still-visible call is not evidence of an extension.",
+      "sources": [
+        "https://eap.bl.uk/"
+      ]
+    },
+    {
+      "name": "UCLA MEAP audiovisual grants 2027",
+      "decision": "Hold undated future opportunity",
+      "reason": "Official call describes a planned spring 2027 launch, likely April. No exact opening or deadline is confirmed. Do not represent it as currently accepting applications.",
+      "sources": [
+        "https://meap.library.ucla.edu/call-for-applications/"
+      ]
+    },
+    {
+      "name": "Arab Center for Architecture",
+      "decision": "Hold institutional-status update; historical archive remains a research lead",
+      "reason": "Primary research-center and archival pages document substantive collections, but the inspected homepage chiefly promotes 2021-2022 activity. A fresh operational or access confirmation is needed before describing current services; an accessible old page does not prove closure or continuing programming.",
+      "sources": [
+        "https://arab-architecture.org/",
+        "https://arab-architecture.org/research-center",
+        "https://arab-architecture.org/architecture-archives/about-architecture-archives"
+      ]
+    },
+    {
+      "name": "Institute for Futures Research, Stellenbosch Business School",
+      "decision": "Retain research lead; no additional subscription-service entry in this batch",
+      "reason": "University sources establish a futures institute, but core services are subscription-based. Further inspection of distinct publicly usable publications is needed rather than indexing a commercial offer simply because the field matches.",
+      "sources": [
+        "https://www.stellenboschbusiness.ac.za/institute-futures-research"
+      ]
+    }
+  ],
+  "covered_existing_collections": [
+    "UNESCO Futures Literacy Resources",
+    "UNESCO Framework for Cultural Statistics (2025)",
+    "UNESCO Institute for Statistics Data Browser",
+    "UNDP Foresight for Strategic Planning Toolkit (2026)",
+    "UK Government Futures Toolkit",
+    "European Commission Collection of Foresight Engagement Tools",
+    "Creative Industries Policy and Evidence Centre (Creative PEC)",
+    "Stanford HAI AI Index 2026",
+    "Smithsonian Transcription Center",
+    "Research Through Design (RTD): Conference Series and Proceedings"
+  ],
+  "preexisting_schema_issues": [],
+  "unresolved_event_dates": [],
+  "rights": "Only independently written descriptions, source URLs and review decisions are added. No third-party full text, images, recipes or datasets are reproduced. Licenses differ by source and do not transfer to the Reservoir as a blanket license.",
+  "verification_limits": "Primary institutional descriptions, publication policies, current collections and dated organizer programs reviewed. Some sites were available only through indexed official text; this is disclosed per record. No blanket claim of having read all full texts, tested every tool, audited every source link or independently validated research outcomes. Existing dated records will be checked against their recorded end dates without equating expiry with proof of occurrence.",
+  "validation": "Exact pre-review blob guards passed. Full inventories parsed for duplicate and date checks. New rows conform to existing headers; all unrelated resource records and retained events preserved byte-for-byte. README counts reconciled. Design Weeks, Atlas, research-tool classifications and website code unchanged. No occurrence or cancellation inferred from HTTP status.",
+  "sha256_after": {
+    "data/resources.csv": "75eab8f2471f1779eea0582fea038ae3faa8d9db4187e5c33b474c3f0c93ee04",
+    "data/events.csv": "e05abf34130814750b1294374b1d5d4c1a7b6ae7c2f4ff7d1f298e2b0610d7cf"
+  }
+}
