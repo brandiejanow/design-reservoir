@@ -1,29 +1,59 @@
-name: Apply academic resource scan 2026-11-08
+name: Reconcile scan source URL 2026-11-08
 on:
   push:
     branches: [main]
     paths: ['.github/workflows/curate-deep-scan-20261108.yml']
-  workflow_dispatch:
 permissions:
   contents: write
 concurrency:
   group: reservoir-deep-scan-20261108
   cancel-in-progress: false
 jobs:
-  curate:
+  verify:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - name: Validate and apply reviewed records
-        run: python3 scripts/apply_deep_scan_20261108.py
-      - name: Commit only reviewed data and accounting
+      - name: Correct only verified source URL and audit hashes
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import csv, io, json, hashlib
+          rp = Path('data/resources.csv')
+          mp = Path('data/deep-scan-manifest-2026-11-08.json')
+          ap = Path('data/deep-scan-review-2026-11-08.json')
+          r, m = rp.read_bytes(), mp.read_bytes()
+          a = json.loads(ap.read_text(encoding='utf-8'))
+          assert hashlib.sha256(r).hexdigest() == a['sha256_after']['data/resources.csv']
+          assert hashlib.sha256(m).hexdigest() == a['manifest_sha256']
+          old, new = 'https://participedia.net/terms', 'https://participedia.net/legal'
+          rt, mt = r.decode('utf-8'), m.decode('utf-8')
+          assert rt.count(old) == 1 and mt.count(old) == 1
+          revised_r, revised_m = rt.replace(old, new), mt.replace(old, new)
+          before = list(csv.reader(io.StringIO(rt, newline='')))
+          after = list(csv.reader(io.StringIO(revised_r, newline='')))
+          changed = [i for i,(x,y) in enumerate(zip(before, after)) if x != y]
+          assert len(before) == len(after) and len(changed) == 1
+          assert before[changed[0]][0] == 'Participedia'
+          assert before[changed[0]][:-1] == after[changed[0]][:-1]
+          for item in a['added']:
+              if item['name'] == 'Participedia':
+                  item['sources'] = [new if u == old else u for u in item['sources']]
+          a['final_source_reconciliation'] = [{'name': 'Participedia', 'replaced_source_url': old, 'verified_source_url': new, 'basis': 'Followed the Terms of Use link from the official About page. The legal page independently confirms CC BY-NC-SA 3.0. Main listing URL, description, license statement and all collection counts are unchanged.'}]
+          a['sha256_after']['data/resources.csv'] = hashlib.sha256(revised_r.encode()).hexdigest()
+          a['manifest_sha256'] = hashlib.sha256(revised_m.encode()).hexdigest()
+          rp.write_bytes(revised_r.encode())
+          mp.write_bytes(revised_m.encode())
+          ap.write_text(json.dumps(a, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          print(json.dumps(a['after']))
+          PY
+      - name: Commit reconciled evidence
         run: |
           git diff --check
-          git add data/resources.csv data/events.csv README.md data/deep-scan-review-2026-11-08.json data/deep-scan-summary-2026-11-08.md
+          git add data/resources.csv data/deep-scan-manifest-2026-11-08.json data/deep-scan-review-2026-11-08.json
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Publish reviewed academic resources, archive funding and CERN summit; correct ACM access'
+          git commit -m 'Correct Participedia rights-source link and reconcile scan evidence hashes'
           git push origin HEAD:main
