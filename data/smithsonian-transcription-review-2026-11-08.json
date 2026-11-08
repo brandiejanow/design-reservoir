@@ -1,0 +1,58 @@
+{
+  "review_date": "2026-11-08",
+  "name": "Smithsonian Transcription Center",
+  "decision": "Added one continuing archival resource and methods reference; no event or duplicate Smithsonian record added.",
+  "resource": {
+    "name": "Smithsonian Transcription Center",
+    "description": "Smithsonian digital volunteering program and public collection of transcribed historical documents and audio. Provides source-linked transcripts, transcription and review guides, and teaching resources across art, design, history and science. Volunteers compare text with originals; some completed transcripts receive additional Smithsonian expert review. A reference for archival access and collaborative documentation, not a service for uploading private archives.",
+    "url": "https://transcription.si.edu/",
+    "resource_type": "Archive & Collection; Research & Reference; Education & Research; Community & Network",
+    "industries": "Arts & Cultural Heritage; Academic Research; Research, History & Education; Design Education; STEAM",
+    "keywords": "Smithsonian; Transcription Center; archives; transcription; digital humanities; primary sources; manuscript research; historical documents; audio transcription; digital volunteering; crowdsourcing; review; archival methods; cultural heritage; science history; collections",
+    "status": "Verified source",
+    "last_checked": "2026-11-08",
+    "audit_note": "Official About, FAQs, current transcription and review instructions, completed-project directory, Community Agreement and release notes reviewed. Ongoing operation supported by project access and October 29, 2026 release, not HTTP status alone. Homepage timed out in this review; subpages were readable. Volunteers may transcribe without an account; reviewing requires one and accounts require age 14 or older. Staff expert approval is additional for some transcripts, not universal. Instructions preserve original spelling, separate Notes from transcript and mark uncertain readings. Smithsonian reports saving issues and recommends keeping a separate copy before saving or submitting. No live submission, account creation, independent accuracy test or preservation audit performed. Public access is not a blanket reuse license: follow item-level rights and Smithsonian terms. Volunteer agreement relinquishes transcript IP but does not license all underlying collections. Distinct from Smithsonian Open Access, Learning Lab and Revolution Crossroads; no separate guide or dated event added.",
+    "previous_url": "",
+    "source": "https://transcription.si.edu/about; https://transcription.si.edu/faqs; https://transcription.si.edu/instructions/transcribe; https://transcription.si.edu/instructions/review; https://transcription.si.edu/completed-projects; https://transcription.si.edu/community/agreement; https://transcription.si.edu/release-notes; https://www.si.edu/termsofuse"
+  },
+  "source_scope": "Reviewed current institutional documentation and completed-project pages, not every transcript or collection. Smithsonian terms were available through indexed official text; direct terms-page retrieval failed. No copyrighted source content or collection images copied.",
+  "archival_method_benchmark": [
+    "Preserve source wording, including spelling and grammar; distinguish transcription from translation or interpretation.",
+    "Record uncertainty explicitly and keep explanatory comments in separate notes rather than silently completing missing text.",
+    "Use a different reviewer to compare the whole transcript with its source; corrections require another review.",
+    "Retain source catalog links and separate draft, reviewed, published and expert-approved states.",
+    "Provide a way to correct completed transcripts. Community-reviewed does not necessarily mean expert-approved.",
+    "For our own archives, keep preservation originals, rights and access controls separate from public transcription and search. The Smithsonian program is not a hosting service for private archives."
+  ],
+  "access": "Public reference material and self-directed digital volunteering. Account required to review; no account or contribution was submitted. No claim of paid work or certified service hours.",
+  "rights": "No blanket open license assigned. The Community Agreement states volunteers retain no IP rights to transcripts; underlying image and collection restrictions remain item-specific. Consult Smithsonian terms and source catalog records.",
+  "current_operation": "Release notes document a September 2026 redesign and an October 29, 2026 saving hotfix. The site still advises keeping a copy before saving or submitting. Homepage timeout is not evidence of closure.",
+  "unresolved": [
+    "Live save/publish workflow not tested.",
+    "No independent transcription-accuracy assessment.",
+    "Item-specific reuse permissions require checking before reproduction."
+  ],
+  "before": {
+    "resources": 459,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "events": 125,
+    "searchable_entries": 535
+  },
+  "after": {
+    "resources": 460,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "events": 125,
+    "searchable_entries": 536
+  },
+  "changes": {
+    "resources_added": 1,
+    "resources_removed": 0,
+    "events_added": 0,
+    "events_removed": 0,
+    "duplicates_added": 0
+  },
+  "validation": "Full CSV schema and exact-name/domain duplicate checks passed. All existing resource bytes and records preserved. Only three README count tokens changed. Events, design weeks, research-tool classifications and website code unchanged.",
+  "resources_sha256": "54617eeb12e10e1e6819d76b6fc6e56b540fcd6724dfe364781c39cdf9a3700e"
+}
