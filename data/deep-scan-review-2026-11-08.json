@@ -2,7 +2,7 @@
   "review_date": "2026-11-08",
   "scope": "Targeted global discovery across futures, design scholarship and education, STEAM, archives, methods and datasets. Review against the existing directory, not a claim to have audited every external link or all resources on the internet.",
   "manifest": "data/deep-scan-manifest-2026-11-08.json",
-  "manifest_sha256": "bc3f9d3d1d63f2137339137419995e0d472dacf1667990de6bb685184f38b84f",
+  "manifest_sha256": "e4320e914e31c02f00fd0cd7e719d8096fc6d64ad69c08bf0fb946495fbe3eb6",
   "before": {
     "resources": 460,
     "research_tools": 36,
@@ -171,7 +171,7 @@
       "access_rights": "About page links CC BY-NC-SA 3.0. Check exceptions and underlying sources before reuse; no data or personal information submitted.",
       "sources": [
         "https://participedia.net/about",
-        "https://participedia.net/terms"
+        "https://participedia.net/legal"
       ]
     },
     {
@@ -483,7 +483,15 @@
   "verification_limits": "Primary institutional descriptions, publication policies, current collections and dated organizer programs reviewed. Some sites were available only through indexed official text; this is disclosed per record. No blanket claim of having read all full texts, tested every tool, audited every source link or independently validated research outcomes. Existing dated records will be checked against their recorded end dates without equating expiry with proof of occurrence.",
   "validation": "Exact pre-review blob guards passed. Full inventories parsed for duplicate and date checks. New rows conform to existing headers; all unrelated resource records and retained events preserved byte-for-byte. README counts reconciled. Design Weeks, Atlas, research-tool classifications and website code unchanged. No occurrence or cancellation inferred from HTTP status.",
   "sha256_after": {
-    "data/resources.csv": "75eab8f2471f1779eea0582fea038ae3faa8d9db4187e5c33b474c3f0c93ee04",
+    "data/resources.csv": "fed0c3dec986cd4b39b8a04e7cc5a6a589f5873a08eea757ee5df0a52a48fda6",
     "data/events.csv": "e05abf34130814750b1294374b1d5d4c1a7b6ae7c2f4ff7d1f298e2b0610d7cf"
-  }
+  },
+  "final_source_reconciliation": [
+    {
+      "name": "Participedia",
+      "replaced_source_url": "https://participedia.net/terms",
+      "verified_source_url": "https://participedia.net/legal",
+      "basis": "Followed the Terms of Use link from the official About page. The legal page independently confirms CC BY-NC-SA 3.0. Main listing URL, description, license statement and all collection counts are unchanged."
+    }
+  ]
 }
