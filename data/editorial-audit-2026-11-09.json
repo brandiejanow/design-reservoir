@@ -1,0 +1,176 @@
+{
+  "review_date": "2026-11-09",
+  "scope": "Academic-facing futures, STEAM, design and archival research. Direct publisher pages and selected live project pages reviewed. Eight events removed when their recorded end dates were earlier than 2026-11-09. Changes verified against the existing full CSV inventories.",
+  "before": {
+    "resources": 490,
+    "design_weeks": 76,
+    "searchable_entries": 566,
+    "dated_events": 127,
+    "research_tools": 36
+  },
+  "after": {
+    "resources": 497,
+    "design_weeks": 76,
+    "searchable_entries": 573,
+    "dated_events": 120,
+    "research_tools": 36
+  },
+  "added_resources": [
+    {
+      "name": "European Journal of Futures Research",
+      "url": "https://link.springer.com/journal/40309",
+      "primary_sources": "https://link.springer.com/journal/40309; https://link.springer.com/article/10.1186/s40309-026-00302-x; https://link.springer.com/article/10.1186/s40309-026-00279-7",
+      "review_caution": "Springer Nature official journal scope and recent October 2026 papers checked. Peer-reviewed original research and reviews. All articles open to read, but individual Creative Commons licenses differ. Submission charges or exemptions vary; no forecast is presented as a validated prediction."
+    },
+    {
+      "name": "She Ji: The Journal of Design, Economics, and Innovation",
+      "url": "https://www.keaipublishing.com/en/journals/she-ji-the-journal-of-design-economics-and-innovation/",
+      "primary_sources": "https://www.keaipublishing.com/en/journals/she-ji-the-journal-of-design-economics-and-innovation/; https://www.keaipublishing.com/en/journals/she-ji-the-journal-of-design-economics-and-innovation/open-access/",
+      "review_caution": "Official KeAi scope, guide and open-access terms reviewed. Tongji University covers authors' article-processing charges. Research and reviews are peer-reviewed; discussions and letters are not. Articles published under CC BY-NC-ND 4.0; third-party credits require separate checking."
+    },
+    {
+      "name": "Design Research Society Digital Library",
+      "url": "https://dl.designresearchsociety.org/",
+      "primary_sources": "https://dl.designresearchsociety.org/; https://www.designresearchsociety.org/",
+      "review_caution": "Official Digital Library index and 2025 IASDR proceedings checked November 9, 2026. This library is distinct from the already indexed Design Research Society professional institution. Not all archived content is peer reviewed. Original source and individual article rights apply."
+    },
+    {
+      "name": "RISD Nature Lab",
+      "url": "https://naturelab.risd.edu/",
+      "primary_sources": "https://naturelab.risd.edu/; https://naturelab.risd.edu/collections/; https://naturelab.risd.edu/equipment/",
+      "review_caution": "RISD official Nature Lab home, collections and equipment checked. Laboratory use, equipment and borrowing are generally limited to RISD students and faculty; online public documentation is separate. No general reproduction license for images or collections established. Distinct from RISD Museum entry."
+    },
+    {
+      "name": "UNESCO Global Anticipatory Policy (GAP) Coalition",
+      "url": "https://www.unesco.org/en/futures-literacy/gap-coalition",
+      "primary_sources": "https://www.unesco.org/en/futures-literacy/gap-coalition; https://www.unesco.org/en/futures-literacy",
+      "review_caution": "UNESCO coalition homepage and Futures Literacy program checked. MOST Council endorsed coalition September 2025 and parent program describes it as launched. Regional mechanisms, policy evaluations and future milestones are proposals, not verified completed outcomes. Distinct from existing UNESCO Futures Literacy Resources. Item-specific rights apply."
+    },
+    {
+      "name": "International Association of Societies of Design Research (IASDR)",
+      "url": "https://www.iasdr.net/",
+      "primary_sources": "https://www.iasdr.net/; https://dl.designresearchsociety.org/",
+      "review_caution": "Official IASDR homepage, association history and DRS-hosted IASDR 2025 proceedings reviewed. Homepage erroneously calls December 2025 meeting upcoming in November 2026, so no upcoming conference date inferred. Preserve distinction between continuing professional federation and outdated meeting announcement. Publication rights differ by paper."
+    },
+    {
+      "name": "MIT Center for Bits and Atoms",
+      "url": "https://catalog.mit.edu/mit/research/center-bits-atoms/",
+      "primary_sources": "https://catalog.mit.edu/mit/research/center-bits-atoms/",
+      "review_caution": "Current MIT academic catalog confirms active center, its research remit, and academic participation routes. It is not the same as the global Fab Foundation already indexed. Public lab use, open courses and reuse rights are not assumed."
+    }
+  ],
+  "updated_resources": [
+    "Serpentine Pavilion: past 2026 exhibition",
+    "UIA World Congress of Architects: evergreen organizer link and provisional 2029 host",
+    "TxA Annual Conference: confirmed 2027 El Paso edition",
+    "Service Design Network: canonical website",
+    "Red Dot Design Museum Essen: dedicated Essen website"
+  ],
+  "updated_design_weeks": [
+    "DESIGNART TOKYO: concluded 2026 edition; next not confirmed",
+    "Dubai Design Week: concluded 2026 edition; next not confirmed"
+  ],
+  "retired_events": [
+    {
+      "name": "WONDER Festival 2026",
+      "start_date": "2026-10-27",
+      "end_date": "2026-11-08",
+      "source_url": "https://wonder-festival.be/en",
+      "reason": "Scheduled end date before review date; retained in Git history. No inference of actual occurrence."
+    },
+    {
+      "name": "DESIGNART TOKYO 2026: Hibiki",
+      "start_date": "2026-10-30",
+      "end_date": "2026-11-08",
+      "source_url": "https://www.designart.jp/en/",
+      "reason": "Scheduled end date before review date; retained in Git history. No inference of actual occurrence."
+    },
+    {
+      "name": "Dubai Design Week 2026",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-08",
+      "source_url": "https://www.dubaidesignweek.ae/visit/",
+      "reason": "Scheduled end date before review date; retained in Git history. No inference of actual occurrence."
+    },
+    {
+      "name": "Salon Art + Design 2026",
+      "start_date": "2026-11-04",
+      "end_date": "2026-11-08",
+      "source_url": "https://www.thesalonny.com/",
+      "reason": "Scheduled end date before review date; retained in Git history. No inference of actual occurrence."
+    },
+    {
+      "name": "COLLECTIBLE New York 2026",
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-08",
+      "source_url": "https://collectible.design/collectible-nyc/",
+      "reason": "Scheduled end date before review date; retained in Git history. No inference of actual occurrence."
+    },
+    {
+      "name": "The Modernist Weekend 2026",
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-08",
+      "source_url": "https://www.themodernistweekend.com/",
+      "reason": "Scheduled end date before review date; retained in Git history. No inference of actual occurrence."
+    },
+    {
+      "name": "AIGA NY: Raven Mo Green-Wood Cemetery Lettering Walk",
+      "start_date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "source_url": "https://aigany.org/event/raven-mo-green-wood-cemetery-lettering-walk/",
+      "reason": "Scheduled end date before review date; retained in Git history. No inference of actual occurrence."
+    },
+    {
+      "name": "INTER:AKT 2026",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-08",
+      "source_url": "https://interaktfestival.com/program.html",
+      "reason": "Scheduled end date before review date; retained in Git history. No inference of actual occurrence."
+    }
+  ],
+  "added_event": {
+    "name": "DRS Fellow Inaugural Lecture: Navigating Design Research Quality",
+    "date": "2026-11-20",
+    "url": "https://www.designresearchsociety.org/articles/drs-fellow-inaugural-lecture-navigating-design-research-quality"
+  },
+  "held_or_excluded": [
+    {
+      "candidate": "Commercial short-course directories and unverified social media announcements",
+      "decision": "Not added: institutional scope and original source evidence required."
+    },
+    {
+      "candidate": "IASDR next conference",
+      "decision": "No dated entry; official website still labels a December 2025 conference upcoming."
+    },
+    {
+      "candidate": "UNESCO GAP Coalition proposed deliverables",
+      "decision": "No claims about completed evaluation frameworks or regional centers without evidence."
+    },
+    {
+      "candidate": "2029 UIA World Congress dates",
+      "decision": "Provisional dates mentioned in institution entry only; no 2029 dated calendar event."
+    },
+    {
+      "candidate": "Saudi 2026 events",
+      "decision": "No additions under current editorial restriction to 2027-and-later Saudi event programs."
+    }
+  ],
+  "unresolved": [
+    "Stored full link-audit snapshot is from 2026-10-19; this pass reviewed selected sites and known redirects but did not perform an exhaustive new link crawl.",
+    "403/429 and unavailable preview content do not establish a service has closed. No unverified institutional removals made.",
+    "Chengdu Creativity and Design Week dates are listed by World Design Weeks, but local official session dates were not independently verified.",
+    "IASDR homepage still calls its past December 2025 meeting upcoming.",
+    "Cairo Design Week parent 2026 dates are listed for Nov 19–28, but district-level schedules may differ.",
+    "Interactive JavaScript search on the public GitHub Pages site was not independently exercised; repository and HTML were inspected."
+  ],
+  "validation": {
+    "original_counts_checked": true,
+    "all_csv_rows_valid": true,
+    "exact_name_and_canonical_url_duplicates_checked": true,
+    "retained_records_unchanged_except_identified_edits": true,
+    "past_event_cutoff": "2026-11-09",
+    "prior_history_preserved": true,
+    "third_party_content_copied": false,
+    "source_dates_not_confused_with_event_occurrence": true
+  }
+}
