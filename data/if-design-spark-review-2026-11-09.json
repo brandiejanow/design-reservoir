@@ -1,0 +1,53 @@
+{
+  "review_date": "2026-11-09",
+  "name": "SPARK Session: Leading Design Through Uncertainty",
+  "submitted_url": "https://www.linkedin.com/events/sparksession-leadingdesignthrou7521230829314822144",
+  "decision": "Hold dated calendar entry pending complete event and registration details; no permanent resource created from the announcement.",
+  "verified_from_organizer_announcement": {
+    "organizer": "iF Design / iF DESIGN ACADEMY",
+    "announced_day_and_month": "November 19",
+    "duration_minutes": 60,
+    "format": "Virtual conversation",
+    "lead": "Timo Meynhardt",
+    "announced_guests": ["Tey Bannerman", "Kara Pecknold", "Ron Gabay"],
+    "topic": "Design leadership and responsible decision-making with incomplete information and limited experience. The organizer promises three complementary approaches, reflection on looking inward, outward or forward, and practical decision questions. The actual method materials have not been reviewed.",
+    "promotional_component": "The organizer explicitly says the session will introduce the separate Leading Change with Confidence course. The Academy's official course page identifies that paid course as a joint program with the University of St. Gallen, with dates in March and May 2027. The course schedule and price are not the webinar's schedule or admission terms."
+  },
+  "unresolved": {
+    "event_year": "The accessible organizer post gives November 19 without an explicit year. Surrounding announcements suggest 2026, but no date is encoded for publication on that inference alone.",
+    "start_time_and_time_zone": "Not established from accessible primary material.",
+    "registration_and_admission": "Exact LinkedIn event page could not be retrieved. No event-specific fee, free-admission statement, approval requirement or registration destination was verified.",
+    "recording": "Not confirmed.",
+    "teaching_materials_and_rights": "No session slides, recording, detailed methodology or reuse license reviewed. Public announcements do not grant rights to reuse teaching material."
+  },
+  "editorial_assessment": "Potential fit as a dated Design Management & Business conversation if complete details become available. Relevant to decisions under uncertainty, but neither a peer-reviewed conference nor evidence that the promised approaches improve outcomes. The paid course promotion is disclosed rather than conflated with the public conversation. No standalone course sales page or duplicate institution added. Missing start time alone is not an editorial exclusion; the combination of an inaccessible exact event page, unconfirmed year and incomplete participation terms leaves this submission pending.",
+  "research_benchmark": "For future institutional studies, distinguish the evidence available when a decision was made, the assumptions and stakeholder perspectives considered, and the circumstances that would warrant revising the decision. This is a reviewer-proposed application, not a reported finding or reconstruction of the unreviewed session.",
+  "duplication_check": "Connected repository searches for SPARK and ifdesign returned no matches. Search absence is not asserted to be a full inventory audit; no public record was added, so no duplicate was introduced.",
+  "next_action": "Resolve the full event date and participation details from an accessible organizer event page before publishing a dated entry. Confirm time, cost and recording separately. Retain as historical review rather than an active opportunity if the announced date has passed by the next verification.",
+  "sources": [
+    "https://de.linkedin.com/company/ifdesign",
+    "https://nl.linkedin.com/company/ifdesign",
+    "https://ifdesign-academy.com/courses/leading-change-with-confidence/",
+    "https://ifdesign-academy.com/about-us/"
+  ],
+  "verification_limits": "The organizer's own LinkedIn company announcement and Academy pages were readable. Multiple attempts to open the exact event page failed. No login, form submission, registration, recording access or contact with organizers was performed. URL reachability is not used as evidence of event occurrence or cancellation.",
+  "changes": {
+    "review_records_added": 1,
+    "public_resources_added": 0,
+    "events_added": 0,
+    "resources_removed": 0,
+    "events_removed": 0,
+    "resources_csv_changed": false,
+    "events_csv_changed": false,
+    "design_weeks_csv_changed": false,
+    "website_code_changed": false
+  },
+  "repository_counts_as_reported_in_current_readme": {
+    "readme_blob": "fd70c29c9f3dbbb7330fa25f7be3366329799ff9",
+    "core_resources": 497,
+    "design_weeks": 76,
+    "searchable_entries": 573,
+    "dated_events": 120,
+    "qualification": "README counts were read, not independently recounted in this single-submission review. This review does not change them."
+  }
+}
