@@ -1,0 +1,128 @@
+{
+  "review_date": "2026-11-09",
+  "submitted_urls": [
+    "https://www.austinforum.org/support",
+    "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/"
+  ],
+  "decision": "Add two continuing resources and two time-limited Mozilla notices. Do not add a donation page as a grant opportunity, duplicate the cohort as an institution, or import every talk and reference.",
+  "before": {
+    "resources": 499,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "events": 122,
+    "searchable_entries": 575
+  },
+  "after": {
+    "resources": 501,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "events": 124,
+    "searchable_entries": 577
+  },
+  "resources": [
+    {
+      "name": "Austin Forum on Technology & Society: Public Programs and Archive",
+      "description": "Texas-based public technology forum connecting practitioners, researchers and communities through presentations, discussions and workshops on AI, user experience, computing, cities and society. Its searchable event archive includes selected links to slides and guides. Regular monthly programs are free; sponsorship, supporter benefits and the annual fundraising gala are separate. A public-learning and practitioner reference, not a peer-reviewed publication.",
+      "url": "https://www.austinforum.org/events-archive",
+      "resource_type": "Archive & Collection; Education & Research; Community & Network; Conference & Professional Gathering",
+      "industries": "STEAM; Digital / UX / Product; Social, Systems & Strategic; Design Education",
+      "keywords": "Austin Forum; Texas; public technology education; AI; user experience; computing; civic technology; community learning; technology and society; event archive; slides; book discussions; sponsorship",
+      "status": "Verified source",
+      "last_checked": "2026-11-09",
+      "audit_note": "Official About, archive, current events, support and terms pages inspected. The November 10, 2026 quantum-computing presentation and dated 2026 archive support continuing operation beyond URL reachability. The May 6, 2025 UX presentation links slides and a prompt guide; linked files and all archive items were not independently reviewed. The archive reports 359 events, not an independently recounted figure. Coordination by Vizias is stated by the provider; its historical TACC relationship does not make it a current university department. Some sponsor tiers include advisory seats or program input and speaker roles. Donations are not grants available to users. No promise that all events have recordings or remote access. Website reserves rights; no blanket reuse license. No donations, memberships or registrations submitted.",
+      "previous_url": "",
+      "source": "https://www.austinforum.org/about; https://www.austinforum.org/events-archive; https://www.austinforum.org/events; https://www.austinforum.org/events/november-10-2026; https://www.austinforum.org/events/may-6-2025; https://www.austinforum.org/support; https://www.austinforum.org/privacy-policy-and-terms-of-service"
+    },
+    {
+      "name": "Mozilla Foundation Incubator",
+      "description": "Mozilla Foundation program providing grants without taking equity, technical coaching and peer support for working technologies with public benefit. Documents themed cohorts and selection criteria addressing user needs, community participation and project sustainability. Includes the 2025 Making the Invisible Visible and 2026 Democracy x AI cohorts. Funding, eligibility and public-output requirements vary by call; dated opportunities are listed separately.",
+      "url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/",
+      "resource_type": "Funding & Business; Careers & Opportunities; Research & Reference",
+      "industries": "Digital / UX / Product; STEAM; Social, Systems & Strategic; Research, History & Education",
+      "keywords": "Mozilla Foundation; Incubator; Human-Scale AI; public interest technology; community governance; AI; small models; local computing; data control; technology grants; funding; open technology; product community fit; research translation",
+      "status": "Verified source",
+      "last_checked": "2026-11-09",
+      "audit_note": "Official continuing Incubator page, Human-Scale AI call, October 15 FAQ, linked four-page eligibility PDF, information-session page and website licensing policy reviewed. Cohort history and current 2026 call establish continuing operation. Product-community fit is explicitly a working hypothesis, not a validated evaluation framework. Human-Scale AI requires deployed or piloted technology with users and AI central to the work; general cultural research or education alone is excluded. Most Mozilla-authored site content is CC BY 4.0, with trademarks, some photographs, third-party material and named sections excluded. That policy does not establish grant-output licensing. No application, account or newsletter submission. Parent funding program indexed once; no separate permanent record for the temporary call, anchor teams or linked articles.",
+      "previous_url": "",
+      "source": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/; https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/; https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/; https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/faqs/; https://www.mozillafoundation.org/documents/501/Mozilla_Foundation_Grant_Eligibility_Guidelines_tNhKrgM.pdf; https://www.mozillafoundation.org/en/meet-mozilla/website-licensing/"
+    }
+  ],
+  "events": [
+    {
+      "start_date": "2026-11-12",
+      "end_date": "2026-11-12",
+      "name": "Mozilla Human-Scale AI: Applicant Information Session",
+      "city": "Online",
+      "country": "Online",
+      "region": "Online",
+      "category": "Digital / UX / Product",
+      "description": "One-hour Mozilla Foundation webinar for prospective Human-Scale AI Incubator applicants covering eligibility, selection criteria and the cohort experience, with audience questions. November 12, 2026, 17:00 UTC, 9 a.m. Pacific and 11 a.m. U.S. Central. Hosted by program officer Mehan Jayasuriya. Official registration page available; its JavaScript registration workflow was not tested. Admission price and recording availability not confirmed. A grant briefing, not a peer-reviewed research conference.",
+      "url": "https://events.mozillafoundation.org/e/human-scale-ai-info-session",
+      "source": "Mozilla Foundation dated session page and Human-Scale AI call, checked November 9, 2026. https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/ Date and start time corroborated by both pages; one-hour duration specified in the call. No registration submitted.",
+      "keywords": "Mozilla; Human-Scale AI; grant briefing; information session; applicants; AI; public interest technology; small models; online webinar; funding eligibility"
+    },
+    {
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-21",
+      "name": "Mozilla Human-Scale AI: Application Deadline (November 20 PST)",
+      "city": "Online submission",
+      "country": "Online",
+      "region": "Online",
+      "category": "Digital / UX / Product",
+      "description": "Initial-project-proposal deadline: November 20, 2026, 11:59 p.m. Pacific Standard Time, equivalent to November 21 at 07:59 UTC or 1:59 a.m. U.S. Central. Selected working AI projects receive USD 300,000 and 12 months of support from April 2027; up to USD 200,000 more over two further years is conditional, not guaranteed. Requires deployed or piloted technology with users, efficient computing and community agency. Ideas, generic chatbot wrappers and standalone research without working technology are excluded. Applicants must meet Mozilla charitable-purpose and funding eligibility rules. No equity taken; public-facing outputs expected. Calendar spans the local and UTC closing dates, not an extension.",
+      "url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/",
+      "source": "Official Mozilla call, October 15, 2026 FAQ and four-page grant eligibility guidelines inspected November 9, 2026. https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/faqs/ Application must be in English; translation and limited supportive AI use permitted, not fully AI-generated answers. Updates expected by late February 2027. Form redirect could not be inspected; no submission made. Grant agreement and output-specific licenses not reviewed.",
+      "keywords": "Mozilla; Human-Scale AI; application deadline; public benefit; technology grants; small models; local AI; community governance; accessibility; privacy; English application; 2027 cohort"
+    }
+  ],
+  "verified_scope": {
+    "austin": "Official institutional account, archive, dated 2026 program, sampled UX event, support benefits and terms read. The sampled event links slides and a prompt guide; their external documents were not inspected. Do not imply that all archived sessions have recordings or that sponsorship establishes research quality. Historical TACC management is distinct from current coordination by Vizias.",
+    "mozilla": "Official parent program, call, FAQ, four-page eligibility PDF including all page screenshots, licensing statement and dated briefing page inspected. Grant application redirect failed in this environment; no transaction or submission performed. General guidelines permit multiple organization types and fiscal sponsorship, subject to charitable purpose and legal receipt of US grant funds. Program-specific technical criteria still control.",
+    "funding": "USD 300,000 for the initial twelve months beginning April 2027. Up to USD 200,000 additional funding and two more years of support depend on progress. No equity is taken. No claim of automatic eligibility or a guaranteed USD 500,000 award.",
+    "application_policy": "English proposals required; translation and AI assistance may support original applicant work, but should not generate complete answers. The initial-proposal stage precedes invitation-only full applications. No full application, grant contract or source-code licensing agreement inspected.",
+    "live_reservoir": "Public homepage and Events Calendar could not be retrieved through the web tool. Repository schema, count documentation and calendar filtering code inspected; saved source verification is not an interactive browser test."
+  },
+  "deadline_handling": {
+    "organizer_local": "2026-11-20T23:59:00-08:00",
+    "utc": "2026-11-21T07:59:00Z",
+    "america_chicago": "2026-11-21T01:59:00-06:00",
+    "calendar_note": "The existing display filters by reader-local end date. A November 21 end date avoids hiding the call before its Pacific cutoff for Central/UTC readers. The title and first sentence retain the official November 20 PST deadline and explicitly deny an extension. This remains a date-only calendar, not an exact-time application service. Existing 13:20 UTC daily expiration is unchanged."
+  },
+  "rights": "Only original summaries and source links are added. Austin Forum reserves rights. Mozilla generally applies CC BY 4.0 to its own website text with stated exceptions; this does not license all funded outputs, third-party assets or code. Project-specific reuse terms and final grant agreements require checking.",
+  "unresolved": [
+    "Number of places remaining: the call seeks seven projects and separately describes three anchors, while the official October 22 press release describes three of seven already selected. No open-slot count is published in the new listing.",
+    "Mozilla information-session admission price and recording availability were not established. JavaScript registration and the application form were not completed or tested.",
+    "Final project-output licenses, detailed grant agreement and individual applicant eligibility were not adjudicated.",
+    "Austin archive count is provider-reported; not all linked slides, recordings or speaker claims were examined.",
+    "Live Reservoir display could not be independently inspected."
+  ],
+  "additional_source": "https://www.mozillafoundation.org/nl/meet-mozilla/press-center/mozilla-foundation-opens-funding-call-for-ai-built-around-communities/",
+  "not_added": [
+    "Austin Forum donation or sponsorship tiers as separate resources",
+    "Individual Austin talks or an unconfirmed podcast relaunch",
+    "Separate permanent Human-Scale AI cohort entry",
+    "Mozilla anchor projects and referenced articles without separate assessment",
+    "An assumed annual Human-Scale AI call or an unannounced future cohort"
+  ],
+  "reviewer_benchmarks": [
+    "For public-learning programs, distinguish access supported by donations from the governance and programming rights offered to sponsors.",
+    "For future research tools, distinguish user return, contributor activity, participation in priorities and actual public benefit. Mozilla describes product-community fit as a working hypothesis, not a validated scorecard.",
+    "A directory, paper or cultural-education program using AI does not by itself meet this call for working technical projects. A separately built and piloted tool would need its own evidence."
+  ],
+  "changes": {
+    "resources_added": 2,
+    "events_added": 2,
+    "resources_removed": 0,
+    "events_removed": 0,
+    "duplicates_added": 0,
+    "website_code_changed": false,
+    "design_weeks_changed": false
+  },
+  "existing_events_past_recorded_end_date": [],
+  "validation": "Pre-review Git blob guards passed. Full current CSV inventories parsed; headers, field counts, exact names, relevant domains and event subjects checked for duplicates. Existing resources and events preserved byte-for-byte. Only four README count tokens changed. No dates, occurrence or cancellation inferred from URL reachability. No donation, registration or grant submission.",
+  "sha256_after": {
+    "data/resources.csv": "5cfbf840dfebda381a5fa2bce6a7f435612d2660cc33113bed0eef4e7f414c3c",
+    "data/events.csv": "290f295885aa42874dd8a5a003631326e1e7bddd956377a476c018a727e32d44",
+    "README.md": "e46ec7669c72fde146d599e87e09429e4a6091d4f34a415a1c359c785017d165"
+  }
+}
