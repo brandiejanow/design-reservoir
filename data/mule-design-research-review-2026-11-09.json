@@ -1,0 +1,62 @@
+{
+  "review_date": "2026-11-09",
+  "name": "Let's Do Design Research Right!",
+  "submitted_url": "https://www.eventbrite.com/e/lets-do-design-research-right-tickets-2004099348099",
+  "decision": "Do not add the standalone practitioner workshop to the active calendar or permanent directory under the current short-course boundary. Retain the public methodological writing as a research benchmark, not a separately indexed article.",
+  "verified_series": {
+    "provider": "Mule Design Studio",
+    "instructor_named_on_provider_page": "Erika Hall",
+    "official_page": "https://www.muledesign.com/design-research-right",
+    "page_heading": "Collaborative Design Research",
+    "format": "The provider describes an interactive, limited-group workshop delivered through Zoom, with public and in-house offerings.",
+    "scope": "Framing and prioritizing research questions, choosing methods in relation to goals and constraints, combining qualitative and quantitative evidence, collaborating across disciplines, and communicating findings so that they can inform decisions.",
+    "provenance_limit": "The provider verifies the workshop series, not the schedule or ticket terms of the inaccessible Eventbrite event ID submitted here. Its public-workshop section currently says dates are to be announced."
+  },
+  "event_specific_verification": {
+    "exact_event_page": "Direct Eventbrite retrieval returned HTTP 429. A regional public URL was also inaccessible. This does not establish cancellation, expiry, or current registration availability.",
+    "date_year_and_time": "Not verified for event ID 2004099348099. Dates from other same-title events were deliberately not substituted.",
+    "price_and_admission": "Not verified for the submitted session. No free-attendance, fee, discount, certificate, or eligibility claim made.",
+    "recording": "Not verified for the submitted session. Statements concerning previous workshops were not transferred to this event.",
+    "publisher_listing_limit": "An indexed Eventbrite category page contains a relative Thursday time for a same-title event; it was insufficient to establish the full date or match the exact event ID. The provider's general workshops page links a different event ID."
+  },
+  "public_methodological_reference": {
+    "title": "A Design Research Framework",
+    "author": "Erika Hall",
+    "url": "https://www.muledesign.com/blog/design-research-framework",
+    "publication_date": "2022-10-25",
+    "date_source": "Mule Design's own blog index lists the article as 10/25/22.",
+    "access": "The original publisher's indexed article text was readable, including its process explanation. Direct retrieval of the article URL returned 404. The linked diagram and PDF downloads were not inspected, downloaded, or reproduced.",
+    "documented_approach": "Clarify the decision and responsibilities, identify knowledge gaps, refine research questions, select appropriate methods, analyze and synthesize evidence, and plan how findings will be integrated into work. The author distinguishes decision-oriented practitioner research from academic research.",
+    "evidence_boundary": "Practitioner-authored methodological guidance, not a peer-reviewed validation study or evidence that attending the workshop improves outcomes. It does not replace the methodological, ethical, or reporting standards needed for a scholarly paper.",
+    "rights": "No open reuse license established in the inspected material. Public reading and an advertised download do not establish permission to reproduce or adapt diagrams. No third-party text, diagrams, slides, or teaching materials copied into the directory."
+  },
+  "reviewer_application": "For a future cultural-sector study, define the decision, uncertainty, and evidence requirements before selecting interviews, surveys, or indicators. For example, investigate what actually prevents commissioned projects from proceeding before assuming that another training program is the appropriate response. This is a proposed application, not a finding of the workshop or framework.",
+  "duplication_review": "Connected repository search for Mule returned no matches. This was a targeted search rather than a fresh full-inventory audit. No public entry was created, so no duplicate was introduced.",
+  "editorial_basis": "AGENTS.md excludes standalone independent short-course sales pages and asks that specialist providers be evaluated on substantive resources beyond selling a class. The current review neither indexes the commercial workshop nor adds a parent consultancy merely to circumvent that boundary. The submitted link remains useful for research learning without becoming a public directory entry.",
+  "sources": [
+    "https://www.eventbrite.com/e/lets-do-design-research-right-tickets-2004099348099",
+    "https://www.muledesign.com/design-research-right",
+    "https://www.muledesign.com/workshops",
+    "https://www.muledesign.com/blog/design-research-framework",
+    "https://www.muledesign.com/blog"
+  ],
+  "changes": {
+    "review_records_added": 1,
+    "public_resources_added": 0,
+    "events_added": 0,
+    "resources_removed": 0,
+    "events_removed": 0,
+    "resources_csv_changed": false,
+    "events_csv_changed": false,
+    "design_weeks_csv_changed": false,
+    "website_code_changed": false
+  },
+  "repository_counts_as_reported_in_current_readme": {
+    "readme_blob": "fd70c29c9f3dbbb7330fa25f7be3366329799ff9",
+    "core_resources": 497,
+    "design_weeks": 76,
+    "searchable_entries": 573,
+    "dated_events": 120,
+    "qualification": "Read from current README, not independently recounted in this single-submission review. This review leaves those datasets and counts unchanged."
+  }
+}
