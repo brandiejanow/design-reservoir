@@ -1,0 +1,86 @@
+{
+  "review_date": "2026-11-09",
+  "submitted_discovery_url": "https://www.globalsouthopportunities.com/2026/11/09/residency-4/",
+  "decision": "Add one continuing Norient publication and research collection and one dated residency application deadline, using original publisher URLs rather than the aggregator.",
+  "before": {
+    "resources": 497,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "events": 120,
+    "searchable_entries": 573
+  },
+  "after": {
+    "resources": 498,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "events": 121,
+    "searchable_entries": 574
+  },
+  "resource": {
+    "name": "Norient: Sound, Culture and Research",
+    "description": "Independent Swiss publishing and curatorial platform examining music, sound and cultural life through essays, podcasts, films, photography and research. Its collections include Norient City Sounds, TIMEZONES and the Norient Academic Online Journal archive, with named contributors and editors. Public material coexists with paid membership for archive search and selected digital publications; books and event participation have separate terms.",
+    "url": "https://norient.com/specials",
+    "resource_type": "Research & Reference; Archive & Collection; Media & Publications",
+    "industries": "Arts & Cultural Heritage; Academic Research; Research, History & Education; Creative Industries; Cross-disciplinary Design",
+    "keywords": "Norient; sound studies; cultural research; soundscapes; listening; music; audiovisual research; ethnomusicology; cultural memory; curatorial practice; digital publications; sonic archives; cultural production; storytelling; Switzerland",
+    "status": "Verified source",
+    "last_checked": "2026-11-09",
+    "audit_note": "Official About, digital publications, academic archive, membership and 2027 residency call inspected. Current operation supported by dated 2026 collections and the organizer-linked 2027 application form. An independent mixed-format publisher and research reference, not a university or a claim that every contribution is peer reviewed. Historical journal material remains an archive; no current journal issue schedule assumed. Membership is required for archive search and some digital publications; do not describe the entire site as freely accessible. No blanket reuse license established; check each author, recording, image and publication. Planned Manuals for the Future is not yet a completed publication. The first 2027 Forum is not assumed to be annual. No third-party texts, images or audio copied.",
+    "previous_url": "",
+    "source": "https://norient.com/about; https://norient.com/specials; https://norient.com/specials/norient-academic-online-journal; https://norient.com/become-member; https://norient.com/dust-and-frequencies; https://norient.com/norient-forum-2027-call-for-two-residencies"
+  },
+  "event": {
+    "start_date": "2026-11-30",
+    "end_date": "2026-11-30",
+    "name": "Norient Forum 2027 Residencies: Application Deadline",
+    "city": "Online submission",
+    "country": "Online",
+    "region": "Online",
+    "category": "Arts & Cultural Heritage",
+    "description": "Deadline for two selected residencies in Bern, Switzerland, March 1-19, 2027. Open worldwide to applicants under 35 working with music, sound or noise through writing, podcasts, film, photography or other media; English-language Forum. Travel and shared accommodation covered, plus CHF 2,000 for both the residency and approximately two additional working weeks remotely. Residents co-host the March 11-13 Forum and co-produce Manuals for the Future, planned for September 2027. Apply with a CV, short bio, one-minute video and a PDF with up to three work samples. Deadline time and time zone unspecified; meals, visa costs and insurance coverage not established.",
+    "url": "https://norient.com/norient-forum-2027-call-for-two-residencies",
+    "source": "Norient official 2027 call and organizer-linked application form verified 2026-11-09. https://form.jotform.com/263065146193053 Notification December 23, 2026. No application submitted. Funding is stated by component rather than described as all expenses paid; project ownership and publication terms require organizer clarification.",
+    "keywords": "Norient; residency; application deadline; music; sound; cultural research; audiovisual storytelling; artistic research; emerging practitioners; under 35; Bern; Switzerland; cultural publishing; Manuals for the Future; 2027"
+  },
+  "verification": {
+    "discovery": "Exact aggregator article identified from indexed text after direct retrieval returned 403. Primary call and its linked application form were directly readable.",
+    "original_sources": "Norient About, current homepage, digital-publication collection, academic archive, membership page, Dust and Frequencies collection, official residency call and organizer-linked Jotform read.",
+    "participation": "Two places; applicants under 35 worldwide; music/sound-related practice and English-language participation. Three weeks in Bern, online preparation and about two additional working weeks remotely. Notification December 23, 2026.",
+    "funding": "Organizer covers travel and accommodation and pays CHF 2,000 for the residency and follow-up work together. Shared lodging at PROGR. No claim of a monthly stipend or coverage of every living, visa or insurance cost.",
+    "application": "CV, approximately 75-word biography, one-minute motivation video and PDF containing up to three work samples with dates and roles. Optional portrait/practice images requested with credits for announcing selected residents. No form submitted or personal information transferred.",
+    "currency": "Application deadline confirmed as November 30, 2026 in both official call and linked form. First Forum dates March 11-13, 2027; residency March 1-19. Dates do not establish that any future event has occurred.",
+    "rights": "No blanket license found for Norient collections or residency outputs. Reviewed pages do not resolve all project ownership/publication terms. No copyrighted media reproduced.",
+    "live_reservoir": "Live homepage and Events Calendar could not be retrieved through browser tool. Repository page templates inspected; interactive rendering not verified."
+  },
+  "unresolved": [
+    "Deadline cutoff time and time zone are unspecified.",
+    "Meals, visa costs, insurance, payment timing and output-ownership terms not established.",
+    "Form asks video links to remain active through end of December but prints the year as 20206; not used as a definitive extra deadline.",
+    "No separate public Forum ticket or registration terms reviewed.",
+    "Manuals for the Future is planned for September 2027, not a currently available publication."
+  ],
+  "not_added": [
+    "Aggregator article as a permanent resource",
+    "Separate entries for each article, podcast or academic archive volume",
+    "A second calendar record for the selected residency period",
+    "Standalone Forum attendance listing without reviewed public admission details",
+    "Planned Manuals for the Future publication"
+  ],
+  "reviewer_benchmark": "Documenting the relationships between a creative brief, collaborative event work and an attributed publication can inform cultural-program evaluation. Norient's editorial model is a possible reference, not evidence that every resident or audience gains particular outcomes.",
+  "changes": {
+    "resources_added": 1,
+    "events_added": 1,
+    "resources_removed": 0,
+    "events_removed": 0,
+    "duplicates_added": 0,
+    "website_code_changed": false,
+    "design_weeks_changed": false
+  },
+  "existing_events_past_recorded_end_date": [],
+  "validation": "Current resource and event blob hashes matched pre-review values. Full CSV inventories parsed and schema validated; no Norient name or domain duplication. All pre-existing resource and event bytes preserved. Four README count tokens changed. Other files untouched. Source reachability not treated as proof of occurrence.",
+  "sha256_after": {
+    "data/resources.csv": "a478617757435a3d76ab5d9c32360e4a5b53496f2b601c344b62fc6629345ec2",
+    "data/events.csv": "63603d0a0cdc8357626b86a95bfe29b26b35fd1000e36bbd17120c39fcf7d256",
+    "README.md": "1f43aac8062daf0b150fad09e24f205b907a374642804e4be88aa977493b6b63"
+  }
+}
