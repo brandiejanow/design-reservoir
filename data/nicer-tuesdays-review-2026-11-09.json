@@ -1,0 +1,83 @@
+{
+  "review_date": "2026-11-09",
+  "submitted_url": "https://www.eventbrite.co.uk/e/nicer-tuesdays-la-november-tickets-2003059500888",
+  "decision": "Add one continuing creative-practice archive and one verified dated professional event, preserving the distinction between practitioner testimony and scholarly findings.",
+  "before": {
+    "resources": 498,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "events": 121,
+    "searchable_entries": 574
+  },
+  "after": {
+    "resources": 499,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "events": 122,
+    "searchable_entries": 575
+  },
+  "resource": {
+    "name": "Nicer Tuesdays: Creative Talks Archive",
+    "description": "Continuing talks series and public recording archive from It's Nice That, documenting graphic design, illustration, photography, film, publishing and creative practice. The archive offers filters by discipline, theme, city and year, with transcripts on inspected talk pages. Useful for teaching and studying practitioners' accounts of projects; these are editorially selected presentations rather than peer-reviewed research.",
+    "url": "https://nicertuesdays.itsnicethat.com/archive",
+    "resource_type": "Archive & Collection; Media & Publications; Conference & Professional Gathering",
+    "industries": "Graphic & Communication Design; Creative Industries; Design Education; Research, History & Education; Cross-disciplinary Design",
+    "keywords": "Nicer Tuesdays; It's Nice That; creative talks; design process; graphic design; illustration; photography; independent publishing; book design; creative practice; recordings; transcripts; oral accounts; London; New York; Los Angeles",
+    "status": "Verified source",
+    "last_checked": "2026-11-09",
+    "audit_note": "Official series homepage, About, archive, an individual transcript, organizer event page and publisher terms inspected. Series began in 2013; archive lists material through 2026 and a confirmed November 10, 2026 LA program demonstrates current activity. Archive currently reports 597 talks, a publisher-reported count not independently enumerated. Parallel Press talk page dated June 2, 2026 provides a transcript warning of errors; statements should be checked against recordings and original evidence. Video playback and every archive item were not tested. Public browsing does not grant an open reuse license; publisher reserves rights in its and third-party content. Live attendance is ticketed and distinct from archived material. No promise of a recording or livestream for each future event. No individual talk, news article or speaker added as a separate resource.",
+    "previous_url": "",
+    "source": "https://nicertuesdays.itsnicethat.com/; https://nicertuesdays.itsnicethat.com/about; https://nicertuesdays.itsnicethat.com/archive; https://nicertuesdays.itsnicethat.com/talks/parallel-press-2-june-2026; https://www.itsnicethat.com/terms-conditions"
+  },
+  "event": {
+    "start_date": "2026-11-10",
+    "end_date": "2026-11-10",
+    "name": "Nicer Tuesdays LA: November 2026",
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "North America",
+    "category": "Graphic & Communication Design",
+    "description": "It's Nice That professional talks at Lodge Room with Micaiah Carter on photography, Bijou Karman on illustration and self-publishing, and Debbie Millman in conversation with Meg Farmer about design and interviewing. Detailed organizer text and venue specify doors at 7 p.m. and talks around 7:30 p.m. Pacific; headline hours differ. Ticketed in person; price and remaining availability unverified. Eventbrite says 18+ with ID, while the venue says all ages; confirm admission with the organizer. No livestream or session recording confirmed.",
+    "url": "https://nicertuesdays.itsnicethat.com/events/10-november-2026-la",
+    "source": "Official Nicer Tuesdays dated event page, It's Nice That announcement dated October 16, 2026, Lodge Room venue listing and indexed exact Eventbrite event 2003059500888 reviewed November 9, 2026. https://www.itsnicethat.com/articles/nicer-tuesdays-november-la-launch-161026; https://www.lodgeroomhlp.com/shows/nicer-tuesdays-la/; https://www.eventbrite.co.uk/e/nicer-tuesdays-la-november-tickets-2003059500888 Direct Eventbrite retrieval returned 429; registration inventory not tested. Event page header says 6:30-10 p.m., detailed text says doors 7 p.m./talks 7:30 p.m., and indexed Eventbrite says 7-9 p.m.; no definitive finish time asserted. Scheduled event, not a completion claim.",
+    "keywords": "Nicer Tuesdays; It's Nice That; Debbie Millman; Micaiah Carter; Bijou Karman; Meg Farmer; Design Matters; graphic design; photography; illustration; self publishing; zines; interviews; creative practice; Los Angeles; Lodge Room"
+  },
+  "verification": {
+    "provenance": "The original organizer explicitly confirms November 10, 2026, the venue and all three speakers. Its October 16 launch announcement and venue cross-reference the exact submitted Eventbrite ID. This is not the separate November 4, 2025 LA event.",
+    "current_operation": "Official forthcoming program and dated 2026 talk entries support continuing operation. Neither HTTP status nor a ticket link alone establishes an event will occur.",
+    "archive": "Reviewed current archive and one source-linked transcript. The public archive provides date, speaker and project context. Its 597-talk count is reported by the publisher, not independently recounted. No claim that all transcripts or speaker assertions have been fact-checked.",
+    "access": "Public archive pages were readable without registration; no account, purchase, newsletter signup or booking was performed. Direct Eventbrite retrieval failed with 429, but the exact indexed organizer listing was readable.",
+    "rights": "Publisher terms reserve rights for It's Nice That and third-party owners. No blanket open license established. Only original descriptions and source links added; no recordings, images, transcripts or full article text copied.",
+    "live_site": "Attempts to retrieve the live Reservoir homepage and calendar through the browser failed. Repository source verification does not constitute a live interaction or display test."
+  },
+  "unresolved": [
+    "Headline time range on the event microsite (6:30-10 p.m.) conflicts with its own detailed text and venue (doors 7 p.m.; talks 7:30 p.m.) and indexed Eventbrite (7-9 p.m.). No definitive closing time recorded.",
+    "Indexed Eventbrite says 18+ with ID; venue says all ages. Organizer confirmation needed for admission.",
+    "Ticket price and live availability not verified. Venue extraction contains both SOLD OUT and LAST CALL labels, whose active display state was not established; no availability claim inferred.",
+    "No confirmed livestream or publication commitment for this particular session. Existing archive does not guarantee a new recording.",
+    "Transcript accuracy and video playback were not independently evaluated."
+  ],
+  "not_added": [
+    "Individual promotional article",
+    "Separate records for speakers or sampled talks",
+    "Unverified ticket price or availability",
+    "The completed November 2025 LA edition"
+  ],
+  "changes": {
+    "resources_added": 1,
+    "events_added": 1,
+    "resources_removed": 0,
+    "events_removed": 0,
+    "duplicates_added": 0,
+    "website_code_changed": false,
+    "design_weeks_changed": false
+  },
+  "previous_events_with_recorded_end_before_review": [],
+  "retirement": "Existing daily expiration should remove this event after November 10, 2026; the archive stays in the continuing directory and earlier events remain in Git history.",
+  "validation": "Exact pre-review blob checks passed. Full current CSV inventories parsed, schemas and name/domain/event-ID duplicates checked. All prior resource and event bytes preserved. Four README count tokens updated. Design Weeks, research-tool classifications, Atlas and website code unchanged.",
+  "sha256_after": {
+    "data/resources.csv": "680a371aca3a056260d2280dff5576017124d601af3f8187553623324ce3a137",
+    "data/events.csv": "fa7b71a707fe60c2a6c26942fb7de80f690a8143500e0dc3088b123fa83f7dbd",
+    "README.md": "49ccf8470ea27c9c53a95e37e52dfc2c5211447fc90587db34801d9c600db290"
+  }
+}
