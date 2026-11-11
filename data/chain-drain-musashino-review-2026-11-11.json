@@ -1,0 +1,101 @@
+{
+  "review_date": "2026-11-11",
+  "submitted_urls": [
+    "https://www.bryanboyer.com/chaindrain/",
+    "https://peatix.com/us/event/5247693"
+  ],
+  "decision": "Add one combined white-paper/database resource and one university-hosted dated symposium. Retire three elapsed calendar entries by recorded end date. Do not create individual company listings or imply validated outcomes.",
+  "before": {
+    "core_resources": 501,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "dated_events": 123,
+    "searchable_entries": 577
+  },
+  "after": {
+    "core_resources": 502,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "dated_events": 121,
+    "searchable_entries": 578
+  },
+  "resource": {
+    "name": "Chain Drain: Built Environment White Paper and Research Database",
+    "description": "Bryan Boyer and Greg Lindsay's University of Michigan white paper and accompanying company database examine losses of information and value between architecture, engineering, construction and operations. Combines practitioner interviews, four futures scenarios and source-linked company dossiers comparing digital automation with changes to the division of work. A reference for institutional learning, built-environment strategy and exploratory sector mapping. Company promises and AI-assisted classifications are not independently verified performance outcomes.",
+    "url": "https://www.bryanboyer.com/chaindrain/",
+    "resource_type": "Research Report; Research & Reference; Index & Directory",
+    "industries": "Architecture & Built Environment; Futures & Foresight; Design Management & Business; Academic Research; Research, History & Education",
+    "keywords": "Chain Drain; Bryan Boyer; Greg Lindsay; University of Michigan; Taubman College; AECO; architecture; construction; operations; institutional learning; knowledge transfer; supply chain; scenarios; strategic design; organizational research; AI-assisted research; company database",
+    "status": "Verified source",
+    "last_checked": "2026-11-11",
+    "audit_note": "Author project and current database, selected PDF text, indexed Michigan repository record and Taubman College research coverage reviewed November 11, 2026. Database reports 501 companies/products and a November 8 update; older indexed pages contain smaller samples, so figures must be tied to a version. No independent full-database recount or performance evaluation. The report's main context is the US built environment; scenarios are analytical alternatives, not forecasts. DOI deposit identifies a white paper, not proof of peer review. Dossiers disclose AI drafting and human editing; the sampled Structured AI record identifies sources, access dates and human-edit date. Experimental cluster analysis explicitly relies on model interpretation. No blanket reuse license established. Public reading is not permission to reproduce the database, figures or third-party source material. PDF screenshots and direct downloads failed; figures and layout were not visually verified. The PDF contents heading says version 1.1 while its suggested citation says v1.11; version reconciliation remains unresolved. Some links from the parsed research index resolve with a duplicated research path; a directly addressed sample dossier was readable. No bulk import of company records, source text or graphics.",
+    "previous_url": "",
+    "source": "https://www.bryanboyer.com/chaindrain/; https://www.bryanboyer.com/chaindrain/research/; https://www.bryanboyer.com/chaindrain/paper.pdf; https://doi.org/10.7302/dspace/30234; https://taubmancollege.umich.edu/news/2026/10/16/tradition-is-not-safe-boyer-urges-new-approaches-to-architecture-and-planning-in-tec-de-monterrey-lecture/; https://www.bryanboyer.com/chaindrain/research/dossier/structured-ai/; https://www.bryanboyer.com/chaindrain/research/thesis-clusters/"
+  },
+  "event": {
+    "start_date": "2026-12-03",
+    "end_date": "2026-12-03",
+    "name": "Not Here, Not Now: Rethinking Speculative Design",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia",
+    "category": "Speculative, Critical & Futures",
+    "description": "University-hosted international symposium at Musashino Art University's Ichigaya campus, 7F Co-Creation Space Ma. Features Anthony Dunne and Fiona Raby, followed by a panel on speculative design with participating researcher Paul Gong. The participant announcement gives 18:00-20:45 JST, English without Japanese interpretation, and a public capacity of 40. University calendar corroborates the date and campus. Reservation required; ticket price, remaining places, livestream and recording availability were not verified.",
+    "url": "https://peatix.com/us/event/5247693",
+    "source": "Official Musashino Art University Ichigaya event-calendar search-index text confirms December 3, 2026, title and 7F venue: https://ichigaya.musabi.ac.jp/event/ . Paul Gong's first-person announcement, indexed within LinkedIn activity at https://uk.linkedin.com/in/gem-barton-45600122 , supplies program, time, language and capacity. The post is by Gong, not by the profile owner. Direct Peatix retrieval failed. Direct university index returned an older subset than its search-index text. Reviewed November 11, 2026; no registration submitted, no cancellation or actual occurrence inferred, and no reuse rights assumed.",
+    "keywords": "Musashino Art University; Not Here Not Now; speculative design; critical design; futures; design education; international symposium; Anthony Dunne; Fiona Raby; Paul Gong; Tokyo; Ichigaya; Co-Creation Space Ma"
+  },
+  "research_benchmark": "For future institutional case studies, examine what information, responsibility and evidence survives each transfer between funders, commissioners, researchers, delivery teams and evaluators. This is a proposed application to cultural work, not a finding that the built-environment model is already validated for cultural sectors.",
+  "verification_limits": [
+    "Selected PDF text, not a complete independent review of every claim or bibliography item. PDF screenshot rendering and file download failed, so no chart or layout verification claimed.",
+    "Live database says 501 companies/products updated November 8, 2026; older indexed methodology and cluster pages use a smaller dataset. Do not mix their denominators or percentages.",
+    "No independent evaluation of the AI extraction, human-review coverage, coding reliability, model-based clusters or company claims.",
+    "No blanket paper/database reuse license established. DOI and university hosting do not establish peer review or public-domain rights.",
+    "Peatix registration page unavailable. Official university calendar is indexed with the event, but direct retrieval returned an older subset. Participant first-person announcement supplies additional details; price and available places remain unverified.",
+    "No symposium recording or livestream confirmed and no booking submitted.",
+    "Live Reservoir homepage and Events Calendar could not be retrieved. Repository templates and saved data are checked, not interactive rendering."
+  ],
+  "retired_events": [
+    {
+      "name": "Berlin Science Week 2026: In Touch",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-10",
+      "source_url": "https://berlinscienceweek.com/",
+      "basis": "Recorded end date before November 11, 2026. This is expiry, not independent confirmation of occurrence or cancellation. Historical record remains in Git history; continuing institutions and archives retained."
+    },
+    {
+      "name": "Stanford d.school Book Talk: Victor Saad, Creative Essentials",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "source_url": "https://dschool.stanford.edu/events/2026-book-talk-creative-essentials-victor-saad",
+      "basis": "Recorded end date before November 11, 2026. This is expiry, not independent confirmation of occurrence or cancellation. Historical record remains in Git history; continuing institutions and archives retained."
+    },
+    {
+      "name": "Nicer Tuesdays LA: November 2026",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "source_url": "https://nicertuesdays.itsnicethat.com/events/10-november-2026-la",
+      "basis": "Recorded end date before November 11, 2026. This is expiry, not independent confirmation of occurrence or cancellation. Historical record remains in Git history; continuing institutions and archives retained."
+    }
+  ],
+  "excluded": [
+    "Separate entries for companies in Chain Drain",
+    "Individual news or podcast mentions",
+    "A permanent institution entry for the one-off symposium"
+  ],
+  "changes": {
+    "resources_added": 1,
+    "events_added": 1,
+    "resources_removed": 0,
+    "events_removed": 3,
+    "duplicates_added": 0,
+    "website_code_changed": false,
+    "design_weeks_changed": false
+  },
+  "validation": "Current blob guards passed for resources, events and README. Full CSV inventories parsed and schema, exact subject/domain duplicates, dates and counts checked. All existing resources and surviving event bytes preserved. Exactly three reviewed elapsed events removed and four README count tokens changed. Prior failed guarded run made no data changes. No HTTP response treated as proof of event occurrence.",
+  "sha256_after": {
+    "data/resources.csv": "260d6fb1d0e2c2f47b6dae241cf8786ec67257f581ee26ac6ba7f904fbd00fab",
+    "data/events.csv": "a612493c88b1bdef61c34851e8b026b43ecd8d08ccf2e666b57e6094773f8709",
+    "README.md": "ca076208ed25035db229adcf0fb0507aedc05a0847617a4423cfa248784aca26"
+  }
+}
