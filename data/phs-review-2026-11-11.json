@@ -1,0 +1,82 @@
+{
+  "review_date": "2026-11-11",
+  "submitted_url": "https://phsonline.org/",
+  "decision": "Add one continuing institution and archival-resource entry, plus one dated Flower Show exhibition. Preserve distinction between educational resources, operational programs and scholarly evaluations.",
+  "before": {
+    "core_resources": 502,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "dated_events": 121,
+    "searchable_entries": 578
+  },
+  "after": {
+    "core_resources": 503,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "dated_events": 122,
+    "searchable_entries": 579
+  },
+  "resource": {
+    "name": "Pennsylvania Horticultural Society (PHS): Landscape Programs and McLean Library",
+    "description": "Philadelphia-based nonprofit connecting landscape and garden practice with public education, community gardens, tree stewardship, vacant-land maintenance and university research partnerships. Its McLean Library provides horticultural references, digitized visual collections and finding aids for organizational records. LandCare documents delivery methods and links to published evaluation studies. A reference for landscape design, environmental learning, institutional archives and long-term neighborhood stewardship.",
+    "url": "https://phsonline.org/",
+    "resource_type": "Education & Research; Research & Reference; Archive & Collection; Community & Network",
+    "industries": "Architecture & Built Environment; Ecological, Bio & Regenerative; Arts & Cultural Heritage; STEAM; Research, History & Education",
+    "keywords": "Pennsylvania Horticultural Society; PHS; McLean Library; landscape design; garden history; horticulture; botanical illustration; digital collections; institutional archives; LandCare; public gardens; community gardens; tree stewardship; urban greening; maintenance; university research; environmental education; Philadelphia; Pennsylvania",
+    "status": "Verified source",
+    "last_checked": "2026-11-11",
+    "audit_note": "Official homepage, McLean Library, LandCare model and impact pages, June 16, 2026 program expansion, Flower Show program and terms reviewed. Library reading resources are distinct from member borrowing and appointment-based historical collection access. Digital collection and finding-aid links were confirmed on the library page, but their external destinations returned 429 and 403; item browsing and downloads were not tested. New navigation paths were unavailable, while established official pages remained readable. A linked 2018 JAMA Network Open cluster randomized trial was inspected in HTML for design, results and limitations: its self-reported outcomes and Philadelphia setting do not validate every PHS claim or establish effects elsewhere. Overall poor-mental-health reduction was not statistically significant; no unqualified health percentages reproduced. The newer 2025-2026 program-evaluation PDF was linked but not reviewed. PHS reserves website and media rights; collection items and scholarly articles have separate terms, including CC BY for the inspected JAMA paper. No blanket reuse license, data download, registration or independent outcome replication. No standalone articles, library events or supplier listings added.",
+    "previous_url": "",
+    "source": "https://phsonline.org/; https://phsonline.org/for-gardeners/phs-mclean-library-and-online-resource-center; https://phsonline.org/programs/transforming-vacant-land/how-it-works; https://phsonline.org/programs/transforming-vacant-land/our-impact; https://phsonline.org/phs-news/pennsylvania-horticultural-society-phs-expands-its-vacant-lot-greening-program-phs-landcare-into-chester-pennsylvania; https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2688343; https://phsonline.org/terms-of-use"
+  },
+  "event": {
+    "start_date": "2027-03-13",
+    "end_date": "2027-03-21",
+    "name": "PHS Philadelphia Flower Show 2027: ICONIC",
+    "city": "Philadelphia",
+    "country": "United States",
+    "region": "North America",
+    "category": "Ecological, Bio & Regenerative",
+    "description": "Ticketed horticultural and landscape-design exhibition at the Pennsylvania Convention Center. The 2027 theme, ICONIC, examines gardens' influence across art, design, fashion, food, film and architecture, with a planned Pennsylvania public-gardens showcase. General-public dates are March 13-21; March 12 is a members-only preview, not general admission. Daily hours and ticket categories differ. A public exhibition and fundraiser, not a scholarly conference; no livestream confirmed.",
+    "url": "https://phsonline.org/the-flower-show/",
+    "source": "Official PHS 2027 theme, show overview, FAQ and ticket page reviewed November 11, 2026. https://phsonline.org/the-flower-show/about-the-show/iconic; https://phsonline.org/the-flower-show/plan-your-visit/faq; https://phsonline.org/the-flower-show/buy-tickets/ Older overview includes March 12 in headline dates, but explicitly identifies it as Members' Preview Day; current FAQ and indexed overview confirm March 13-21 public admission. Scheduled program, not confirmation of occurrence. Ticket checkout, live inventory and final exhibitor roster not tested. Original summary and links only; no media reproduced.",
+    "keywords": "PHS; Philadelphia Flower Show; ICONIC; landscape design; garden design; horticulture; public gardens; botanical culture; floral design; exhibitions; art; fashion; architecture; Pennsylvania Convention Center; 2027"
+  },
+  "verification": {
+    "provenance": "Official institutional pages establish PHS stewardship, library services and LandCare delivery. Current 2026 programs, a dated June 2026 expansion announcement and the confirmed 2027 exhibition establish ongoing activity beyond URL reachability.",
+    "research": "The original 2018 JAMA Network Open paper, DOI 10.1001/jamanetworkopen.2018.0298, describes randomized comparisons of greening, cleanup and no intervention, with PHS implementing treatments. Methods, abstract, results and limitations inspected in HTML. Self-reported outcomes, attrition, study setting and nonsignificant overall poor-mental-health result limit broad claims. No reanalysis, new medical recommendation or assertion that findings transfer to other countries.",
+    "archives": "Official library description distinguishes catalog access, digitized collections, organizational finding aids, membership borrowing and historical research appointments. External collections were not independently browsed because retrieval was restricted.",
+    "event": "Public dates March 13-21, 2027 and member preview March 12 are reconciled against the official FAQ. Theme and showcase are announced plans. Older 2026 exhibitors navigation is not a confirmed 2027 lineup. No booking or availability claim.",
+    "licensing": "PHS website terms reserve rights and require permission for republication except where an item grants permission. The inspected JAMA article separately uses CC BY. This does not license PHS imagery, archives or other third-party components.",
+    "live_site": "Direct live Reservoir homepage and calendar retrieval failed. Existing page structures are retained; no independent browser display or search test claimed."
+  },
+  "research_benchmark": "Evaluate how a public flagship event relates to year-round delivery, maintenance, education, institutional records and separately designed outcome studies. Preserve administrative and program records alongside visual documentation; distinguish outputs, stewardship and measured effects rather than assuming event visibility demonstrates institutional continuity. This is a proposed analytical application, not a finding about another country or sector.",
+  "unresolved": [
+    "PHS new navigation paths could not be retrieved; established official pages remained accessible.",
+    "External McLean digital collections and finding aids were not independently inspected.",
+    "The 2025-2026 LandCare evaluation PDF and all underlying datasets were not reviewed.",
+    "Flower Show checkout, remaining ticket inventory, final exhibitor list and livestream availability not verified.",
+    "No audit of event revenues, funding allocations or institutional impact across all PHS programs."
+  ],
+  "excluded": [
+    "Separate permanent entry for each PHS program or library guide",
+    "Individual gardening articles and short events",
+    "March 12 member preview represented as general-public admission",
+    "Unqualified transfer of health effects or rights from a study to all PHS programs"
+  ],
+  "changes": {
+    "resources_added": 1,
+    "events_added": 1,
+    "resources_removed": 0,
+    "events_removed": 0,
+    "duplicates_added": 0,
+    "design_weeks_changed": false,
+    "website_code_changed": false
+  },
+  "validation": "Current resource, event and README blob guards passed. Full CSV inventories parsed for schema, counts, relevant names/domains and elapsed end dates. Existing resource and event bytes preserved; four README count tokens updated. No link-check result treated as evidence of event occurrence or cancellation.",
+  "sha256_after": {
+    "data/resources.csv": "120a503363700c79b09cb292a13a9d60abb983d16199c147030529e06b7193f4",
+    "data/events.csv": "91b01d72b4ccef32daf9eee3677308ca016afbb4b2236685b1714bcd2f2831f5",
+    "README.md": "ac99bbad1a439cee6dfe4f4f735d3ee8cdb2f5a46ec087bd05b23b5519693dc5"
+  }
+}
