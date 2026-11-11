@@ -1,0 +1,56 @@
+{
+  "review_date": "2026-11-11",
+  "submitted_url": "https://www.designcouncil.org.uk/our-work/design-economy/",
+  "decision": "Update the existing report entry with methods, data-table access and nominal-growth caveats; no duplicate or dated event.",
+  "updated_fields": [
+    "description",
+    "resource_type",
+    "industries",
+    "keywords",
+    "status",
+    "last_checked",
+    "audit_note",
+    "source"
+  ],
+  "resource_name": "Design Economy 2026: Design Council",
+  "source_urls": [
+    "https://www.designcouncil.org.uk/our-work/design-economy/",
+    "https://www.designcouncil.org.uk/fileadmin/uploads/dc/Documents/Design_Economy_2026/Design_Economy_2026_FAQs.pdf",
+    "https://www.designcouncil.org.uk/fileadmin/uploads/dc/Documents/Design_Economy_2026/Design_Economy_2026_data_tables.xlsx",
+    "https://pec.ac.uk/blog_entries/mapping-the-economic-value-of-design/",
+    "https://www.designcouncil.org.uk/terms-conditions/"
+  ],
+  "verification": "Landing page, complete three-page FAQ with screenshots, Design Council researcher commentary published by Creative PEC on November 6, 2026, and publisher terms inspected. Commentary is a first-party explanation, not independent validation. The workbook link was confirmed but its contents were not retrieved. No form, account, donation or registration submitted.",
+  "limitations": [
+    "Full report not accessed; no claim of full-text review.",
+    "Data tables not inspected; headline statistics not independently recalculated.",
+    "No blanket reuse license established for the report, workbook or third-party components.",
+    "Live Reservoir homepage retrieval failed; repository source verification is not an interactive display test."
+  ],
+  "reviewer_application": "For cultural-sector measurement, distinguish the industry of the employer, the occupation of the worker, capabilities used and observed outcomes. Test local classifications instead of importing a foreign threshold as a universal definition. Keep source year, price basis and denominators alongside each indicator. Do not add overlapping sector totals or present an allocation estimate as causal impact.",
+  "excluded": [
+    "Duplicate report entry",
+    "Separate FAQ and workbook entries",
+    "Standalone commentary entry",
+    "Any event inferred from the publication page"
+  ],
+  "changes": {
+    "resources_added": 0,
+    "resources_updated": 1,
+    "resources_removed": 0,
+    "events_added": 0,
+    "events_removed": 0,
+    "design_weeks_changed": false,
+    "website_code_changed": false
+  },
+  "counts_after": {
+    "core_resources": 502,
+    "research_tools": 36,
+    "design_weeks": 76,
+    "dated_events": 121,
+    "searchable_entries": 578
+  },
+  "validation": "Exact resource blob guard, complete resource inventory parsing, one exact-name match, schema and row-count checks passed. Exactly one existing record changed; other records retained byte-for-byte. Events, Design Weeks, README and homepage unchanged. Counts recounted, not incremented for a review.",
+  "resource_blob_before": "3967752ba1abac920677fa0dca71b290cf3c3ce2",
+  "resource_sha256_after": "0218a53290bbe442193741620f0d342e6098d14e765114544980143c5a07d600"
+}
