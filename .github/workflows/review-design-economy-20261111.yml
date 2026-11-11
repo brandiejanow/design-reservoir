@@ -1,0 +1,103 @@
+name: Review Design Economy 2026 methodology
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/review-design-economy-20261111.yml']
+permissions:
+  contents: write
+concurrency:
+  group: reservoir-design-economy-20261111
+  cancel-in-progress: false
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Update one reviewed record and preserve unrelated data
+        run: |
+          python3 - <<'PY'
+          import csv, io, json, hashlib, subprocess
+          from pathlib import Path
+          date = '2026-11-11'
+          path = Path('data/resources.csv')
+          review = Path('data/design-economy-review-2026-11-11.json')
+          assert not review.exists(), 'Already applied; inspect existing audit before another update'
+          expected = '3967752ba1abac920677fa0dca71b290cf3c3ce2'
+          assert subprocess.check_output(['git','hash-object',str(path)],text=True).strip() == expected, 'Resource inventory changed since review'
+          original = path.read_bytes()
+          text = original.decode('utf-8')
+          lines = text.splitlines(keepends=True)
+          reader = csv.reader(io.StringIO(text,newline=''))
+          head = next(reader)
+          assert head == 'name,description,url,resource_type,industries,keywords,status,last_checked,audit_note,previous_url,source'.split(',')
+          start = reader.line_num
+          spans = []
+          for cells in reader:
+              end = reader.line_num
+              assert len(cells) == len(head), 'CSV schema mismatch'
+              spans.append((start,end,dict(zip(head,cells))))
+              start = end
+          records = [r for _,_,r in spans]
+          assert len(records) == 502
+          name = 'Design Economy 2026: Design Council'
+          hits = [(s,e,r) for s,e,r in spans if r['name'] == name]
+          assert len(hits) == 1
+          s,e,before = hits[0]
+          after = dict(before)
+          after.update({
+              'description': "UK Design Council's 2026 study of design occupations, industries and regional economies, with a public methods FAQ and linked data tables. Reports GBP 136.7 billion gross value added for 2023 and 2.27 million workers for 2025, including design work outside specialist firms. GVA and its reported growth use current prices, not inflation-adjusted values. Classification limits and different reference years require care in comparisons.",
+              'resource_type': 'Research Report; Research & Reference; Academic Resource',
+              'industries': 'Cross-disciplinary Design; Research, History & Education; Design Management & Business; Academic Research; Social, Systems & Strategic',
+              'keywords': 'design economy; UK; GVA; employment; design policy; economic contribution; design research; regional evidence; public data tables; occupational classification; SOC; SIC; design intensity; in-house design; economic measurement; nominal growth; research methods',
+              'status': 'Verified source',
+              'last_checked': date,
+              'audit_note': 'Official landing page, all three FAQ pages including screenshots, November 6 researcher commentary and website terms reviewed. The FAQ specifies a 30% design-employment threshold, SIC 2007 and SOC 2010, earnings-based GVA allocation, and incomplete occupational coverage. Full report remains behind a publisher form; no form submitted. The linked XLSX could not be inspected and calculations were not independently reproduced. No blanket report or dataset reuse license established. Keep the existing report and parent institution separate; do not duplicate the FAQ, workbook or commentary as public records.',
+              'source': 'Design Council Design Economy 2026 official research; https://www.designcouncil.org.uk/our-work/design-economy/; https://www.designcouncil.org.uk/fileadmin/uploads/dc/Documents/Design_Economy_2026/Design_Economy_2026_FAQs.pdf; https://www.designcouncil.org.uk/fileadmin/uploads/dc/Documents/Design_Economy_2026/Design_Economy_2026_data_tables.xlsx; https://pec.ac.uk/blog_entries/mapping-the-economic-value-of-design/; https://www.designcouncil.org.uk/terms-conditions/'
+          })
+          assert after['name'] == before['name'] and after['url'] == before['url']
+          assert '\u2014' not in after['description']
+          buf = io.StringIO(newline='')
+          csv.writer(buf,lineterminator='\n').writerow([after[k] for k in head])
+          updated = ''.join(lines[:s]) + buf.getvalue() + ''.join(lines[e:])
+          revised = list(csv.DictReader(io.StringIO(updated,newline='')))
+          assert len(revised) == len(records)
+          changed = [(a,b) for a,b in zip(records,revised) if a != b]
+          assert changed == [(before,after)]
+          assert updated.startswith(''.join(lines[:s])) and updated.endswith(''.join(lines[e:]))
+          untouched = {n:Path(n).read_bytes() for n in ['data/events.csv','data/design-weeks.csv','README.md','index.html']}
+          events = list(csv.DictReader(io.StringIO(untouched['data/events.csv'].decode(),newline='')))
+          weeks = list(csv.DictReader(io.StringIO(untouched['data/design-weeks.csv'].decode(),newline='')))
+          counts = {'core_resources':len(revised),'research_tools':sum('Research Tool' in [v.strip() for v in r['resource_type'].split(';')] for r in revised),'design_weeks':len(weeks),'dated_events':len(events),'searchable_entries':len(revised)+len(weeks)}
+          audit = {
+              'review_date':date,
+              'submitted_url':after['url'],
+              'decision':'Update the existing report entry with methods, data-table access and nominal-growth caveats; no duplicate or dated event.',
+              'updated_fields':[k for k in head if before[k] != after[k]],
+              'resource_name':name,
+              'source_urls':after['source'].split('; ')[1:],
+              'verification': 'Landing page, complete three-page FAQ with screenshots, Design Council researcher commentary published by Creative PEC on November 6, 2026, and publisher terms inspected. Commentary is a first-party explanation, not independent validation. The workbook link was confirmed but its contents were not retrieved. No form, account, donation or registration submitted.',
+              'limitations': ['Full report not accessed; no claim of full-text review.', 'Data tables not inspected; headline statistics not independently recalculated.', 'No blanket reuse license established for the report, workbook or third-party components.', 'Live Reservoir homepage retrieval failed; repository source verification is not an interactive display test.'],
+              'reviewer_application':'For cultural-sector measurement, distinguish the industry of the employer, the occupation of the worker, capabilities used and observed outcomes. Test local classifications instead of importing a foreign threshold as a universal definition. Keep source year, price basis and denominators alongside each indicator. Do not add overlapping sector totals or present an allocation estimate as causal impact.',
+              'excluded':['Duplicate report entry','Separate FAQ and workbook entries','Standalone commentary entry','Any event inferred from the publication page'],
+              'changes':{'resources_added':0,'resources_updated':1,'resources_removed':0,'events_added':0,'events_removed':0,'design_weeks_changed':False,'website_code_changed':False},
+              'counts_after':counts,
+              'validation':'Exact resource blob guard, complete resource inventory parsing, one exact-name match, schema and row-count checks passed. Exactly one existing record changed; other records retained byte-for-byte. Events, Design Weeks, README and homepage unchanged. Counts recounted, not incremented for a review.',
+              'resource_blob_before':expected,
+              'resource_sha256_after':hashlib.sha256(updated.encode()).hexdigest()
+          }
+          path.write_bytes(updated.encode('utf-8'))
+          review.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          for n,b in untouched.items(): assert Path(n).read_bytes()==b
+          print(json.dumps({'updated':name,'counts':counts},indent=2))
+          PY
+      - name: Commit reviewed resource and audit
+        run: |
+          git diff --check
+          git add data/resources.csv data/design-economy-review-2026-11-11.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Clarify Design Economy methods, nominal GVA and data access'
+          git push origin HEAD:main
