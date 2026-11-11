@@ -75,26 +75,46 @@ jobs:
               datetime.date.fromisoformat(e['start_date'])
               datetime.date.fromisoformat(e.get('end_date') or e['start_date'])
           expired = [e for e in events if (e.get('end_date') or e['start_date']) < date]
-          assert not expired, 'Unexpected elapsed events; reconcile separately rather than silently changing this review'
+          expected_expired = {'Berlin Science Week 2026: In Touch', 'Stanford d.school Book Talk: Victor Saad, Creative Essentials', 'Nicer Tuesdays LA: November 2026'}
+          assert len(expired)==3 and {e['name'] for e in expired}==expected_expired, 'Unexpected retirement set'
+          assert all(e['end_date']=='2026-11-10' for e in expired)
+          kept_events = [e for e in events if e['name'] not in expected_expired]
+          lines = et.splitlines(keepends=True)
+          reader = csv.reader(io.StringIO(et,newline=''))
+          kept_raw, removed_raw, consumed = [], [], 0
+          for index, row in enumerate(reader):
+              raw = ''.join(lines[consumed:reader.line_num])
+              consumed = reader.line_num
+              if index == 0 or not row or not row[0].strip():
+                  kept_raw.append(raw)
+              elif dict(zip(eh,row))['name'] in expected_expired:
+                  removed_raw.append(raw)
+              else:
+                  kept_raw.append(raw)
+          assert consumed==len(lines) and len(removed_raw)==3
+          event_base = ''.join(kept_raw)
+          assert parse(event_base)[1]==kept_events
           def append(text, head, row):
               out = io.StringIO(newline='')
               csv.writer(out,lineterminator='\n').writerow([row[k] for k in head])
               return text + ('' if text.endswith('\n') else '\n') + out.getvalue()
-          new_rt, new_et = append(rt,rh,resource), append(et,eh,event)
-          assert new_rt.startswith(rt) and new_et.startswith(et)
+          new_rt, new_et = append(rt,rh,resource), append(event_base,eh,event)
+          assert new_rt.startswith(rt) and new_et.startswith(event_base)
           _, new_resources = parse(new_rt)
           _, new_events = parse(new_et)
-          assert new_resources[:-1]==resources and new_events[:-1]==events
+          assert new_resources[:-1]==resources and new_events[:-1]==kept_events
+          assert all((e.get('end_date') or e['start_date'])>=date for e in new_events)
           tool_count = sum('Research Tool' in [x.strip() for x in r['resource_type'].split(';')] for r in resources)
           before = {'core_resources':len(resources),'research_tools':tool_count,'design_weeks':len(weeks),'dated_events':len(events),'searchable_entries':len(resources)+len(weeks)}
           after = dict(before, core_resources=len(new_resources), dated_events=len(new_events), searchable_entries=len(new_resources)+len(weeks))
-          for old,new in [('**501 core resource records**','**502 core resource records**'),('**501 active research and reference resource records**','**502 active research and reference resource records**'),('**577 searchable entries**','**578 searchable entries**'),('**123 current or forthcoming dated global events**','**124 current or forthcoming dated global events**')]:
+          assert after['core_resources']==502 and after['dated_events']==121 and after['searchable_entries']==578
+          for old,new in [('**501 core resource records**','**502 core resource records**'),('**501 active research and reference resource records**','**502 active research and reference resource records**'),('**577 searchable entries**','**578 searchable entries**'),('**123 current or forthcoming dated global events**','**121 current or forthcoming dated global events**')]:
               assert md.count(old)==1, f'Unexpected README count: {old}'
               md = md.replace(old,new,1)
           audit = {
               'review_date':date,
               'submitted_urls':['https://www.bryanboyer.com/chaindrain/','https://peatix.com/us/event/5247693'],
-              'decision':'Add one combined white-paper/database resource and one university-hosted dated symposium. Do not create individual company listings or imply validated outcomes.',
+              'decision':'Add one combined white-paper/database resource and one university-hosted dated symposium. Retire three elapsed calendar entries by recorded end date. Do not create individual company listings or imply validated outcomes.',
               'before':before,'after':after,'resource':resource,'event':event,
               'research_benchmark':'For future institutional case studies, examine what information, responsibility and evidence survives each transfer between funders, commissioners, researchers, delivery teams and evaluators. This is a proposed application to cultural work, not a finding that the built-environment model is already validated for cultural sectors.',
               'verification_limits':[
@@ -106,16 +126,17 @@ jobs:
                   'No symposium recording or livestream confirmed and no booking submitted.',
                   'Live Reservoir homepage and Events Calendar could not be retrieved. Repository templates and saved data are checked, not interactive rendering.'
               ],
+              'retired_events':[{'name':e['name'],'start_date':e['start_date'],'end_date':e['end_date'],'source_url':e['url'],'basis':'Recorded end date before November 11, 2026. This is expiry, not independent confirmation of occurrence or cancellation. Historical record remains in Git history; continuing institutions and archives retained.'} for e in expired],
               'excluded':['Separate entries for companies in Chain Drain','Individual news or podcast mentions','A permanent institution entry for the one-off symposium'],
-              'changes':{'resources_added':1,'events_added':1,'resources_removed':0,'events_removed':0,'duplicates_added':0,'website_code_changed':False,'design_weeks_changed':False},
-              'validation':'Current blob guards passed for resources, events and README. Full CSV inventories parsed and schema, exact subject/domain duplicates, dates and counts checked. All existing resource and event bytes preserved; four README count tokens changed. No HTTP response treated as proof of event occurrence.',
+              'changes':{'resources_added':1,'events_added':1,'resources_removed':0,'events_removed':3,'duplicates_added':0,'website_code_changed':False,'design_weeks_changed':False},
+              'validation':'Current blob guards passed for resources, events and README. Full CSV inventories parsed and schema, exact subject/domain duplicates, dates and counts checked. All existing resources and surviving event bytes preserved. Exactly three reviewed elapsed events removed and four README count tokens changed. Prior failed guarded run made no data changes. No HTTP response treated as proof of event occurrence.',
               'sha256_after':{'data/resources.csv':hashlib.sha256(new_rt.encode()).hexdigest(),'data/events.csv':hashlib.sha256(new_et.encode()).hexdigest(),'README.md':hashlib.sha256(md.encode()).hexdigest()}
           }
           rp.write_bytes(new_rt.encode('utf-8'))
           ep.write_bytes(new_et.encode('utf-8'))
           mdp.write_bytes(md.encode('utf-8'))
           review_path.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          print(json.dumps({'before':before,'after':after,'expired_events':expired},indent=2))
+          print(json.dumps({'before':before,'after':after,'retired':[e['name'] for e in expired]},indent=2))
           PY
       - name: Commit reviewed data only
         run: |
@@ -123,5 +144,5 @@ jobs:
           git add data/resources.csv data/events.csv README.md data/chain-drain-musashino-review-2026-11-11.json
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Add Chain Drain research project and verified December Musashino symposium'
+          git commit -m 'Add Chain Drain and Musashino symposium; retire three elapsed November 10 events'
           git push origin HEAD:main
