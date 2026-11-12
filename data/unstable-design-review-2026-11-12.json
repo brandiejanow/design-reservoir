@@ -1,0 +1,100 @@
+{
+  "review_date": "2026-11-12",
+  "submitted_url": "https://unstable.design/",
+  "decision": "Add one enduring university lab and resource collection, plus separate residency briefing and deadline notices. AdaCAD, curricula and research cases remain searchable within the parent entry rather than fragmented into unreviewed subentries.",
+  "before": {
+    "core_resources": 503,
+    "design_weeks": 76,
+    "dated_events": 121,
+    "research_tools": 36,
+    "searchable_entries": 579
+  },
+  "after": {
+    "core_resources": 504,
+    "design_weeks": 76,
+    "dated_events": 123,
+    "research_tools": 36,
+    "searchable_entries": 580
+  },
+  "resource": {
+    "name": "Unstable Design Lab (University of Colorado Boulder)",
+    "description": "University research lab connecting weaving, craft knowledge, computational design, interactive textiles and engineering. Publishes project documentation and scholarly references alongside AdaCAD weave-drafting software, experimental-textiles curricula, an open textbook, sample catalogs and fabrication resources. Design Bookkeeping examines how small working decisions and practical know-how are documented and shared. The continuing Experimental Weaving Residency supports exchange between artists, craftspeople and technical researchers; application notices are listed separately.",
+    "url": "https://unstable.design/",
+    "resource_type": "Education & Research; Research & Reference; Methods & Toolkits; Archive & Collection",
+    "industries": "STEAM; Academic Research; Fashion, Textile & Craft; Product, Industrial & Material; Digital / UX / Product; Design Education; Research, History & Education",
+    "keywords": "Unstable Design Lab; CU Boulder; ATLAS Institute; Laura Devendorf; experimental weaving; craft knowledge; computational craft; AdaCAD; parametric design; smart textiles; electronic textiles; weaving drafts; material research; Design Bookkeeping; documentation; open textbook; curriculum; open source; residency; Colorado",
+    "status": "Verified source",
+    "last_checked": "2026-11-12",
+    "audit_note": "Official CU Boulder lab profile, current lab research/resources pages, Design Bookkeeping project, AdaCAD documentation and source README, and 2027-2028 residency call inspected. Dated 2026 publications and the current call support continuing activity. The homepage still lists ended October/early-November conferences as upcoming; those were not imported. Project summaries and publication references are not a full-text review of every study or independent replication. AdaCAD is a specialized textile-design environment, not a general data-analysis or literature tool; interactive drafting and export were not tested. Its current monorepo replaces older migrated repositories. Lab website reserves rights; AdaCAD documentation carries a Creative Commons Attribution ShareAlike notice without a version in the inspected footer. No repository-wide software license was established, and licenses for code, teaching files, artwork and publications require separate checking. No third-party files or images copied. One parent entry covers the linked projects rather than duplicating each tutorial, paper or sample.",
+    "previous_url": "",
+    "source": "https://www.colorado.edu/atlas/unstable-design-lab; https://unstable.design/; https://unstable.design/open-source/; https://unstable.design/projects/design-bookkeeping/; https://unstable.design/projects/adacad/; https://docs.adacad.org/; https://github.com/UnstableDesign/AdaCAD/blob/main/README.md; https://unstable.design/work/ewresidency/"
+  },
+  "events": [
+    {
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-02",
+      "name": "Unstable Design Lab: Experimental Weaving Residency Information Session",
+      "city": "Online",
+      "country": "Online",
+      "region": "Online",
+      "category": "Fashion, Textile & Craft",
+      "description": "University of Colorado Boulder lab briefing for the Alongside experimental weaving residencies in 2027-2028. Organizer specifies December 2, 2026 at 8 a.m. Mountain Time, equivalent to 9 a.m. U.S. Central and 15:00 UTC, with a linked university Zoom registration page. A funding and participation briefing, not a research conference. Duration, admission charge, recording availability and registration capacity were not confirmed; no form submitted.",
+      "url": "https://unstable.design/work/ewresidency/",
+      "source": "Official Unstable Design Lab call timeline inspected November 12, 2026; organizer-linked registration: https://cuboulder.zoom.us/meeting/register/rf6sYT7nRcWl6_ZXQDSRKA . Zoom returned only its page shell, so registration functionality was not independently tested. Date derives from organizer text, not link reachability.",
+      "keywords": "Unstable Design Lab; experimental weaving; residency; information session; Alongside; CU Boulder; textiles; STEAM; craft; engineering; online briefing"
+    },
+    {
+      "start_date": "2027-01-31",
+      "end_date": "2027-01-31",
+      "name": "Unstable Design Lab Alongside Residencies 2027-2028: Application Deadline",
+      "city": "Online submission",
+      "country": "Online",
+      "region": "Online",
+      "category": "Fashion, Textile & Craft",
+      "description": "Deadline for six selected 12-week experimental weaving residencies in Boulder, Colorado, with two residents per session. Organizer offers a USD 16,000 stipend, airfare support and a USD 500 materials budget administered by the lab; residents arrange housing. Individuals and interdisciplinary collaborators may apply, including international applicants. At least 30 hours per week in person and publicly shareable techniques/resources are expected. Sessions are tabulated for fall 2027, spring 2028 and fall 2028; one paragraph inconsistently says summer 2028, requiring clarification. No cutoff time or time zone given. This is an experienced-practitioner residency, not an equipment-training course.",
+      "url": "https://unstable.design/work/ewresidency/",
+      "source": "Official open call, timeline, session table, funding, expectations and application instructions inspected November 12, 2026. Organizer-linked form: https://airtable.com/appjOtUMOem5EmIyB/shrWxWIrg281ts3Rx . Application window November 1, 2026-January 31, 2027; notification March-April 2027. Form fields did not render, no application submitted. International tax/visa costs, airfare limits, exact output licenses and final residency agreement require individual confirmation.",
+      "keywords": "Unstable Design Lab; Alongside; Experimental Weaving Residency; application deadline; University of Colorado Boulder; textiles; weaving; computational craft; smart textiles; artistic research; engineering; 2027; 2028; stipend; research residency"
+    }
+  ],
+  "benchmark": "Design Bookkeeping distinguishes the finished artifact from the small decisions, habits and partial know-how that enabled it. For future cultural research, retain attributed working records and their context alongside public outputs. This is a reviewer-proposed application, not a claim that the method has been validated for another sector.",
+  "verification": [
+    "CU Boulder institutional profile corroborates lab affiliation, textiles/computing remit and 2026 publications. Official project pages trace AdaCAD to CHI publications and Design Bookkeeping to a DIS 2024 pictorial.",
+    "Resources page lists 15-week Experimental Textiles curriculum, an in-progress open textbook, conductive-yarn recipes, fabrication resources and sample catalogs. Linked files and all publications were not individually reviewed.",
+    "AdaCAD current README describes a maintained monorepo of libraries, browser UI and documentation. Older repositories are labeled migrated by the publisher. No source-code modification, execution, interactive export or independent performance test.",
+    "Residency deadline and briefing date are explicit on the original call. Stipend is USD 16,000 for each 12-week residency, not a monthly payment. Housing must be located by residents. Materials budget is spent by the lab, not paid directly as extra cash.",
+    "Residency session table gives September 1-November 19, 2027; February 1-April 25, 2028; September 1-November 17, 2028. One narrative paragraph says summer 2028; no separate attendance-period records created while this conflict remains.",
+    "Registration/application destinations were followed from the organizer but exposed only shells; their transactions and detailed field contents were not tested. No registration, application or personal data transfer.",
+    "Live Reservoir homepage and calendar could not be retrieved through the web tool. Complete repository HTML templates read, structures preserved; no independent browser interaction claimed."
+  ],
+  "rights": "Lab pages state all rights reserved. AdaCAD documentation displays Creative Commons Attribution ShareAlike without an identified version in the inspected footer; this is not a blanket license for all software, diagrams, photographs, papers or residency outputs. Current root listing had no top-level LICENSE file, and no repository-wide license conclusion is made. Only original summaries and source links are published.",
+  "unresolved": [
+    "Summer versus fall 2028 wording in the call.",
+    "Deadline cutoff time/time zone unspecified.",
+    "Session duration, recording and admission charge unconfirmed.",
+    "Final residency agreement, airfare limits, individual international tax/visa arrangements and output-specific licenses unreviewed.",
+    "AdaCAD component licenses and working exports not independently tested."
+  ],
+  "excluded": [
+    "Past SECAC and UIST notices still labeled upcoming on the homepage.",
+    "Separate permanent entries for every paper, recipe, tutorial or software subproject.",
+    "Hiring and PhD calls not separately assessed in this review.",
+    "A blanket open-content license or a claim that residency housing is provided."
+  ],
+  "changes": {
+    "resources_added": 1,
+    "events_added": 2,
+    "resources_removed": 0,
+    "events_removed": 0,
+    "duplicates_added": 0,
+    "website_code_changed": false,
+    "design_weeks_changed": false,
+    "research_tool_classifications_changed": false
+  },
+  "validation": "Exact resource, event and README blob guards passed. Full inventories parsed; schemas, relevant names/domains, dates and counts checked. Existing resource/event bytes preserved; four README count tokens updated. No elapsed record found before review date. No URL status treated as evidence of occurrence.",
+  "sha256_after": {
+    "data/resources.csv": "6e5f7c589e9c2520b792cf6a7f3d1fafa7ea6bcd77a1972ebfa585dc7684d5e1",
+    "data/events.csv": "592a6eac777159b779bdda3ef4f86ac1f57d29e2fcd0d9c95f04f44d199a9111",
+    "README.md": "fa9316d1acba5272053f2483964ab3479731fc5da185abeb424f8d47bcfe8c3b"
+  }
+}
