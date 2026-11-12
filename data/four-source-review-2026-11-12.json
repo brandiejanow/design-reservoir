@@ -1,0 +1,100 @@
+{
+  "review_date": "2026-11-12",
+  "scope": "Four curator-submitted sources. Separate continuing reference collections from dated applications and conferences; preserve the existing directory structure.",
+  "manifest": "data/four-source-manifest-2026-11-12.json",
+  "manifest_sha256": "aead6d4769290183ebc683180cbf64246f8c33e2d6e31acd7b0f52bcdecfc3f2",
+  "before": {
+    "core_resources": 504,
+    "design_weeks": 76,
+    "dated_events": 123,
+    "searchable_entries": 580,
+    "research_tools": 36
+  },
+  "after": {
+    "core_resources": 508,
+    "design_weeks": 76,
+    "dated_events": 126,
+    "searchable_entries": 584,
+    "research_tools": 36
+  },
+  "resources_added": [
+    {
+      "name": "DESIGNxRI: Design Business Programs and Alumni Directory",
+      "url": "https://www.designxri.com/"
+    },
+    {
+      "name": "MuseumNext: Museum Practice and Conference Resources",
+      "url": "https://www.museumnext.com/blog/"
+    },
+    {
+      "name": "KÉK: Contemporary Architecture Centre",
+      "url": "https://www.kek.org.hu/en/"
+    },
+    {
+      "name": "Textile Futures 2040",
+      "url": "https://www.textilefutures2040.com/"
+    }
+  ],
+  "events_added": [
+    {
+      "name": "DESIGNxRI Design Catalyst 2027: Providence Grant Application Deadline",
+      "start_date": "2026-11-22",
+      "end_date": "2026-11-22",
+      "url": "https://www.designxri.com/design-catalyst-2027/"
+    },
+    {
+      "name": "MuseumNext Museums, Health & Well-Being Summit 2027",
+      "start_date": "2027-01-26",
+      "end_date": "2027-01-27",
+      "url": "https://www.museumnext.com/events/museums-health-wellbeing-summit/"
+    },
+    {
+      "name": "19th Budapest Architecture Film Festival: Film Submission Deadline",
+      "start_date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "url": "https://www.kek.org.hu/en/hirek/nyilt-palyazat-a-19-budapesti-epiteszeti-filmnapokra-varjuk-a-filmeket"
+    }
+  ],
+  "changes": {
+    "resources_added": 4,
+    "events_added": 3,
+    "resources_removed": 0,
+    "events_removed": 0,
+    "duplicates_added": 0,
+    "website_code_changed": false,
+    "design_weeks_changed": false
+  },
+  "benchmarks": [
+    {
+      "source": "DESIGNxRI",
+      "application": "Compare eligibility and mentorship with actual access to money. Reimbursement requirements may create a cash-flow barrier even where a program targets low-income applicants. Treat this as a question to investigate, not a measured outcome of this program. Preserve cohort records separately from testimonials and evaluated business results."
+    },
+    {
+      "source": "MuseumNext",
+      "application": "Use named practitioner cases to locate original museum programs and evaluations. Distinguish participation, reported experience and measured health outcomes; the conference announcement alone does not validate effectiveness."
+    },
+    {
+      "source": "KÉK",
+      "application": "Consider film, discussion, walks and exhibitions as complementary ways of examining the built environment. A film is an authored representation, not neutral proof, and requires its own provenance and rights context."
+    },
+    {
+      "source": "Textile Futures 2040",
+      "application": "Keep evidence, uncertainties, constructed scenarios and fictional artifacts visibly separate. Compare how decisions perform across several possible conditions rather than promoting one desired future as inevitable. Sponsorship and participant-selection limitations should remain visible."
+    }
+  ],
+  "held_or_excluded": [
+    "DESIGNxRI October 13, 2026 information session is past; retain its recording route under the parent rather than advertise an upcoming event.",
+    "Do not invent a January 1-June 30 attendance period for the business program or present reimbursement-delay examples as guaranteed grant amounts.",
+    "Budapest festival exact March 2027 dates were not established; only the confirmed submission deadline is published.",
+    "Textile Futures 2040 online launch sessions have linked Teams registrations, but no session dates were retrieved. Do not substitute the project's November 2026 publication date for webinar dates.",
+    "Do not index every article, alumni business, film, scenario or paid class as an individual permanent resource."
+  ],
+  "rights_and_access": "Only independently written descriptions, metadata and original links are added. No third-party reports, photographs, films, teaching files, personal records or application data are reproduced. Public reading and paid participation do not imply an open reuse license. No forms, registrations, payments or mailing-list subscriptions were submitted.",
+  "verification_limits": "Review covers the cited primary pages and published terms, not full report files, every underlying study, completed application transactions or independently evaluated program outcomes. The live Reservoir homepage and calendar were inaccessible through the web tool. Complete repository HTML templates were read and will remain unchanged; browser rendering has not been independently checked.",
+  "validation": "Exact pre-review file hashes matched. Parsed complete resource, event and Design Weeks inventories. Checked all new rows against current CSV schemas, existing domains and names, date formats and established classifications. Existing resource and event bytes retained unchanged; only new rows appended. Four README count values reconciled. No unrelated link audit, event-occurrence verification or browser-rendering test claimed.",
+  "sha256_after": {
+    "data/resources.csv": "508b492a504b7b2fe2375c0af025573b5db3c5c0ebd4dc6d8d4dfb5aa75a4855",
+    "data/events.csv": "2997e81864990299c3422faa3dc7feae7cd02b85b889c4c9e404933ef97b9a6f",
+    "README.md": "236bac7ccb178327e8b34b36f6316146798fdb40b96da9ee03eec3e67764e763"
+  }
+}
