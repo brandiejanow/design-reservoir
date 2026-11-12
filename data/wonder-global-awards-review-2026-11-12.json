@@ -1,0 +1,74 @@
+{
+  "review_date": "2026-11-12",
+  "submitted_url": "https://www.wonderglobalawards.com/",
+  "name": "Wonder Global Design Awards (WGA)",
+  "decision": "Retain as a reviewed professional-opportunity candidate; do not add to the active academic resource directory or events calendar in this review.",
+  "rationale": "The reviewed material establishes a recurring paid design competition, public winner profiles and an announced current call. Its demonstrated value is professional recognition and project visibility. No distinct scholarly publication, research method, substantial teaching collection or research program was established that warrants a core academic-resource entry. Fees alone are not a reason for exclusion, and this editorial scope decision is not a finding of fraud, inactivity or poor-quality judging. A future professional-awards collection would require its own selection criteria and fuller entry-term review.",
+  "classification": {
+    "type": "Paid professional design award",
+    "disciplines": ["Architecture & Built Environment", "Spatial, Interior & Experiential", "Product, Industrial & Material", "Graphic & Communication Design", "Digital / UX / Product"],
+    "not_established": ["Scholarly publisher", "Accredited qualification", "Research funding program", "Independently validated judging outcomes"]
+  },
+  "evidence": [
+    {
+      "url": "https://www.wonderglobalawards.com/aboutus",
+      "finding": "Search-indexed official text identifies the current call as 2026 Season 2, five design disciplines, published entry fees and deadline stages. It describes anonymized judging against ten criteria and recognition benefits. Direct retrieval returned a JavaScript-only shell, so the interactive application and checkout were not tested."
+    },
+    {
+      "url": "https://www.wonderglobalawards.com/jury",
+      "finding": "Search-indexed official text names jurors and affiliations. These are organizer-provided biographies, not independently verified institutional endorsements or an audit of judging. The full dynamic directory was not retrieved."
+    },
+    {
+      "url": "https://studieren.h2.de/en/aktuelles/detail/design-das-wirkt-wie-praxisprojekte-den-weg-zum-erfolg-ebnen",
+      "finding": "A Hochschule Magdeburg-Stendal article dated February 9, 2026 confirms that Adrian Wiepcke, Daniel Glatthaar and Siwen Tian received a WGA product-design Gold Award for a wireless 3D measurement-system student project. This is university-side evidence of an award received, not independent validation of the award's entire selection process."
+    },
+    {
+      "url": "https://www.designboom.com/competition/wonder-global-design-awards-2026-season-2/",
+      "finding": "The current call listing explicitly supplies calendar years for all Season 2 deadlines and results. Its dates and base fees match the official site's indexed month/day schedule. Retrieved through search-indexed page text; direct page opening failed. Promotional claims about prestige, participant-country totals and academic reach were not treated as independently established facts."
+    },
+    {
+      "url": "https://bustler.net/competitions/10426/call-for-entries-wonder-global-design-awards-2026",
+      "finding": "Readable earlier 2026 call describes international student and professional entry and submission/payment steps. Its July 31, 2026 deadline belongs to a past round and must not be used as the current Season 2 deadline. Earlier benefits and cutoff timezone were not carried forward as current terms."
+    }
+  ],
+  "announced_current_call": {
+    "edition": "2026 Season 2",
+    "regular_deadline": "2026-11-30",
+    "final_deadline": "2026-12-31",
+    "final_deadline_surcharge_percent": 10,
+    "extended_final_deadline": "2027-01-31",
+    "extended_final_surcharge_percent": 15,
+    "announced_results_and_online_exhibition": "2027-02-28",
+    "deadline_cutoff_time_and_timezone": "Not established for the current call.",
+    "date_provenance": "Official indexed About page gives the current season and month/day schedule; the matching designboom Season 2 listing explicitly supplies the years. These are announced dates, not evidence of completed events or a successful submission transaction.",
+    "calendar_publication": false
+  },
+  "published_base_fees_usd": {
+    "corporate_or_agency": {"entry": 180, "additional_category": 80},
+    "freelancer": {"entry": 90, "additional_category": 40},
+    "student": {"entry": 70, "additional_category": 30},
+    "note": "Published base fees, not verified checkout totals. Late-stage surcharges apply as announced. Taxes, transaction charges, refunds and all eligibility details were not independently established."
+  },
+  "benefits_and_rights": {
+    "benefits": "The official description emphasizes winner profiles, digital certificates, award-logo use, an online exhibition and promotional exposure. A complimentary trophy is specified for Design of the Year; other winners may purchase trophies. No cash prize was verified in the material reviewed.",
+    "rights": "The indexed official About page reserves promotional display of entered work with creator credit. Full Terms and Conditions could not be inspected. Do not infer a blanket reuse license, full copyright transfer, confidentiality, or permission for third-party reproduction. No text, photographs or entry assets were copied into the directory."
+  },
+  "unresolved": [
+    "Full current Terms and Conditions, refund policy and submission-use license.",
+    "Detailed project eligibility and permitted creation/completion dates.",
+    "Current deadline cutoff time and timezone.",
+    "Checkout totals and any optional physical-award or shipping costs.",
+    "Independent verification of judging execution, selectivity and claimed professional impact."
+  ],
+  "repository_check": "A targeted GitHub code search for wonderglobalawards returned no matches before this review. This was a focused candidate check, not a full inventory or link audit.",
+  "changes": {
+    "review_records_added": 1,
+    "active_resources_added": 0,
+    "dated_events_added": 0,
+    "resources_removed": 0,
+    "events_removed": 0,
+    "website_code_changed": false,
+    "directory_counts_changed": false
+  },
+  "follow_up": "Reassess only if a separate professional-awards collection is editorially justified or substantial research/teaching value is demonstrated. Verify full terms before recommending a paid entry. No account, entry, payment, subscription or scheduled monitoring was created."
+}
