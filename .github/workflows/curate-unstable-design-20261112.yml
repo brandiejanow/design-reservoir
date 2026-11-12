@@ -1,0 +1,138 @@
+name: Curate Unstable Design Lab 2026-11-12
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/curate-unstable-design-20261112.yml']
+permissions:
+  contents: write
+concurrency:
+  group: reservoir-unstable-design-20261112
+  cancel-in-progress: false
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Validate inventories and append reviewed records
+        run: |
+          python3 - <<'PY'
+          import csv, io, json, hashlib, subprocess, datetime
+          from pathlib import Path
+          from urllib.parse import urlsplit
+          date = '2026-11-12'
+          rp, ep, mp = map(Path, ['data/resources.csv','data/events.csv','README.md'])
+          ap = Path('data/unstable-design-review-2026-11-12.json')
+          assert not ap.exists(), 'Review already applied'
+          expected = {rp:'6a5ee42298aa62fa533ced3e27ba1a4cd4f49f47', ep:'6e55b3b6102c02c677e7aa015a4d0c26255713f6', mp:'8a4c382cd49de922eb958d76c904c9efa77947b'}
+          original = {p:p.read_bytes() for p in expected}
+          for p,sha in expected.items():
+              assert subprocess.check_output(['git','hash-object',str(p)],text=True).strip()==sha, f'Concurrent change: {p}'
+          def parse(text):
+              rows = list(csv.reader(io.StringIO(text,newline='')))
+              head, body = rows[0], [r for r in rows[1:] if r and r[0].strip()]
+              assert all(len(r)==len(head) for r in body), 'CSV schema mismatch'
+              return head,[dict(zip(head,r)) for r in body]
+          rt,et,md = [original[p].decode('utf-8') for p in (rp,ep,mp)]
+          rh,resources = parse(rt)
+          eh,events = parse(et)
+          _,weeks = parse(Path('data/design-weeks.csv').read_text(encoding='utf-8'))
+          assert len(resources)==503 and len(events)==121 and len(weeks)==76
+          assert rh=='name,description,url,resource_type,industries,keywords,status,last_checked,audit_note,previous_url,source'.split(',')
+          assert eh=='start_date,end_date,name,city,country,region,category,description,url,source,keywords'.split(',')
+          assert not any('unstable.design' in r['url'] or 'adacad.org' in r['url'] or 'unstable design' in r['name'].lower() or r['name'].lower()=='adacad' for r in resources), 'Overlapping lab/tool record requires reconciliation'
+          assert not any('unstable.design/work/ewresidency' in e['url'] or 'experimental weaving residency' in e['name'].lower() for e in events), 'Duplicate residency notice'
+          for e in events:
+              datetime.date.fromisoformat(e['start_date'])
+              datetime.date.fromisoformat(e.get('end_date') or e['start_date'])
+          expired = [e for e in events if (e.get('end_date') or e['start_date']) < date]
+          assert not expired, 'Elapsed entries require separate reconciliation'
+          resource = {
+              'name':'Unstable Design Lab (University of Colorado Boulder)',
+              'description':'University research lab connecting weaving, craft knowledge, computational design, interactive textiles and engineering. Publishes project documentation and scholarly references alongside AdaCAD weave-drafting software, experimental-textiles curricula, an open textbook, sample catalogs and fabrication resources. Design Bookkeeping examines how small working decisions and practical know-how are documented and shared. The continuing Experimental Weaving Residency supports exchange between artists, craftspeople and technical researchers; application notices are listed separately.',
+              'url':'https://unstable.design/',
+              'resource_type':'Education & Research; Research & Reference; Methods & Toolkits; Archive & Collection',
+              'industries':'STEAM; Academic Research; Fashion, Textile & Craft; Product, Industrial & Material; Digital / UX / Product; Design Education; Research, History & Education',
+              'keywords':'Unstable Design Lab; CU Boulder; ATLAS Institute; Laura Devendorf; experimental weaving; craft knowledge; computational craft; AdaCAD; parametric design; smart textiles; electronic textiles; weaving drafts; material research; Design Bookkeeping; documentation; open textbook; curriculum; open source; residency; Colorado',
+              'status':'Verified source',
+              'last_checked':date,
+              'audit_note':'Official CU Boulder lab profile, current lab research/resources pages, Design Bookkeeping project, AdaCAD documentation and source README, and 2027-2028 residency call inspected. Dated 2026 publications and the current call support continuing activity. The homepage still lists ended October/early-November conferences as upcoming; those were not imported. Project summaries and publication references are not a full-text review of every study or independent replication. AdaCAD is a specialized textile-design environment, not a general data-analysis or literature tool; interactive drafting and export were not tested. Its current monorepo replaces older migrated repositories. Lab website reserves rights; AdaCAD documentation carries a Creative Commons Attribution ShareAlike notice without a version in the inspected footer. No repository-wide software license was established, and licenses for code, teaching files, artwork and publications require separate checking. No third-party files or images copied. One parent entry covers the linked projects rather than duplicating each tutorial, paper or sample.',
+              'previous_url':'',
+              'source':'https://www.colorado.edu/atlas/unstable-design-lab; https://unstable.design/; https://unstable.design/open-source/; https://unstable.design/projects/design-bookkeeping/; https://unstable.design/projects/adacad/; https://docs.adacad.org/; https://github.com/UnstableDesign/AdaCAD/blob/main/README.md; https://unstable.design/work/ewresidency/'
+          }
+          notices = [
+              {
+                  'start_date':'2026-12-02','end_date':'2026-12-02',
+                  'name':'Unstable Design Lab: Experimental Weaving Residency Information Session',
+                  'city':'Online','country':'Online','region':'Online','category':'Fashion, Textile & Craft',
+                  'description':'University of Colorado Boulder lab briefing for the Alongside experimental weaving residencies in 2027-2028. Organizer specifies December 2, 2026 at 8 a.m. Mountain Time, equivalent to 9 a.m. U.S. Central and 15:00 UTC, with a linked university Zoom registration page. A funding and participation briefing, not a research conference. Duration, admission charge, recording availability and registration capacity were not confirmed; no form submitted.',
+                  'url':'https://unstable.design/work/ewresidency/',
+                  'source':'Official Unstable Design Lab call timeline inspected November 12, 2026; organizer-linked registration: https://cuboulder.zoom.us/meeting/register/rf6sYT7nRcWl6_ZXQDSRKA . Zoom returned only its page shell, so registration functionality was not independently tested. Date derives from organizer text, not link reachability.',
+                  'keywords':'Unstable Design Lab; experimental weaving; residency; information session; Alongside; CU Boulder; textiles; STEAM; craft; engineering; online briefing'
+              },
+              {
+                  'start_date':'2027-01-31','end_date':'2027-01-31',
+                  'name':'Unstable Design Lab Alongside Residencies 2027-2028: Application Deadline',
+                  'city':'Online submission','country':'Online','region':'Online','category':'Fashion, Textile & Craft',
+                  'description':'Deadline for six selected 12-week experimental weaving residencies in Boulder, Colorado, with two residents per session. Organizer offers a USD 16,000 stipend, airfare support and a USD 500 materials budget administered by the lab; residents arrange housing. Individuals and interdisciplinary collaborators may apply, including international applicants. At least 30 hours per week in person and publicly shareable techniques/resources are expected. Sessions are tabulated for fall 2027, spring 2028 and fall 2028; one paragraph inconsistently says summer 2028, requiring clarification. No cutoff time or time zone given. This is an experienced-practitioner residency, not an equipment-training course.',
+                  'url':'https://unstable.design/work/ewresidency/',
+                  'source':'Official open call, timeline, session table, funding, expectations and application instructions inspected November 12, 2026. Organizer-linked form: https://airtable.com/appjOtUMOem5EmIyB/shrWxWIrg281ts3Rx . Application window November 1, 2026-January 31, 2027; notification March-April 2027. Form fields did not render, no application submitted. International tax/visa costs, airfare limits, exact output licenses and final residency agreement require individual confirmation.',
+                  'keywords':'Unstable Design Lab; Alongside; Experimental Weaving Residency; application deadline; University of Colorado Boulder; textiles; weaving; computational craft; smart textiles; artistic research; engineering; 2027; 2028; stipend; research residency'
+              }
+          ]
+          assert set(resource)==set(rh)
+          assert all(set(e)==set(eh) and e['end_date']>=date for e in notices)
+          assert all('\u2014' not in x['description'] for x in [resource,*notices])
+          def append(text,head,rows):
+              out=io.StringIO(newline='')
+              writer=csv.writer(out,lineterminator='\n')
+              for r in rows: writer.writerow([r[k] for k in head])
+              return text+('' if text.endswith('\n') else '\n')+out.getvalue()
+          new_rt=append(rt,rh,[resource])
+          new_et=append(et,eh,notices)
+          _,nr=parse(new_rt)
+          _,ne=parse(new_et)
+          assert new_rt.startswith(rt) and new_et.startswith(et)
+          assert nr[:-1]==resources and ne[:-2]==events
+          before={'core_resources':len(resources),'design_weeks':len(weeks),'dated_events':len(events),'research_tools':sum('Research Tool' in [t.strip() for t in r['resource_type'].split(';')] for r in resources),'searchable_entries':len(resources)+len(weeks)}
+          after=dict(before,core_resources=len(nr),dated_events=len(ne),searchable_entries=len(nr)+len(weeks))
+          for old,new in [('**503 core resource records**','**504 core resource records**'),('**503 active research and reference resource records**','**504 active research and reference resource records**'),('**579 searchable entries**','**580 searchable entries**'),('**121 current or forthcoming dated global events**','**123 current or forthcoming dated global events**')]:
+              assert md.count(old)==1, f'Unexpected README count token: {old}'
+              md=md.replace(old,new,1)
+          audit={
+              'review_date':date,'submitted_url':'https://unstable.design/',
+              'decision':'Add one enduring university lab and resource collection, plus separate residency briefing and deadline notices. AdaCAD, curricula and research cases remain searchable within the parent entry rather than fragmented into unreviewed subentries.',
+              'before':before,'after':after,'resource':resource,'events':notices,
+              'benchmark':'Design Bookkeeping distinguishes the finished artifact from the small decisions, habits and partial know-how that enabled it. For future cultural research, retain attributed working records and their context alongside public outputs. This is a reviewer-proposed application, not a claim that the method has been validated for another sector.',
+              'verification':[
+                  'CU Boulder institutional profile corroborates lab affiliation, textiles/computing remit and 2026 publications. Official project pages trace AdaCAD to CHI publications and Design Bookkeeping to a DIS 2024 pictorial.',
+                  'Resources page lists 15-week Experimental Textiles curriculum, an in-progress open textbook, conductive-yarn recipes, fabrication resources and sample catalogs. Linked files and all publications were not individually reviewed.',
+                  'AdaCAD current README describes a maintained monorepo of libraries, browser UI and documentation. Older repositories are labeled migrated by the publisher. No source-code modification, execution, interactive export or independent performance test.',
+                  'Residency deadline and briefing date are explicit on the original call. Stipend is USD 16,000 for each 12-week residency, not a monthly payment. Housing must be located by residents. Materials budget is spent by the lab, not paid directly as extra cash.',
+                  'Residency session table gives September 1-November 19, 2027; February 1-April 25, 2028; September 1-November 17, 2028. One narrative paragraph says summer 2028; no separate attendance-period records created while this conflict remains.',
+                  'Registration/application destinations were followed from the organizer but exposed only shells; their transactions and detailed field contents were not tested. No registration, application or personal data transfer.',
+                  'Live Reservoir homepage and calendar could not be retrieved through the web tool. Complete repository HTML templates read, structures preserved; no independent browser interaction claimed.'
+              ],
+              'rights':'Lab pages state all rights reserved. AdaCAD documentation displays Creative Commons Attribution ShareAlike without an identified version in the inspected footer; this is not a blanket license for all software, diagrams, photographs, papers or residency outputs. Current root listing had no top-level LICENSE file, and no repository-wide license conclusion is made. Only original summaries and source links are published.',
+              'unresolved':['Summer versus fall 2028 wording in the call.','Deadline cutoff time/time zone unspecified.','Session duration, recording and admission charge unconfirmed.','Final residency agreement, airfare limits, individual international tax/visa arrangements and output-specific licenses unreviewed.','AdaCAD component licenses and working exports not independently tested.'],
+              'excluded':['Past SECAC and UIST notices still labeled upcoming on the homepage.','Separate permanent entries for every paper, recipe, tutorial or software subproject.','Hiring and PhD calls not separately assessed in this review.','A blanket open-content license or a claim that residency housing is provided.'],
+              'changes':{'resources_added':1,'events_added':2,'resources_removed':0,'events_removed':0,'duplicates_added':0,'website_code_changed':False,'design_weeks_changed':False,'research_tool_classifications_changed':False},
+              'validation':'Exact resource, event and README blob guards passed. Full inventories parsed; schemas, relevant names/domains, dates and counts checked. Existing resource/event bytes preserved; four README count tokens updated. No elapsed record found before review date. No URL status treated as evidence of occurrence.',
+              'sha256_after':{'data/resources.csv':hashlib.sha256(new_rt.encode()).hexdigest(),'data/events.csv':hashlib.sha256(new_et.encode()).hexdigest(),'README.md':hashlib.sha256(md.encode()).hexdigest()}
+          }
+          rp.write_bytes(new_rt.encode())
+          ep.write_bytes(new_et.encode())
+          mp.write_bytes(md.encode())
+          ap.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'before':before,'after':after,'expired_events':expired},indent=2))
+          PY
+      - name: Commit reviewed records and accounting
+        run: |
+          git diff --check
+          git add data/resources.csv data/events.csv README.md data/unstable-design-review-2026-11-12.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Add Unstable Design Lab and verified Alongside residency notices'
+          git push origin HEAD:main
