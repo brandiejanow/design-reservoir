@@ -1,0 +1,133 @@
+{
+  "review_date": "2026-11-12",
+  "scope": "Four curator-submitted sources. Separate continuing reference collections from dated applications and conferences; preserve the existing directory structure.",
+  "expected_blobs": {
+    "data/resources.csv": "9bddf6ec57c825675bb73896b388a2a268b180bb",
+    "data/events.csv": "c60d6c49965b73d7821a550ce8d881d288591fd5",
+    "README.md": "9f5a5dac69b10710b92d18e6023695f479e2103e",
+    "index.html": "edd4474c4889bd4aeecd028c6d1e026d7c97e8b1",
+    "events/index.html": "b626b9a70fdb93825d1ac0513bfaffde26c6c228"
+  },
+  "resources": [
+    {
+      "name": "DESIGNxRI: Design Business Programs and Alumni Directory",
+      "description": "Rhode Island design organization providing business mentorship, professional programs and an alumni directory searchable by specialty and cohort year. Its Design Catalyst program connects business planning, peer learning and grant support. Useful for studying local creative-enterprise support and professional pathways; current funding rounds have separate residency, income and participation requirements.",
+      "url": "https://www.designxri.com/",
+      "resource_type": "Community & Network; Mentorship & Pathways; Business & Practice",
+      "industries": "Cross-disciplinary Design; Design Management & Business; Design Education",
+      "keywords": "DESIGNxRI; Rhode Island; Providence; Design Catalyst; creative economy; microenterprise; business development; mentorship; alumni directory; reimbursement grants; professional pathways",
+      "status": "Verified source",
+      "last_checked": "2026-11-12",
+      "audit_note": "Official homepage, 2027 call, alumni collection and terms inspected. Public program documentation and participant profiles are not independent evidence of business outcomes. The 2027 round requires both owner residence and business address within Providence, qualifying household income, and an established enterprise of five or fewer employees including owners and interns. Reimbursement is not advance funding; the program warns that businesses may carry up to USD 5,000 of costs for up to ten weeks, depending on their award. This is not a stated universal grant amount. No application submitted or personal tax information accessed. Website retains copyright; no blanket reuse license established. The October 13 information session has passed and was not added as upcoming.",
+      "previous_url": "",
+      "source": "https://www.designxri.com/; https://www.designxri.com/design-catalyst-2027/; https://www.designxri.com/design-catalyst-alumni/; https://www.designxri.com/terms-of-use/"
+    },
+    {
+      "name": "MuseumNext: Museum Practice and Conference Resources",
+      "description": "Continuing museum-sector publication and conference platform sharing practitioner accounts of exhibitions, learning, digital collections, accessibility, audience engagement and organizational decisions. Its public articles and case discussions are distinct from paid conferences and restricted recording access. These are professional references, not a uniformly peer-reviewed research collection or evidence that every reported intervention has been independently evaluated.",
+      "url": "https://www.museumnext.com/blog/",
+      "resource_type": "Media & Publications; Research & Reference; Conference & Professional Gathering",
+      "industries": "Arts & Cultural Heritage; Design Education; Spatial, Interior & Experiential; Digital / UX / Product",
+      "keywords": "MuseumNext; museums; GLAM; museum learning; exhibition design; digital collections; accessibility; public participation; cultural institutions; professional development; health and wellbeing; case studies",
+      "status": "Verified source",
+      "last_checked": "2026-11-12",
+      "audit_note": "Official About page, public topic-indexed article collection, upcoming summit, FAQ, ticket information and terms inspected. The provider dates the conference platform to 2009. Named case descriptions were verified at collection level; underlying studies and every article were not independently assessed. Paid event access and 12-month recordings are not an open archive license or academic accreditation. Terms reserve website intellectual property and prohibit unauthorized recording or transmission. Do not infer clinical effectiveness from promotional health claims or testimonials. No registration or payment made.",
+      "previous_url": "",
+      "source": "https://www.museumnext.com/about/; https://www.museumnext.com/blog/; https://www.museumnext.com/events/museums-health-wellbeing-summit/; https://www.museumnext.com/events/museums-health-wellbeing-summit/faq/; https://www.museumnext.com/terms-conditions/"
+    },
+    {
+      "name": "KÉK: Contemporary Architecture Centre",
+      "description": "Independent Budapest architecture institution connecting urban research, public discussion, exhibitions and long-term neighborhood projects. Documents initiatives concerning the built environment, community gardens and participatory urban development. Its Budapest Architecture Film Festival brings films about cities, housing, heritage and public space into dialogue with talks, walks and exhibitions.",
+      "url": "https://www.kek.org.hu/en/",
+      "resource_type": "Design Institution; Research & Reference; Community & Network",
+      "industries": "Architecture & Built Environment; Arts & Cultural Heritage; Social, Systems & Strategic; Research, History & Education",
+      "keywords": "KÉK; Contemporary Architecture Centre; Budapest; Hungary; urban research; architecture film; Budapest Architecture Film Festival; housing; public space; heritage; participation; urban development; community gardens",
+      "status": "Verified source",
+      "last_checked": "2026-11-12",
+      "audit_note": "Official institutional description, festival project page and current film call inspected. The dedicated festival website independently repeats the November 15, 2026 submission deadline and free entry. The organizer describes a March 2027 festival at Toldi Cinema, but exact screening dates were not established, so no guessed attendance-period record was created. The knowledge-base link timed out; its complete archive and functionality remain unreviewed. Application/privacy documents and film screening or publicity permissions were not reviewed. Public access is not a blanket reuse license, and film descriptions are not independent verification of their claims.",
+      "previous_url": "",
+      "source": "https://www.kek.org.hu/en/a-k%C3%A9k-r%C5%91l/ez-a-k%C3%A9k; https://www.kek.org.hu/en/projektek/budapest-architectural-film-festival; https://www.kek.org.hu/en/hirek/nyilt-palyazat-a-19-budapesti-epiteszeti-filmnapokra-varjuk-a-filmeket; https://filmnapok.kek.org.hu/"
+    },
+    {
+      "name": "Textile Futures 2040",
+      "description": "Forum for the Future and H&M Foundation scenario project exploring alternative textile-industry conditions in 2040. Publishes four scenarios, a methods overview, comparative variables, fictional personas and artifacts, plus report downloads and a form-accessed workshop toolkit. Uses desk research, interviews, regional focus groups and scenario workshops to examine assumptions about production, power, work and environmental change. Scenarios are possibilities for discussion, not predictions or preferred outcomes.",
+      "url": "https://www.textilefutures2040.com/",
+      "resource_type": "Research & Reference; Methods & Toolkits",
+      "industries": "Futures & Foresight; Fashion, Textile & Craft; Social, Systems & Strategic; Ecological, Bio & Regenerative; Design Education",
+      "keywords": "Textile Futures 2040; Forum for the Future; H&M Foundation; scenario planning; participatory foresight; textile value chain; supply chains; labor; decarbonization; fictional personas; speculative artifacts; strategy testing; Power Shift; Global Storms Local Shields; New Age Corporate Empire; The New Noosphere",
+      "status": "Verified source",
+      "last_checked": "2026-11-12",
+      "audit_note": "Project About, Scenario Explorer, Power Shift scenario and Downloads pages inspected; Forum for the Future's own dated project page corroborates provenance. The four scenarios and their characters are constructed futures, not observed cases or probability estimates. Downloads page exposes inconsistent descriptions of more than 50 versus more than 60 contributors; no definitive sample count is reproduced. Workshop toolkit requires a contact-information form, which was not submitted. Linked report files and toolkit contents were not downloaded or independently assessed. Source-list page and linked Teams event pages failed retrieval; webinar dates remain unverified. Site permits practical use for strategy and education but displays All Rights Reserved; no blanket open license or reproduction permission is inferred. One entry covers the project, not separate records for each scenario.",
+      "previous_url": "",
+      "source": "https://www.textilefutures2040.com/about; https://www.textilefutures2040.com/scenarios; https://www.textilefutures2040.com/scenarios/power-shift; https://www.textilefutures2040.com/downloads; https://www.forumforthefuture.org/textile-futures-2040"
+    }
+  ],
+  "events": [
+    {
+      "start_date": "2026-11-22",
+      "end_date": "2026-11-22",
+      "name": "DESIGNxRI Design Catalyst 2027: Providence Grant Application Deadline",
+      "city": "Providence",
+      "country": "United States",
+      "region": "North America",
+      "category": "Design Management & Business",
+      "description": "Extended application deadline for a January-June 2027 creative-business mentorship and reimbursement-grant program. Applicants must maintain both a primary residence and business address within Providence, meet the low-to-moderate-income rules, and operate an established design or creative enterprise with five or fewer employees including owners and interns. Full participation is required, with most classes in Providence on Tuesday afternoons. Funds reimburse approved expenses rather than being paid upfront. Organizer says November 22 at midnight without an explicit time zone; no grant award amount is assumed.",
+      "url": "https://www.designxri.com/design-catalyst-2027/",
+      "source": "DESIGNxRI official 2027 call and homepage, reviewed 2026-11-12. The page explicitly extends the deadline to November 22, 2026. Reimbursement conditions, residency and income eligibility, and program commitment checked. Application not submitted; final award and grant agreement not examined.",
+      "keywords": "DESIGNxRI; Design Catalyst; 2027; Providence; Rhode Island; creative businesses; microenterprise; mentorship; reimbursement grant; application deadline; eligibility; business development"
+    },
+    {
+      "start_date": "2027-01-26",
+      "end_date": "2027-01-27",
+      "name": "MuseumNext Museums, Health & Well-Being Summit 2027",
+      "city": "Online",
+      "country": "Online",
+      "region": "Online",
+      "category": "Arts & Cultural Heritage",
+      "description": "Two-day online professional conference examining museum health and wellbeing programs through practitioner accounts and announced research presentations. Organizer specifies a 12:00 GMT start and livestream plus 12-month on-demand access. Advertised prices are GBP 135 individual, GBP 275 unlimited institutional and GBP 30 student; applicable taxes may be additional and full-time student eligibility must be verified. Final named agenda, session-end times and checkout totals were not confirmed. Conference participation is not an accredited clinical qualification or independent validation of reported outcomes.",
+      "url": "https://www.museumnext.com/events/museums-health-wellbeing-summit/",
+      "source": "MuseumNext official event, FAQ, tickets and terms reviewed 2026-11-12. FAQ: https://www.museumnext.com/events/museums-health-wellbeing-summit/faq/ . Organizer-linked ticket provider independently repeats January 26-27, 2027: https://ti.to/nxt/museum-wellness-summit-2027 . No purchase or registration made.",
+      "keywords": "MuseumNext; museums; GLAM; health and wellbeing; cultural participation; accessibility; museum learning; professional conference; online; livestream; recorded talks; 2027"
+    },
+    {
+      "start_date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "name": "19th Budapest Architecture Film Festival: Film Submission Deadline",
+      "city": "Online submission",
+      "country": "Online",
+      "region": "Online",
+      "category": "Architecture & Built Environment",
+      "description": "KÉK's free film call for the 19th Budapest Architecture Film Festival, planned for March 2027 at Toldi Cinema in Budapest. Welcomes recent films and videos without genre restrictions about architecture, cities, housing, design, heritage, public space, communities, technology and climate change. Screening copies should be 24 or 25 frames per second. Deadline cutoff time and zone, detailed screening rights and exact festival dates were not established. This record is the submission deadline, not a ticket or a confirmed screening schedule.",
+      "url": "https://www.kek.org.hu/en/hirek/nyilt-palyazat-a-19-budapesti-epiteszeti-filmnapokra-varjuk-a-filmeket",
+      "source": "KÉK official call dated October 6, 2026 and dedicated festival homepage, reviewed 2026-11-12: https://filmnapok.kek.org.hu/ . Both explicitly give November 15, 2026 and free entry. No film, application or personal information submitted; linked application/privacy documents unreviewed.",
+      "keywords": "KÉK; Budapest Architecture Film Festival; BAFF; film submission; open call; 2027 festival; architecture; urbanism; housing; heritage; public space; documentary; Hungary"
+    }
+  ],
+  "benchmarks": [
+    {
+      "source": "DESIGNxRI",
+      "application": "Compare eligibility and mentorship with actual access to money. Reimbursement requirements may create a cash-flow barrier even where a program targets low-income applicants. Treat this as a question to investigate, not a measured outcome of this program. Preserve cohort records separately from testimonials and evaluated business results."
+    },
+    {
+      "source": "MuseumNext",
+      "application": "Use named practitioner cases to locate original museum programs and evaluations. Distinguish participation, reported experience and measured health outcomes; the conference announcement alone does not validate effectiveness."
+    },
+    {
+      "source": "KÉK",
+      "application": "Consider film, discussion, walks and exhibitions as complementary ways of examining the built environment. A film is an authored representation, not neutral proof, and requires its own provenance and rights context."
+    },
+    {
+      "source": "Textile Futures 2040",
+      "application": "Keep evidence, uncertainties, constructed scenarios and fictional artifacts visibly separate. Compare how decisions perform across several possible conditions rather than promoting one desired future as inevitable. Sponsorship and participant-selection limitations should remain visible."
+    }
+  ],
+  "held_or_excluded": [
+    "DESIGNxRI October 13, 2026 information session is past; retain its recording route under the parent rather than advertise an upcoming event.",
+    "Do not invent a January 1-June 30 attendance period for the business program or present reimbursement-delay examples as guaranteed grant amounts.",
+    "Budapest festival exact March 2027 dates were not established; only the confirmed submission deadline is published.",
+    "Textile Futures 2040 online launch sessions have linked Teams registrations, but no session dates were retrieved. Do not substitute the project's November 2026 publication date for webinar dates.",
+    "Do not index every article, alumni business, film, scenario or paid class as an individual permanent resource."
+  ],
+  "rights_and_access": "Only independently written descriptions, metadata and original links are added. No third-party reports, photographs, films, teaching files, personal records or application data are reproduced. Public reading and paid participation do not imply an open reuse license. No forms, registrations, payments or mailing-list subscriptions were submitted.",
+  "verification_limits": "Review covers the cited primary pages and published terms, not full report files, every underlying study, completed application transactions or independently evaluated program outcomes. The live Reservoir homepage and calendar were inaccessible through the web tool. Complete repository HTML templates were read and will remain unchanged; browser rendering has not been independently checked."
+}
