@@ -1,0 +1,142 @@
+name: Curate four reviewed sources 2026-11-12
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/curate-four-sources-20261112.yml']
+permissions:
+  contents: write
+concurrency:
+  group: reservoir-four-sources-20261112
+  cancel-in-progress: false
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Validate and append reviewed records
+        run: |
+          python3 - <<'PY'
+          import csv, io, json, hashlib, datetime, subprocess
+          from pathlib import Path
+          from urllib.parse import urlsplit
+          manifest_path = Path('data/four-source-manifest-2026-11-12.json')
+          audit_path = Path('data/four-source-review-2026-11-12.json')
+          assert not audit_path.exists(), 'This review has already been applied'
+          m = json.loads(manifest_path.read_text(encoding='utf-8'))
+          original = {}
+          for filename, expected in m['expected_blobs'].items():
+              path = Path(filename)
+              original[filename] = path.read_bytes()
+              actual = subprocess.check_output(['git', 'hash-object', filename], text=True).strip()
+              assert actual == expected, f'Concurrent change requires review: {filename}'
+          def parse(text):
+              rows = list(csv.reader(io.StringIO(text, newline='')))
+              header, body = rows[0], [row for row in rows[1:] if row and row[0].strip()]
+              assert all(len(row) == len(header) for row in body), 'CSV schema mismatch'
+              return header, [dict(zip(header, row)) for row in body]
+          rt = original['data/resources.csv'].decode('utf-8')
+          et = original['data/events.csv'].decode('utf-8')
+          md = original['README.md'].decode('utf-8')
+          rh, resources = parse(rt)
+          eh, events = parse(et)
+          weeks_bytes = Path('data/design-weeks.csv').read_bytes()
+          _, weeks = parse(weeks_bytes.decode('utf-8'))
+          assert len(resources) == 504 and len(events) == 123 and len(weeks) == 76
+          assert rh == 'name,description,url,resource_type,industries,keywords,status,last_checked,audit_note,previous_url,source'.split(',')
+          assert eh == 'start_date,end_date,name,city,country,region,category,description,url,source,keywords'.split(',')
+          def norm(text):
+              return ' '.join(text.casefold().split())
+          def host(url):
+              return (urlsplit(url).hostname or '').lower().removeprefix('www.')
+          def urlkey(url):
+              u = urlsplit(url)
+              return host(url), u.path.rstrip('/')
+          existing_names = {norm(row['name']) for row in resources}
+          existing_hosts = {host(row['url']) for row in resources}
+          for r in m['resources']:
+              assert set(r) == set(rh)
+              assert norm(r['name']) not in existing_names, f'Duplicate name: {r["name"]}'
+              assert host(r['url']) not in existing_hosts, f'Existing provider needs reconciliation: {r["url"]}'
+              assert urlsplit(r['url']).scheme == 'https'
+              existing_names.add(norm(r['name']))
+              existing_hosts.add(host(r['url']))
+          assert not any('textile futures 2040' in norm(r['name']) or 'designxri' in norm(r['name']) or 'museumnext' in norm(r['name']) or norm(r['name']).startswith('kék') for r in resources)
+          known_industries = {v.strip() for r in resources for v in r['industries'].split(';')}
+          known_types = {v.strip() for r in resources for v in r['resource_type'].split(';')}
+          for r in m['resources']:
+              assert all(v.strip() in known_industries for v in r['industries'].split(';'))
+              assert all(v.strip() in known_types for v in r['resource_type'].split(';'))
+          today = datetime.date.fromisoformat(m['review_date'])
+          for e in m['events']:
+              assert set(e) == set(eh)
+              start = datetime.date.fromisoformat(e['start_date'])
+              end = datetime.date.fromisoformat(e['end_date'])
+              assert start <= end and end >= today
+              assert e['category'] in known_industries
+              assert not any(norm(e['name']) == norm(old['name']) or (e['start_date'] == old['start_date'] and urlkey(e['url']) == urlkey(old['url'])) for old in events), f'Duplicate event: {e["name"]}'
+          for row in m['resources'] + m['events']:
+              assert all(isinstance(value, str) for value in row.values())
+              assert '\u2014' not in row['description']
+          def append_records(text, header, records):
+              stream = io.StringIO(newline='')
+              writer = csv.writer(stream, lineterminator='\n')
+              for row in records:
+                  writer.writerow([row[key] for key in header])
+              return text + ('' if text.endswith('\n') else '\n') + stream.getvalue()
+          new_rt = append_records(rt, rh, m['resources'])
+          new_et = append_records(et, eh, m['events'])
+          _, new_resources = parse(new_rt)
+          _, new_events = parse(new_et)
+          assert new_rt.startswith(rt) and new_et.startswith(et)
+          assert new_resources[:-len(m['resources'])] == resources
+          assert new_events[:-len(m['events'])] == events
+          assert new_resources[-len(m['resources']):] == m['resources']
+          assert new_events[-len(m['events']):] == m['events']
+          before = {'core_resources': len(resources), 'design_weeks': len(weeks), 'dated_events': len(events), 'searchable_entries': len(resources) + len(weeks), 'research_tools': sum('Research Tool' in [t.strip() for t in r['resource_type'].split(';')] for r in resources)}
+          after = dict(before, core_resources=len(new_resources), dated_events=len(new_events), searchable_entries=len(new_resources) + len(weeks))
+          replacements = [
+              (f"**{before['core_resources']} core resource records**", f"**{after['core_resources']} core resource records**"),
+              (f"**{before['core_resources']} active research and reference resource records**", f"**{after['core_resources']} active research and reference resource records**"),
+              (f"**{before['searchable_entries']} searchable entries**", f"**{after['searchable_entries']} searchable entries**"),
+              (f"**{before['dated_events']} current or forthcoming dated global events**", f"**{after['dated_events']} current or forthcoming dated global events**")
+          ]
+          for old, new in replacements:
+              assert md.count(old) == 1, f'Ambiguous README count: {old}'
+              md = md.replace(old, new, 1)
+          outputs = {'data/resources.csv': new_rt.encode('utf-8'), 'data/events.csv': new_et.encode('utf-8'), 'README.md': md.encode('utf-8')}
+          audit = {
+              'review_date': m['review_date'],
+              'scope': m['scope'],
+              'manifest': str(manifest_path),
+              'manifest_sha256': hashlib.sha256(manifest_path.read_bytes()).hexdigest(),
+              'before': before,
+              'after': after,
+              'resources_added': [{'name': r['name'], 'url': r['url']} for r in m['resources']],
+              'events_added': [{'name': e['name'], 'start_date': e['start_date'], 'end_date': e['end_date'], 'url': e['url']} for e in m['events']],
+              'changes': {'resources_added': len(m['resources']), 'events_added': len(m['events']), 'resources_removed': 0, 'events_removed': 0, 'duplicates_added': 0, 'website_code_changed': False, 'design_weeks_changed': False},
+              'benchmarks': m['benchmarks'],
+              'held_or_excluded': m['held_or_excluded'],
+              'rights_and_access': m['rights_and_access'],
+              'verification_limits': m['verification_limits'],
+              'validation': 'Exact pre-review file hashes matched. Parsed complete resource, event and Design Weeks inventories. Checked all new rows against current CSV schemas, existing domains and names, date formats and established classifications. Existing resource and event bytes retained unchanged; only new rows appended. Four README count values reconciled. No unrelated link audit, event-occurrence verification or browser-rendering test claimed.',
+              'sha256_after': {name: hashlib.sha256(data).hexdigest() for name, data in outputs.items()}
+          }
+          for name, data in outputs.items():
+              Path(name).write_bytes(data)
+          audit_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          assert Path('data/design-weeks.csv').read_bytes() == weeks_bytes
+          for name in ['index.html', 'events/index.html']:
+              assert Path(name).read_bytes() == original[name]
+          print(json.dumps({'before': before, 'after': after, 'changes': audit['changes']}, indent=2))
+          PY
+      - name: Commit reviewed data and accounting
+        run: |
+          git diff --check
+          git add data/resources.csv data/events.csv README.md data/four-source-review-2026-11-12.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Add DESIGNxRI, MuseumNext, KEK and Textile Futures 2040 with confirmed dated notices'
+          git push origin HEAD:main
