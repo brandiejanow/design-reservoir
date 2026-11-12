@@ -1,0 +1,98 @@
+{
+  "review_date": "2026-11-12",
+  "submitted_reference": "User screenshot of the Dubai Future Week homepage showing November 18-21, 2026 and Emirates Towers / Museum of the Future.",
+  "decision": "Retain and update the existing dated event; no duplicate festival, permanent institution or separate STARS event added. Remove one unrelated elapsed calendar record under standing maintenance rules.",
+  "before": {
+    "core_resources": 503,
+    "design_weeks": 76,
+    "dated_events": 122,
+    "searchable_entries": 579
+  },
+  "after": {
+    "core_resources": 503,
+    "design_weeks": 76,
+    "dated_events": 121,
+    "searchable_entries": 579
+  },
+  "event_before": {
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-21",
+    "name": "Dubai Future Week 2026",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "category": "Futures & Foresight",
+    "description": "Four-day Dubai Future Foundation event at Emirates Towers and the Museum of the Future, with talks, university research prototypes, exhibitions and sessions about cities, AI, learning, technology, wellbeing and economies. Registration is offered for the wider week. The separate 500 Future Minds session on November 21 (8:30 a.m.–1 p.m.) invites applications from 500 Dubai-based professionals across education, health response, architecture and urban planning, finance and entrepreneurship; participation requires approval.",
+    "url": "https://www.dubaifutureweek.com/en",
+    "source": "Dubai Future Week official 2026 website and 500 Future Minds program; Emirates News Agency October 21, 2026",
+    "keywords": "Dubai Future Foundation; Dubai Future Week; 500 Future Minds; Dubai Shapers; futures literacy; strategic foresight; participatory futures; architecture; urban planning; education; health; policy; scientific research; AI; prototypes; UAE; Dubai; Middle East"
+  },
+  "event_after": {
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-21",
+    "name": "Dubai Future Week 2026",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "category": "Futures & Foresight",
+    "description": "Dubai Future Foundation gathering at Emirates Towers and the Museum of the Future, combining foresight, university prototypes, public experiences and the inaugural Science, Technology, Arts, and Research Summit (STARS). Registration is offered for the wider week; individual sessions may be public or invitation-only. The separate 500 Future Minds workshop on November 21, 8:30 a.m.-1 p.m. Dubai time, requires approval and Dubai-based professional eligibility. Its published selection-decision date was November 1; late application availability is unconfirmed. General registration does not establish access to restricted sessions. Prices, livestreams and recordings were not confirmed. A mixed public and professional program, not a peer-reviewed conference.",
+    "url": "https://www.dubaifutureweek.com/en",
+    "source": "Official Dubai Future Week homepage, programme, STARS, 500 Future Minds and event terms inspected November 12, 2026. https://www.dubaifutureweek.com/en/programme; https://www.dubaifutureweek.com/en/concepts/stars; https://www.dubaifutureweek.com/en/500-future-minds; https://www.dubaifutureweek.com/en/event-terms . Date and venue also corroborated by Dubai Government Media Office September 1 announcement. No cancellation or postponement notice found in the inspected official material; announced schedule is not proof of future occurrence. No forms submitted, admission inventory tested or blanket reuse permission inferred.",
+    "keywords": "Dubai Future Foundation; Dubai Future Week; STARS; Science Technology Arts and Research Summit; Prototypes for Humanity; 500 Future Minds; futures literacy; strategic foresight; participatory futures; STEAM; architecture; urban planning; education; policy; scientific research; AI; prototypes; art and science; UAE; Dubai; Middle East"
+  },
+  "verified": [
+    "Current organizer homepage confirms November 18-21, 2026, both venues and Dubai Future Foundation provenance. Dated program items support the announced schedule beyond link reachability.",
+    "STARS is explicitly described as inaugural. Its program combines art, technology and research, with research showcases and announced experiences. Outcomes, audience numbers and future recurrence are not established.",
+    "The homepage distinguishes Open to Public from Invite Only sessions. General registration is not equivalent to access to every activity.",
+    "500 Future Minds is a separate approval-based workshop for Dubai-based professionals on November 21, 8:30 a.m.-1 p.m. Its stated selection-decision date of November 1 has passed. A still-visible Apply link does not verify late applications are being accepted."
+  ],
+  "unresolved": [
+    "Admission prices, capacity and remaining availability were not established. No registration or application submitted.",
+    "Livestream and publication of recordings remain unconfirmed. Speaker/exhibitor recording permissions are not a promise of public release.",
+    "The interactive programme returned zero results in parsed text although homepage session listings were visible. No inference of cancellation or an empty programme; app and full interactive schedule not tested.",
+    "No evaluation of individual prototypes, research presentations or learning outcomes was performed.",
+    "Live Reservoir calendar could not be retrieved through the web tool; repository page template reviewed, but live browser rendering not independently tested."
+  ],
+  "rights": "Organizer website states all rights reserved. Event terms concern speaker and exhibitor participation and do not provide a public reuse license. Only independently written description and source URLs added. No user image, third-party photographs, recordings or full text copied.",
+  "benchmark": "For cultural research and public programming, examine whether public experiences, practitioner deliberation and research presentations produce documented decisions or follow-up work. This is a proposed evaluation question, not evidence that the announced event has already achieved those outcomes.",
+  "retired_events": [
+    {
+      "name": "Trimble Dimensions 2026",
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-11",
+      "source_url": "https://www.trimble.com/en/our-company/events/dimensions/overview",
+      "basis": "Recorded end date before November 12, 2026. Removed from active calendar only; original remains in Git history. Not confirmation of occurrence or cancellation."
+    }
+  ],
+  "excluded": [
+    "Duplicate Dubai Future Week event",
+    "Separate permanent STARS listing based only on an inaugural announcement",
+    "Individual sessions, sponsors and speakers as separate directory resources",
+    "A claim that 500 Future Minds applications remain open",
+    "A blanket claim of free access or guaranteed recordings"
+  ],
+  "sources": [
+    "https://www.dubaifutureweek.com/en",
+    "https://www.dubaifutureweek.com/en/programme",
+    "https://www.dubaifutureweek.com/en/concepts/stars",
+    "https://www.dubaifutureweek.com/en/500-future-minds",
+    "https://www.dubaifutureweek.com/en/event-terms",
+    "https://www.mediaoffice.ae/en/news/2026/september/01-09/under-hamdan-bin-mohammeds-directives-dubai-future-week-to-be-held-from-18-to-21-november-2026"
+  ],
+  "changes": {
+    "resources_added": 0,
+    "resources_updated": 0,
+    "resources_removed": 0,
+    "events_added": 0,
+    "events_updated": 1,
+    "events_removed": 1,
+    "duplicates_added": 0,
+    "website_code_changed": false,
+    "design_weeks_changed": false
+  },
+  "validation": "Expected event and README blob hashes matched. Full CSV inventories parsed for row counts, field counts, duplicate target and elapsed dates. Only one event changed and one reviewed elapsed record removed; surviving unrelated record bytes preserved. One README count token updated. Resource data, Design Weeks and website code unchanged.",
+  "sha256_after": {
+    "data/events.csv": "2d8d57798f75c35144a0a7c2ccca6f6b1d92b52bdf0647f59af26ce8b24d4092",
+    "README.md": "00726856464b0d108797d3d416ca4d07bdb1f857c988d8d544088795010de68f"
+  }
+}
