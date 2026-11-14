@@ -33,6 +33,8 @@
     body.append(el('p',[r.city,r.country,r.region,r.category].filter(Boolean).join(' · '),'record-meta'));
     body.append(el('p','Listed dates: '+(r.start_date||'Not recorded')+' to '+(r.end_date||'Not recorded')));
     if(r.description)body.append(el('p',r.description));
+    if(r.archive_note)body.append(el('p',r.archive_note,'record-meta'));
+    const history=safeLink(r.archive_url,'Listing history');if(history)body.append(history);
     if(r.keywords)body.append(el('p','Topics: '+r.keywords,'record-meta'));
     if(r.source) {const source=safeLink(r.source,'Recorded source');body.append(source||el('p','Source note: '+r.source,'record-meta'));}
     const link=safeLink(r.url,'Event website');if(link)body.append(link);

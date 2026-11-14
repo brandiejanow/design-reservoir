@@ -1,0 +1,2569 @@
+{
+  "coverage": "Full available main-branch repository history from 2026-09-30 to 2026-11-14. This is a collection history, not proof of occurrence.",
+  "event_removal_snapshots": 64,
+  "design_week_removal_snapshots": 9,
+  "recovered_dated_records": 97,
+  "recovered_week_editions": 48,
+  "removed_snapshots": [
+    {
+      "record": {
+        "start_date": "2027-07-26",
+        "end_date": "2027-07-31",
+        "name": "ATINER International Symposium on Foresight",
+        "city": "Athens",
+        "country": "Greece",
+        "region": "Europe",
+        "category": "Futures & Foresight",
+        "description": "Academic symposium covering scenarios, forecasting and future studies.",
+        "url": "https://www.anticipate.dk/futures-foresight-events",
+        "source": "ANTICIPATE listing"
+      },
+      "removed_commit": "8fb1c8cc417c2a6196433da1bd3401888b161d06",
+      "message": "Improve links for upcoming futures symposium and 2027 conference",
+      "classification": "Withdrawn or corrected future listing; not evidence of a past event"
+    },
+    {
+      "record": {
+        "start_date": "2026-12-02",
+        "end_date": "2026-12-02",
+        "name": "UNESCO World Futures Day 2026",
+        "city": "Global",
+        "country": "Online / Worldwide",
+        "region": "Global",
+        "category": "Futures & Foresight",
+        "description": "International observance of futures thinking and anticipation.",
+        "url": "https://www.anticipate.dk/futures-foresight-events/unesco-world-futures-day-2026",
+        "source": "ANTICIPATE listing"
+      },
+      "removed_commit": "bcec4a9043edfdb8aec7f9721a14df232ee9e275",
+      "message": "Correct primary organizer references and remove two unverified event listings",
+      "classification": "Withdrawn or corrected future listing; not evidence of a past event"
+    },
+    {
+      "record": {
+        "start_date": "2027-02-04",
+        "end_date": "2027-02-04",
+        "name": "Global UNESCO Chair Lecture Series",
+        "city": "Online",
+        "country": "Online",
+        "region": "Online",
+        "category": "Futures & Foresight",
+        "description": "Online lecture on futures literacy and education.",
+        "url": "https://www.anticipate.dk/futures-foresight-events/global-unesco-chair-lecture-series",
+        "source": "ANTICIPATE listing"
+      },
+      "removed_commit": "bcec4a9043edfdb8aec7f9721a14df232ee9e275",
+      "message": "Correct primary organizer references and remove two unverified event listings",
+      "classification": "Withdrawn or corrected future listing; not evidence of a past event"
+    },
+    {
+      "record": {
+        "start_date": "2027-09-23",
+        "end_date": "2027-09-25",
+        "name": "Futures Studies Conference 2027",
+        "city": "Naples",
+        "country": "Italy",
+        "region": "Europe",
+        "category": "Futures & Foresight",
+        "description": "Conference on futures research, foresight methods and applications.",
+        "url": "https://www.anticipate.dk/futures-foresight-events/futures-studies-conference-2027",
+        "source": "ANTICIPATE event page"
+      },
+      "removed_commit": "bcec4a9043edfdb8aec7f9721a14df232ee9e275",
+      "message": "Correct primary organizer references and remove two unverified event listings",
+      "classification": "Withdrawn or corrected future listing; not evidence of a past event"
+    },
+    {
+      "record": {
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-06",
+        "name": "Built Design Week Miami 2026",
+        "city": "Little River, Miami",
+        "country": "United States",
+        "region": "North America",
+        "category": "Design Week",
+        "description": "Arts and architecture forum hosted at Built Studios during Miami Art Week, with discussions, exhibitions, studio events and creative programming focused on the built environment.",
+        "url": "https://www.instagram.com/built_inc/",
+        "source": "Built Inc. official Instagram event announcement"
+      },
+      "removed_commit": "8bfdb988315070020e7a1ac78e5a752183d0e0ef",
+      "message": "Add 2027 verified design weeks and remove unsupported Instagram-only event",
+      "classification": "Withdrawn or corrected future listing; not evidence of a past event"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-04",
+        "end_date": "2026-11-21",
+        "name": "AURORA Biennial 2026 — States of Becoming",
+        "city": "Dallas / Fort Worth",
+        "country": "United States",
+        "region": "North America",
+        "category": "Art, Technology & Futures",
+        "description": "Seventh AURORA Biennial exploring climate change, artificial intelligence, and social transformation through public art, technology-enabled installations, talks and performances; citywide programme November 4–20 and final exhibition November 21.",
+        "url": "https://dallasaurora.com/Biennial",
+        "source": "Official AURORA Biennial 2026 programme, checked 2026-10-17"
+      },
+      "removed_commit": "b480a1ff63f5750e76e356120e9654f6e8826bdc",
+      "message": "Remove remaining em dashes from archives and audit records",
+      "classification": "Superseded or renamed; current record remains"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-04",
+        "end_date": "2026-11-07",
+        "name": "UCDA Design Conference 2026 — Duality",
+        "city": "Kansas City",
+        "country": "United States",
+        "region": "North America",
+        "category": "Design Education & Research",
+        "description": "University and College Designers Association conference on creative practice, learning, professional standards and the impact of AI on authenticity, authorship and higher-education communication.",
+        "url": "https://www.ucda.com/events/231/",
+        "source": "UCDA official 2026 schedule; verified 2026-10-17"
+      },
+      "removed_commit": "b480a1ff63f5750e76e356120e9654f6e8826bdc",
+      "message": "Remove remaining em dashes from archives and audit records",
+      "classification": "Title punctuation revision; not a separate event"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-25",
+        "end_date": "2026-11-27",
+        "name": "Cumulus Dunedin 2026 — Design at the End of the Earth",
+        "city": "Dunedin",
+        "country": "New Zealand",
+        "region": "Oceania",
+        "category": "Design Education & Research",
+        "description": "Cumulus academic gathering hosted by Otago Polytechnic for design and arts educators, researchers and interdisciplinary collaborators, with papers and exchange.",
+        "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-dunedin-2026-design-at-the-end-of-the-earth/",
+        "source": "Official Cumulus global conference index; checked 2026-10-17"
+      },
+      "removed_commit": "b480a1ff63f5750e76e356120e9654f6e8826bdc",
+      "message": "Remove remaining em dashes from archives and audit records",
+      "classification": "Superseded or renamed; current record remains"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-26",
+        "end_date": "2026-11-27",
+        "name": "Rog Forum 2026 — More Than Us",
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "region": "Europe",
+        "category": "Design Research & Regeneration",
+        "description": "Center Rog international forum within Rog Design Days exploring regenerative materials, interspecies cohabitation, speculative futures, ecofeminism and more-than-human design; includes discussion of RED&Pro research partnership.",
+        "url": "https://www.center-rog.si/en/rog-forum-2026/",
+        "source": "Official Center Rog Forum 2026 programme, checked 2026-10-17"
+      },
+      "removed_commit": "b480a1ff63f5750e76e356120e9654f6e8826bdc",
+      "message": "Remove remaining em dashes from archives and audit records",
+      "classification": "Superseded or renamed; current record remains"
+    },
+    {
+      "record": {
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-02",
+        "name": "UNESCO World Futures Day 2026 — Futures of Inequalities",
+        "city": "Paris",
+        "country": "France",
+        "region": "Europe",
+        "category": "Futures & Foresight",
+        "description": "UNESCO symposium on futures of inequalities and anticipatory responses across education, science, culture and information, convened at UNESCO Headquarters in Paris.",
+        "url": "https://www.unesco.org/en/articles/world-futures-day-2026-futures-inequalities",
+        "source": "Official UNESCO 2026 event announcement"
+      },
+      "removed_commit": "b480a1ff63f5750e76e356120e9654f6e8826bdc",
+      "message": "Remove remaining em dashes from archives and audit records",
+      "classification": "Superseded or renamed; current record remains"
+    },
+    {
+      "record": {
+        "start_date": "2027-02-18",
+        "end_date": "2027-02-28",
+        "name": "Bangkok Design Week 2027 — Design to Last",
+        "city": "Bangkok",
+        "country": "Thailand",
+        "region": "Asia",
+        "category": "Design Week",
+        "description": "Tenth edition examining design for resilience, sustainable cities, creative enterprise and long-term adaptation under the theme Design to Last.",
+        "url": "https://www.bangkokdesignweek.com/bkkdw2027",
+        "source": "Official Bangkok Design Week 2027 organiser"
+      },
+      "removed_commit": "b480a1ff63f5750e76e356120e9654f6e8826bdc",
+      "message": "Remove remaining em dashes from archives and audit records",
+      "classification": "Superseded or renamed; current record remains"
+    },
+    {
+      "record": {
+        "start_date": "2027-03-01",
+        "end_date": "2027-03-09",
+        "name": "New Zealand Design Week 2027 — Restore + Reimagine",
+        "city": "Auckland",
+        "country": "New Zealand",
+        "region": "Oceania",
+        "category": "Design Week",
+        "description": "Cross-disciplinary design week combining satellites, exhibitions, workshops and a conference, with a 2027 focus on restoration, circularity and indigenous knowledge.",
+        "url": "https://nzdesignweek.com/",
+        "source": "NZ Design Week official 2027 programme"
+      },
+      "removed_commit": "b480a1ff63f5750e76e356120e9654f6e8826bdc",
+      "message": "Remove remaining em dashes from archives and audit records",
+      "classification": "Superseded or renamed; current record remains"
+    },
+    {
+      "record": {
+        "start_date": "2027-03-01",
+        "end_date": "2027-03-01",
+        "name": "World Futures Day — Young Voices 2027",
+        "city": "Online",
+        "country": "Online",
+        "region": "Online",
+        "category": "Futures & Foresight",
+        "description": "Twenty-four-hour global exchange about the future led with younger participants.",
+        "url": "https://www.teachthefuture.org/event-details/world-futures-day-young-voices-2027?lang=pt",
+        "source": "Teach the Future organizer"
+      },
+      "removed_commit": "b480a1ff63f5750e76e356120e9654f6e8826bdc",
+      "message": "Remove remaining em dashes from archives and audit records",
+      "classification": "Superseded or renamed; current record remains"
+    },
+    {
+      "record": {
+        "start_date": "2027-06-07",
+        "end_date": "2027-06-11",
+        "name": "Cumulus Glasgow 2027 — Life After Limits",
+        "city": "Glasgow",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "category": "Design Education & Research",
+        "description": "Cumulus conference hosted by Glasgow School of Art on creative practices for the 21st century, connecting scholars, design educators and research methods.",
+        "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-glasgow-2027-life-after-limits-creative-practices-for-the-21st-century/",
+        "source": "Official Cumulus conferences, verified 2026-10-17"
+      },
+      "removed_commit": "b480a1ff63f5750e76e356120e9654f6e8826bdc",
+      "message": "Remove remaining em dashes from archives and audit records",
+      "classification": "Superseded or renamed; current record remains"
+    },
+    {
+      "record": {
+        "start_date": "2027-11-09",
+        "end_date": "2027-11-12",
+        "name": "Cumulus Rio 2027 — The Shifting Patterns of Design Diversity",
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "region": "South America",
+        "category": "Design Education & Research",
+        "description": "International Cumulus academic conference hosted by PUC-Rio examining contemporary design diversity and interdisciplinary creative education and research.",
+        "url": "https://cumulusassociation.org/events/cumulus-conferences/cumulus-rio-2027-shifting-patterns-of-design-diversity/",
+        "source": "Official Cumulus conference index verified 2026-10-17"
+      },
+      "removed_commit": "b480a1ff63f5750e76e356120e9654f6e8826bdc",
+      "message": "Remove remaining em dashes from archives and audit records",
+      "classification": "Superseded or renamed; current record remains"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-16",
+        "end_date": "2026-10-17",
+        "name": "Sandoll SAISIOT 2026",
+        "city": "Seoul",
+        "country": "South Korea",
+        "region": "Asia",
+        "category": "Typography & Communication",
+        "description": "Typography and writing systems conference at Dongdaemun Design Plaza.",
+        "url": "https://www.sandollcloud.com/saisiot",
+        "source": "Official organizer"
+      },
+      "removed_commit": "6f3f5fe1b0bc2671985fd3f7fb0e80d8e9a80104",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-20",
+        "end_date": "2026-10-20",
+        "name": "Cultures of Speculation: How to Integrate Imaginaries of the Yet-to-Come into Our Ethnographies",
+        "city": "Bern / Online",
+        "country": "Switzerland",
+        "region": "Europe",
+        "category": "Futures & Foresight",
+        "description": "Public University of Bern roundtable on the ethnography of speculation and anticipated futures with Kathrin Eitel, Aris Komporozos-Athanasiou and Giacomo Sartori Veronese; chaired by Tanushree Kaushal. 4:15–5:45 pm CEST; livestream available.",
+        "url": "https://www.anthro.unibe.ch/about_us/anthropology_research_seminar/index_eng.html",
+        "source": "University of Bern official program and speaker announcement",
+        "keywords": "ethnography; speculative futures; cultural research; public roundtable; university; Bern / Online; Switzerland; Europe"
+      },
+      "removed_commit": "0c138591f8b30ee6b0d518b298a9c20844c2cdea",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-20",
+        "end_date": "2026-10-20",
+        "name": "Science Fiction Congress by ZIRP",
+        "city": "Mainz",
+        "country": "Germany",
+        "region": "Europe",
+        "category": "Futures & Foresight",
+        "description": "Science fiction and possible social and technological futures in 2045.",
+        "url": "https://www.anticipate.dk/futures-foresight-events/science-fiction-congress-by-zirp",
+        "source": "ANTICIPATE listing",
+        "keywords": "science fiction; speculative futures; technology; social futures; Mainz; Germany; Europe"
+      },
+      "removed_commit": "0c138591f8b30ee6b0d518b298a9c20844c2cdea",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-21",
+        "end_date": "2026-10-21",
+        "name": "Business of Design: Legal & IP",
+        "city": "New York",
+        "country": "United States",
+        "region": "North America",
+        "category": "Design Management & Business",
+        "description": "AIGA New York in-person session at SYLVAIN, 176 Grand Street, 6:30–8:30 pm ET. Matt Vittone and Elena Gurevich discuss client agreements, scope of work, intellectual property and legal issues in design businesses, moderated by Mike Perry.",
+        "url": "https://aigany.org/event/business-of-design-legal-ip-sows/",
+        "source": "AIGA New York official event and Eventbrite registration, verified 2026-10-21",
+        "keywords": "AIGA New York; design business; creative contracts; scope of work; legal; intellectual property; client agreements; New York; United States; North America"
+      },
+      "removed_commit": "9e06f96833f96529384fe1b8107f881210e07eb3",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-21",
+        "end_date": "2026-10-23",
+        "name": "MCN 2026: Trust & Longevity",
+        "city": "Seattle",
+        "country": "United States",
+        "region": "North America",
+        "category": "Arts & Cultural Heritage",
+        "description": "Annual Museum Computer Network conference at Hyatt Regency Seattle for museums and cultural heritage professionals. The 2026 theme, Trust & Longevity, addresses AI-generated content, credibility of evidence, digital preservation, institutional memory, governance, technology choices and durable public-facing systems. Includes talks, case studies, museum tours and Ignite presentations.",
+        "url": "https://mcn.edu/annual-conference/mcn-2026/",
+        "source": "MCN 2026 official conference page and program, checked 2026-10-21",
+        "keywords": "Museum Computer Network; MCN 2026; museum technology; trust; longevity; AI; cultural heritage; GLAM; archives; collections; digital preservation; museum technology conference; Seattle; United States; North America"
+      },
+      "removed_commit": "8742705627cabe378087f3756f24d5b328fe1550",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-22",
+        "end_date": "2026-10-23",
+        "name": "CrossDive 2026",
+        "city": "Pune",
+        "country": "India",
+        "region": "Asia",
+        "category": "Futures & Foresight",
+        "description": "Foresight summit on demographic change, AI, global systems and future decisions.",
+        "url": "https://www.crossdive.in/",
+        "source": "Official organizer",
+        "keywords": "foresight; demography; artificial intelligence; systems; long-term planning; Pune; India; Asia"
+      },
+      "removed_commit": "8742705627cabe378087f3756f24d5b328fe1550",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-22",
+        "end_date": "2026-10-23",
+        "name": "PUSH UX 2026",
+        "city": "Munich",
+        "country": "Germany",
+        "region": "Europe",
+        "category": "Digital / UX / Product",
+        "description": "Conference on product design, research, user experience and AI.",
+        "url": "https://push-conference.com/program",
+        "source": "Official organizer",
+        "keywords": "UX research; digital product design; artificial intelligence; professional conference; Munich; Germany; Europe"
+      },
+      "removed_commit": "8742705627cabe378087f3756f24d5b328fe1550",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-23",
+        "end_date": "2026-10-23",
+        "name": "AskNature Hive: Making an Impact with Biomimicry",
+        "city": "Online",
+        "country": "Online",
+        "region": "Online",
+        "category": "Ecological, Bio & Regenerative",
+        "description": "Biomimicry Institute online conversation with Erin Rovalo about applying biological knowledge to challenges involving climate, biodiversity, materials and the built environment, beginning 9:30 a.m. Pacific.",
+        "url": "https://biomimicry.org/events/",
+        "source": "Official organizer's current 2026–2027 event page, checked 2026-10-22",
+        "keywords": "AskNature Hive; biomimicry; Erin Rovalo; regeneration; nature-inspired design; ecology; biology; online discussion"
+      },
+      "removed_commit": "8742705627cabe378087f3756f24d5b328fe1550",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-23",
+        "end_date": "2026-10-23",
+        "name": "PROMPT: Art & Design in the Age of Artificial Intelligence",
+        "city": "Eindhoven",
+        "country": "Netherlands",
+        "region": "Europe",
+        "category": "Speculative, Critical & Futures",
+        "description": "Next Nature Museum evening symposium and book launch during Dutch Design Week on generative AI as an artistic medium, the creative use of prompts, authorship and visual culture. Speakers include Lev Manovich, Silvio Lorusso, Peter Lunenfeld and Mieke Gerritzen; 18:30–21:00 local time.",
+        "url": "https://nextnature.org/en/events/prompt",
+        "source": "Next Nature official event page, cross-checked with Dutch Design Week 2026 overview, 2026-10-21",
+        "keywords": "generative AI; creative AI; prompt; authorship; design research; visual culture; art and technology; Dutch Design Week; Next Nature Museum; Eindhoven; Netherlands; Europe"
+      },
+      "removed_commit": "8742705627cabe378087f3756f24d5b328fe1550",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-14",
+        "end_date": "2026-10-25",
+        "name": "Barcelona Design Week 2026: PRO-TEST",
+        "city": "Barcelona",
+        "country": "Spain",
+        "region": "Europe",
+        "category": "Design Week",
+        "description": "Citywide festival on prototyping and testing, with design exhibitions, installations, talks and experiments at institutions and public venues throughout Barcelona.",
+        "url": "https://barcelonadesignweek.com/en/about/",
+        "source": "Official organizer; cross-checked with Dezeen Events Guide 2026-10-21",
+        "keywords": "Barcelona Design Week; Spain; prototyping; experimentation; design festival; design education"
+      },
+      "removed_commit": "833b828a445b22ccd51192d396526acdf44ba9b2",
+      "message": "Retire four dated events completed October 25, preserve history in Git",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-17",
+        "end_date": "2026-10-25",
+        "name": "Dutch Design Week 2026: R.A.W.",
+        "city": "Eindhoven",
+        "country": "Netherlands",
+        "region": "Europe",
+        "category": "Design Week",
+        "description": "Nine-day Dutch Design Week across Eindhoven venues exploring experimental design, biodesign, digital systems, objects, materials and the theme Rebel Authentic Worth.",
+        "url": "https://ddw.nl/en",
+        "source": "Official organizer; cross-checked with Dezeen Events Guide 2026-10-21",
+        "keywords": "Dutch Design Week; Eindhoven; DDW26; biodesign; experimental design; Netherlands; exhibitions"
+      },
+      "removed_commit": "833b828a445b22ccd51192d396526acdf44ba9b2",
+      "message": "Retire four dated events completed October 25, preserve history in Git",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-18",
+        "end_date": "2026-10-25",
+        "name": "Design Week Lagos 2026",
+        "city": "Lagos",
+        "country": "Nigeria",
+        "region": "Africa",
+        "category": "Design Week",
+        "description": "Pan-African citywide program at Lagos National Theatre and other venues including design exhibitions, talks, workshops, open showrooms, fashion, architecture and product design.",
+        "url": "https://designweeklagos.com/",
+        "source": "Official event organizer; cross-checked against Dezeen Events Guide, 2026-10-21",
+        "keywords": "Design Week Lagos; Nigeria; African design; makers; exhibitions; design week"
+      },
+      "removed_commit": "833b828a445b22ccd51192d396526acdf44ba9b2",
+      "message": "Retire four dated events completed October 25, preserve history in Git",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-22",
+        "end_date": "2026-10-25",
+        "name": "Design Week South Africa: Cape Town 2026",
+        "city": "Cape Town",
+        "country": "South Africa",
+        "region": "Africa",
+        "category": "Design Week",
+        "description": "Cape Town edition of Design Week South Africa, with open studios, exhibitions, public exchanges, architecture and craft after the earlier Johannesburg edition concluded.",
+        "url": "https://designweeksouthafrica.com/",
+        "source": "Official event organizer; cross-checked against Dezeen Events Guide, 2026-10-21",
+        "keywords": "Cape Town; South Africa; architecture; open studios; design week; craft"
+      },
+      "removed_commit": "833b828a445b22ccd51192d396526acdf44ba9b2",
+      "message": "Retire four dated events completed October 25, preserve history in Git",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-26",
+        "end_date": "2026-10-27",
+        "name": "Calgary Futures Forum 2026",
+        "city": "Calgary",
+        "country": "Canada",
+        "region": "North America",
+        "category": "Futures & Foresight",
+        "description": "Two-day forum at Contemporary Calgary with talks and workshops on city futures, design research and long-term planning.",
+        "url": "https://www.calgaryfutures.com/",
+        "source": "Official Calgary Futures Forum organizer site, 26–27 October 2026 agenda and speakers; verified 2026-10-26",
+        "keywords": "urban futures; regional planning; technology; future cities; Calgary; Canada; North America"
+      },
+      "removed_commit": "7ef1464cf0a47d73ce5ae645fa5326ae7dca91de",
+      "message": "Remove concluded Calgary Futures Forum from upcoming calendar after October 27",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-28",
+        "end_date": "2026-10-28",
+        "name": "Stanford d.school Liu Lecture: Llisa Demetrios on Eames",
+        "city": "Stanford",
+        "country": "United States",
+        "region": "North America",
+        "category": "Research, History & Education",
+        "description": "In-person Stanford d.school Liu Lecture with Eames Institute chief curator Llisa Demetrios about Ray and Charles Eames, design history, archiving and curiosity; 5–7 p.m. Pacific at the d.school Atrium.",
+        "url": "https://dschool.stanford.edu/events/liu-lecture-llisa-demetrios",
+        "source": "Stanford d.school official October 28, 2026 lecture page checked 2026-10-26",
+        "keywords": "Stanford; Eames Institute; Charles Eames; Ray Eames; design history; research; Llisa Demetrios; design lecture; archives"
+      },
+      "removed_commit": "3d7b28c1ecbc886a218b4cd5f03f7de721ab9541",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-29",
+        "end_date": "2026-10-29",
+        "name": "DesignMeets 2026: The Re-Designed Practice",
+        "city": "Toronto",
+        "country": "Canada",
+        "region": "North America",
+        "category": "Cross-disciplinary Design",
+        "description": "Cross-disciplinary evening at OCAD University, 6:30–9:30 p.m. Eastern, examining AI's effects on architecture, urban and landscape design, industrial design, graphic design, UX, interiors, fashion and design education. Organized with the Design Industry Advisory Committee, with practitioners and university participants.",
+        "url": "https://designmeets.ca/events/the-redesigned-practice",
+        "source": "DesignMeets and OCAD University official October 29, 2026 event pages, checked 2026-10-22",
+        "keywords": "DesignMeets; OCAD University; DIAC; Toronto; Canada; design professions; architecture; design education; artificial intelligence; UX; urban design; design research; industry panel"
+      },
+      "removed_commit": "7068dcac5cb1736bba782ebe2c32077381b9a796",
+      "message": "Remove completed dated events as of October 30 2026",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-29",
+        "end_date": "2026-10-29",
+        "name": "WHAT IF: From Knowledgeable to the Creation of Knowledge",
+        "city": "Milan",
+        "country": "Italy",
+        "region": "Europe",
+        "category": "Design Education",
+        "description": "Joint design research symposium by Tongji University College of Design and Innovation and Politecnico di Milano at Bovisa Campus, 10:00–15:30. Presentations, thematic roundtables and poster exchanges on purposes, objectives, pathways and organizations.",
+        "url": "https://www.linkedin.com/posts/tongjidi_tongjidi-polimi-designresearch-activity-7518583116161130496-eatD",
+        "source": "Official Tongji University College of Design and Innovation announcement of 29 October 2026 symposium; direct organizer post verified 2026-10-26, no independent registration page located",
+        "keywords": "design research; academic symposium; Tongji University; Politecnico di Milano; knowledge creation; Milan; Italy; Europe"
+      },
+      "removed_commit": "7068dcac5cb1736bba782ebe2c32077381b9a796",
+      "message": "Remove completed dated events as of October 30 2026",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-01",
+        "end_date": "2026-10-30",
+        "name": "NYC Civic by Design 2026: Online Figma Challenge",
+        "city": "Online",
+        "country": "Online",
+        "region": "Online",
+        "category": "Digital / UX / Product",
+        "description": "Free international online competition co-hosted by AIGA and Designpreneurs. Participants use Figma to propose branding, digital product or motion design responses to New York City noise complaints and the lack of updates to residents. Submissions close October 30, 2026; organizer pages disagree on the exact time zone. Completing the challenge offers a chance to apply for one of 51 places in the November 20–21 Parsons hackathon.",
+        "url": "https://www.nyccivicbydesign.com/online-challenge",
+        "source": "Official NYC Civic by Design online challenge and organizer homepage, checked 2026-10-22; current pages updated deadline to October 30",
+        "keywords": "NYC Civic by Design; AIGA; Designpreneurs; Figma; online design competition; civic design; public services; UX; visual identity; digital product design; motion design; noise complaints; public engagement; online; 2026"
+      },
+      "removed_commit": "dcab6f7cfdaa4e2f45207d3fc0923f6d7e9ad98f",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-27",
+        "end_date": "2026-10-30",
+        "name": "Hong Kong International Lighting Fair 2026: Autumn Edition",
+        "city": "Hong Kong",
+        "country": "Hong Kong SAR China",
+        "region": "Asia",
+        "category": "Product, Industrial & Material",
+        "description": "HKTDC trade fair on lighting design, LED systems, smart lighting, sustainable products and applications in architecture and built environments.",
+        "url": "https://www.hktdc.com/event/hklightingfairae/en",
+        "source": "Official event organizer; cross-checked against Dezeen Events Guide, 2026-10-21",
+        "keywords": "HKTDC; lighting design; LED; product design; trade show; Hong Kong; Asia"
+      },
+      "removed_commit": "dcab6f7cfdaa4e2f45207d3fc0923f6d7e9ad98f",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-27",
+        "end_date": "2026-10-30",
+        "name": "ORGATEC Cologne 2026",
+        "city": "Cologne",
+        "country": "Germany",
+        "region": "Europe",
+        "category": "Spatial, Interior & Experiential",
+        "description": "Koelnmesse trade fair and program on workplace interiors, furniture, contract environments, hybrid offices, sustainable materials and the future of professional spaces.",
+        "url": "https://www.orgatec.com/",
+        "source": "Official event organizer; cross-checked against Dezeen Events Guide, 2026-10-21",
+        "keywords": "ORGATEC; workplace; commercial interiors; furniture; Cologne; Germany; office design"
+      },
+      "removed_commit": "dcab6f7cfdaa4e2f45207d3fc0923f6d7e9ad98f",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-28",
+        "end_date": "2026-10-30",
+        "name": "Service Design Global Conference 2026",
+        "city": "Wiesbaden / Online",
+        "country": "Germany",
+        "region": "Europe",
+        "category": "Social, Systems & Strategic",
+        "description": "Service Design Network international conference at the RheinMain CongressCenter, with online participation, presenting service research, public services, systems approaches, organizational strategy and experience design.",
+        "url": "https://service-design-network.org/events",
+        "source": "Official organizer's current 2026–2027 event page, checked 2026-10-22",
+        "keywords": "SDGC26; Service Design Network; service design; systems design; civic design; participatory research; Wiesbaden; Germany; online conference"
+      },
+      "removed_commit": "dcab6f7cfdaa4e2f45207d3fc0923f6d7e9ad98f",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-01",
+        "end_date": "2026-10-31",
+        "name": "Archtober 2026: In Our Hands",
+        "city": "New York",
+        "country": "United States",
+        "region": "North America",
+        "category": "Architecture & Built Environment",
+        "description": "New York Citywide architecture and design festival exploring hands-on methods, inclusive buildings and built-environment responsibility through tours, exhibitions and public discussions.",
+        "url": "https://www.archtober.org/",
+        "source": "Official event organizer; cross-checked against Dezeen Events Guide, 2026-10-21",
+        "keywords": "Archtober; architecture; tours; exhibitions; New York; public design; built environment"
+      },
+      "removed_commit": "09fac66c8fcd2f82d39fbdec82aa7c2b06e727ef",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-09-18",
+        "end_date": "2026-11-01",
+        "name": "P*DA20: Power of Singapore Design",
+        "city": "Singapore",
+        "country": "Singapore",
+        "region": "Asia",
+        "category": "Cross-disciplinary Design",
+        "description": "Free National Museum of Singapore exhibition marking 20 years of the President's Design Award, with an interactive atlas of 47 Designers of the Year and 130 Designs of the Year, project histories and documented contributions to daily life.",
+        "url": "https://designsingapore.org/events/pda20-power-of-singapore-design/",
+        "source": "DesignSingapore Council official P*DA20 exhibition page checked 2026-10-26",
+        "keywords": "DesignSingapore Council; President's Design Award; National Museum Singapore; design history; exhibition; awards; design impact; public research; interactive atlas"
+      },
+      "removed_commit": "0d444cd206ec2835217a3bfb6bfdff5f2c958585",
+      "message": "Expire concluded Singapore exhibition, refresh UNESCO lecture copy and add verified AIA Cairo conference",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-02",
+        "end_date": "2026-11-02",
+        "name": "AIGA NY: Adam J. Kurtz, Personal Work",
+        "city": "New York",
+        "country": "United States",
+        "region": "North America",
+        "category": "Graphic & Communication Design",
+        "description": "AIGA NY evening talk by artist and author Adam J. Kurtz on making personal work, handling creative change, and sustaining independent practice; 6:30–8:30 p.m. Eastern at Index Chinatown.",
+        "url": "https://aigany.org/event/adam-j-kurtz-personal-work/",
+        "source": "AIGA NY official November 2, 2026 event page checked 2026-10-26",
+        "keywords": "AIGA NY; Adam J Kurtz; graphic design; illustration; independent design practice; design career; creative process; New York"
+      },
+      "removed_commit": "f29b52083e8581d8536943cb4e2c11045948bc9f",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-02",
+        "end_date": "2026-11-02",
+        "name": "Harvard GSD: Pneuhaus, Building with Air",
+        "city": "Cambridge",
+        "country": "United States",
+        "region": "North America",
+        "category": "Architecture & Built Environment",
+        "description": "Rachel Dorothy Tanur Memorial Lecture at Harvard GSD featuring Pneuhaus and its inflatable architecture, spatial structures and interdisciplinary design methods.",
+        "url": "https://www.gsd.harvard.edu/2026/08/announcing-fall-2026-public-programs-and-exhibitions/",
+        "source": "Official organizer's current 2026–2027 event page, checked 2026-10-22",
+        "keywords": "Pneuhaus; Harvard GSD; inflatable architecture; structures; materials; lecture; Cambridge"
+      },
+      "removed_commit": "f29b52083e8581d8536943cb4e2c11045948bc9f",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-02",
+        "end_date": "2026-11-02",
+        "name": "META 5 · CONVOCATION ZERO: A Grammar for Planetary Futures",
+        "city": "Cambridge",
+        "country": "United States",
+        "region": "North America",
+        "category": "Futures & Foresight",
+        "description": "MIT Art Culture and Technology lecture examining how art and culture contribute to planetary futures and living together; part of the Fall 2026 Architecture Lecture Series. Listed for 6 p.m. Eastern at Sidara Auditorium.",
+        "url": "https://architecture.mit.edu/events/meta-5-convocation-zero-grammar-planetary-futures",
+        "source": "Official MIT Architecture event page; checked 2026-10-29",
+        "keywords": "MIT; planetary futures; art; culture; interdisciplinary research; architecture; futures; Cambridge"
+      },
+      "removed_commit": "f29b52083e8581d8536943cb4e2c11045948bc9f",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-04",
+        "end_date": "2026-11-04",
+        "name": "AIGA NY Business of Design: Corporate Comms & Agency PR",
+        "city": "New York",
+        "country": "United States",
+        "region": "North America",
+        "category": "Design Management & Business",
+        "description": "AIGA NY peer discussion at SYLVAIN on agency reputation, contracts with press and media, corporate communications and how design studios explain their own work; panel with Cassie Delgado, Alice Norcia and Laura Carrick; 6:30–8:30 p.m. Eastern.",
+        "url": "https://aigany.org/event/business-of-design-corporate-comms-agency-pr-reputation/",
+        "source": "AIGA NY official November 4, 2026 event page checked 2026-10-26",
+        "keywords": "AIGA NY; design studio; agency communications; public relations; media; design business; graphic design; reputation; New York"
+      },
+      "removed_commit": "3cfec7120087de1bfb1e10ffb02e8991e590c865",
+      "message": "Add five verified November design and SciArt events; retire three expired November 4 listings",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-04",
+        "end_date": "2026-11-04",
+        "name": "WIRED World Fair 2026: A Festival of the Future",
+        "city": "Miami",
+        "country": "United States",
+        "region": "North America",
+        "category": "STEAM",
+        "description": "One-day WIRED technology and culture festival at The Sacred Space in Wynwood, with research-informed discussions and interactive work on AI, biology, human-machine interaction, neuroscience and immersive experience. Ticketed industry and public event rather than an academic conference; separate November 3 film screening not indexed.",
+        "url": "https://www.wired.com/wiredworldfair/",
+        "source": "Official WIRED World Fair event page, program and venue details checked 2026-10-31",
+        "keywords": "WIRED World Fair; futures; STEAM; emerging technology; neuroscience; neuroaesthetics; AI; biotechnology; Miami; Florida"
+      },
+      "removed_commit": "3cfec7120087de1bfb1e10ffb02e8991e590c865",
+      "message": "Add five verified November design and SciArt events; retire three expired November 4 listings",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-04",
+        "end_date": "2026-11-04",
+        "name": "Architectural Record Innovation Conference 2026",
+        "city": "New York",
+        "country": "United States",
+        "region": "North America",
+        "category": "Architecture & Built Environment",
+        "description": "Professional architecture conference at the Museum of Jewish Heritage with presentations on presidential cultural institutions, timber construction and architectural practice. Includes Out of Office: Designing Presidential Libraries, 11:15 a.m.-12:05 p.m. Eastern, with Aaron Dorf, Richard Olcott, Tod Williams and Graham S. Wyatt, moderated by Leopoldo Villardi. Paid in-person program; no livestream or recording confirmed.",
+        "url": "https://www.architecturalrecord.com/innovation-conference/agenda",
+        "source": "Architectural Record official 2026 agenda, speaker biographies, venue and registration pages verified 2026-11-02. Ennead news URL supplied for discovery but not retrievable. Schedule subject to change; public program copyrighted, linked rather than reproduced.",
+        "keywords": "Architectural Record; presidential libraries; cultural institutions; civic architecture; archives; museums; Richard Olcott; Ennead; Snøhetta; RAMSA; architectural practice; New York"
+      },
+      "removed_commit": "3cfec7120087de1bfb1e10ffb02e8991e590c865",
+      "message": "Add five verified November design and SciArt events; retire three expired November 4 listings",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-05",
+        "end_date": "2026-11-05",
+        "name": "BEDA Connect 2026: Accessibility | Second Session",
+        "city": "Online",
+        "country": "Online",
+        "region": "Online",
+        "category": "Social, Systems & Strategic",
+        "description": "Free 75-minute Microsoft Teams talk from 16:00–17:15 CET (09:00–10:15 Dallas CST), organized by BEDA through the EU-supported MADres project. Niels Hendriks and Christopher Hildrey discuss accessible and low-barrier design across products, services and public participation, moderated by Abi Hird. Advance registration through Luma.",
+        "url": "https://luma.com/e86dh58g",
+        "source": "BEDA official November 5, 2026 event page; MADres September 22 announcement; Luma host registration, checked 2026-10-22",
+        "keywords": "BEDA; Bureau of European Design Associations; MADres; Glorious 42; accessibility; inclusive design; low-barrier design; digital accessibility; public participation; design policy; service design; Niels Hendriks; Christopher Hildrey; Abi Hird; webinar; online; Microsoft Teams"
+      },
+      "removed_commit": "b489bbe579c96ec7ae99458072a078e4cb1e4a3c",
+      "message": "Expire November 5 BEDA event from active calendar",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-06",
+        "end_date": "2026-11-06",
+        "name": "Design Society North America: ICED27 Paper Brainstorm",
+        "city": "Online",
+        "country": "Online",
+        "region": "Online",
+        "category": "Research, History & Education",
+        "description": "Free online Design Society North American Chapter session, 1:30–2:30 p.m. Central, introducing ICED27 themes and inviting design researchers to exchange paper ideas before the December 7 submission deadline.",
+        "url": "https://www.designsociety.org/2097/north_american_chapter_iced27_paper_brainstorm_networking",
+        "source": "Design Society official November 6, 2026 chapter announcement checked 2026-10-26",
+        "keywords": "Design Society; ICED27; design research; academic writing; engineering design; paper submissions; design education; online"
+      },
+      "removed_commit": "a0d46541f0f367fbd1a00de941f593a6a6f1e611",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-06",
+        "end_date": "2026-11-06",
+        "name": "Human-Centered Design for Health: Liz Chen Research Seminar",
+        "city": "Online",
+        "country": "Online",
+        "region": "Online",
+        "category": "Social, Systems & Strategic",
+        "description": "Indiana Human-Centered Design for Health seminar featuring UNC-Chapel Hill associate professor Liz Chen, 12–1 p.m. Eastern, on the experiences and impact of human-centered approaches in health. Organized through Purdue Health TechQuity Lab, Research Jam and Herron School of Art and Design.",
+        "url": "https://healthtechquitylab.org/hcd-seminar/",
+        "source": "Purdue Health TechQuity Lab official 2026–27 seminar series, checked 2026-10-26",
+        "keywords": "health design; human-centered design; Purdue; Herron School; Research Jam; public health; qualitative research; Liz Chen; online seminar"
+      },
+      "removed_commit": "a0d46541f0f367fbd1a00de941f593a6a6f1e611",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-04",
+        "end_date": "2026-11-07",
+        "name": "UCDA Design Conference 2026: Duality",
+        "city": "Kansas City",
+        "country": "United States",
+        "region": "North America",
+        "category": "Design Education",
+        "description": "University and College Designers Association conference on creative practice, learning, professional standards and the impact of AI on authenticity, authorship and higher-education communication.",
+        "url": "https://www.ucda.com/events/231/",
+        "source": "UCDA official 2026 schedule; verified 2026-10-17",
+        "keywords": "design education; higher education; communication design; creative practice; Kansas City; United States; North America"
+      },
+      "removed_commit": "27464ed128751c803265f25cfa661487e1b4ba83",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-07",
+        "end_date": "2026-11-07",
+        "name": "Hot off the press: Architectural magazines study day",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "category": "Research, History & Education",
+        "description": "Twentieth Century Society study day at Alan Baxter Gallery, organized by RIBA photographs curator Valeria Carullo, on how architectural periodicals circulate knowledge and arguments. Historians and curators examine publishing practices, criticism, activism and modernism. November 7, 9 a.m.-6 p.m. GMT; in person with paid admission. No livestream confirmed.",
+        "url": "https://secure.c20society.org.uk/Default.aspx?EventId=1367&tabid=62",
+        "source": "Official C20 event-specific expanded program and upcoming-events calendar checked 2026-11-02. Both confirm November 7; supersedes older indexed text giving November 8 and shorter hours. Public program linked; no open reuse license established.",
+        "keywords": "C20 Society; Twentieth Century Society; architectural magazines; architectural history; publishing; criticism; knowledge exchange; modernism; Valeria Carullo; RIBA; London; study day"
+      },
+      "removed_commit": "27464ed128751c803265f25cfa661487e1b4ba83",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-27",
+        "end_date": "2026-11-08",
+        "name": "WONDER Festival 2026",
+        "city": "Kortrijk",
+        "country": "Belgium",
+        "region": "Europe",
+        "category": "Cross-disciplinary Design",
+        "description": "Design, art and technology festival across city venues in UNESCO City of Design Kortrijk, presenting installations and contributions from designers, artists and schools.",
+        "url": "https://wonder-festival.be/en",
+        "source": "Official event organizer; cross-checked against Dezeen Events Guide, 2026-10-21",
+        "keywords": "WONDER; Kortrijk; Belgium; design festival; UNESCO City of Design; art; technology"
+      },
+      "removed_commit": "b01215f2d61489405fac9f8e10b4dcf553e02678",
+      "message": "Audit Design Reservoir: add seven academic references, retire past events, update dates and canonical URLs",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-10-30",
+        "end_date": "2026-11-08",
+        "name": "DESIGNART TOKYO 2026: Hibiki",
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Asia",
+        "category": "Design Week",
+        "description": "Tenth-anniversary citywide art and design festival across Tokyo galleries, stores and exhibition venues, featuring installations, objects, product design and independent studios.",
+        "url": "https://www.designart.jp/en/",
+        "source": "Official organizer; cross-checked with Dezeen Events Guide 2026-10-21",
+        "keywords": "Designart Tokyo; Japan; 2026; design festival; contemporary art; product design; galleries; installations"
+      },
+      "removed_commit": "b01215f2d61489405fac9f8e10b4dcf553e02678",
+      "message": "Audit Design Reservoir: add seven academic references, retire past events, update dates and canonical URLs",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-03",
+        "end_date": "2026-11-08",
+        "name": "Dubai Design Week 2026",
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "region": "Middle East",
+        "category": "Design Week",
+        "description": "Annual public platform at Dubai Design District exploring material research, design commissions, installations, urban design and public exchange.",
+        "url": "https://www.dubaidesignweek.ae/visit/",
+        "source": "Official Dubai Design Week 2026 event dates and program, 2026-10-17",
+        "keywords": "design week; design exhibitions; research; commissions; interiors; Dubai; United Arab Emirates; Middle East"
+      },
+      "removed_commit": "b01215f2d61489405fac9f8e10b4dcf553e02678",
+      "message": "Audit Design Reservoir: add seven academic references, retire past events, update dates and canonical URLs",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-04",
+        "end_date": "2026-11-08",
+        "name": "Salon Art + Design 2026",
+        "city": "New York",
+        "country": "United States",
+        "region": "North America",
+        "category": "Arts & Cultural Heritage",
+        "description": "Collectible design and decorative arts fair at the Park Avenue Armory with international galleries, furniture, contemporary objects and curated installations.",
+        "url": "https://www.thesalonny.com/",
+        "source": "Official event organizer; cross-checked against Dezeen Events Guide, 2026-10-21",
+        "keywords": "Salon Art + Design; collectible design; furniture; decorative arts; galleries; New York"
+      },
+      "removed_commit": "b01215f2d61489405fac9f8e10b4dcf553e02678",
+      "message": "Audit Design Reservoir: add seven academic references, retire past events, update dates and canonical URLs",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-06",
+        "end_date": "2026-11-08",
+        "name": "COLLECTIBLE New York 2026",
+        "city": "New York",
+        "country": "United States",
+        "region": "North America",
+        "category": "Product, Industrial & Material",
+        "description": "Third New York edition of COLLECTIBLE, the curated contemporary collectible design fair presenting independent studios, galleries and experimental furniture at 210 East 86th Street.",
+        "url": "https://collectible.design/collectible-nyc/",
+        "source": "Official event organizer; cross-checked against Dezeen Events Guide, 2026-10-21",
+        "keywords": "COLLECTIBLE; New York; design fair; furniture; collectible objects; contemporary design"
+      },
+      "removed_commit": "b01215f2d61489405fac9f8e10b4dcf553e02678",
+      "message": "Audit Design Reservoir: add seven academic references, retire past events, update dates and canonical URLs",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-06",
+        "end_date": "2026-11-08",
+        "name": "The Modernist Weekend 2026",
+        "city": "Faro / Tavira / Olhão",
+        "country": "Portugal",
+        "region": "Europe",
+        "category": "Architecture & Built Environment",
+        "description": "Three-day Algarve program of visits, architecture tours, private building access and discussions on Portuguese modernism and its relationship to vernacular architecture.",
+        "url": "https://www.themodernistweekend.com/",
+        "source": "Official event organizer; cross-checked against Dezeen Events Guide, 2026-10-21",
+        "keywords": "Faro; Tavira; Olhao; Portugal; modernist architecture; building tours; Algarve"
+      },
+      "removed_commit": "b01215f2d61489405fac9f8e10b4dcf553e02678",
+      "message": "Audit Design Reservoir: add seven academic references, retire past events, update dates and canonical URLs",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-08",
+        "end_date": "2026-11-08",
+        "name": "AIGA NY: Raven Mo Green-Wood Cemetery Lettering Walk",
+        "city": "Brooklyn",
+        "country": "United States",
+        "region": "North America",
+        "category": "Graphic & Communication Design",
+        "description": "AIGA NY field visit led by lettering specialist Raven Mo at Green-Wood Cemetery examining historical inscriptions, lettering, material culture and visual communication; 12–2 p.m. Eastern.",
+        "url": "https://aigany.org/event/raven-mo-green-wood-cemetery-lettering-walk/",
+        "source": "AIGA NY official November 8, 2026 event page checked 2026-10-26",
+        "keywords": "AIGA NY; lettering; typography; design history; urban heritage; cemetery; Brooklyn; New York; material culture; visual communication"
+      },
+      "removed_commit": "b01215f2d61489405fac9f8e10b4dcf553e02678",
+      "message": "Audit Design Reservoir: add seven academic references, retire past events, update dates and canonical URLs",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-07",
+        "end_date": "2026-11-08",
+        "name": "INTER:AKT 2026",
+        "city": "Katowice / Online",
+        "country": "Poland",
+        "region": "Europe",
+        "category": "STEAM",
+        "description": "International art and technology festival with installations, virtual reality, digital art, performances and film screenings. Official bilingual program confirms English-language artist talks online and at Szalfynster; the November 8 cinema screening is separately ticketed. Online access does not cover the entire physical program.",
+        "url": "https://interaktfestival.com/program.html",
+        "source": "INTER:AKT official 2026 program PDF and organizer program page checked 2026-11-05. November 7-8 dates and online talk links verified; no blanket free admission or reuse license assumed.",
+        "keywords": "INTER:AKT; Katowice; Poland; digital art; creative technology; virtual reality; artistic research; online artist talks; STEAM"
+      },
+      "removed_commit": "b01215f2d61489405fac9f8e10b4dcf553e02678",
+      "message": "Audit Design Reservoir: add seven academic references, retire past events, update dates and canonical URLs",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-09",
+        "end_date": "2026-11-09",
+        "name": "AIGA NY Design Spotlight: The Art & Science Behind Duolingo",
+        "city": "New York",
+        "country": "United States",
+        "region": "North America",
+        "category": "Digital / UX / Product",
+        "description": "AIGA NY discussion with Mig Reyes and the Duolingo design team on character illustration, motion, animation, visual identity, design systems and testing playful product experiences. The New School, John L. Tishman Auditorium, 63 Fifth Avenue, 6:30–8:30 p.m. Eastern; tickets $30 members and $35 nonmembers.",
+        "url": "https://aigany.org/event/design-spotlightthe-art-science-behind-duolingo/",
+        "source": "AIGA NY official November 9, 2026 event page; user supplied Eventbrite listing 2003375940367, checked 2026-10-26",
+        "keywords": "Duolingo; Mig Reyes; AIGA New York; The New School; digital product design; character design; branding; motion graphics; design systems; illustration; learning design; New York"
+      },
+      "removed_commit": "fc31fa00f9be89cd79ddf59d5027dcf181d9aab2",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-01",
+        "end_date": "2026-11-10",
+        "name": "Berlin Science Week 2026: In Touch",
+        "city": "Berlin",
+        "country": "Germany",
+        "region": "Europe",
+        "category": "STEAM",
+        "description": "Annual science and culture festival with citywide university and research-institution events exploring connections between science, art, technology and society. Festival Centre at Haus der Kulturen der Welt operates 6–8 November.",
+        "url": "https://berlinscienceweek.com/",
+        "source": "Official Berlin Science Week 2026 programme and visitor information; checked 2026-10-29",
+        "keywords": "Berlin Science Week; STEAM; art and science; research; AI; biomimicry; science communication; Berlin; Germany"
+      },
+      "removed_commit": "5bc3a1ab77cff1a2343fc6548f95b646420aa2ec",
+      "message": "Add Chain Drain and Musashino symposium; retire three elapsed November 10 events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-10",
+        "end_date": "2026-11-10",
+        "name": "Stanford d.school Book Talk: Victor Saad, Creative Essentials",
+        "city": "Online",
+        "country": "Online",
+        "region": "Online",
+        "category": "Design Education",
+        "description": "Stanford d.school online conversation with Victor Saad on testing creative ideas through action and practical experimentation; includes Q&A and breakout discussions; 10–11 a.m. Pacific, ticketed university book series.",
+        "url": "https://dschool.stanford.edu/events/2026-book-talk-creative-essentials-victor-saad",
+        "source": "Stanford d.school official November 10, 2026 event page checked 2026-10-26",
+        "keywords": "Stanford d.school; Victor Saad; design education; research through design; experimentation; books; creative practice; online guest lecture"
+      },
+      "removed_commit": "5bc3a1ab77cff1a2343fc6548f95b646420aa2ec",
+      "message": "Add Chain Drain and Musashino symposium; retire three elapsed November 10 events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-10",
+        "end_date": "2026-11-10",
+        "name": "Nicer Tuesdays LA: November 2026",
+        "city": "Los Angeles",
+        "country": "United States",
+        "region": "North America",
+        "category": "Graphic & Communication Design",
+        "description": "It's Nice That professional talks at Lodge Room with Micaiah Carter on photography, Bijou Karman on illustration and self-publishing, and Debbie Millman in conversation with Meg Farmer about design and interviewing. Detailed organizer text and venue specify doors at 7 p.m. and talks around 7:30 p.m. Pacific; headline hours differ. Ticketed in person; price and remaining availability unverified. Eventbrite says 18+ with ID, while the venue says all ages; confirm admission with the organizer. No livestream or session recording confirmed.",
+        "url": "https://nicertuesdays.itsnicethat.com/events/10-november-2026-la",
+        "source": "Official Nicer Tuesdays dated event page, It's Nice That announcement dated October 16, 2026, Lodge Room venue listing and indexed exact Eventbrite event 2003059500888 reviewed November 9, 2026. https://www.itsnicethat.com/articles/nicer-tuesdays-november-la-launch-161026; https://www.lodgeroomhlp.com/shows/nicer-tuesdays-la/; https://www.eventbrite.co.uk/e/nicer-tuesdays-la-november-tickets-2003059500888 Direct Eventbrite retrieval returned 429; registration inventory not tested. Event page header says 6:30-10 p.m., detailed text says doors 7 p.m./talks 7:30 p.m., and indexed Eventbrite says 7-9 p.m.; no definitive finish time asserted. Scheduled event, not a completion claim.",
+        "keywords": "Nicer Tuesdays; It's Nice That; Debbie Millman; Micaiah Carter; Bijou Karman; Meg Farmer; Design Matters; graphic design; photography; illustration; self publishing; zines; interviews; creative practice; Los Angeles; Lodge Room"
+      },
+      "removed_commit": "5bc3a1ab77cff1a2343fc6548f95b646420aa2ec",
+      "message": "Add Chain Drain and Musashino symposium; retire three elapsed November 10 events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-09",
+        "end_date": "2026-11-11",
+        "name": "Trimble Dimensions 2026",
+        "city": "Las Vegas",
+        "country": "United States",
+        "region": "North America",
+        "category": "Architecture & Built Environment",
+        "description": "Trimble's design, construction and geospatial technology conference offering seminars, demonstrations and technical sessions on built-environment production and digital systems.",
+        "url": "https://www.trimble.com/en/our-company/events/dimensions/overview",
+        "source": "Official event organizer; cross-checked against Dezeen Events Guide, 2026-10-21",
+        "keywords": "Trimble; Las Vegas; engineering; digital construction; BIM; geospatial; architecture"
+      },
+      "removed_commit": "4f88fa867805204e30975456929f159aa5cbce15",
+      "message": "Update Dubai Future Week access and STARS details; expire Trimble Dimensions",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-11",
+        "end_date": "2026-11-12",
+        "name": "Leading Design London 2026",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "category": "Cross-disciplinary Design",
+        "description": "Design leadership conference at the Barbican Centre featuring talks on organizational design practice, AI, team culture, management, strategy and professional development.",
+        "url": "https://leadingdesign.com/conferences/london-2026",
+        "source": "Official Leading Design London 2026 organizer",
+        "keywords": "design leadership; design management; organizational practice; London; United Kingdom; Europe"
+      },
+      "removed_commit": "17ece46444a48597469dbbdb4bb37828f43ad896",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "start_date": "2026-11-12",
+        "end_date": "2026-11-12",
+        "name": "Mozilla Human-Scale AI: Applicant Information Session",
+        "city": "Online",
+        "country": "Online",
+        "region": "Online",
+        "category": "Digital / UX / Product",
+        "description": "One-hour Mozilla Foundation webinar for prospective Human-Scale AI Incubator applicants covering eligibility, selection criteria and the cohort experience, with audience questions. November 12, 2026, 17:00 UTC, 9 a.m. Pacific and 11 a.m. U.S. Central. Hosted by program officer Mehan Jayasuriya. Official registration page available; its JavaScript registration workflow was not tested. Admission price and recording availability not confirmed. A grant briefing, not a peer-reviewed research conference.",
+        "url": "https://events.mozillafoundation.org/e/human-scale-ai-info-session",
+        "source": "Mozilla Foundation dated session page and Human-Scale AI call, checked November 9, 2026. https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/ Date and start time corroborated by both pages; one-hour duration specified in the call. No registration submitted.",
+        "keywords": "Mozilla; Human-Scale AI; grant briefing; information session; applicants; AI; public interest technology; small models; online webinar; funding eligibility"
+      },
+      "removed_commit": "17ece46444a48597469dbbdb4bb37828f43ad896",
+      "message": "Expire completed dated events",
+      "classification": "Recovered past dated listing"
+    },
+    {
+      "record": {
+        "name": "Cairo Design Week",
+        "city": "Cairo",
+        "country": "Egypt",
+        "region": "Africa",
+        "format": "Design Week",
+        "edition": "2026 edition announced",
+        "description": "Egyptian design platform spanning exhibitions, installations, talks and collaborations across Cairo's creative districts.",
+        "url": "https://cairodesignweek.net/",
+        "keywords": "Egypt; interiors; architecture; exhibitions; creative industries",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "removed_commit": "b770e42c06dd04ca79c24520f5244b549543cc0a",
+      "message": "Remove Gulf and Middle East design-week events from Design Reservoir",
+      "classification": "Removed directory snapshot; may be superseded, restored, inactive or undated. Not confirmation of cancellation."
+    },
+    {
+      "record": {
+        "name": "Design Doha Biennial",
+        "city": "Doha",
+        "country": "Qatar",
+        "region": "Middle East",
+        "format": "Design Biennial",
+        "edition": "5 November–31 December 2026",
+        "description": "Qatar Museums design biennial presenting MENASA makers, exhibitions, public commissions, talks and design research across Doha.",
+        "url": "https://www.worlddesignweeks.org/members/design-doha-biennial",
+        "keywords": "Doha; Qatar; MENASA; public commissions; design biennial",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks"
+      },
+      "removed_commit": "b770e42c06dd04ca79c24520f5244b549543cc0a",
+      "message": "Remove Gulf and Middle East design-week events from Design Reservoir",
+      "classification": "Removed directory snapshot; may be superseded, restored, inactive or undated. Not confirmation of cancellation."
+    },
+    {
+      "record": {
+        "name": "Dubai Design Week",
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "region": "Middle East",
+        "format": "Design Week",
+        "edition": "2026 edition",
+        "description": "Gulf design festival centered in Dubai Design District with installations, exhibitions, workshops, commissions and Downtown Design.",
+        "url": "https://www.dubaidesignweek.ae/",
+        "keywords": "Middle East; interiors; architecture; installations; design market",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "removed_commit": "b770e42c06dd04ca79c24520f5244b549543cc0a",
+      "message": "Remove Gulf and Middle East design-week events from Design Reservoir",
+      "classification": "Removed directory snapshot; may be superseded, restored, inactive or undated. Not confirmation of cancellation."
+    },
+    {
+      "record": {
+        "name": "Boston Design Week",
+        "city": "Boston",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "Returning after 2025 hiatus; 2026 monitoring",
+        "description": "Long-running Boston platform increasing public awareness of design across architecture, landscape, craft, social impact and professional practice.",
+        "url": "https://www.bostondesignweek.com/",
+        "keywords": "Boston; architecture; landscape; craft; social impact",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "removed_commit": "41ee7a9e606e3323d856add198a805add3b18099",
+      "message": "Remove inactive design weeks and retire completed edition dates",
+      "classification": "Removed directory snapshot; may be superseded, restored, inactive or undated. Not confirmation of cancellation."
+    },
+    {
+      "record": {
+        "name": "Tokyo Design Week",
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Asia",
+        "format": "Design Week",
+        "edition": "Current World Design Weeks member; latest verified festival listed for 2023",
+        "description": "Long-running Tokyo creative festival and World Design Weeks member connecting design, art, architecture and broader creative culture.",
+        "url": "https://www.worlddesignweeks.org/members/tokyo-design-week",
+        "keywords": "Tokyo; Japan; creative festival; architecture; design culture",
+        "status": "Current network member; current edition to verify",
+        "last_checked": "2026-10-02",
+        "source": "World Design Weeks"
+      },
+      "removed_commit": "41ee7a9e606e3323d856add198a805add3b18099",
+      "message": "Remove inactive design weeks and retire completed edition dates",
+      "classification": "Removed directory snapshot; may be superseded, restored, inactive or undated. Not confirmation of cancellation."
+    },
+    {
+      "record": {
+        "name": "Design Week Philippines",
+        "city": "Manila",
+        "country": "Philippines",
+        "region": "Asia",
+        "format": "Design Week",
+        "edition": "Current World Design Weeks member",
+        "description": "Philippine design platform connecting creative industries, local makers, design culture and public programming.",
+        "url": "https://www.worlddesignweeks.org/members/design-week-philippines",
+        "keywords": "Philippines; Manila; creative industries; makers; design culture",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks"
+      },
+      "removed_commit": "4b5853d0231923131f622a72258a44f7ec8eb389",
+      "message": "Fix broken festival links, retire unsupported platform and update 2027 editions",
+      "classification": "Removed directory snapshot; may be superseded, restored, inactive or undated. Not confirmation of cancellation."
+    },
+    {
+      "record": {
+        "name": "DesignBlok — Prague International Design Festival",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "region": "Europe",
+        "format": "Design Festival",
+        "edition": "2026 edition concluded; upcoming dates not yet confirmed",
+        "description": "Central European design and fashion festival presenting designers, brands, exhibitions, talks, workshops and citywide venues across Prague.",
+        "url": "https://www.designblok.cz/en/",
+        "keywords": "Prague; Czech Republic; product design; fashion; exhibitions",
+        "status": "Verified",
+        "last_checked": "2026-10-16",
+        "source": "Official site | Previous edition: 7–11 October 2026"
+      },
+      "removed_commit": "1d7c2c89fd71cc67bac4ea55f601bca31cab2eb9",
+      "message": "Replace em dashes with clear punctuation across public writing",
+      "classification": "Removed directory snapshot; may be superseded, restored, inactive or undated. Not confirmation of cancellation."
+    },
+    {
+      "record": {
+        "name": "Open – Design Week Frankfurt RheinMain",
+        "city": "Frankfurt RheinMain",
+        "country": "Germany",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "Next dates not announced",
+        "description": "Ten-day regional design week created as a centrepiece of World Design Capital Frankfurt RheinMain 2026, opening studios, companies, universities and institutions to the public.",
+        "url": "https://wdc2026.org/en/constellations/open",
+        "keywords": "Frankfurt; RheinMain; World Design Capital; studios; research; industry; Frankfurt RheinMain; Germany; Europe; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-16",
+        "source": "World Design Capital Frankfurt RheinMain 2026 | Previous edition: 5–14 May 2026",
+        "industries": "Cross-disciplinary Design; Social, Systems & Strategic"
+      },
+      "removed_commit": "57293e8b4d7d4519ebbefa5c13fadcf044809e96",
+      "message": "Remove concluded one-off design week records and outdated edition copy",
+      "classification": "Removed directory snapshot; may be superseded, restored, inactive or undated. Not confirmation of cancellation."
+    },
+    {
+      "record": {
+        "name": "Romanian Design Week",
+        "city": "Bucharest",
+        "country": "Romania",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "Part of Bucharest Design Festival",
+        "description": "Romanian design-week program presented within the wider Bucharest Design Festival.",
+        "url": "https://www.worlddesignweeks.org/members/romanian-design-week",
+        "keywords": "Bucharest; Romania; design week; exhibitions; creative industries; Europe",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks + Bucharest Design Festival",
+        "industries": "Cross-disciplinary Design; Creative Industries"
+      },
+      "removed_commit": "57293e8b4d7d4519ebbefa5c13fadcf044809e96",
+      "message": "Remove concluded one-off design week records and outdated edition copy",
+      "classification": "Removed directory snapshot; may be superseded, restored, inactive or undated. Not confirmation of cancellation."
+    }
+  ],
+  "dated_design_week_source_snapshots": [
+    {
+      "record": {
+        "name": "3daysofdesign",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "region": "Europe",
+        "format": "Design Festival",
+        "edition": "10–12 June 2026",
+        "description": "Copenhagen's citywide design festival with showrooms, exhibitions, launches, talks and workshops across furniture, interiors, craft and product design.",
+        "url": "https://www.3daysofdesign.dk/",
+        "keywords": "furniture; interiors; product design; craft; showrooms",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "db04a9f00fd97210700165fa5b2e4bf1c7482aad"
+    },
+    {
+      "record": {
+        "name": "Bangkok Design Week",
+        "city": "Bangkok",
+        "country": "Thailand",
+        "region": "Asia",
+        "format": "Design Week",
+        "edition": "29 January–8 February 2026",
+        "description": "Southeast Asian citywide design festival presenting hundreds of creative programs across Bangkok's design districts.",
+        "url": "https://www.bangkokdesignweek.com/",
+        "keywords": "urban design; creative economy; exhibitions; public space; Thailand",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Barcelona Design Week",
+        "city": "Barcelona",
+        "country": "Spain",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "14–25 October 2026",
+        "description": "Barcelona Creativity & Design Foundation's annual design week. The 2026 PRO-TEST program (14–25 October) explores prototyping, testing, experimentation and alternative futures through 140 public exhibitions, talks and activities.",
+        "url": "https://barcelonadesignweek.com/en/",
+        "keywords": "Spain; prototyping; experimentation; alternative futures; innovation; design education; exhibitions; interdisciplinary design; Barcelona; Europe; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-17",
+        "source": "Barcelona Design Week official About and 8 October 2026 program announcement, verified 2026-10-17",
+        "industries": "Cross-disciplinary Design; Speculative, Critical & Futures; Design Education"
+      },
+      "commit": "2f7225a91d3775cddaa0f2153e2c97b086b94349"
+    },
+    {
+      "record": {
+        "name": "Berlin Design Week",
+        "city": "Berlin",
+        "country": "Germany",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "28–31 May 2026",
+        "description": "Berlin platform bringing product, interior, architecture, branding and digital design into a citywide program focused on contemporary design.",
+        "url": "https://berlindesignweek.com/en/",
+        "keywords": "product design; interiors; architecture; branding; digital",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Dallas Design Week",
+        "city": "Dallas",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "15–17 September 2026",
+        "description": "Dallas Market Center's design program for the interiors and home-design community, combining business education, talks, forecasts and networking.",
+        "url": "https://www.dallasmarketcenter.com/calendar/",
+        "keywords": "interior design; business; home design; Dallas; professional development",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "b770e42c06dd04ca79c24520f5244b549543cc0a"
+    },
+    {
+      "record": {
+        "name": "DC Design Week",
+        "city": "Washington, D.C.",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "1–10 October 2026",
+        "description": "Citywide design program hosted by AIGA DC with talks, workshops, archives, exhibitions, walks and gatherings across design disciplines.",
+        "url": "https://www.dcdesignweek.org/",
+        "keywords": "graphic design; research; workshops; exhibitions; Washington DC",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Design Week South Africa",
+        "city": "Johannesburg & Cape Town",
+        "country": "South Africa",
+        "region": "Africa",
+        "format": "Design Week",
+        "edition": "Johannesburg 8–11 October; Cape Town 22–25 October 2026",
+        "description": "Two-city annual design platform presenting exhibitions, studio tours, installations, talks and workshops across South Africa's creative sectors.",
+        "url": "https://designweeksouthafrica.com/",
+        "keywords": "South Africa; exhibitions; studios; creative industries; architecture",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "4b5853d0231923131f622a72258a44f7ec8eb389"
+    },
+    {
+      "record": {
+        "name": "Dutch Design Week",
+        "city": "Eindhoven",
+        "country": "Netherlands",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "17–25 October 2026",
+        "description": "Eindhoven's nine-day design festival focusing on experimental practice, social transitions, technologies and future-making. The 2026 R.A.W. (Rebel Authentic Worth) edition explores design as inquiry, experimentation and cultural change.",
+        "url": "https://ddw.nl/en",
+        "keywords": "Netherlands; futures; social design; technology; innovation; exhibitions; experimental design; STEAM; Eindhoven; Europe; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-17",
+        "source": "Official Dutch Design Week 2026 program and Eindhoven municipality, verified 2026-10-17",
+        "industries": "Speculative, Critical & Futures; Social, Systems & Strategic; Digital / UX / Product; Cross-disciplinary Design"
+      },
+      "commit": "2f7225a91d3775cddaa0f2153e2c97b086b94349"
+    },
+    {
+      "record": {
+        "name": "Helsinki Design Week",
+        "city": "Helsinki",
+        "country": "Finland",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "28 August–6 September 2026",
+        "description": "Annual urban design and architecture festival with exhibitions, open studios, markets, talks and public programming across Helsinki.",
+        "url": "https://helsinkidesignweek.com/?lang=en",
+        "keywords": "Nordic design; architecture; open studios; public design; Finland",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Lisbon Design Week",
+        "city": "Lisbon",
+        "country": "Portugal",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "27–31 May 2026",
+        "description": "Citywide program focused on contemporary design and high craft, bringing makers, studios and venues together across Lisbon.",
+        "url": "https://lisbondesignweek.com/",
+        "keywords": "craft; collectible design; makers; interiors; Portugal",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "London Design Festival",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "format": "Design Festival",
+        "edition": "12–20 September 2026",
+        "description": "Major citywide festival promoting London design through installations, institutions, design districts, exhibitions and the Global Design Forum.",
+        "url": "https://londondesignfestival.com/",
+        "keywords": "London; installations; design districts; museums; global design",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Melbourne Design Week",
+        "city": "Melbourne",
+        "country": "Australia",
+        "region": "Oceania",
+        "format": "Design Week",
+        "edition": "14–24 May 2026",
+        "description": "Australia-wide platform centered in Melbourne with hundreds of programs across architecture, product, interiors, technology, fashion and design research.",
+        "url": "https://designweek.melbourne/",
+        "keywords": "Australia; architecture; product design; research; exhibitions",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Milan Design Week / Fuorisalone",
+        "city": "Milan",
+        "country": "Italy",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "20–26 April 2026",
+        "description": "Citywide network of events, installations, exhibitions and design districts held alongside Salone del Mobile and collectively forming Milan Design Week.",
+        "url": "https://www.fuorisalone.it/en",
+        "keywords": "furniture; interiors; installations; design districts; Milan",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "NYCxDESIGN Festival",
+        "city": "New York",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Festival",
+        "edition": "14–20 May 2026",
+        "description": "New York City's annual design celebration with programs across the five boroughs, including exhibitions, talks, installations, studios and public events.",
+        "url": "https://www.nycxdesign.org/",
+        "keywords": "New York; exhibitions; architecture; product design; public design",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Paris Design Week",
+        "city": "Paris",
+        "country": "France",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "10–19 September 2026",
+        "description": "Citywide design event tied to Maison&Objet, bringing hundreds of showrooms, galleries, studios, museums and emerging designers into a public program.",
+        "url": "https://www.maison-objet.com/en/paris-design-week",
+        "keywords": "Paris; interiors; emerging designers; galleries; showrooms",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Vienna Design Week",
+        "city": "Vienna",
+        "country": "Austria",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "25 September–4 October 2026",
+        "description": "Ten-day city festival spanning product, furniture, industrial, graphic and experimental design through exhibitions, workshops and talks.",
+        "url": "https://www.viennadesignweek.at/en/",
+        "keywords": "Austria; product design; craft; social design; exhibitions",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Zurich Design Weeks",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "17–27 September 2026",
+        "description": "Switzerland's citywide design festival connecting designers, showrooms, brands and institutions through exhibitions, tours, talks and workshops.",
+        "url": "https://designweeks.ch/",
+        "keywords": "Switzerland; exhibitions; showrooms; workshops; multidisciplinary",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Design Almanac 2026 + official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Atlanta Design Festival",
+        "city": "Atlanta",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Festival",
+        "edition": "26 September–4 October 2026",
+        "description": "Citywide festival connecting architecture, design, film, exhibitions, tours and creative-industry programming across Atlanta.",
+        "url": "https://atlantadesignfestival.net/",
+        "keywords": "Atlanta; architecture; creative industries; tours; exhibitions",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Bogotá Design Festival",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "region": "South America",
+        "format": "Design Festival",
+        "edition": "22–25 April 2026",
+        "description": "Four-day city platform connecting design, culture, innovation and creative industries across industrial, graphic, digital, interior, fashion and other disciplines.",
+        "url": "https://www.bogotadesignfestival.co/",
+        "keywords": "Bogotá; Colombia; creative industries; innovation; multidisciplinary",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Bucharest Design Festival",
+        "city": "Bucharest",
+        "country": "Romania",
+        "region": "Europe",
+        "format": "Design Festival",
+        "edition": "20 May–21 June 2026",
+        "description": "Month-long citywide platform bringing design, architecture, art and creative communities together across more than 170 spaces in Bucharest.",
+        "url": "https://www.institute.ro/BDF-Editie-2026",
+        "keywords": "Bucharest; Romania; architecture; creative communities; citywide festival",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "The Institute"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Caracas Design Week",
+        "city": "Caracas",
+        "country": "Venezuela",
+        "region": "South America",
+        "format": "Design Week",
+        "edition": "6–12 June 2026",
+        "description": "Citywide Venezuelan design week connecting local creative practice, design culture, exhibitions and public programming.",
+        "url": "https://www.worlddesignweeks.org/members/caracas-design-week",
+        "keywords": "Caracas; Venezuela; Latin America; exhibitions; design culture",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Chengdu Creativity & Design Week",
+        "city": "Chengdu",
+        "country": "China",
+        "region": "Asia",
+        "format": "Design Week",
+        "edition": "9–12 November 2026",
+        "description": "International creativity and design platform in Chengdu combining exhibitions, awards, cultural tourism, industry exchange and public programming.",
+        "url": "https://www.worlddesignweeks.org/members/chengdu-creativity-design-week",
+        "keywords": "Chengdu; China; creative industries; cultural tourism; design awards; Asia; design week",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks",
+        "industries": "Creative Industries; Cross-disciplinary Design"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    },
+    {
+      "record": {
+        "name": "Chiang Mai Design Week",
+        "city": "Chiang Mai",
+        "country": "Thailand",
+        "region": "Asia",
+        "format": "Design Week",
+        "edition": "5–13 December 2026",
+        "description": "Northern Thailand design and creative-economy festival connecting local makers, designers, communities and businesses through citywide programming.",
+        "url": "https://www.worlddesignweeks.org/members/chiang-mai-design-week",
+        "keywords": "Chiang Mai; Thailand; makers; creative economy; local design; Asia; design week",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks",
+        "industries": "Creative Industries; Arts & Cultural Heritage; Fashion, Textile & Craft"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    },
+    {
+      "record": {
+        "name": "Design Doha Biennial",
+        "city": "Doha",
+        "country": "Qatar",
+        "region": "Middle East",
+        "format": "Design Biennial",
+        "edition": "5 November–31 December 2026",
+        "description": "Qatar Museums design biennial presenting MENASA makers, exhibitions, public commissions, talks and design research across Doha.",
+        "url": "https://www.worlddesignweeks.org/members/design-doha-biennial",
+        "keywords": "Doha; Qatar; MENASA; public commissions; design biennial",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks"
+      },
+      "commit": "8d8059c9da7e9cf6eddc855897d62d778501ca9c"
+    },
+    {
+      "record": {
+        "name": "Design Mumbai",
+        "city": "Mumbai",
+        "country": "India",
+        "region": "Asia",
+        "format": "Design Festival",
+        "edition": "19–22 November 2026",
+        "description": "India-focused global design exhibition and festival for architects, designers, interiors professionals, brands and makers.",
+        "url": "https://www.worlddesignweeks.org/members/design-mumbai",
+        "keywords": "Mumbai; India; architecture; interiors; product design; Asia; design festival",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks",
+        "industries": "Spatial, Interior & Experiential; Architecture & Built Environment; Product, Industrial & Material"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    },
+    {
+      "record": {
+        "name": "Design Week Mexico",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "5–11 October 2026",
+        "description": "Mexico City's major design week bringing exhibitions, architecture, interiors, craft and contemporary design into citywide programming.",
+        "url": "https://www.worlddesignweeks.org/members/design-week-mexico",
+        "keywords": "Mexico City; Mexico; architecture; interiors; craft",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "DESIGNART TOKYO",
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Asia",
+        "format": "Design Festival",
+        "edition": "30 October–8 November 2026",
+        "description": "Ten-day citywide design and art festival presenting exhibitions across shops, galleries and museums in central Tokyo.",
+        "url": "https://www.designart.jp/en/",
+        "keywords": "Tokyo; Japan; design and art; galleries; citywide festival; Asia; design festival",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site",
+        "industries": "Cross-disciplinary Design; Arts & Cultural Heritage"
+      },
+      "commit": "187841333c507ea6eb51ba3571b60a29ffc4c4d3"
+    },
+    {
+      "record": {
+        "name": "DesignBlok — Prague International Design Festival",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "region": "Europe",
+        "format": "Design Festival",
+        "edition": "7–11 October 2026",
+        "description": "Central European design and fashion festival presenting designers, brands, exhibitions, talks, workshops and citywide venues across Prague.",
+        "url": "https://www.designblok.cz/en/",
+        "keywords": "Prague; Czech Republic; product design; fashion; exhibitions",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "DesignTO Festival",
+        "city": "Toronto",
+        "country": "Canada",
+        "region": "North America",
+        "format": "Design Festival",
+        "edition": "23 January–1 February 2026",
+        "description": "Canada's largest annual design festival, with 100+ exhibitions and events across Toronto spanning architecture, craft, product, social and experiential design.",
+        "url": "https://designto.org/",
+        "keywords": "Toronto; Canada; exhibitions; architecture; craft",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Detroit Month of Design",
+        "city": "Detroit",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Festival",
+        "edition": "1–30 September 2026",
+        "description": "Month-long citywide celebration of Detroit design with exhibitions, installations, product launches, talks, tours, workshops and community-led programs.",
+        "url": "https://www.detroitmonthofdesign.org/",
+        "keywords": "Detroit; UNESCO City of Design; mobility; materials; civic design",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Galicia Design Week",
+        "city": "A Coruña",
+        "country": "Spain",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "14–23 May 2026",
+        "description": "Northwestern Spain design week presenting talks, workshops, exhibitions, services, products and professional programming from Galicia and beyond.",
+        "url": "https://gdw.gal/",
+        "keywords": "Galicia; A Coruña; Spain; graphic design; architecture; product design",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Gdynia Design Days",
+        "city": "Gdynia",
+        "country": "Poland",
+        "region": "Europe",
+        "format": "Design Festival",
+        "edition": "20–28 June 2026",
+        "description": "Baltic design festival focused on design knowledge, everyday systems, sustainability, technology, urban development, craft and public learning.",
+        "url": "https://gdyniadesigndays.eu/en/",
+        "keywords": "Gdynia; Poland; sustainability; urban design; craft",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Indy Design Week",
+        "city": "Indianapolis",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "20–25 April 2026",
+        "description": "Citywide Indianapolis design festival with talks, workshops, meetups and experiences highlighting local designers, process and creative practice.",
+        "url": "https://www.indydesignweek.com/",
+        "keywords": "Indianapolis; community; workshops; talks; process",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Isan Creative Festival",
+        "city": "Khon Kaen",
+        "country": "Thailand",
+        "region": "Asia",
+        "format": "Design Festival",
+        "edition": "11–19 July 2026",
+        "description": "Nine-day creative festival across northeastern Thailand connecting cultural capital, design, technology, business, exhibitions and community programming.",
+        "url": "https://www.isancreativefestival.com/en/isancf2026",
+        "keywords": "Khon Kaen; Thailand; creative economy; cultural design; community",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Lima Design Week",
+        "city": "Lima",
+        "country": "Peru",
+        "region": "South America",
+        "format": "Design Week",
+        "edition": "20–26 April 2026",
+        "description": "International Lima platform connecting designers, architecture, maritime and environmental design, professional exchange and public programming.",
+        "url": "https://www.limadesignweek.pe/",
+        "keywords": "Lima; Peru; Latin America; architecture; environmental design",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Madrid Design Festival",
+        "city": "Madrid",
+        "country": "Spain",
+        "region": "Europe",
+        "format": "Design Festival",
+        "edition": "5 February–8 March 2026",
+        "description": "Month-long international Madrid design festival spanning architecture, graphic, interior, craft, industry, social design and contemporary design culture.",
+        "url": "https://madriddesignfestival.lafabrica.com/",
+        "keywords": "Madrid; Spain; architecture; interiors; craft; social design",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Munich Creative Business Week",
+        "city": "Munich",
+        "country": "Germany",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "4–10 May 2026",
+        "description": "Germany's major design week connecting design, business, innovation, public events, exhibitions and the MCBW Design Summit.",
+        "url": "https://www.worlddesignweeks.org/members/munich-creative-business-week",
+        "keywords": "Munich; Germany; design business; innovation; summit",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "New Zealand Design Week",
+        "city": "Auckland & across New Zealand",
+        "country": "New Zealand",
+        "region": "Oceania",
+        "format": "Design Week",
+        "edition": "2–10 March 2026",
+        "description": "Nine-day New Zealand design celebration bringing designers, brands, professionals and the public together through exhibitions, studios, talks and a design conference.",
+        "url": "https://aucklanddesignweek.com/press/adw-2026/",
+        "keywords": "New Zealand; Auckland; exhibitions; open studios; design conference",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "RPDC Design Week",
+        "city": "Shanghai",
+        "country": "China",
+        "region": "Asia",
+        "format": "Design Week",
+        "edition": "24 September–5 October 2026",
+        "description": "Shanghai design platform focused on multidisciplinary design growth, public engagement and connections to the Xiaohongshu ecosystem.",
+        "url": "https://www.worlddesignweeks.org/members/rpdc-design-week",
+        "keywords": "Shanghai; China; multidisciplinary; public design; digital ecosystem",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "San Diego Design Week",
+        "city": "San Diego",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "15–20 September 2026",
+        "description": "Multidisciplinary citywide celebration inviting the public into exhibitions, workshops and experiences spanning product, spatial, digital, fashion and cultural design.",
+        "url": "https://sddesignweek.org/",
+        "keywords": "San Diego; multidisciplinary; exhibitions; workshops; public design",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Seattle Design Festival",
+        "city": "Seattle",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Festival",
+        "edition": "15–20 August 2026",
+        "description": "Seattle's largest multidisciplinary design event, centered on inclusive co-design, civic challenges, installations, pop-ups and community programs.",
+        "url": "https://seadesignfest.org/",
+        "keywords": "Seattle; civic design; co-design; installations; community",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Seoul Design Festival",
+        "city": "Seoul",
+        "country": "South Korea",
+        "region": "Asia",
+        "format": "Design Festival",
+        "edition": "26–29 November 2026",
+        "description": "Major Korean design festival at COEX presenting brands, designers, exhibitions and contemporary design culture.",
+        "url": "https://seoul.designfestival.co.kr/en/main/",
+        "keywords": "Seoul; South Korea; brands; exhibitions; contemporary design; Asia; design festival",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks",
+        "industries": "Product, Industrial & Material; Creative Industries"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    },
+    {
+      "record": {
+        "name": "Texas Design Week",
+        "city": "Dallas & Houston",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "Houston 13–16 April 2026; Dallas 9–13 November 2026",
+        "description": "Biannual Texas design program focused on architecture, interiors, decorative arts, professional education, talks, launches and industry networking in Houston and Dallas.",
+        "url": "https://www.texasdesignweek.com/",
+        "keywords": "Texas; Dallas; Houston; interior design; architecture; professional education",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + PaperCity"
+      },
+      "commit": "b770e42c06dd04ca79c24520f5244b549543cc0a"
+    },
+    {
+      "record": {
+        "name": "Tijuana Design Week",
+        "city": "Tijuana",
+        "country": "Mexico",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "21–24 May 2026",
+        "description": "Border-city design week connecting local and international design, culture, community and questions of place and future-making.",
+        "url": "https://www.worlddesignweeks.org/members/tijuana-design-week",
+        "keywords": "Tijuana; Mexico; border city; community; future-making",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Ukrainian Design & Innovation Week",
+        "city": "Kyiv & Ukraine",
+        "country": "Ukraine",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "4–10 May 2026",
+        "description": "Ukrainian platform connecting design, innovation, interiors, architecture and creative industries through exhibitions and professional programming.",
+        "url": "https://www.worlddesignweeks.org/members/ukrainian-design-innovation-week",
+        "keywords": "Ukraine; Kyiv; innovation; architecture; interiors",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Venice Design Week",
+        "city": "Venice",
+        "country": "Italy",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "9–18 October 2026",
+        "description": "Recurring citywide design week organized by Arte e Design Venezia, bringing exhibitions, workshops, meetings and experimental material practice into historic cultural venues. The official 2026 festival runs 9–18 October; selected satellite exhibitions continue later.",
+        "url": "https://www.venicedesignweek.com/",
+        "keywords": "Venice; Italy; exhibitions; workshops; contemporary design; material culture; cultural heritage; Europe; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-17",
+        "source": "Official Venice Design Week website and 2026 exhibition program, verified 2026-10-17",
+        "industries": "Spatial, Interior & Experiential; Product, Industrial & Material; Arts & Cultural Heritage"
+      },
+      "commit": "2f7225a91d3775cddaa0f2153e2c97b086b94349"
+    },
+    {
+      "record": {
+        "name": "Zagreb Design Week",
+        "city": "Zagreb",
+        "country": "Croatia",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "8–20 September 2026",
+        "description": "Two-week Zagreb design program across partner locations and the Academy of Fine Arts, with exhibitions, talks, workshops, film and fashion programming.",
+        "url": "https://www.zagrebdesignweek.com/en/",
+        "keywords": "Zagreb; Croatia; exhibitions; education; multidisciplinary",
+        "status": "Verified",
+        "last_checked": "2026-09-30",
+        "source": "Official site + World Design Weeks"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Montréal Design Week",
+        "city": "Montréal",
+        "country": "Canada",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "28 April–7 May 2026",
+        "description": "Ten-day citywide design week celebrating architecture, interiors, makers, manufacturers and local sustainable design across Montréal.",
+        "url": "https://2026.semainedesigndemontreal.com/en/a-propos",
+        "keywords": "Montréal; architecture; interiors; makers; sustainable design",
+        "status": "Verified",
+        "last_checked": "2026-10-02",
+        "source": "Official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Pan Afrikan Design Week",
+        "city": "Cape Town",
+        "country": "South Africa",
+        "region": "Africa",
+        "format": "Design Week",
+        "edition": "21–24 October 2026",
+        "description": "Pan-African design gathering bringing together designers, educators, students, entrepreneurs, policymakers and cultural practitioners around future-fit skills and design for thriving communities.",
+        "url": "https://thepadi.org/adw2026sa/",
+        "keywords": "Pan-African design; systems; education; social impact; Cape Town; South Africa; Africa; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-02",
+        "source": "Pan Afrikan Design Institute + Cape Town Tourism",
+        "industries": "Cross-disciplinary Design; Social, Systems & Strategic; Design Education"
+      },
+      "commit": "2f7225a91d3775cddaa0f2153e2c97b086b94349"
+    },
+    {
+      "record": {
+        "name": "Business of Design Week",
+        "city": "Hong Kong",
+        "country": "Hong Kong SAR China",
+        "region": "Asia",
+        "format": "Design Week",
+        "edition": "16–21 November 2026",
+        "description": "Annual Hong Kong design program with conferences, forums, awards and exhibitions addressing design, business and branding.",
+        "url": "https://www.bodw.com/en/",
+        "keywords": "Hong Kong; design business; innovation; brands; conferences; Hong Kong SAR China; Asia; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-02",
+        "source": "Hong Kong Design Centre + Hong Kong Tourism Board",
+        "industries": "Design Management & Business; Cross-disciplinary Design"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    },
+    {
+      "record": {
+        "name": "Taiwan Design Week",
+        "city": "Taipei",
+        "country": "Taiwan",
+        "region": "Asia",
+        "format": "Design Week",
+        "edition": "24–30 November 2026",
+        "description": "Taipei design week organized by Taiwan Design Research Institute, presenting early-career designers, sustainable design and digital technology.",
+        "url": "https://www.tdri.org.tw/en",
+        "keywords": "Taipei; Taiwan; design research; AI; sustainability; Asia; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-02",
+        "source": "Taiwan Design Research Institute + Salone del Mobile 2026 calendar",
+        "industries": "Product, Industrial & Material; Digital / UX / Product; Ecological, Bio & Regenerative"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    },
+    {
+      "record": {
+        "name": "Genova Design Week",
+        "city": "Genoa",
+        "country": "Italy",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "3–7 June 2026",
+        "description": "City design week across Genoa's historic centre and Porto Antico, with installations, exhibitions, talks and programs focused on contemporary design, architecture and sustainability.",
+        "url": "https://www.didegenova.it/",
+        "keywords": "Genoa; Italy; interiors; architecture; sustainability; installations",
+        "status": "Verified",
+        "last_checked": "2026-10-02",
+        "source": "DiDe Genova + Porto Antico Genova"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Open – Design Week Frankfurt RheinMain",
+        "city": "Frankfurt RheinMain",
+        "country": "Germany",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "5–14 May 2026",
+        "description": "Ten-day regional design week created as a centrepiece of World Design Capital Frankfurt RheinMain 2026, opening studios, companies, universities and institutions to the public.",
+        "url": "https://wdc2026.org/en/constellations/open",
+        "keywords": "Frankfurt; RheinMain; World Design Capital; studios; research; industry",
+        "status": "Verified",
+        "last_checked": "2026-10-02",
+        "source": "World Design Capital Frankfurt RheinMain 2026"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Design Fest Gent",
+        "city": "Ghent",
+        "country": "Belgium",
+        "region": "Europe",
+        "format": "Design Festival",
+        "edition": "3–11 October 2026",
+        "description": "Biennial citywide design festival led by Design Museum Gent, with exhibitions, workshops, lectures and activities across creative venues in Ghent.",
+        "url": "https://www.designfestgent.be/en/home",
+        "keywords": "Ghent; Belgium; design museum; workshops; exhibitions; public design",
+        "status": "Verified",
+        "last_checked": "2026-10-02",
+        "source": "Design Fest Gent + Design Museum Gent"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "DesignMarch",
+        "city": "Reykjavík",
+        "country": "Iceland",
+        "region": "Europe",
+        "format": "Design Festival",
+        "edition": "6–10 May 2026",
+        "description": "Annual Reykjavík design and architecture festival connecting Icelandic and international designers through exhibitions, talks and more than 100 citywide events.",
+        "url": "https://designmarch.is/",
+        "keywords": "Reykjavík; Iceland; architecture; exhibitions; design talks",
+        "status": "Verified",
+        "last_checked": "2026-10-02",
+        "source": "Reykjavík City + official festival"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Lake Como Design Festival",
+        "city": "Como & Lecco",
+        "country": "Italy",
+        "region": "Europe",
+        "format": "Design Festival",
+        "edition": "12–20 September 2026",
+        "description": "Nine-day design festival across Como and Lecco presenting exhibitions, installations, talks and contemporary design programs around the 2026 theme Border.",
+        "url": "https://www.lakecomodesignfestival.com/en",
+        "keywords": "Como; Lecco; Italy; contemporary design; exhibitions; installations",
+        "status": "Verified",
+        "last_checked": "2026-10-02",
+        "source": "Official site"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Tallinn Design Festival / Disainiöö",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "region": "Europe",
+        "format": "Design Festival",
+        "edition": "28 September–4 October 2026",
+        "description": "Week-long Tallinn design festival combining an international conference, exhibitions, workshops, satellite events and public programming across product, fashion, graphic and spatial design.",
+        "url": "https://www.tallinndesignfestival.com/",
+        "keywords": "Tallinn; Estonia; product design; sustainability; materials; AI",
+        "status": "Verified",
+        "last_checked": "2026-10-02",
+        "source": "Official site + Visit Tallinn"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Dallas Design Week",
+        "city": "Dallas",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "15–17 September 2026 (most recent verified edition); next dates to be announced",
+        "description": "Dallas Market Center's design program for the interiors and home-design community, combining business education, talks, forecasts and networking.",
+        "url": "https://www.dallasmarketcenter.com/calendar/",
+        "keywords": "interior design; business; home design; Dallas; professional development",
+        "status": "Verified",
+        "last_checked": "2026-10-14",
+        "source": "Dallas Market Center official announcement"
+      },
+      "commit": "aed95137ea6cf81196482c005525d0f61c2079d3"
+    },
+    {
+      "record": {
+        "name": "Texas Design Week",
+        "city": "Dallas & Houston",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "Dallas 9–13 November 2026; Houston 13–16 April 2026",
+        "description": "Biannual Texas design program focused on architecture, interiors, decorative arts, professional education, talks, launches and industry networking in Houston and Dallas.",
+        "url": "https://www.texasdesignweek.com/",
+        "keywords": "Texas; Dallas; Houston; interior design; architecture; professional education; Dallas & Houston; United States; North America; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-14",
+        "source": "Texas Design Week official event schedule",
+        "industries": "Spatial, Interior & Experiential; Architecture & Built Environment; Design Education"
+      },
+      "commit": "2f7225a91d3775cddaa0f2153e2c97b086b94349"
+    },
+    {
+      "record": {
+        "name": "Nairobi Design Week",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "region": "Africa",
+        "format": "Design Week",
+        "edition": "7–15 March 2026 (completed); next edition dates unannounced",
+        "description": "Established Nairobi design festival presenting multidisciplinary exhibitions, workshops, public conversations and creative-sector collaboration. The 2026 edition took place in March; next edition dates have not been announced.",
+        "url": "https://www.worlddesignweeks.org/festivals/nairobi-design-week-2026",
+        "keywords": "Kenya; Africa; community; creative economy; design culture; Nairobi; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-16",
+        "source": "World Design Weeks official 2026 festival record; next edition pending",
+        "industries": "Creative Industries; Cross-disciplinary Design"
+      },
+      "commit": "575e57dfa287dcd648312cd979d75cec865ac585"
+    },
+    {
+      "record": {
+        "name": "Design Week Mexico",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "5–11 October 2026 concluded; some exhibitions continue into January 2027; next edition unannounced",
+        "description": "Recurring Mexico City platform for architecture, interiors, craft and design culture. Its core 2026 festival ran 5–11 October, while official exhibitions including Vision & Tradition, Design House, Inédito and Formato + Dar Forma extend beyond the festival dates.",
+        "url": "https://designweekmexico.com/en/",
+        "keywords": "Mexico City; Mexico; architecture; interiors; craft; material culture; public exhibitions; design heritage; North America; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-17",
+        "source": "Design Week Mexico official 2026 program; festival 5–11 October and satellite exhibition dates separately checked 2026-10-17",
+        "industries": "Architecture & Built Environment; Spatial, Interior & Experiential; Fashion, Textile & Craft; Arts & Cultural Heritage"
+      },
+      "commit": "575e57dfa287dcd648312cd979d75cec865ac585"
+    },
+    {
+      "record": {
+        "name": "Design Week South Africa",
+        "city": "Johannesburg & Cape Town",
+        "country": "South Africa",
+        "region": "Africa",
+        "format": "Design Week",
+        "edition": "Johannesburg 8–11 October 2026 concluded; Cape Town 22–25 October 2026 upcoming",
+        "description": "Two-location design-week platform for architecture, creative enterprises, craft, open studios and public exchange. Its Johannesburg edition took place 8–11 October 2026; the independent Cape Town program is scheduled for 22–25 October.",
+        "url": "https://designweeksouthafrica.com/",
+        "keywords": "South Africa; Johannesburg; Cape Town; exhibitions; studios; creative industries; architecture; public engagement; Johannesburg & Cape Town; Africa; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-17",
+        "source": "Design Week South Africa 2026 official Johannesburg and Cape Town programs, verified 2026-10-17",
+        "industries": "Architecture & Built Environment; Creative Industries; Fashion, Textile & Craft"
+      },
+      "commit": "2f7225a91d3775cddaa0f2153e2c97b086b94349"
+    },
+    {
+      "record": {
+        "name": "Cairo Design Week",
+        "city": "Cairo",
+        "country": "Egypt",
+        "region": "Africa",
+        "format": "Design Week",
+        "edition": "19–28 November 2026",
+        "description": "Design week across Heliopolis, Zamalek and Downtown Cairo, featuring exhibitions, discussions and programs connecting heritage with contemporary practice.",
+        "url": "https://cairodesignweek.net/",
+        "keywords": "Cairo; Egypt; design education; culture; exhibitions; crafts; design weeks; Africa; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-17",
+        "source": "Official Cairo Design Week 2026 program; locations and dates.",
+        "industries": "Arts & Cultural Heritage; Fashion, Textile & Craft; Design Education"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    },
+    {
+      "record": {
+        "name": "Design Doha Biennial",
+        "city": "Doha",
+        "country": "Qatar",
+        "region": "Middle East",
+        "format": "Design Biennial",
+        "edition": "5 November 2026–31 January 2027",
+        "description": "Qatar Museums biennial bringing research on regional materials, design histories and knowledge transmission together through exhibitions, design commissions, cultural exchange and public dialogue.",
+        "url": "https://designdoha.org.qa/en/biennial/",
+        "keywords": "Doha; Qatar; MENASA; design history; heritage; future-making; craft; research; biennial; Middle East; design biennial",
+        "status": "Verified",
+        "last_checked": "2026-10-17",
+        "source": "Official Design Doha 2026 biennial edition and Qatar Museums program.",
+        "industries": "Arts & Cultural Heritage; Fashion, Textile & Craft; Research, History & Education"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    },
+    {
+      "record": {
+        "name": "Dubai Design Week",
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "region": "Middle East",
+        "format": "Design Week",
+        "edition": "3–8 November 2026",
+        "description": "Dubai Design District's annual design festival with public installations, commissioning, knowledge exchange, architecture, materials research and workshops. Its 2026 program explores connection through spatial and social practice.",
+        "url": "https://www.dubaidesignweek.ae/",
+        "keywords": "Dubai; UAE; design week; architecture; materials; public installations; workshops; innovation; United Arab Emirates; Middle East",
+        "status": "Verified",
+        "last_checked": "2026-10-17",
+        "source": "Official Dubai Design Week 2026 program and visit information.",
+        "industries": "Architecture & Built Environment; Product, Industrial & Material; Creative Industries"
+      },
+      "commit": "187841333c507ea6eb51ba3571b60a29ffc4c4d3"
+    },
+    {
+      "record": {
+        "name": "Design Week Lagos",
+        "city": "Lagos",
+        "country": "Nigeria",
+        "region": "Africa",
+        "format": "Design Week",
+        "edition": "18–25 October 2026 concluded; next dates not confirmed",
+        "description": "Pan-African design festival bringing industry, cultural programs, exhibitions, talks, workshops and open studios together in Lagos.",
+        "url": "https://designweeklagos.com/",
+        "keywords": "Africa; creative economy; product design; interiors; culture; Lagos; Nigeria; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-26",
+        "source": "Official Design Week Lagos 2026 organizer website, reviewed 2026-10-26",
+        "industries": "Creative Industries; Product, Industrial & Material; Spatial, Interior & Experiential; Arts & Cultural Heritage"
+      },
+      "commit": "575e57dfa287dcd648312cd979d75cec865ac585"
+    },
+    {
+      "record": {
+        "name": "Irish Design Week",
+        "city": "Dublin & across Ireland",
+        "country": "Ireland",
+        "region": "Europe",
+        "format": "Design Week",
+        "edition": "7–14 November 2026",
+        "description": "Irish national program of exhibitions, talks, conferences, workshops and regional events examining design in culture and public life.",
+        "url": "https://www.dcci.ie/whats-on/irish-design-week-2026/",
+        "keywords": "Ireland; design culture; sustainability; creative industries; Europe; Dublin & across Ireland; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-26",
+        "source": "Design & Crafts Council Ireland official 2026 program and 29 September 2026 press release, checked 2026-10-26",
+        "industries": "Cross-disciplinary Design; Arts & Cultural Heritage"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    },
+    {
+      "record": {
+        "name": "Pan Afrikan Design Week",
+        "city": "Cape Town",
+        "country": "South Africa",
+        "region": "Africa",
+        "format": "Design Week",
+        "edition": "21–24 October 2026 concluded; next dates not confirmed",
+        "description": "Pan-African design gathering bringing together designers, educators, students, entrepreneurs, policymakers and cultural practitioners around future-fit skills and design for thriving communities.",
+        "url": "https://thepadi.org/adw2026sa/",
+        "keywords": "Pan-African design; systems; education; social impact; Cape Town; South Africa; Africa; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-26",
+        "source": "Pan Afrikan Design Institute official 2026 program; dates elapsed 2026-10-24",
+        "industries": "Cross-disciplinary Design; Social, Systems & Strategic; Design Education"
+      },
+      "commit": "575e57dfa287dcd648312cd979d75cec865ac585"
+    },
+    {
+      "record": {
+        "name": "Texas Design Week",
+        "city": "Dallas & Houston",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "Dallas 9–13 November 2026; Houston April 2026 edition concluded",
+        "description": "Design programs in Dallas and Houston covering architecture, interiors, decorative arts, professional education and public talks.",
+        "url": "https://www.texasdesignweek.com/",
+        "keywords": "Texas; Dallas; Houston; interior design; architecture; professional education; Dallas & Houston; United States; North America; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-26",
+        "source": "Texas Design Week official schedule: Dallas 9–13 November 2026, Houston April 2026",
+        "industries": "Spatial, Interior & Experiential; Architecture & Built Environment; Design Education"
+      },
+      "commit": "575e57dfa287dcd648312cd979d75cec865ac585"
+    },
+    {
+      "record": {
+        "name": "Texas Design Week",
+        "city": "Dallas & Houston",
+        "country": "United States",
+        "region": "North America",
+        "format": "Design Week",
+        "edition": "Dallas 9–13 November 2026",
+        "description": "Design programs in Dallas and Houston covering architecture, interiors, decorative arts, professional education and public talks.",
+        "url": "https://www.texasdesignweek.com/",
+        "keywords": "Texas; Dallas; Houston; interior design; architecture; professional education; Dallas & Houston; United States; North America; design week",
+        "status": "Verified",
+        "last_checked": "2026-10-26",
+        "source": "Texas Design Week official schedule: Dallas 9–13 November 2026, Houston April 2026",
+        "industries": "Spatial, Interior & Experiential; Architecture & Built Environment; Design Education"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    },
+    {
+      "record": {
+        "name": "DESIGNART TOKYO",
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Asia",
+        "format": "Design Festival",
+        "edition": "Last edition 30 October–8 November 2026; next dates not announced",
+        "description": "Ten-day citywide design and art festival presenting exhibitions across shops, galleries and museums in central Tokyo.",
+        "url": "https://www.designart.jp/en/",
+        "keywords": "Tokyo; Japan; design and art; galleries; citywide festival; Asia; design festival",
+        "status": "Verified",
+        "last_checked": "2026-11-09",
+        "source": "Official DESIGNART TOKYO 2026 festival website, checked 2026-11-09. Next edition unconfirmed.",
+        "industries": "Cross-disciplinary Design; Arts & Cultural Heritage"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    },
+    {
+      "record": {
+        "name": "Dubai Design Week",
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "region": "Middle East",
+        "format": "Design Week",
+        "edition": "Last edition 3–8 November 2026; next dates not announced",
+        "description": "Dubai Design District's recurring design festival with public installations, commissioned work, architecture, materials research and workshops. The 2026 edition examined connections through spatial and social practice.",
+        "url": "https://www.dubaidesignweek.ae/",
+        "keywords": "Dubai; UAE; design week; architecture; materials; public installations; workshops; innovation; United Arab Emirates; Middle East",
+        "status": "Verified",
+        "last_checked": "2026-11-09",
+        "source": "Official Dubai Design Week 2026 program, checked 2026-11-09. Next edition dates unconfirmed.",
+        "industries": "Architecture & Built Environment; Product, Industrial & Material; Creative Industries"
+      },
+      "commit": "b01215f2d61489405fac9f8e10b4dcf553e02678"
+    }
+  ]
+}
