@@ -51,7 +51,7 @@ def main():
             archived.append(row)
             existing.add(key)
     archive_out = io.StringIO(newline="")
-    archive_writer = csv.DictWriter(archive_out, fieldnames=fieldnames, lineterminator="\\n")
+    archive_writer = csv.DictWriter(archive_out, fieldnames=fieldnames, lineterminator="\n")
     archive_writer.writeheader()
     archive_writer.writerows(sorted(archived, key=lambda row: (row["end_date"], row["name"]), reverse=True))
     ARCHIVE_PATH.write_text(archive_out.getvalue(), encoding="utf-8")
