@@ -12,6 +12,7 @@ import re
 from pathlib import Path
 
 PATH = Path(__file__).resolve().parents[1] / "data" / "events.csv"
+ARCHIVE_PATH = PATH.with_name("events-archive.csv")
 
 
 def main():
@@ -33,12 +34,27 @@ def main():
         except (ValueError, KeyError) as exc:
             raise ValueError(f"Invalid date for {row.get('name')}") from exc
         if end < today:
-            removed.append(row["name"])
+            removed.append(row)
         else:
             kept.append(row)
     if not removed:
         print(f"No completed events. {len(kept)} upcoming/ongoing events remain.")
         return
+    archived = []
+    if ARCHIVE_PATH.exists():
+        with ARCHIVE_PATH.open("r", encoding="utf-8", newline="") as handle:
+            archived = list(csv.DictReader(handle))
+    existing = {(x["name"], x["start_date"], x["end_date"], x["url"]) for x in archived}
+    for row in removed:
+        key = (row["name"], row["start_date"], row["end_date"], row["url"])
+        if key not in existing:
+            archived.append(row)
+            existing.add(key)
+    archive_out = io.StringIO(newline="")
+    archive_writer = csv.DictWriter(archive_out, fieldnames=fieldnames, lineterminator="\\n")
+    archive_writer.writeheader()
+    archive_writer.writerows(sorted(archived, key=lambda row: (row["end_date"], row["name"]), reverse=True))
+    ARCHIVE_PATH.write_text(archive_out.getvalue(), encoding="utf-8")
     out = io.StringIO(newline="")
     writer = csv.DictWriter(out, fieldnames=fieldnames, lineterminator="\n")
     writer.writeheader()
@@ -55,7 +71,7 @@ def main():
         )
         if new_readme != original_readme:
             readme.write_text(new_readme, encoding="utf-8")
-    print(f"Removed {len(removed)} completed events from active calendar: {', '.join(removed)}")
+    print(f"Removed {len(removed)} completed events from active calendar: {', '.join(row['name'] for row in removed)}")
 
 
 if __name__ == "__main__":
