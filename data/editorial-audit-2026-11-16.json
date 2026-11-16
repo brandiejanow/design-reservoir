@@ -1,0 +1,202 @@
+{
+  "review_date": "2026-11-16",
+  "repository": "brandiejanow/design-reservoir",
+  "head_before": "bbab99087306ae59bc5270496617ec39b88c5f9c",
+  "focus": "Cross-disciplinary academic references, current scholarly events, active/archived calendars and recurring design-week date metadata.",
+  "counts_before": {
+    "resources": 671,
+    "events": 122,
+    "archived": 105,
+    "design_weeks": 76,
+    "atlas_rows": 366,
+    "atlas_unique": 364,
+    "research_tools": 37,
+    "searchable": 747
+  },
+  "counts_after": {
+    "resources": 675,
+    "events": 126,
+    "archived": 109,
+    "design_weeks": 76,
+    "atlas_rows": 366,
+    "atlas_unique": 364,
+    "research_tools": 37,
+    "searchable": 751
+  },
+  "added_resources": [
+    {
+      "name": "FutureScapes: Urban Scenario Models and Narratives (2026)",
+      "url": "https://doi.org/10.1177/23998083261438856",
+      "type": "Academic Resource; Research & Reference; Methods & Toolkits",
+      "source": "https://research.tudelft.nl/en/publications/futurescapes-a-design-thinking-approach-to-blending-computational/; https://journals.sagepub.com/doi/10.1177/23998083261438856; https://journals.sagepub.com/doi/suppl/10.1177/23998083261438856",
+      "licensing_or_limit": "TU Delft research portal identifies a peer-reviewed 2026 journal article and links the published full text, which is CC BY 4.0; official SAGE article and supplemental material page checked. Original contribution is a method, not proof that its urban forecasts will occur. Supporting files reviewed for availability by publisher listing, not downloaded or rerun. No text, figures or data reproduced."
+    },
+    {
+      "name": "Systematic Review of Foresight Scenario Methods (2026)",
+      "url": "https://doi.org/10.1186/s40309-026-00298-4",
+      "type": "Academic Resource; Research & Reference; Methods & Toolkits",
+      "source": "https://link.springer.com/article/10.1186/s40309-026-00298-4",
+      "licensing_or_limit": "Publisher version of record dated 2026-10-08, European Journal of Futures Research 14:35, verified on Springer Nature. Open access CC BY-NC-ND 4.0. Journal parent already indexed; separate entry warranted for the 115-paper methods review. DOI and author credits verified; no republishing or adapting licensed paper content."
+    },
+    {
+      "name": "Future Archeologies Canvas: Speculative Futures Method (2026)",
+      "url": "https://doi.org/10.1017/pds.2026.10365",
+      "type": "Academic Resource; Research & Reference; Methods & Toolkits",
+      "source": "https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/future-archeologies-canvas-a-visual-tool-for-facilitating-speculative-ideation-and-revealing-limits-of-futures-perception/211650563531F25CEA3B9E97F42CFCB0",
+      "licensing_or_limit": "Cambridge University Press primary paper published online 2026-07-02, Proceedings of the Design Society vol. 6, DESIGN 2026, pages 63–72; peer-reviewed proceedings research. Article license CC BY-NC-ND 4.0. Study reports two workshops; no independent replication checked. Original article only linked and described, not reproduced."
+    },
+    {
+      "name": "MLLMto3D: Agentic Architectural Modeling Research (2026)",
+      "url": "https://doi.org/10.3390/buildings16122437",
+      "type": "Academic Resource; Research & Reference; Methods & Toolkits",
+      "source": "https://www.mdpi.com/2075-5309/16/12/2437; https://www.mdpi.com/article/10.3390/buildings16122437/s1",
+      "licensing_or_limit": "Official peer-reviewed Buildings 2026 16(12):2437 article checked, CC BY 4.0 for the article. Author's evidence is single-case feasibility with diagnostic ablations, not generalization; data availability statement says underlying results not yet archived publicly but supplementary reproducibility files are linked. Public software code license/release not established. Complements existing Rhino MCP Platform tool record; no duplicate tool entry or claim of Revit/Grasshopper proof."
+    }
+  ],
+  "added_events": [
+    {
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-23",
+      "name": "IFTF Foresight Talk: Futures Literacy in Higher Education",
+      "url": "https://www.iftf.org/events/iftf-foresight-talk-futures-literacy-in-higher-education/",
+      "verification": "IFTF official event and speaker page verified 2026-11-16. Registration link present, not submitted; duration and recording arrangements not confirmed."
+    },
+    {
+      "start_date": "2026-11-30",
+      "end_date": "2026-11-30",
+      "name": "EMERGE 2027: Product Design Research Paper Deadline",
+      "url": "https://emergeconf.org/",
+      "verification": "Primary conference organizer IIT Bombay IDC School of Design website verified 2026-11-16. Current date differs from older Design Society announcement; registration/submission not tested."
+    },
+    {
+      "start_date": "2026-12-07",
+      "end_date": "2026-12-07",
+      "name": "ICED27: Full Research Paper Submission Deadline",
+      "url": "https://iced.designsociety.org/participate",
+      "verification": "Official ICED27 Design Society participation instructions verified 2026-11-16. No paper submitted; publication and participation fees are separate."
+    },
+    {
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-12",
+      "name": "EKSIG 2027: Full Paper and Practice-Based Contribution Deadline",
+      "url": "https://eksig2027.thedrs.org/",
+      "verification": "Design Research Society EKSIG 2027 official page and dates verified 2026-11-16. Full papers use double-blind peer review and selected contributions are intended for DRS Digital Library; final rights and registration terms remain with organizers."
+    },
+    {
+      "start_date": "2027-01-24",
+      "end_date": "2027-01-27",
+      "name": "ACM TEI 2027: Tangible, Embedded and Embodied Interaction",
+      "url": "https://tei.acm.org/2027/",
+      "verification": "Official ACM TEI 2027 site verified 2026-11-16. 2027 date and location confirmed; attendee fee and proceedings rights not checked."
+    },
+    {
+      "start_date": "2027-03-01",
+      "end_date": "2027-03-03",
+      "name": "EMERGE 2027: Emerging Design Inquiry",
+      "url": "https://emergeconf.org/",
+      "verification": "Official organizer website inspected 2026-11-16, including current key dates; older Design Society conference notice conflicts. Venue and host confirmed, no onsite program or registration verified."
+    },
+    {
+      "start_date": "2027-06-08",
+      "end_date": "2027-06-10",
+      "name": "DRS EKSIG 2027: Designing with Hybrid Intelligence",
+      "url": "https://eksig2027.thedrs.org/",
+      "verification": "DRS official EKSIG 2027 site verified 2026-11-16. Published schedule distinguishes June 8 PhD program from June 9–10 conference. Registration prices, venue details, rights not yet confirmed."
+    },
+    {
+      "start_date": "2027-08-16",
+      "end_date": "2027-08-20",
+      "name": "ICED27: International Conference on Engineering Design",
+      "url": "https://iced.designsociety.org/",
+      "verification": "Design Society ICED27 official site and participation instructions checked 2026-11-16; exact event dates and city verified. Initial student member registration price listed by organizer, but no prices embedded here; final program not verified."
+    }
+  ],
+  "expired_events": [
+    {
+      "start_date": "2026-11-05",
+      "end_date": "2026-11-15",
+      "name": "Craft + Design Canberra Festival 2026: Dissent",
+      "url": "https://www.craftanddesigncanberrafestival.org/"
+    },
+    {
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-15",
+      "name": "Vision Weekend USA 2026",
+      "url": "https://foresight.org/events/vision-weekend-usa-2026/"
+    },
+    {
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-15",
+      "name": "Festival of the Mind 2026",
+      "url": "https://festivalofthemind.sheffield.ac.uk/2026/"
+    },
+    {
+      "start_date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "name": "19th Budapest Architecture Film Festival: Film Submission Deadline",
+      "url": "https://www.kek.org.hu/en/hirek/nyilt-palyazat-a-19-budapesti-epiteszeti-filmnapokra-varjuk-a-filmeket"
+    }
+  ],
+  "archive_records_new": 4,
+  "recurring_design_week_changes": [
+    {
+      "name": "Irish Design Week",
+      "edition": "Last edition 7–14 November 2026; next dates not announced",
+      "verification": "Organizer DCCI official 2026 festival schedule dated November 7–14, verified 2026-11-16: https://www.dcci.ie/whats-on/irish-design-week-2026/"
+    },
+    {
+      "name": "Texas Design Week",
+      "edition": "Last edition Dallas 9–13 November 2026; next dates not announced",
+      "verification": "Texas Design Week official Dallas schedule marks November 13, 2026 finale; verified 2026-11-16: https://www.texasdesignweek.com/schedule"
+    },
+    {
+      "name": "Chengdu Creativity & Design Week",
+      "edition": "Last listed edition 9–12 November 2026; next dates not confirmed",
+      "verification": "Existing World Design Weeks network member listing and dated 2026 record reviewed on 2026-11-16; 2027 dates not confirmed: https://www.worlddesignweeks.org/members/chengdu-creativity-design-week"
+    }
+  ],
+  "exclusions_and_holds": [
+    {
+      "name": "Instagram agentic architecture carousel",
+      "decision": "Not imported as evidence",
+      "reason": "Secondary social-media illustration. Existing Design Atlas already lists Agentic architecture, Computational architecture and Parametric architecture; existing McNeel Rhino MCP Platform covers the tool. Added distinct peer-reviewed technical case instead."
+    },
+    {
+      "name": "Agentic AI-ready workflows in built environment organizations (Nov 2026 arXiv)",
+      "decision": "Hold for independent review",
+      "reason": "Preprint about MCP/knowledge interoperability, not established as peer reviewed; related journal case and existing Rhino MCP record address immediate curatorial need.",
+      "url": "https://arxiv.org/abs/2611.02286"
+    },
+    {
+      "name": "EMERGE 2027 conflicting dates",
+      "decision": "Published using latest event host",
+      "reason": "Design Society listing says February 26–27 and October 31 full-paper deadline; IIT Bombay official live organizer page now says March 1–3 and November 30. Recheck organizer for subsequent changes.",
+      "url": "https://emergeconf.org/"
+    },
+    {
+      "name": "Past editions of recurring design weeks",
+      "decision": "Retained parent entries only",
+      "reason": "The historical 2026 editions for Irish Design Week, Texas Design Week and Chengdu were marked as concluded or last listed. This does not close the ongoing organizations."
+    }
+  ],
+  "rights": "Only authored summaries, names, metadata, dates, and source links are stored. No publisher articles, images, datasets, paid course contents, registration data, or downloadable source files copied. Source-specific licensing does not imply repository-wide reuse rights.",
+  "validation": "Complete source CSV parsed and verified against schema; addition names and URLs checked for duplication, event dates checked, archive keys deduplicated and counts reconciled. Original resource and event records preserved except expired dates; three design-week date records edited. New scholarly articles and events verified against publisher/organizer pages. Full URL crawl not completed; old link-audit snapshot is dated 2026-10-19 and cannot verify current operation. Live GitHub Pages URL could not be fetched in browser tool; GitHub Pages build/run verification should be checked separately.",
+  "open_questions": [
+    "Recheck full link audit through GitHub Actions; last committed JSON is 2026-10-19.",
+    "Confirm the updated design-week date for Chengdu from a newer primary organizer page when available.",
+    "Monitor Emerge organizer changes and publication/registration details.",
+    "Live browser testing of interactive search and calendar not possible through current web tool."
+  ],
+  "geographic_boundary": "International recurring resources/events assessed; existing restriction on Saudi 2026 dated listings preserved.",
+  "reviewed_src": [
+    "https://research.tudelft.nl/en/publications/futurescapes-a-design-thinking-approach-to-blending-computational/",
+    "https://link.springer.com/article/10.1186/s40309-026-00298-4",
+    "https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/future-archeologies-canvas-a-visual-tool-for-facilitating-speculative-ideation-and-revealing-limits-of-futures-perception/211650563531F25CEA3B9E97F42CFCB0",
+    "https://www.mdpi.com/2075-5309/16/12/2437",
+    "https://eksig2027.thedrs.org/",
+    "https://iced.designsociety.org/",
+    "https://tei.acm.org/2027/",
+    "https://emergeconf.org/",
+    "https://www.iftf.org/events/iftf-foresight-talk-futures-literacy-in-higher-education/"
+  ]
+}
