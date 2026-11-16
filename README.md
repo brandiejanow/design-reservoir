@@ -17,7 +17,7 @@ Use the [Resource suggestion form](https://github.com/brandiejanow/design-reserv
 ## Current status
 
 - **675 active research and reference resource records**, including **37 research tools** classified by research workflow
-- **365 classified Design Atlas entries** across ten families, with two practices intentionally appearing in more than one family in the searchable [Design Atlas](atlas/)
+- **366 Design Atlas classification records** across ten families, representing **364 distinct discipline names**; Furniture design and Service design each appear in two families in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **76 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
 - **126 current or forthcoming dated global events** across design, futures and foresight in the [Events Calendar](events/), including Texas Design Week Dallas; the calendar also includes a searchable directory of recurring Design Weeks
