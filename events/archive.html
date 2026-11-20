@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Event Archive | Design Reservoir</title><meta name="description" content="Browse past conferences, exhibitions and festivals, with dates, locations and sources preserved for research.">
-<link rel="canonical" href="https://brandiejanow.github.io/design-reservoir/events/archive.html"><link rel="icon" href="../assets/favicon.png"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="./archive.css?v=20261114rings"></head><body>  <header id="top" class="site-nav">
+<link rel="canonical" href="https://brandiejanow.github.io/design-reservoir/events/archive.html"><link rel="icon" href="../assets/favicon.png"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="./archive.css?v=20261120ringcontrols"></head><body>  <header id="top" class="site-nav">
     <a class="site-home" href="../">Design Reservoir</a>
     <nav class="desktop-nav" aria-label="Sections">
 
@@ -24,7 +24,7 @@
     <a class="name" href="https://www.brandiejanow.com/" target="_top" aria-label="Brandie Janow website"><img src="../assets/b-logo.svg" alt=""></a>
   </header>
 
-<main><section class="hero archive-hero"><h1>Event<br>Archive</h1><p class="intro">Event listings often disappear after their dates pass. We keep a record of their names, dates, places and sources so researchers can compare activity across years, identify recurring subjects and find gatherings that no longer take place.</p></section>
+<main><section class="hero archive-hero"><h1>Event<br>Archive</h1><p class="intro">Past design events show what people were discussing, researching and presenting. Keeping these records together helps us see how ideas and interests have changed across places and disciplines.</p></section>
 <section class="archive-explorer" aria-label="Explore archived events">
 <div class="toolbar archive-toolbar" hidden aria-hidden="true"><label class="search"><span>Search</span><input id="search" type="search" placeholder="Event, city, topic…"></label><label><span>Place</span><select id="place"><option value="">All countries</option></select></label><label><span>Discipline</span><select id="discipline"><option value="">All disciplines</option></select></label><label><span>Year</span><select id="year"><option value="">All years</option></select></label></div>
 <div class="archive-controls" hidden aria-hidden="true"><p id="count" role="status">Loading the archive…</p><button id="clear" type="button">Clear filters</button></div>
@@ -33,8 +33,12 @@
 <div id="visual" class="radial-experience">
 <div class="radial-heading"><p class="eyebrow">A collected history / An interconnected index</p><h2>Ways through<br>the archive.</h2><p>Places. Disciplines. Moments in time.<br>Different ways into the same record.</p></div>
 <div class="wheel-layout"><div class="wheel-stage"><svg id="archiveWheel" viewBox="0 0 800 800" role="group" aria-label="Circular archive filters: outer ring places, middle ring disciplines, inner ring months"></svg></div>
-<aside class="wheel-guide"><p class="eyebrow">Read the rings / Outside in</p><h3>One collection.<br>Many perspectives.</h3><div class="ring-key"><p><span>01</span><strong>Place</strong><small>Where a gathering was listed</small></p><p><span>02</span><strong>Discipline</strong><small>Its recorded category or format</small></p><p><span>03</span><strong>Time</strong><small>Its recorded start month</small></p></div><p class="wheel-instruction">Select a segment to follow one thread. Combine rings to find the records they share. Select it again to step back.</p><div id="selectionSummary" class="selection-summary" aria-live="polite"></div><a class="records-jump" href="#archiveList">View matching events <span aria-hidden="true">↘</span></a></aside></div>
+<aside class="wheel-guide"><p class="eyebrow">Read the rings / Outside in</p><h3>One collection.<br>Many perspectives.</h3><div class="ring-key"><p><span>01</span><strong>Place</strong><small>Where a gathering was listed</small></p><p><span>02</span><strong>Discipline</strong><small>Its recorded category or format</small></p><p><span>03</span><strong>Time</strong><small>Its recorded start month</small></p></div><p class="wheel-instruction">Select parts of the rings to explore the archive. Use Back to undo a choice or Reset all to start again.</p><div id="selectionSummary" class="selection-summary" aria-live="polite"></div>
+<div class="ring-actions" role="group" aria-label="Ring navigation">
+  <button id="ringBack" type="button" disabled aria-label="Go back one ring selection">← Back</button>
+  <button id="ringReset" type="button" disabled aria-label="Reset the archive filters and ring selections">↺ Reset all</button>
+</div><a class="records-jump" href="#archiveList">View matching events <span aria-hidden="true">↘</span></a></aside></div>
 <div class="wheel-access"><details><summary>Browse the ring labels</summary><h3>01 / Place</h3><div id="regions" class="region-buttons" aria-label="Filter by region"></div><h3>02 / Discipline</h3><div id="subjects" class="subject-buttons"></div><h3>03 / Time</h3><div id="months" class="subject-buttons"></div></details></div></div>
 <section id="archiveList" class="records-section" aria-label="Archived event list" hidden><div id="results"></div><button id="more" type="button" hidden>Show more records</button></section>
 </section></main><footer class="reservoir-footer"><p>Design Reservoir is independently curated by Brandie Janow and built and maintained on GitHub as a versioned public resource.</p><nav aria-label="Footer navigation"><a href="https://github.com/brandiejanow/design-reservoir" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.brandiejanow.com/" target="_top">BrandieJanow.com ↗</a><a href="#top" class="back-to-top">Back to top ↑</a></nav></footer>
-<script src="./archive.js?v=20261119archiveviews"></script></body></html>
+<script src="./archive.js?v=20261120ringcontrols"></script></body></html>
