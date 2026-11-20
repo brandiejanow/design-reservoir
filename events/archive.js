@@ -92,23 +92,22 @@
     const chosenCategory=$('discipline').value;
     const chosenMonth=month?new Date(month+'-01T12:00:00Z').toLocaleDateString('en-US',{month:'long',year:'numeric',timeZone:'UTC'}):'';
     const selections=[region,$('place').value,chosenCategory?(shortNames[chosenCategory]||chosenCategory):'',chosenMonth,$('year').value,$('search').value.trim()].filter(Boolean);
-    const center=svgEl('foreignObject',{x:274,y:270,width:252,height:260,class:'archive-wheel-center'});
+    const center=svgEl('foreignObject',{x:309,y:315,width:182,height:175,class:'archive-wheel-center'});
     const inner=el('div',null,'archive-wheel-center-inner');
-    const heading=selections.length?selections.join(' / '):'ALL ARCHIVED EVENTS';
+    const heading=selections.length?selections.join(' · '):'ALL ARCHIVED EVENTS';
     inner.append(el('div',heading,'archive-wheel-center-scope'));
     inner.append(el('strong',String(selectedRows.length),'archive-wheel-center-value'));
     inner.append(el('div',selectedRows.length===1?'MATCHING EVENT':'MATCHING EVENTS','archive-wheel-center-label'));
     if(!selections.length){
       inner.append(el('div','Select a region, subject or month','archive-wheel-center-cue'));
-      inner.append(el('div','Numbers on the rings count archived events.','archive-wheel-center-note'));
     }else if(!selectedRows.length){
       inner.append(el('div','No events recorded for this combination.','archive-wheel-center-note'));
     }else{
-      const top=Array.from(totals(selectedRows,'category')).sort((a,b)=>b[1]-a[1]).slice(0,2);
+      const top=Array.from(totals(selectedRows,'category')).sort((a,b)=>b[1]-a[1]).slice(0,1);
       if(top.length)inner.append(el('div','Subjects: '+top.map(([k,n])=>(shortNames[k]||k)+' ('+n+')').join(' · '),'archive-wheel-center-subjects'));
-      const names=selectedRows.slice(0,selectedRows.length<=3?3:2);
+      const names=selectedRows.slice(0,1);
       for(const r of names)inner.append(el('div',r.name,'archive-wheel-center-event'));
-      if(selectedRows.length>names.length)inner.append(el('div','+'+(selectedRows.length-names.length)+' more in List','archive-wheel-center-more'));
+      if(selectedRows.length>names.length)inner.append(el('div','More in List','archive-wheel-center-more'));
     }
     center.append(inner);svg.append(center);
     $('selectionSummary').replaceChildren();
