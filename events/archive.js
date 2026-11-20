@@ -114,7 +114,7 @@
       // The List retains the full event name, description and source.
       if(first){
         const name=first.name||'';
-        const words=name.split(/\\s+/);const lines=[''];
+        const words=name.split(/\s+/);const lines=[''];
         for(const word of words){
           const last=lines.length-1;
           const joined=(lines[last]+' '+word).trim();
