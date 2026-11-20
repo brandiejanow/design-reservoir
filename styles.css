@@ -96,14 +96,14 @@ body.embed .site-nav,body.embed footer{display:none}body.embed .hero{padding-top
 .pagination #nextPage:disabled{background:#e7e7e7;border-color:#d0d0d0;color:#6f6f6f;box-shadow:none;opacity:1}
 
 /* Shared title scale and Knowledge of Design accent palette. */
-:root{--kod-yellow:#FFF500;--kod-red:#FF1A1A;--kod-blue:#2F5CFF;--kod-orange:#FF4B00;--kod-pink:#FF2D95;--kod-acid:#9FFF00;--kod-purple:#D43DFF;--kod-aqua:#00F5D4;--kod-gold:#FFC700;--kod-beige:#F5EADA;--kod-purple-text:#9224B3;--kod-aqua-text:#00796B}
+:root{--kod-yellow:#FFF500;--kod-red:#FF1A1A;--kod-blue:#2F5CFF;--kod-orange:#FF4B00;--kod-pink:#FF2D95;--kod-acid:#9FFF00;--kod-purple:#D43DFF;--kod-aqua:#00F5D4;--kod-gold:#FFC700;--kod-beige:#F5EADA;--kod-purple-text:#2B0A3D;--kod-aqua-text:#0C1A3B}
 .hero:not(.compact-hero){padding-top:clamp(29px,3.9vw,59px);padding-bottom:24px}
 .hero:not(.compact-hero) h1{font-size:clamp(49px,6.3vw,98px);line-height:1.05}
 .hero:not(.compact-hero) .intro{margin-top:17px;font-size:clamp(17px,1.85vw,24px);line-height:1.42}
 .compact-hero h1{color:var(--kod-blue)}
 .page-atlas .hero h1{color:var(--kod-pink)}
 .page-weeks .hero h1{color:var(--kod-orange)}
-.page-calendar .hero h1{color:var(--kod-aqua-text)}
+.page-calendar .hero h1{color:var(--kod-blue)}
 .page-archive .hero h1{color:var(--kod-purple-text)}
 .pagination #nextPage{background:var(--kod-blue);border-color:var(--kod-blue)}
 .pagination #nextPage:hover:not(:disabled){background:#0C1A3B;border-color:#0C1A3B}
