@@ -115,3 +115,8 @@ body.embed .site-nav,body.embed footer{display:none}body.embed .hero{padding-top
 .hero h1{color:#111111;background:linear-gradient(105deg,#2F5CFF 0%,#D43DFF 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;width:fit-content;max-width:100%;}
 .hero h1::after{content:none!important;display:none!important;}
 @media(forced-colors:active){.hero h1{background:none;-webkit-text-fill-color:currentColor;color:CanvasText;}}
+
+/* Official KoD Electric Blue for pagination. */
+.pagination #nextPage{background:#2F5CFF;border-color:#2F5CFF;color:#FFFFFF}
+.pagination #nextPage:hover:not(:disabled){background:#0C1A3B;border-color:#0C1A3B;color:#FFFFFF}
+.pagination #nextPage:focus-visible{outline-color:#2F5CFF}
