@@ -103,3 +103,13 @@
 .archive-wheel-center-subjects{max-width:165px;max-height:27px;font-size:9px;line-height:1.25;margin-top:2px;overflow:hidden}
 .archive-wheel-center-event{max-width:160px;font-size:9px;line-height:1.2;-webkit-line-clamp:2;margin-top:2px}
 .archive-wheel-center-more{font-size:8px;margin-top:1px}
+
+/* Fixed-size native SVG labels remain inside the circular opening. */
+.archive-wheel-center-svg{pointer-events:none;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.archive-wheel-center-svg text{dominant-baseline:alphabetic}
+.archive-wheel-center-svg-scope{fill:#444;font-weight:500;letter-spacing:.01em}
+.archive-wheel-center-svg-value{fill:#2F5CFF;font-weight:400;letter-spacing:-.04em}
+.archive-wheel-center-svg-label{fill:#666;letter-spacing:.09em}
+.archive-wheel-center-svg-subject{fill:#444}
+.archive-wheel-center-svg-event{fill:#111}
+.archive-wheel-center-svg-note{fill:#666}
