@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Event Archive | Design Reservoir</title><meta name="description" content="Browse past conferences, exhibitions and festivals, with dates, locations and sources preserved for research.">
-<link rel="canonical" href="https://brandiejanow.github.io/design-reservoir/events/archive.html"><link rel="icon" href="../assets/favicon.png"><link rel="stylesheet" href="../styles.css?v=20261120minimal"><link rel="stylesheet" href="./archive.css?v=20261120minimal"></head><body class="page-archive">  <header id="top" class="site-nav">
+<link rel="canonical" href="https://brandiejanow.github.io/design-reservoir/events/archive.html"><link rel="icon" href="../assets/favicon.png"><link rel="stylesheet" href="../styles.css?v=20261120minimal"><link rel="stylesheet" href="./archive.css?v=20261120regions"></head><body class="page-archive">  <header id="top" class="site-nav">
     <a class="site-home" href="../">Design Reservoir</a>
     <nav class="desktop-nav" aria-label="Sections">
 
@@ -31,14 +31,15 @@
 <div id="notice" class="archive-notice" hidden></div>
 <div class="view-switch" role="group" aria-label="Archive view"><button id="atlasView" type="button" aria-pressed="true">Visual index</button><button id="listView" type="button" aria-pressed="false">List</button></div>
 <div id="visual" class="radial-experience">
-<div class="radial-heading"><p class="eyebrow">A collected history / An interconnected index</p><h2>Ways through<br>the archive.</h2><p>Places. Disciplines. Moments in time.<br>Different ways into the same record.</p></div>
+<div class="archive-data-intro"><h2>Explore the archive by region and subject</h2><p>Compare recorded events by location and subject, then select a region or part of the rings to examine its entries.</p></div>
 <div class="wheel-layout"><div class="wheel-stage"><svg id="archiveWheel" viewBox="0 0 800 800" role="group" aria-label="Circular archive filters: outer ring places, middle ring disciplines, inner ring months"></svg></div>
-<aside class="wheel-guide"><p class="eyebrow">Read the rings / Outside in</p><h3>One collection.<br>Many perspectives.</h3><div class="ring-key"><p><span>01</span><strong>Place</strong><small>Where a gathering was listed</small></p><p><span>02</span><strong>Discipline</strong><small>Its recorded category or format</small></p><p><span>03</span><strong>Time</strong><small>Its recorded start month</small></p></div><p class="wheel-instruction">Select parts of the rings to explore the archive. Use Back to undo a choice or Reset all to start again.</p><div id="selectionSummary" class="selection-summary" aria-live="polite"></div>
+<aside class="wheel-guide"><h3>Selected records</h3><div class="ring-key"><p><span>01</span><strong>Place</strong><small>Where a gathering was listed</small></p><p><span>02</span><strong>Discipline</strong><small>Its recorded category or format</small></p><p><span>03</span><strong>Time</strong><small>Its recorded start month</small></p></div><p class="wheel-instruction">Select a ring segment to narrow the records. Use Back or Reset to change your selection.</p><div id="selectionSummary" class="selection-summary" aria-live="polite"></div>
 <div class="ring-actions" role="group" aria-label="Ring navigation">
   <button id="ringBack" type="button" disabled aria-label="Go back one ring selection">← Back</button>
   <button id="ringReset" type="button" disabled aria-label="Reset the archive filters and ring selections">↺ Reset all</button>
 </div><a class="records-jump" href="#archiveList">View matching events <span aria-hidden="true">↘</span></a></aside></div>
+<section class="region-analysis" aria-labelledby="region-analysis-title"><div class="region-analysis-heading"><h3 id="region-analysis-title">Events by region</h3><p>Counts and leading subjects in this archive. Each bar represents a share of archived records, not all design activity in that region.</p></div><div id="regionAnalysis" class="region-analysis-list"></div><p class="region-analysis-note">This is a curated collection, not a complete census. Coverage reflects research and collection decisions; missing records should not be interpreted as missing activity. “Online” is shown separately because it has no single physical region.</p></section>
 <div class="wheel-access"><details><summary>Browse the ring labels</summary><h3>01 / Place</h3><div id="regions" class="region-buttons" aria-label="Filter by region"></div><h3>02 / Discipline</h3><div id="subjects" class="subject-buttons"></div><h3>03 / Time</h3><div id="months" class="subject-buttons"></div></details></div></div>
 <section id="archiveList" class="records-section" aria-label="Archived event list" hidden><div id="results"></div><button id="more" type="button" hidden>Show more records</button></section>
 </section></main><footer class="reservoir-footer"><p>Design Reservoir is independently curated by Brandie Janow and built and maintained on GitHub as a versioned public resource.</p><nav aria-label="Footer navigation"><a href="https://github.com/brandiejanow/design-reservoir" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.brandiejanow.com/" target="_top">BrandieJanow.com ↗</a><a href="#top" class="back-to-top">Back to top ↑</a></nav></footer>
-<script src="./archive.js?v=20261120ringcontrols"></script></body></html>
+<script src="./archive.js?v=20261120regions"></script></body></html>
