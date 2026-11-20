@@ -37,3 +37,10 @@
 .region-analysis-selection{grid-column:1/-1;font-size:12px;color:#333;padding:10px 0}
 .region-analysis-note{font-size:11px;line-height:1.65;color:#666;margin:18px 0 0;max-width:860px}
 @media(max-width:720px){.archive-data-intro{padding:0 12px 16px}.region-analysis{padding:25px 12px}.region-analysis-heading{display:block}.region-analysis-heading p{margin-top:8px}.region-analysis-list{grid-template-columns:1fr}}
+
+/* Official KoD Electric Blue archive controls; data stays neutral. */
+.archive-explorer button:focus-visible,.archive-explorer input:focus-visible,.archive-explorer select:focus-visible{outline-color:#2F5CFF}
+.view-switch button[aria-pressed=true],.region-analysis-row.selected{border-color:#2F5CFF}
+.records-jump,.ring-actions button,.ring-actions #ringReset{color:#2F5CFF;border-color:#2F5CFF}
+.ring-actions #ringReset{background:#2F5CFF;color:#FFFFFF}
+.region-analysis-bar{background:#2F5CFF}
