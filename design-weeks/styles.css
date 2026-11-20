@@ -1,8 +1,19 @@
 .hero h1{line-height:1.02}.week-place{margin:0;color:#393939;font-size:14px;line-height:1.5}.week-edition{font-size:11px;color:var(--muted);margin-top:8px}.week-description{margin:0;color:#393939;font-size:14px;line-height:1.55}.week-meta{display:flex;flex-direction:column;gap:7px;font-size:11px;color:var(--muted)}.week-row{grid-template-columns:minmax(200px,1.05fr) minmax(320px,1.8fr) minmax(180px,.8fr) 48px}@media(max-width:1050px){.week-row{grid-template-columns:1fr 1.7fr 42px}.week-meta{grid-column:1/3;flex-direction:row;flex-wrap:wrap;gap:6px 18px}}@media(max-width:700px){.week-row{grid-template-columns:1fr 40px}.week-description{grid-column:1/3}.week-meta{grid-column:1/3}}
 /* The Knowledge of Design title uses a different text color, with identical row layout. */
-.week-row.kod-row h2{color:#304c90}
+.week-row.kod-row h2{color:#2F5CFF}
 
 /* Filter all design-week records by their verified disciplinary coverage. */
 .weeks-toolbar{grid-template-columns:minmax(200px,1.6fr) repeat(4,minmax(125px,1fr))}
 @media(max-width:1050px){.weeks-toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.weeks-toolbar{grid-template-columns:1fr}}
+
+/* Individual program descriptions and pagination. */
+.week-about{min-width:0}
+.week-focus{margin-top:14px;padding-top:11px;border-top:1px solid var(--line)}
+.week-focus .focus-label{display:block;color:#6f6f6f;font-size:10px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+.week-focus p{margin:0;color:#111;font-size:13px;line-height:1.5}
+#weekPager{padding-top:24px}
+#weekPager #weekNext{background:#2F5CFF;border-color:#2F5CFF;color:#fff}
+#weekPager #weekNext:hover:not(:disabled){background:#0C1A3B;border-color:#0C1A3B}
+#weekPager #weekNext:disabled{background:#e7e7e7;border-color:#d8d8d8;color:#6f6f6f}
+@media(max-width:700px){.week-about{grid-column:1/3}.week-focus{margin-top:12px}}
