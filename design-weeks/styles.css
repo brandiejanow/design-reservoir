@@ -6,3 +6,20 @@
 .weeks-toolbar{grid-template-columns:minmax(200px,1.6fr) repeat(4,minmax(125px,1fr))}
 @media(max-width:1050px){.weeks-toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.weeks-toolbar{grid-template-columns:1fr}}
+
+/* Comparative study: editorial lenses, not a definitive classification. */
+.weeks-study{padding:48px clamp(22px,5vw,74px) 52px;border-bottom:1px solid var(--line)}
+.weeks-study-head{max-width:860px}
+.weeks-study-label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+.weeks-study h2{font-size:clamp(28px,3.2vw,46px);font-weight:400;letter-spacing:-.035em;margin:0 0 14px}
+.weeks-study-head>p:not(.weeks-study-label){font-size:15px;line-height:1.65;color:#393939;margin:0 0 12px}
+.weeks-study-head .weeks-study-caution{font-size:12px!important;color:var(--muted)!important}
+.weeks-study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin-top:28px;border-top:1px solid var(--line)}
+.weeks-study-grid details{border-bottom:1px solid var(--line);padding:17px 0}
+.weeks-study-grid summary{list-style:none;cursor:pointer;font-size:15px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.weeks-study-grid summary::-webkit-details-marker{display:none}
+.weeks-study-grid summary:after{content:'+';font-size:22px;font-weight:300}
+.weeks-study-grid details[open] summary:after{content:'−'}
+.weeks-study-grid details p{margin:12px 20px 5px 0;font-size:13px;line-height:1.7;color:#393939}
+.weeks-study-grid a{text-underline-offset:3px}
+@media(max-width:700px){.weeks-study-grid{grid-template-columns:1fr}.weeks-study{padding-top:35px;padding-bottom:38px}}
