@@ -4,7 +4,7 @@
   const $ = id => document.getElementById(id);
   const el = (tag, text, cls) => { const n = document.createElement(tag); if (text != null) n.textContent = text; if (cls) n.className = cls; return n; };
   
-  let records = [], region = '', month = '', limit = 40;
+  let records = [], region = '', month = '', limit = 40, ringHistory = [];
   function parseCSV(text) {
     const rows = []; let row = [], cell = '', quote = false;
     for (let i=0;i<text.length;i++) {
@@ -24,7 +24,12 @@
   const totals = (rows, key) => rows.reduce((m,r)=>{const k=typeof key==='function'?key(r):r[key];if(k)m.set(k,(m.get(k)||0)+1);return m;},new Map());
   function button(text, active, action, cls) {const b=el('button',text,cls);b.type='button';b.setAttribute('aria-pressed',String(active));b.onclick=action;return b;}
   function filtered(skip) {const q=$('search').value.trim().toLowerCase();return records.filter(r=>(!q||[r.name,r.city,r.country,r.description,r.keywords,r.category].join(' ').toLowerCase().includes(q)) && (skip==='country'||!$('place').value||r.country===$('place').value) && (skip==='category'||!$('discipline').value||r.category===$('discipline').value) && (skip==='year'||!$('year').value||yearOf(r)===$('year').value) && (skip==='region'||!region||r.region===region) && (skip==='month'||!month||r.start_date.slice(0,7)===month));}
-  function choose(id,value) {$(id).value=value;limit=40;render();}
+  function choose(id,value) {$(id).value=value;ringHistory=[];limit=40;render();}
+  const ringSnapshot=()=>({region,discipline:$('discipline').value,month});
+  const clearAll=()=>{
+    ['search','place','discipline','year'].forEach(id=>$(id).value='');
+    region='';month='';ringHistory=[];limit=40;render();
+  };
   function safeLink(value,label) {try {const u=new URL(value);if(!['http:','https:'].includes(u.protocol))return null;const a=el('a',label+' ↗');a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';return a;}catch{return null;}}
   function recordNode(r) {
     const d=el('details',null,'record'), s=el('summary');
@@ -60,7 +65,7 @@
       $(cfg.container).replaceChildren();
       groups.forEach(([name,total],i)=>{
         const start=i*step+1.4,end=(i+1)*step-1.4,mid=(start+end)/2,active=cfg.value===name,n=matching.get(name)||0;
-        const action=()=>{cfg.select(name);limit=40;render();};
+        const action=()=>{ringHistory.push(ringSnapshot());cfg.select(name);limit=40;render();};
         const g=svgEl('g',{role:'button',tabindex:0,'aria-label':`${name}: ${total} records, ${n} in this selection`,'aria-pressed':String(active),'data-ring-key':`${ring}-${i}`,class:`ring-segment ring-${ring}${active?' selected':''}${n===0?' muted':''}`});
         g.append(svgEl('title',{},`${name} · ${total} records · ${n} selected`));
         g.append(svgEl('path',{d:wedge(cfg.radius,cfg.width,start,end),class:'segment-fill'}));
@@ -79,6 +84,8 @@
     svg.append(svgEl('text',{x:400,y:479,'text-anchor':'middle',class:'wheel-center-range'},records.length?`${Math.min(...records.map(r=>Number(yearOf(r))||9999))} / ARCHIVE`:'ARCHIVE'));
     const selections=[region,$('place').value,$('discipline').value,month,$('year').value,$('search').value.trim()].filter(Boolean);
     $('selectionSummary').replaceChildren(el('p',`${selectedRows.length} of ${records.length} records`),el('span',selections.length?selections.join(' / '):'The complete collection. Choose a segment to begin.'));
+    $('ringBack').disabled=ringHistory.length===0;
+    $('ringReset').disabled=ringHistory.length===0 && selections.length===0;
   }
 
   function render() {
@@ -89,8 +96,18 @@
     renderWheel(rows);
 
   }
-  ['search','place','discipline','year'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{limit=40;render();}));
-  $('clear').onclick=()=>{['search','place','discipline','year'].forEach(id=>$(id).value='');region='';month='';limit=40;render();};
+  ['search','place','discipline','year'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{ringHistory=[];limit=40;render();}));
+  $('clear').onclick=clearAll;
+  $('ringReset').onclick=clearAll;
+  $('ringBack').onclick=()=>{
+    const previous=ringHistory.pop();
+    if(!previous)return;
+    region=previous.region;
+    $('discipline').value=previous.discipline;
+    month=previous.month;
+    limit=40;
+    render();
+  };
   $('more').onclick=()=>{limit+=40;render();};
   function view(atlas) {
     $('visual').hidden=!atlas;
