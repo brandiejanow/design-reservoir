@@ -88,12 +88,38 @@
     $('ringReset').disabled=ringHistory.length===0 && selections.length===0;
   }
 
+  function renderRegionAnalysis(selectedRows) {
+    const host=$('regionAnalysis'); if(!host)return;
+    host.replaceChildren();
+    const allCounts=totals(records,'region');
+    const regionList=[...allCounts.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
+    const selectedCounts=totals(selectedRows,'region');
+    const max=Math.max(1,...allCounts.values());
+    for(const [name,count] of regionList){
+      const matching=selectedCounts.get(name)||0;
+      const categories=totals(records.filter(r=>r.region===name),'category');
+      const leading=[...categories.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,2);
+      const row=el('button',null,'region-analysis-row');row.type='button';row.setAttribute('aria-pressed',String(region===name));
+      const title=el('span',null,'region-analysis-title');
+      title.append(el('strong',name),el('span',count+' records · '+Math.round(count/records.length*100)+'% of archive'));
+      const track=el('span',null,'region-analysis-track');
+      const bar=el('span',null,'region-analysis-bar');bar.style.width=(count/max*100)+'%';track.append(bar);
+      const topics=el('span','Most recorded: '+leading.map(([topic,n])=>(shortNames[topic]||topic)+' ('+n+')').join(' · '),'region-analysis-topics');
+      row.append(title,track,topics);
+      if(region===name)row.classList.add('selected');
+      row.onclick=()=>{ringHistory.push(ringSnapshot());region=region===name?'':name;limit=40;render();};
+      host.append(row);
+    }
+    const selectedLabel=region?'Region selected: '+region+'. '+selectedRows.length+' matching records.':'Select a region to inspect its recorded events and subjects.';
+    host.append(el('p',selectedLabel,'region-analysis-selection'));
+  }
   function render() {
     const rows=filtered();$('count').textContent=`${rows.length} of ${records.length} archived ${records.length===1?'record':'records'}`;
     $('results').replaceChildren(...rows.slice(0,limit).map(recordNode));
     if(!rows.length)$('results').append(el('p',records.length?'No records match these filters. Try another place, year or subject.':'There are no archived event records yet. Current and upcoming listings remain in the Events Calendar.'));
     $('more').hidden=rows.length<=limit;
     renderWheel(rows);
+    renderRegionAnalysis(rows);
 
   }
   ['search','place','discipline','year'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{ringHistory=[];limit=40;render();}));
