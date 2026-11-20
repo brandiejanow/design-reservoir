@@ -32,18 +32,27 @@
   };
   function safeLink(value,label) {try {const u=new URL(value);if(!['http:','https:'].includes(u.protocol))return null;const a=el('a',label+' ↗');a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';return a;}catch{return null;}}
   function recordNode(r) {
-    const d=el('details',null,'record'), s=el('summary');
-    s.append(el('span',r.start_date||'Date not recorded','record-date'),el('span',r.name,'record-title'));d.append(s);
-    const body=el('div',null,'record-content');
-    body.append(el('p',[r.city,r.country,r.region,r.category].filter(Boolean).join(' · '),'record-meta'));
-    body.append(el('p','Listed dates: '+(r.start_date||'Not recorded')+' to '+(r.end_date||'Not recorded')));
-    if(r.description)body.append(el('p',r.description));
-    if(r.archive_note)body.append(el('p',r.archive_note,'record-meta'));
-    const history=safeLink(r.archive_url,'Listing history');if(history)body.append(history);
-    if(r.keywords)body.append(el('p','Topics: '+r.keywords,'record-meta'));
-    if(r.source) {const source=safeLink(r.source,'Recorded source');body.append(source||el('p','Source note: '+r.source,'record-meta'));}
-    const link=safeLink(r.url,'Event website');if(link)body.append(link);
-    d.append(body);return d;
+    const article=el('article',null,'record');
+    const header=el('div',null,'record-header');
+    const category=el('p',r.category||'Design event','record-category');
+    const title=el('h3',r.name,'record-title');
+    const place=el('p',[r.city,r.country].filter(Boolean).join(', '),'record-place');
+    header.append(category,title,place);
+    const body=el('div',null,'record-primary');
+    if(r.description)body.append(el('p',r.description,'record-description'));
+    if(r.keywords)body.append(el('p','Subjects: '+r.keywords,'record-topics'));
+    const details=el('details',null,'record-sources');
+    const summary=el('summary','Sources and dates');
+    const sources=el('div',null,'record-source-body');
+    const dateLabel=[r.start_date,r.end_date&&r.end_date!==r.start_date?'to '+r.end_date:''].filter(Boolean).join(' ');
+    if(dateLabel)sources.append(el('p','Recorded dates: '+dateLabel,'record-date'));
+    if(r.archive_note)sources.append(el('p',r.archive_note,'record-meta'));
+    const history=safeLink(r.archive_url,'Listing history');if(history)sources.append(history);
+    if(r.source){const source=safeLink(r.source,'Recorded source');sources.append(source||el('p','Source note: '+r.source,'record-meta'));}
+    const eventLink=safeLink(r.url,'Event website');if(eventLink)sources.append(eventLink);
+    details.append(summary,sources);
+    article.append(header,body,details);
+    return article;
   }
 
   const NS='http://www.w3.org/2000/svg';
