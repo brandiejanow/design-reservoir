@@ -92,3 +92,14 @@
 .wheel-guide{align-self:center}
 .wheel-guide .ring-actions{margin-top:0}
 .wheel-guide .selection-summary[hidden]{display:none}
+
+/* Keep the center summary inside the inner ring at desktop and mobile sizes. */
+.archive-wheel-center{overflow:hidden}
+.archive-wheel-center-inner{width:182px;height:175px;padding:6px;gap:3px;justify-content:center;overflow:hidden}
+.archive-wheel-center-scope{max-width:166px;max-height:29px;font-size:9px;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.archive-wheel-center-value{font-size:38px;line-height:.98}
+.archive-wheel-center-label{font-size:8px;letter-spacing:.07em}
+.archive-wheel-center-cue,.archive-wheel-center-note{max-width:160px;font-size:9px;line-height:1.25;margin-top:4px}
+.archive-wheel-center-subjects{max-width:165px;max-height:27px;font-size:9px;line-height:1.25;margin-top:2px;overflow:hidden}
+.archive-wheel-center-event{max-width:160px;font-size:9px;line-height:1.2;-webkit-line-clamp:2;margin-top:2px}
+.archive-wheel-center-more{font-size:8px;margin-top:1px}
