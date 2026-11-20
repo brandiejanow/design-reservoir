@@ -120,3 +120,22 @@ body.embed .site-nav,body.embed footer{display:none}body.embed .hero{padding-top
 .pagination #nextPage{background:#2F5CFF;border-color:#2F5CFF;color:#FFFFFF}
 .pagination #nextPage:hover:not(:disabled){background:#0C1A3B;border-color:#0C1A3B;color:#FFFFFF}
 .pagination #nextPage:focus-visible{outline-color:#2F5CFF}
+
+/* Prevent clipped descenders on gradient headings and separate the introduction. */
+.hero h1{
+  line-height:1.17;
+  padding-bottom:.14em;
+  overflow:visible;
+}
+.compact-hero .intro,.hero:not(.compact-hero) .intro{
+  margin-top:25px;
+  font-size:clamp(16px,1.65vw,21px);
+  line-height:1.5;
+}
+@media(max-width:600px){
+  .compact-hero .intro,.hero:not(.compact-hero) .intro{
+    margin-top:20px;
+    font-size:16px;
+    line-height:1.5;
+  }
+}
