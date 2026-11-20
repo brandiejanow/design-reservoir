@@ -92,24 +92,42 @@
     const chosenCategory=$('discipline').value;
     const chosenMonth=month?new Date(month+'-01T12:00:00Z').toLocaleDateString('en-US',{month:'long',year:'numeric',timeZone:'UTC'}):'';
     const selections=[region,$('place').value,chosenCategory?(shortNames[chosenCategory]||chosenCategory):'',chosenMonth,$('year').value,$('search').value.trim()].filter(Boolean);
-    const center=svgEl('foreignObject',{x:309,y:315,width:182,height:175,class:'archive-wheel-center'});
-    const inner=el('div',null,'archive-wheel-center-inner');
-    const heading=selections.length?selections.join(' · '):'ALL ARCHIVED EVENTS';
-    inner.append(el('div',heading,'archive-wheel-center-scope'));
-    inner.append(el('strong',String(selectedRows.length),'archive-wheel-center-value'));
-    inner.append(el('div',selectedRows.length===1?'MATCHING EVENT':'MATCHING EVENTS','archive-wheel-center-label'));
+    // Native SVG text avoids the inconsistent clipping/scaling of foreignObject.
+    // All center text is kept within a 115px radius of (400,400).
+    const clipped=(str,max)=>{const v=String(str||'').trim();return v.length>max?v.slice(0,max-1).trimEnd()+'…':v;};
+    const centerGroup=svgEl('g',{class:'archive-wheel-center-svg','aria-label':selectedRows.length+' matching archived events'});
+    const svgLine=(label,y,cls,size)=>centerGroup.append(svgEl('text',{
+      x:400,y,'text-anchor':'middle',class:cls,'font-size':size
+    },clipped(label,cls==='archive-wheel-center-svg-event'?31:29)));
+    const scope=selections.length?selections.join(' · '):'ALL ARCHIVED EVENTS';
+    svgLine(scope,346,'archive-wheel-center-svg-scope',12);
+    svgLine(String(selectedRows.length),400,'archive-wheel-center-svg-value',49);
+    svgLine(selectedRows.length===1?'MATCHING EVENT':'MATCHING EVENTS',420,'archive-wheel-center-svg-label',10);
     if(!selections.length){
-      inner.append(el('div','Select a region, subject or month','archive-wheel-center-cue'));
+      svgLine('Select a ring to see details',445,'archive-wheel-center-svg-note',11);
     }else if(!selectedRows.length){
-      inner.append(el('div','No events recorded for this combination.','archive-wheel-center-note'));
+      svgLine('No matching event records',445,'archive-wheel-center-svg-note',11);
     }else{
-      const top=Array.from(totals(selectedRows,'category')).sort((a,b)=>b[1]-a[1]).slice(0,1);
-      if(top.length)inner.append(el('div','Subjects: '+top.map(([k,n])=>(shortNames[k]||k)+' ('+n+')').join(' · '),'archive-wheel-center-subjects'));
-      const names=selectedRows.slice(0,1);
-      for(const r of names)inner.append(el('div',r.name,'archive-wheel-center-event'));
-      if(selectedRows.length>names.length)inner.append(el('div','More in List','archive-wheel-center-more'));
+      const top=[...totals(selectedRows,'category')].sort((a,b)=>b[1]-a[1])[0];
+      if(top)svgLine((shortNames[top[0]]||top[0])+' ('+top[1]+')',444,'archive-wheel-center-svg-subject',11);
+      const first=selectedRows[0];
+      // The List retains the full event name, description and source.
+      if(first){
+        const name=first.name||'';
+        const words=name.split(/\\s+/);const lines=[''];
+        for(const word of words){
+          const last=lines.length-1;
+          const joined=(lines[last]+' '+word).trim();
+          if(joined.length<=25){lines[last]=joined;}
+          else if(lines.length<2){lines.push(word);}
+          else{lines[last]=clipped(lines[last],24);break;}
+        }
+        if(lines.length===1)svgLine(lines[0],468,'archive-wheel-center-svg-event',10);
+        else{svgLine(lines[0],461,'archive-wheel-center-svg-event',10);svgLine(lines[1],474,'archive-wheel-center-svg-event',10);}
+        centerGroup.append(svgEl('title',{},name));
+      }
     }
-    center.append(inner);svg.append(center);
+    svg.append(centerGroup);
     $('selectionSummary').replaceChildren();
     $('ringBack').disabled=ringHistory.length===0;
     $('ringReset').disabled=ringHistory.length===0 && selections.length===0;
