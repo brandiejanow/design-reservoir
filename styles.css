@@ -87,10 +87,25 @@ body.embed .site-nav,body.embed footer{display:none}body.embed .hero{padding-top
 @media(max-width:600px){.compact-hero{padding:24px 22px 21px}.compact-hero h1{font-size:clamp(46px,10vw,73px)}.compact-hero .intro{font-size:17px}.search-section{padding:25px 22px}.search-section .toolbar{grid-template-columns:1fr}}
 
 /* KoD keeps the same directory row styling; only its title color differs. */
-.resource h2.kod-title{color:#304c90}
+.resource h2.kod-title{color:#2F5CFF}
 
 /* Clear primary navigation through paginated directory results. */
-.pagination #nextPage{background:#304c90;color:#fff;border-color:#304c90;font-weight:600;min-width:138px;box-shadow:0 2px 6px rgba(0,0,0,.12)}
-.pagination #nextPage:hover:not(:disabled){background:#1c3268;border-color:#1c3268;color:#fff}
-.pagination #nextPage:focus-visible{outline:3px solid #304c90;outline-offset:3px}
+.pagination #nextPage{background:#2F5CFF;color:#fff;border-color:#2F5CFF;font-weight:600;min-width:138px;box-shadow:0 2px 6px rgba(0,0,0,.12)}
+.pagination #nextPage:hover:not(:disabled){background:#0C1A3B;border-color:#0C1A3B;color:#fff}
+.pagination #nextPage:focus-visible{outline:3px solid #2F5CFF;outline-offset:3px}
 .pagination #nextPage:disabled{background:#e7e7e7;border-color:#d0d0d0;color:#6f6f6f;box-shadow:none;opacity:1}
+
+/* Shared title scale and Knowledge of Design accent palette. */
+:root{--kod-yellow:#FFF500;--kod-red:#FF1A1A;--kod-blue:#2F5CFF;--kod-orange:#FF4B00;--kod-pink:#FF2D95;--kod-acid:#9FFF00;--kod-purple:#D43DFF;--kod-aqua:#00F5D4;--kod-gold:#FFC700;--kod-beige:#F5EADA;--kod-purple-text:#9224B3;--kod-aqua-text:#00796B}
+.hero:not(.compact-hero){padding-top:clamp(29px,3.9vw,59px);padding-bottom:24px}
+.hero:not(.compact-hero) h1{font-size:clamp(49px,6.3vw,98px);line-height:1.05}
+.hero:not(.compact-hero) .intro{margin-top:17px;font-size:clamp(17px,1.85vw,24px);line-height:1.42}
+.compact-hero h1{color:var(--kod-blue)}
+.page-atlas .hero h1{color:var(--kod-pink)}
+.page-weeks .hero h1{color:var(--kod-orange)}
+.page-calendar .hero h1{color:var(--kod-aqua-text)}
+.page-archive .hero h1{color:var(--kod-purple-text)}
+.pagination #nextPage{background:var(--kod-blue);border-color:var(--kod-blue)}
+.pagination #nextPage:hover:not(:disabled){background:#0C1A3B;border-color:#0C1A3B}
+.pagination #nextPage:focus-visible{outline-color:var(--kod-blue)}
+@media(max-width:600px){.hero:not(.compact-hero){padding:24px 22px 21px}.hero:not(.compact-hero) h1{font-size:clamp(46px,10vw,73px)}.hero:not(.compact-hero) .intro{font-size:17px}}
