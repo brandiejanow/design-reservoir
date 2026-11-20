@@ -82,17 +82,36 @@
         if(bottom){const a=point(cfg.radius-7,end-1),b=point(cfg.radius-7,start+1);path=`M ${a} A ${cfg.radius-7} ${cfg.radius-7} 0 ${end-start>180?1:0} 0 ${b}`;}
         defs.append(svgEl('path',{id:pathId,d:path}));
         const text=svgEl('text',{'text-anchor':'middle',class:'segment-label'}),tp=svgEl('textPath',{href:'#'+pathId,startOffset:'50%'},cfg.label(name));text.append(tp);g.append(text);
-        const pos=point(cfg.radius+(bottom?15:-14),mid);g.append(svgEl('text',{x:pos[0],y:pos[1],'text-anchor':'middle','dominant-baseline':'middle',class:'segment-count'},String(total)));
+        const pos=point(cfg.radius+(bottom?15:-14),mid);g.append(svgEl('text',{x:pos[0],y:pos[1],'text-anchor':'middle','dominant-baseline':'middle',class:'segment-count'},String(n)));
         g.onclick=action;g.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();action();$('archiveWheel').querySelector(`[data-ring-key="${ring}-${i}"]`).focus();}};svg.append(g);
         const b=button(`${cfg.label(name)} · ${total}`,active,action);b.title=name;$(cfg.container).append(b);
       });
     });
-    svg.append(svgEl('text',{x:400,y:354,'text-anchor':'middle',class:'wheel-center-eyebrow'},'THE RESERVOIR'));
-    svg.append(svgEl('text',{x:400,y:425,'text-anchor':'middle',class:'wheel-center-number'},String(selectedRows.length)));
-    svg.append(svgEl('text',{x:400,y:454,'text-anchor':'middle',class:'wheel-center-label'},'COLLECTED RECORDS'));
-    svg.append(svgEl('text',{x:400,y:479,'text-anchor':'middle',class:'wheel-center-range'},records.length?`${Math.min(...records.map(r=>Number(yearOf(r))||9999))} / ARCHIVE`:'ARCHIVE'));
-    const selections=[region,$('place').value,$('discipline').value,month,$('year').value,$('search').value.trim()].filter(Boolean);
-    $('selectionSummary').replaceChildren(el('p',`${selectedRows.length} of ${records.length} records`),el('span',selections.length?selections.join(' / '):'The complete collection. Choose a segment to begin.'));
+    // The center is the reading surface for the current ring selection.
+    // A segment number is the number of matching archived events, not a day of the month.
+    const chosenCategory=$('discipline').value;
+    const chosenMonth=month?new Date(month+'-01T12:00:00Z').toLocaleDateString('en-US',{month:'long',year:'numeric',timeZone:'UTC'}):'';
+    const selections=[region,$('place').value,chosenCategory?(shortNames[chosenCategory]||chosenCategory):'',chosenMonth,$('year').value,$('search').value.trim()].filter(Boolean);
+    const center=svgEl('foreignObject',{x:274,y:270,width:252,height:260,class:'archive-wheel-center'});
+    const inner=el('div',null,'archive-wheel-center-inner');
+    const heading=selections.length?selections.join(' / '):'ALL ARCHIVED EVENTS';
+    inner.append(el('div',heading,'archive-wheel-center-scope'));
+    inner.append(el('strong',String(selectedRows.length),'archive-wheel-center-value'));
+    inner.append(el('div',selectedRows.length===1?'MATCHING EVENT':'MATCHING EVENTS','archive-wheel-center-label'));
+    if(!selections.length){
+      inner.append(el('div','Select a region, subject or month','archive-wheel-center-cue'));
+      inner.append(el('div','Numbers on the rings count archived events.','archive-wheel-center-note'));
+    }else if(!selectedRows.length){
+      inner.append(el('div','No events recorded for this combination.','archive-wheel-center-note'));
+    }else{
+      const top=Array.from(totals(selectedRows,'category')).sort((a,b)=>b[1]-a[1]).slice(0,2);
+      if(top.length)inner.append(el('div','Subjects: '+top.map(([k,n])=>(shortNames[k]||k)+' ('+n+')').join(' · '),'archive-wheel-center-subjects'));
+      const names=selectedRows.slice(0,selectedRows.length<=3?3:2);
+      for(const r of names)inner.append(el('div',r.name,'archive-wheel-center-event'));
+      if(selectedRows.length>names.length)inner.append(el('div','+'+(selectedRows.length-names.length)+' more in List','archive-wheel-center-more'));
+    }
+    center.append(inner);svg.append(center);
+    $('selectionSummary').replaceChildren();
     $('ringBack').disabled=ringHistory.length===0;
     $('ringReset').disabled=ringHistory.length===0 && selections.length===0;
   }
@@ -130,7 +149,7 @@
     if(!rows.length)$('results').append(el('p',records.length?'No records match these filters. Try another place, year or subject.':'There are no archived event records yet. Current and upcoming listings remain in the Events Calendar.'));
     $('more').hidden=rows.length<=limit;
     renderWheel(rows);
-    renderSideCoverage(rows);
+    // The wheel center reflects this exact same selection as the List.
 
   }
   ['search','place','discipline','year'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{ringHistory=[];limit=40;render();}));
