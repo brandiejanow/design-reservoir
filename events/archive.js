@@ -82,7 +82,7 @@
         if(bottom){const a=point(cfg.radius-7,end-1),b=point(cfg.radius-7,start+1);path=`M ${a} A ${cfg.radius-7} ${cfg.radius-7} 0 ${end-start>180?1:0} 0 ${b}`;}
         defs.append(svgEl('path',{id:pathId,d:path}));
         const text=svgEl('text',{'text-anchor':'middle',class:'segment-label'}),tp=svgEl('textPath',{href:'#'+pathId,startOffset:'50%'},cfg.label(name));text.append(tp);g.append(text);
-        const pos=point(cfg.radius+(bottom?15:-14),mid);g.append(svgEl('text',{x:pos[0],y:pos[1],'text-anchor':'middle','dominant-baseline':'middle',class:'segment-count'},String(n)));
+        // Segment counts appear in the selected center summary, not alongside ring labels.
         g.onclick=action;g.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();action();$('archiveWheel').querySelector(`[data-ring-key="${ring}-${i}"]`).focus();}};svg.append(g);
         const b=button(`${cfg.label(name)} · ${total}`,active,action);b.title=name;$(cfg.container).append(b);
       });
