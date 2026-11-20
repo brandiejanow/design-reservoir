@@ -44,3 +44,13 @@
 .ring-actions button:hover:not(:disabled){background:#0C1A3B;color:#FFFFFF;border-color:#0C1A3B}
 .ring-actions button:focus-visible,.archive-explorer button:focus-visible{outline-color:#2F5CFF}
 .region-analysis-bar{background:#2F5CFF}
+
+/* The ring side panel explains the selection without duplicating the List. */
+.selection-breakdown{margin:16px 0 20px}
+.selection-breakdown-label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#666;margin:0 0 12px}
+.selection-breakdown-row{margin:0 0 12px}
+.selection-breakdown-caption{display:flex;align-items:baseline;justify-content:space-between;gap:8px;font-size:12px;line-height:1.4}
+.selection-breakdown-caption strong{font-weight:600;font-variant-numeric:tabular-nums}
+.selection-breakdown-track{height:3px;background:#e7e7e7;margin-top:7px}
+.selection-breakdown-bar{display:block;height:100%;background:#2F5CFF}
+.selection-breakdown-note,.selection-breakdown-empty{font-size:10px;line-height:1.55;color:#666;margin:14px 0 0}
