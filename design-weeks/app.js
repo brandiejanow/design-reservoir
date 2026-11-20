@@ -7,7 +7,21 @@ function uniq(a){return[...new Set(a.filter(Boolean))].sort((a,b)=>a.localeCompa
 function add(el,v){const o=document.createElement("option");o.value=v;o.textContent=v;el.appendChild(o)}
 function popularKeywords(rows,minCount){const counts=new Map();for(const row of rows){for(const keyword of split(row.keywords)){const key=keyword.toLowerCase();const found=counts.get(key);counts.set(key,{label:found?.label||keyword,count:(found?.count||0)+1})}}return [...counts.values()].filter(x=>x.count>=minCount).map(x=>x.label).sort((a,b)=>a.localeCompare(b))}
 function populate(){uniq(rows.map(r=>r.region)).forEach(v=>add(els.region,v));uniq(rows.map(r=>r.format)).forEach(v=>add(els.format,v));uniq(rows.flatMap(r=>split(r.industries))).forEach(v=>add(els.industry,v));popularKeywords(rows,2).forEach(v=>add(els.keyword,v))}
-function render(){const q=els.search.value.toLowerCase().trim(),reg=els.region.value,fmt=els.format.value,ind=els.industry.value,key=els.keyword.value;const filtered=rows.filter(r=>(!q||[r.name,r.city,r.country,r.description,r.keywords,r.industries].join(" ").toLowerCase().includes(q))&&(!reg||r.region===reg)&&(!fmt||r.format===fmt)&&(!ind||split(r.industries).includes(ind))&&(!key||split(r.keywords).some(x=>x.toLowerCase()===key.toLowerCase())));els.list.innerHTML=filtered.map(r=>`<article class="resource week-row${r.isResearch?" kod-row":""}"><div><h2>${esc(r.name)}</h2><p class="week-place">${esc([r.city,r.country].filter(Boolean).join(", "))}</p><p class="week-edition">${esc(r.edition)}</p></div><p class="week-description">${esc(r.description)}</p><div class="week-meta"><span><strong>${esc(r.region)}</strong></span><span>${esc(r.format)}</span><span>${esc(split(r.industries).slice(0,2).join(" · "))}</span></div><a class="visit" href="${esc(r.url)}" target="_blank" rel="noopener" aria-label="Open ${esc(r.name)}">↗</a></article>`).join("");els.count.textContent=`${filtered.length} of ${rows.length} platforms`;els.empty.hidden=filtered.length!==0}
+const PAGE_SIZE=15;let currentPage=1;
+const pager={nav:document.querySelector('#weekPager'),prev:document.querySelector('#weekPrev'),next:document.querySelector('#weekNext'),info:document.querySelector('#weekPageInfo')};
+function render(){
+ const q=els.search.value.toLowerCase().trim(),reg=els.region.value,fmt=els.format.value,ind=els.industry.value,key=els.keyword.value;
+ const filtered=rows.filter(r=>(!q||[r.name,r.city,r.country,r.description,r.program_focus,r.keywords,r.industries].join(" ").toLowerCase().includes(q))&&(!reg||r.region===reg)&&(!fmt||r.format===fmt)&&(!ind||split(r.industries).includes(ind))&&(!key||split(r.keywords).some(x=>x.toLowerCase()===key.toLowerCase())));
+ const pages=Math.max(1,Math.ceil(filtered.length/PAGE_SIZE));currentPage=Math.min(currentPage,pages);
+ const begin=(currentPage-1)*PAGE_SIZE,shown=filtered.slice(begin,begin+PAGE_SIZE);
+ els.list.innerHTML=shown.map(r=>`<article class="resource week-row${r.isResearch?" kod-row":""}"><div><h2>${esc(r.name)}</h2><p class="week-place">${esc([r.city,r.country].filter(Boolean).join(", "))}</p><p class="week-edition">${esc(r.edition)}</p></div><div class="week-about"><p class="week-description">${esc(r.description)}</p>${r.program_focus?`<div class="week-focus"><span class="focus-label">Program focus</span><p>${esc(r.program_focus)}</p></div>`:""}</div><div class="week-meta"><span><strong>${esc(r.region)}</strong></span><span>${esc(r.format)}</span><span>${esc(split(r.industries).slice(0,2).join(" · "))}</span></div><a class="visit" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" aria-label="Open ${esc(r.name)}">↗</a></article>`).join("");
+ els.count.textContent=filtered.length?`${filtered.length} of ${rows.length} platforms · Showing ${begin+1}–${begin+shown.length}`:`0 of ${rows.length} platforms`;
+ els.empty.hidden=filtered.length!==0;pager.nav.hidden=filtered.length<=PAGE_SIZE;pager.prev.disabled=currentPage<=1;pager.next.disabled=currentPage>=pages;pager.info.textContent=`Page ${currentPage} of ${pages}`;
+}
+function resetAndRender(){currentPage=1;render();}
+pager.prev.addEventListener('click',()=>{if(currentPage>1){currentPage--;render();document.querySelector('.directory-head').scrollIntoView({block:'start'});}});
+pager.next.addEventListener('click',()=>{const pages=Math.ceil(Number(els.count.textContent.split(' of ')[0])/PAGE_SIZE);if(currentPage<pages){currentPage++;render();document.querySelector('.directory-head').scrollIntoView({block:'start'});}});
+
 fetch("../data/design-weeks.csv?v=20261028cleanevents",{cache:"no-store"}).then(r=>r.text()).then(t=>{const p=parseCSV(t),h=p.shift();const weekRows=p.filter(r=>r[0]).map(r=>Object.fromEntries(h.map((x,i)=>[x,r[i]||""])));
 const kod={
 name:"Knowledge of Design",city:"Global initiative",country:"",region:"",format:"Research / Index & Directory",
@@ -16,7 +30,8 @@ description:"Public index and research archive documenting people, talks, resear
 url:"https://brandiejanow.github.io/Knowledge-of-Design/",
 keywords:"research; index; directory; STEAM; design knowledge; education; design weeks; public programming; futures; publications",
 industries:"Academic Research; Cross-disciplinary Design; Research, History & Education; Design Education; STEAM",
-isResearch:true
+isResearch:true,
+program_focus:"Design as knowledge across STEAM disciplines"
 };
 rows=[...weekRows,kod].sort((a,b)=>a.name.localeCompare(b.name));
-els.total.textContent=weekRows.length;populate();render()});[els.search,els.region,els.format,els.industry,els.keyword].forEach(e=>e.addEventListener("input",render));els.clear.addEventListener("click",()=>{els.search.value="";els.region.value="";els.format.value="";els.industry.value="";els.keyword.value="";render()});
+els.total.textContent=weekRows.length;populate();render()});[els.search,els.region,els.format,els.industry,els.keyword].forEach(e=>e.addEventListener("input",resetAndRender));els.clear.addEventListener("click",()=>{els.search.value="";els.region.value="";els.format.value="";els.industry.value="";els.keyword.value="";resetAndRender()});
