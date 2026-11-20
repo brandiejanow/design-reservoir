@@ -8,7 +8,7 @@ The repository is the source of truth. The human-readable master table lives in 
 
 ## Reading the resource counts
 
-The homepage combines two datasets into a single searchable interface: **681 core resource records** in `data/resources.csv` and **78 recurring design weeks** in `data/design-weeks.csv`. That produces **759 searchable entries**. The counts refer to different collections and are displayed separately in the interface.
+The homepage combines two datasets into a single searchable interface: **543 core resource records** in `data/resources.csv` and **78 recurring design weeks** in `data/design-weeks.csv`. That produces **621 searchable entries**. The counts refer to different collections and are displayed separately in the interface.
 
 ## Suggest a research resource
 
@@ -16,7 +16,7 @@ Use the [Resource suggestion form](https://github.com/brandiejanow/design-reserv
 
 ## Current status
 
-- **681 active research and reference resource records**, including **37 research tools** classified by research workflow
+- **543 active research and reference resource records**, including **37 research tools** classified by research workflow
 - **366 Design Atlas classification records** across ten families, representing **364 distinct discipline names**; Furniture design and Service design each appear in two families in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **78 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
@@ -59,6 +59,9 @@ The full import accounting is documented in [`data/almanac-import-manifest.csv`]
 The ten-family Design Atlas is preserved separately as structured data in [`data/design-atlas.csv`](data/design-atlas.csv). It retains the Almanac classification and records later reviewed additions with source labels.
 
 ## What belongs here
+
+**Scope clarification (November 2026):** The collection is intended for research, education, cultural and public programs, publications, institutions, methods and documentation, not as a directory of commercial design studios, architecture firms, individual portfolios, furniture brands or retail businesses. A private organization may be retained when it offers substantial original research, a publicly useful scholarly collection, or documented learning materials. The former commercial studio and product-brand entries were removed from the active master directory and remain recoverable through Git history.
+
 
 Design Reservoir is an academic-facing knowledge resource spanning **futures / foresight, STEAM, and design**, not a design-only events listing. Appropriate sources include university labs and peer-reviewed research, government and intergovernmental datasets, credible think tanks, evidence-based methods, teaching resources, interdisciplinary STEAM projects, professional associations, museums, research archives, critical publications, substantive opportunities, and ongoing conferences or biennials relevant to the research fields.
 
