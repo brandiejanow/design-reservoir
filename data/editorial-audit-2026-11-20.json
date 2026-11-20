@@ -1,0 +1,115 @@
+{
+  "review_date": "2026-11-20",
+  "repository": "brandiejanow/design-reservoir",
+  "focus": "Verified 2026–2027 event, design-week, lecture, academic deadline and terminology sweep",
+  "methodology": [
+    "Read current repository records before editing and check each candidate for matching names, URLs and editions.",
+    "Prefer official organizers, universities, professional societies and source publishers; avoid social profiles and speculative dates.",
+    "Keep no completed dated event in the active calendar; archive expired entries without removing their sources.",
+    "Write independent descriptions; retain source attribution and access conditions."
+  ],
+  "counts_after": {
+    "resources": 681,
+    "active_events": 138,
+    "archived_events": 119,
+    "design_weeks": 78
+  },
+  "additions": {
+    "event_calendar": 20,
+    "design_week_directory": 2,
+    "resource_glossaries": 6
+  },
+  "updated_design_weeks": [
+    {
+      "name": "Berlin Design Week",
+      "edition": "22–27 April 2027",
+      "source": "https://berlindesignweek.com/en/pressemitteilung/ankuendigung-2027/"
+    },
+    {
+      "name": "NYCxDESIGN Festival",
+      "edition": "13–20 May 2027",
+      "source": "https://nycxdesign.org/festival/"
+    },
+    {
+      "name": "Montréal Design Week",
+      "edition": "27 May–4 June 2027",
+      "source": "https://www.semainedesigndemontreal.com/"
+    },
+    {
+      "name": "Bucharest Design Festival",
+      "edition": "First edition 20 May–21 June 2026; next dates not announced",
+      "source": "https://www.institute.ro/bucharestdesignfestival"
+    }
+  ],
+  "new_design_week_directory": [
+    {
+      "name": "Birmingham Design Festival",
+      "source": "https://birminghamdesignfestival.org.uk/conference/your-visit/",
+      "notes": "2027 conference dates confirmed, citywide festival dates not announced"
+    },
+    {
+      "name": "Design Week POA",
+      "source": "https://www.designweekpoa.com/",
+      "notes": "2026 third edition verified; 2027 dates not announced"
+    }
+  ],
+  "added_glossary_resources": [
+    "International Council of Design: Design Lexicon",
+    "Service Design Network: Service Design Glossary",
+    "Nielsen Norman Group: UX Disciplines Glossary (2026)",
+    "Nielsen Norman Group: Visual Design Glossary",
+    "UNESCO Thesaurus",
+    "Getty Art & Architecture Thesaurus (AAT)"
+  ],
+  "existing_entries_retained": [
+    "New Zealand Design Week 2027: Restore + Reimagine",
+    "Futures Glossary"
+  ],
+  "reclassified_existing": [
+    "Futures Glossary: Glossary & Terminology added to resource types"
+  ],
+  "expired_events_moved_to_archive": [
+    "interihotel MAD26: Creative Rebellion",
+    "Offsite Construction Summit: Washington-Dulles 2026",
+    "RIBA Guerrilla Tactics 2026",
+    "The Future Laboratory: Impactive Spaces Webinar 2026"
+  ],
+  "held_or_not_added": [
+    {
+      "name": "OSAKA DESIGN WEEK 2027",
+      "reason": "Official event site contains a concluded 2026 edition; no announced 2027 schedule",
+      "source": "https://osakadesignweek.com/en/"
+    },
+    {
+      "name": "Africa Design Week 2027 (London)",
+      "reason": "Organizer has announced summer 2027 but not confirmed exact dates or full program",
+      "source": "https://africadesignweek.global/"
+    },
+    {
+      "name": "ECAL: A Typographic Atlas at ArtCenter",
+      "reason": "Official center and university pages conflict on the exhibition end date; held pending reconciliation",
+      "source": "https://hmctartcenter.org/exhibitions/ecal-a-typographic-atlas"
+    },
+    {
+      "name": "DESRIST 2027",
+      "reason": "Official conference site's registration page contains 2026 deadline/dinner dates inconsistent with June 2027 program; hold until organizer correction",
+      "source": "https://desrist2027.com/registration/"
+    },
+    {
+      "name": "UNESCO Creative Cities Network 2027 conference, Bukhara",
+      "reason": "UNESCO announced the host city but has not published dated program",
+      "source": "https://www.unesco.org/en/articles/bukhara-host-2027-annual-conference-unesco-creative-cities-network"
+    }
+  ],
+  "verification": {
+    "events_csv_rows_valid": true,
+    "design_weeks_csv_rows_valid": true,
+    "resources_csv_rows_valid": true,
+    "archive_csv_rows_valid": true,
+    "duplicate_event_names": 0,
+    "duplicate_resource_names": 0,
+    "duplicate_design_week_names": 0,
+    "expired_calendar_entries": 0,
+    "note": "Repeated event URLs can represent different sessions or submission deadlines from one official organizer page; event names and dates remain distinct."
+  }
+}
