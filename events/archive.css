@@ -113,3 +113,13 @@
 .archive-wheel-center-svg-subject{fill:#444}
 .archive-wheel-center-svg-event{fill:#111}
 .archive-wheel-center-svg-note{fill:#666}
+
+/* Archive pagination follows the Design Weeks navigation without extending the list. */
+#archivePager{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding-top:26px}
+#archivePager button{min-height:44px;padding:11px 16px;border:1px solid var(--line);background:transparent;color:var(--ink)}
+#archivePager #archiveNext{background:#2F5CFF;border-color:#2F5CFF;color:#fff}
+#archivePager #archiveNext:hover:not(:disabled){background:#0C1A3B;border-color:#0C1A3B}
+#archivePager button:disabled{opacity:.45;cursor:default}
+#archivePager #archiveNext:disabled{background:#e7e7e7;border-color:#d8d8d8;color:#6f6f6f;opacity:1}
+#archivePageInfo{font-size:13px;color:#555;font-variant-numeric:tabular-nums}
+@media(max-width:480px){#archivePager{gap:10px}#archivePager button{font-size:12px;padding:10px 12px}}
