@@ -4,7 +4,8 @@
   const $ = id => document.getElementById(id);
   const el = (tag, text, cls) => { const n = document.createElement(tag); if (text != null) n.textContent = text; if (cls) n.className = cls; return n; };
   
-  let records = [], region = '', month = '', limit = 40, ringHistory = [];
+  let records = [], region = '', month = '', currentPage = 1, ringHistory = [];
+  const PAGE_SIZE = 15;
   function parseCSV(text) {
     const rows = []; let row = [], cell = '', quote = false;
     for (let i=0;i<text.length;i++) {
@@ -24,11 +25,11 @@
   const totals = (rows, key) => rows.reduce((m,r)=>{const k=typeof key==='function'?key(r):r[key];if(k)m.set(k,(m.get(k)||0)+1);return m;},new Map());
   function button(text, active, action, cls) {const b=el('button',text,cls);b.type='button';b.setAttribute('aria-pressed',String(active));b.onclick=action;return b;}
   function filtered(skip) {const q=$('search').value.trim().toLowerCase();return records.filter(r=>(!q||[r.name,r.city,r.country,r.description,r.keywords,r.category].join(' ').toLowerCase().includes(q)) && (skip==='country'||!$('place').value||r.country===$('place').value) && (skip==='category'||!$('discipline').value||r.category===$('discipline').value) && (skip==='year'||!$('year').value||yearOf(r)===$('year').value) && (skip==='region'||!region||r.region===region) && (skip==='month'||!month||r.start_date.slice(0,7)===month));}
-  function choose(id,value) {$(id).value=value;ringHistory=[];limit=40;render();}
+  function choose(id,value) {$(id).value=value;ringHistory=[];currentPage=1;render();}
   const ringSnapshot=()=>({region,discipline:$('discipline').value,month});
   const clearAll=()=>{
     ['search','place','discipline','year'].forEach(id=>$(id).value='');
-    region='';month='';ringHistory=[];limit=40;render();
+    region='';month='';ringHistory=[];currentPage=1;render();
   };
   function safeLink(value,label) {try {const u=new URL(value);if(!['http:','https:'].includes(u.protocol))return null;const a=el('a',label+' ↗');a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';return a;}catch{return null;}}
   function recordNode(r) {
@@ -74,7 +75,7 @@
       $(cfg.container).replaceChildren();
       groups.forEach(([name,total],i)=>{
         const start=i*step+1.4,end=(i+1)*step-1.4,mid=(start+end)/2,active=cfg.value===name,n=matching.get(name)||0;
-        const action=()=>{ringHistory.push(ringSnapshot());cfg.select(name);limit=40;render();};
+        const action=()=>{ringHistory.push(ringSnapshot());cfg.select(name);currentPage=1;render();};
         const g=svgEl('g',{role:'button',tabindex:0,'aria-label':`${name}: ${total} records, ${n} in this selection`,'aria-pressed':String(active),'data-ring-key':`${ring}-${i}`,class:`ring-segment ring-${ring}${active?' selected':''}${n===0?' muted':''}`});
         g.append(svgEl('title',{},`${name} · ${total} records · ${n} selected`));
         g.append(svgEl('path',{d:wedge(cfg.radius,cfg.width,start,end),class:'segment-fill'}));
@@ -162,14 +163,21 @@
   }
   function render() {
     const rows=filtered();$('count').textContent=`${rows.length} of ${records.length} archived ${records.length===1?'record':'records'}`;
-    $('results').replaceChildren(...rows.slice(0,limit).map(recordNode));
+    const pages=Math.max(1,Math.ceil(rows.length/PAGE_SIZE));
+    currentPage=Math.min(currentPage,pages);
+    const start=(currentPage-1)*PAGE_SIZE;
+    $('results').replaceChildren(...rows.slice(start,start+PAGE_SIZE).map(recordNode));
+    $('count').textContent=rows.length?`${rows.length} of ${records.length} archived records · Showing ${start+1}–${Math.min(start+PAGE_SIZE,rows.length)}`:`0 of ${records.length} archived records`;
+    $('archivePager').hidden=rows.length<=PAGE_SIZE;
+    $('archivePrev').disabled=currentPage===1;
+    $('archiveNext').disabled=currentPage>=pages;
+    $('archivePageInfo').textContent=`Page ${currentPage} of ${pages}`;
     if(!rows.length)$('results').append(el('p',records.length?'No records match these filters. Try another place, year or subject.':'There are no archived event records yet. Current and upcoming listings remain in the Events Calendar.'));
-    $('more').hidden=rows.length<=limit;
     renderWheel(rows);
     // The wheel center reflects this exact same selection as the List.
 
   }
-  ['search','place','discipline','year'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{ringHistory=[];limit=40;render();}));
+  ['search','place','discipline','year'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{ringHistory=[];currentPage=1;render();}));
   $('clear').onclick=clearAll;
   $('ringReset').onclick=clearAll;
   $('ringBack').onclick=()=>{
@@ -178,10 +186,18 @@
     region=previous.region;
     $('discipline').value=previous.discipline;
     month=previous.month;
-    limit=40;
+    currentPage=1;
     render();
   };
-  $('more').onclick=()=>{limit+=40;render();};
+  function goToPage(nextPage) {
+    const pages=Math.ceil(filtered().length/PAGE_SIZE);
+    if(nextPage<1||nextPage>pages)return;
+    currentPage=nextPage;
+    render();
+    $('archiveList').scrollIntoView({block:'start'});
+  }
+  $('archivePrev').onclick=()=>goToPage(currentPage-1);
+  $('archiveNext').onclick=()=>goToPage(currentPage+1);
   function view(atlas) {
     $('visual').hidden=!atlas;
     $('archiveList').hidden=atlas;
