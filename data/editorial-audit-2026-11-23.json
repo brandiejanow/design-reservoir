@@ -1,0 +1,153 @@
+{
+  "review_date": "2026-11-23",
+  "repository": "brandiejanow/design-reservoir",
+  "baseline_country_coverage_excluding_online": 68,
+  "after_country_coverage_excluding_online": 76,
+  "new_country_coverage": [
+    "Grenada",
+    "Lithuania",
+    "Namibia",
+    "Nepal",
+    "Paraguay",
+    "Philippines",
+    "Senegal",
+    "Uruguay"
+  ],
+  "counts_before": {
+    "active": 156,
+    "archive": 135,
+    "weeks": 81
+  },
+  "counts_after": {
+    "active_events": 158,
+    "archived_events": 143,
+    "design_weeks": 82
+  },
+  "added_active": [
+    {
+      "name": "16th Dakar Biennale 2026: (Anti)fragilité",
+      "country": "Senegal",
+      "dates": "2026-11-19 to 2026-12-19",
+      "url": "https://biennaledakar.org/visiter/"
+    },
+    {
+      "name": "Developed Vocabularies: ADP Artists 2026 Group Exhibition",
+      "country": "Namibia",
+      "dates": "2026-11-19 to 2027-01-29",
+      "url": "https://www.naa.na/event-details/developed-vocabularies-adp-artists-2026-group-exhibition"
+    },
+    {
+      "name": "Three Ways to Coexist: Uruguay Pavilion, Venice 2027",
+      "country": "Uruguay",
+      "dates": "2026-11-26 to 2026-11-26",
+      "url": "https://www.ort.edu.uy/en/events/tres-formas-de-coexistir-pabellon-de-uruguay-venecia-2027"
+    },
+    {
+      "name": "UWI Global Campus Climate Conference 2027: Towards a Climate Smart Future",
+      "country": "Grenada",
+      "dates": "2027-04-07 to 2027-04-09",
+      "url": "https://global.uwi.edu/climate-conference-2027"
+    },
+    {
+      "name": "ICGD 5 2027: Inclusive and Resilient Futures through Transformative Governance",
+      "country": "Philippines",
+      "dates": "2027-07-28 to 2027-07-30",
+      "url": "https://www.upcebu.edu.ph/2026/09/23/up-cebu-css-uplb-cpaf-launch-icgd-5-open-call-for-abstracts/"
+    },
+    {
+      "name": "31st ICDE World Conference 2027: Reimagining Education for a Sustainable Future",
+      "country": "Philippines",
+      "dates": "2027-11-15 to 2027-11-19",
+      "url": "https://up.edu.ph/31st-icde-world-conference-calls-for-submissions/"
+    }
+  ],
+  "added_historical": [
+    {
+      "name": "Deities of Nepal III: Lore and Legends",
+      "country": "Nepal",
+      "dates": "2026-09-17 to 2026-10-10",
+      "url": "https://nepalartcouncil.org.np/deities-of-nepal-iii/"
+    },
+    {
+      "name": "Encuentro Artesanía + Diseño 2026: Rituales Vivos de Creación",
+      "country": "Paraguay",
+      "dates": "2026-07-21 to 2026-07-31",
+      "url": "https://artesania.gov.py/artesania-diseno-ad-2026-un-proceso-de-creacion-compartida-que-fortalece-la-artesania-paraguaya/"
+    },
+    {
+      "name": "An Assemblage of Eentsi & Related Holders: Fillipus Sheehama",
+      "country": "Namibia",
+      "dates": "2026-10-22 to 2026-11-06",
+      "url": "https://www.naa.na/event-details/an-assemblage-of-eentsi-related-holders-fillipus-sheehama"
+    },
+    {
+      "name": "Dizaino savaitė 2026: Burbulai (Lithuanian Design Week)",
+      "country": "Lithuania",
+      "dates": "2026-06-01 to 2026-06-07",
+      "url": "https://dizainosavaite.lt/dizaino-savaite-2026/"
+    }
+  ],
+  "expired_to_archive": [
+    {
+      "name": "Aghrab Idrāk: Thresholds of Perception (VCUarts Qatar)",
+      "end_date": "2026-11-22",
+      "url": "https://qatar.vcu.edu/our-impact/biennale-arte-2026/"
+    },
+    {
+      "name": "REINVENTION: ALLPLAY 2026",
+      "end_date": "2026-11-22",
+      "url": "https://designsingapore.org/events/reinvention-allplay/"
+    },
+    {
+      "name": "Design Mumbai 2026",
+      "end_date": "2026-11-22",
+      "url": "https://designmumbai.com/"
+    },
+    {
+      "name": "DESIGNxRI Design Catalyst 2027: Providence Grant Application Deadline",
+      "end_date": "2026-11-22",
+      "url": "https://www.designxri.com/design-catalyst-2027/"
+    }
+  ],
+  "added_recurring_design_week": "Dizaino savaitė (Lithuanian Design Week)",
+  "held": [
+    {
+      "name": "Budapest Design Week",
+      "country": "Hungary",
+      "reason": "Public English organizer overview still dates 2025; no verified 2027 edition or exact 2026 program in the checked material",
+      "url": "https://budapestdesignweek.hu/en/about/"
+    },
+    {
+      "name": "GEOMINE 2026",
+      "country": "Mongolia",
+      "reason": "University conference site gives a final-paper deadline after conference dates and was outside target design depth; verify scheduling before a historical record",
+      "url": "https://geomine.must.edu.mn/"
+    },
+    {
+      "name": "Namibia National Career Week 2027",
+      "country": "Namibia",
+      "reason": "Primarily paid exhibitor recruiting fair, no sufficient documented design research program",
+      "url": "https://nncw.com.na/"
+    },
+    {
+      "name": "Gulu or Kampala generic architecture conferences",
+      "country": "Uganda",
+      "reason": "Conference aggregator listings lacked independent host-university or professional-society confirmation",
+      "url": "https://internationalconferencealerts.com/"
+    },
+    {
+      "name": "Rwanda Fruit Logistica 2027 Pavilion Procurement",
+      "country": "Rwanda",
+      "reason": "Commercial procurement call, not a research-focused event",
+      "url": "https://www.rwandaingermany.gov.rw/infodetails/call-for-proposals-rwanda-national-pavilion-at-fruit-logistica-2027"
+    }
+  ],
+  "notes": [
+    "Official organizer, university and museum pages used as publishing URLs; no imported aggregator listings",
+    "Saudi Arabia 2026 event restrictions retained; no Saudi event added",
+    "Event attendance and program completion not inferred from a URL; archived expired records retain original Git history",
+    "Original descriptions and linked primary records only; no third-party images, documents or program texts republished",
+    "No design or other visual asset files changed",
+    "Live GitHub Pages fetch returned inaccessible using browsing service; deployment status must be checked separately"
+  ]
+}
