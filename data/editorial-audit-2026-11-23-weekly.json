@@ -1,0 +1,99 @@
+{
+  "review_date": "2026-11-23",
+  "audit_type": "Weekly academic editorial review; supplemental to country-coverage audit dated 2026-11-23",
+  "repository": "brandiejanow/design-reservoir",
+  "counts_before": {
+    "research_resources": 543,
+    "recurring_design_weeks": 82,
+    "active_dated_events": 158,
+    "archived_dated_events": 143,
+    "searchable_core_plus_weeks": 625
+  },
+  "counts_after": {
+    "research_resources": 545,
+    "recurring_design_weeks": 82,
+    "active_dated_events": 158,
+    "archived_dated_events": 143,
+    "searchable_core_plus_weeks": 627
+  },
+  "added_resources": [
+    {
+      "name": "Collaborative Foresight: Major Research Trajectories and Future Research Agenda (2026)",
+      "url": "https://cris.vtt.fi/en/publications/collaborative-foresight-major-research-trajectories-and-future-re/",
+      "publisher": "Futures; VTT Technical Research Centre of Finland repository",
+      "published": "2026-03",
+      "doi": "10.1016/j.futures.2026.103784",
+      "access": "Open access, CC BY according to institutional record",
+      "editorial_note": "Peer-reviewed bibliometric review; not a guaranteed predictive method; full text not republished"
+    },
+    {
+      "name": "Mapping Design Research Methods: Foundations for a Design Research Quality Hub (2026)",
+      "url": "https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/mapping-design-research-methods-foundations-for-a-design-research-quality-hub/0FDA6D94D1C4346A5CDC611CE8174462",
+      "publisher": "Cambridge University Press; Proceedings of the Design Society",
+      "published": "2026-07-02",
+      "doi": "10.1017/pds.2026.10366",
+      "access": "Open access, CC BY-NC-ND 4.0",
+      "editorial_note": "Design methods mapping presented by authors as preliminary proof of concept, not a live universal research-methods service; text not adapted or republished"
+    }
+  ],
+  "recurring_platform_edits": [
+    {
+      "name": "Business of Design Week",
+      "action": "Changed concluded 16–21 Nov 2026 edition to historical status, with no unverified 2027 dates",
+      "source": "https://2026.bodw.com/"
+    },
+    {
+      "name": "Design Mumbai",
+      "action": "Changed concluded listed 19–22 Nov 2026 edition to historical status and replaced network member-link with independent organizer URL",
+      "source": "https://designmumbai.com/",
+      "secondary_confirmation": "https://www.worlddesignweeks.org/festivals/design-mumbai"
+    }
+  ],
+  "current_event_cleanup": {
+    "expired_active_records_found": 0,
+    "removed": 0,
+    "notes": "Dated event records were checked against 2026-11-23; no end dates earlier than that remain. November 23 IFTF talk remains active on its scheduled date and will expire when date passes. No organizer attendance or actual event completion was inferred from HTTP responses."
+  },
+  "duplicates_and_exclusions": [
+    {
+      "name": "Systematic Review of Foresight Scenario Methods (2026)",
+      "decision": "Not added",
+      "reason": "DOI 10.1186/s40309-026-00298-4 and its separate 115-paper systematic-review record already indexed in resources.csv"
+    },
+    {
+      "name": "UNESCO Institute for Statistics Data Browser",
+      "decision": "Not added",
+      "reason": "Official public dataset portal already indexed at https://databrowser.uis.unesco.org/"
+    },
+    {
+      "name": "Synthetic Delphi panels paper (2026)",
+      "decision": "Not added",
+      "reason": "Specialized methodological claims require more independent validation before treating synthetic panels as a standard methods resource"
+    }
+  ],
+  "holds": [
+    {
+      "name": "A Systematic Review of Design Thinking Implementations in Higher Engineering Education (2026)",
+      "source": "https://kclpure.kcl.ac.uk/portal/en/publications/a-systematic-review-of-design-thinking-implementations-in-higher--2/",
+      "reason": "Peer-review and 76-study scope verified with King's College London and Taylor & Francis search listing, but publisher full-text access and exact reuse license not confirmed during this review"
+    },
+    {
+      "name": "Design Mumbai category assignment",
+      "reason": "Retained as a recognized recurring World Design Weeks member although the source describes a trade exhibition; whether to reclassify into the general directory rather than Design Weeks needs a separate editorial taxonomy decision"
+    },
+    {
+      "name": "Live GitHub Pages deployment",
+      "reason": "Live GitHub Pages URL was inaccessible to the browser during this review; repository data and files inspected directly"
+    },
+    {
+      "name": "Full URL-health audit",
+      "reason": "Existing data/link-audit-latest.json is dated 2026-10-19 and only sampled historical records; its older successful responses cannot confirm current status or event occurrence"
+    }
+  ],
+  "constraints": [
+    "Did not index standalone short-course marketplaces or social media announcements",
+    "No 2026 Saudi dated event added",
+    "Only original descriptions, official institutional links and citation metadata written; no article text or images copied",
+    "No broad redesign or removal of documented historical research"
+  ]
+}
