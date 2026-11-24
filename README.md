@@ -8,7 +8,7 @@ The repository is the source of truth. The human-readable master table lives in 
 
 ## Reading the resource counts
 
-The homepage combines two datasets into a single searchable interface: **568 core resource records** in `data/resources.csv` and **83 recurring design weeks** in `data/design-weeks.csv`. That produces **651 searchable entries**. The counts refer to different collections and are displayed separately in the interface.
+The homepage combines two datasets into a single searchable interface: **578 core resource records** in `data/resources.csv` and **83 recurring design weeks** in `data/design-weeks.csv`. That produces **661 searchable entries**. The counts refer to different collections and are displayed separately in the interface.
 
 ## Suggest a research resource
 
@@ -16,17 +16,23 @@ Use the [Resource suggestion form](https://github.com/brandiejanow/design-reserv
 
 ## Current status
 
-- **568 active research and reference resource records**, including **37 research tools** classified by research workflow
+- **578 active research and reference resource records**, including **37 research tools** classified by research workflow
 - **366 Design Atlas classification records** across ten families, representing **364 distinct discipline names**; Furniture design and Service design each appear in two families in the searchable [Design Atlas](atlas/)
 - *The Design Almanac 2026* has been reconciled section by section; changed, retired, generic, or unverified items are documented in [`data/almanac-review.csv`](data/almanac-review.csv)
 - **83 active or recurring global design weeks and citywide design festivals** are maintained in the [Design Weeks Index](design-weeks/) and also appear in the main directory under **Resource type → Design Week** and in the Events Calendar as recurring platforms
-- **170 current or forthcoming dated global events** across design, futures and foresight in the [Events Calendar](events/); the calendar also includes a searchable directory of recurring Design Weeks
+- **239 current or forthcoming dated global events** across design, futures and foresight in the [Events Calendar](events/); the calendar also includes a searchable directory of recurring Design Weeks
 - ANTICIPATE's individual original research publications are indexed as separate reference resources, while its event calendar is treated as a discovery source. Dated events require confirmation from their original organizers.
 - [Knowledge of Design](https://brandiejanow.github.io/Knowledge-of-Design/index.html) is a resource in the main directory, linked to its official public website
 - Academic and cultural research sources from the Middle East and Gulf are included when relevant. Current events outside Saudi Arabia are assessed individually, while Saudi event listings remain restricted to eligible 2027-and-later programs. Earlier editorial decisions remain accessible through Git history.
 - automated URL auditing checks resource entries, design weeks, dated events and internal page links weekly and on manual request
 - a daily workflow removes dated events from the active calendar after their end date; previous records remain accessible through Git history
 - completed festival editions are excluded from the Events Calendar; their permanent listings stay in the Design Weeks Index even when next-edition dates are unannounced
+
+## United States scan, November 24, 2026
+
+The [state coverage record](data/us-scan-2026-11-24-coverage.csv) documents primary-source checks across all 50 states and Washington, D.C. This curated scan added **69 current or announced dated listings** and **10 continuing research and educational resources**, and updated **8 existing event or design-week records**. It covers current programs and announced 2027 dates; exhibitions with published 2028 closing dates retain their full runs. It is a source-based selection, not a census of every local activity.
+
+The [review and evidence table](data/us-scan-2026-11-24-review.csv) records additions, source URLs, access conditions, rights notes, corrections, exclusions and unresolved cases. Recurring programs remain separate from closed application calls. No existing active record required removal in this pass: all active end dates were on or after the review date, and no confirmed cancellation of an existing listing was found. Completed and canceled discovery candidates were kept out of the active calendar. HTTP reachability was not used as proof that an event was taking place.
 
 ## Knowledge of Design research
 
