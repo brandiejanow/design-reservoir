@@ -1,0 +1,108 @@
+{
+  "review_date": "2026-11-24",
+  "coverage_before": 76,
+  "coverage_after": 83,
+  "new_countries": [
+    "Bolivia",
+    "Luxembourg",
+    "Malta",
+    "Panama",
+    "Sri Lanka",
+    "Uganda",
+    "Uzbekistan"
+  ],
+  "counts_after": {
+    "active": 164,
+    "archive": 150,
+    "weeks": 83,
+    "resources": 559,
+    "countries": 83
+  },
+  "active_added": [
+    {
+      "name": "SHAPES - Beyond Geometry",
+      "source": "https://cerclecite.lu/en/event/shapes-beyond-geometry"
+    },
+    {
+      "name": "Savitsky’s Diaries: Old and New",
+      "source": "https://www.acdf.uz/index.php/en/news/savitskys-diaries-old-and-new-exhibition-opens-in-tashkent"
+    },
+    {
+      "name": "FARU 2026: Resilient Intelligence: Adapting the Built Environment for a Changing World",
+      "source": "https://faru.uom.lk/FARU%202026/"
+    },
+    {
+      "name": "VI Congreso Latinoamericano sobre Conflictos Ambientales (COLCA 2027)",
+      "source": "https://colcavipanama.com/"
+    },
+    {
+      "name": "COLCA 2027: Research Contribution Submission Deadline",
+      "source": "https://colcavipanama.com/"
+    },
+    {
+      "name": "ICIDA 2027: Smart, Resilient, and Sustainable Infrastructure for Africa’s Urban Futures",
+      "source": "https://icida.knust.edu.gh/"
+    }
+  ],
+  "archive_added": [
+    {
+      "name": "designMT 2026",
+      "source": "https://www.designmt.org/",
+      "status": "Organizer retrospective confirms the 2026 edition."
+    },
+    {
+      "name": "PolyKosmik: Materiality and Memory in the Digital World",
+      "source": "https://projects.heritagemalta.mt/project-news/the-upcoming-impulse-exhibition-polykosmik-materiality-and-memory-in-the-digital-world-comes-to-muza/",
+      "status": "Published institutional schedule verified; occurrence not independently confirmed."
+    },
+    {
+      "name": "NORPART Common Ground Exhibition and Seminar",
+      "source": "https://cedat.mak.ac.ug/2026/11/18/the-common-ground-exhibition-showcases-indigenous-knowledge-and-international-collaboration/",
+      "status": "University post-event reports confirm seminar and exhibition."
+    },
+    {
+      "name": "Congreso Internacional de Arquitectura de Emergencia",
+      "source": "https://lpz.ucb.edu.bo/congreso-internacional-de-arquitectura-de-emergencia-reunio-a-expertos-de-ocho-paises/",
+      "status": "University post-event report confirms October 26 meeting."
+    },
+    {
+      "name": "Tashkent Design Week 2026",
+      "source": "https://www.designweek.uz/",
+      "status": "Official dates and opening confirmed; organizer also documents specific program activities."
+    },
+    {
+      "name": "Integrated Design Research Conference 2026: The Creative Wave: Imagination, Adaptation, and Change",
+      "source": "https://idresearch.uom.lk/idr-2026/",
+      "status": "Organizer schedule verified; occurrence not independently confirmed."
+    }
+  ],
+  "design_week_added": "Tashkent Design Week",
+  "deduplicated": [
+    "ACM TEI 2027: Tangible, Embedded and Embodied Interaction"
+  ],
+  "expired_transferred": [],
+  "held": [
+    {
+      "name": "Cyprus Pavilion 2027 curator call",
+      "source": "https://www.gov.cy/en/culture/cyprus-participation-in-the-20th-international-architecture-exhibition-la-biennale-di-venezia-2027/",
+      "reason": "Official search result verifies December 15 deadline but direct notice is restricted and full eligibility/commission terms not retrieved."
+    },
+    {
+      "name": "With What Remains",
+      "reason": "Original Department of Antiquities event URL not verified."
+    },
+    {
+      "name": "Guatemala VI Encuentro Académico Contar desde la forma",
+      "reason": "University report confirms activity but exact date and location not clear."
+    },
+    {
+      "name": "Mustique Caribbean Contemporary Art Show & Prize",
+      "reason": "Invitation-only artist participation and artwork sales; public access and research program insufficiently established."
+    },
+    {
+      "name": "WRFER Tashkent and generic Uganda conference listings",
+      "reason": "Insufficient independent academic organizer evidence."
+    }
+  ],
+  "notes": "Original summaries only; no third-party content copied or blanket reuse rights inferred. Geographic counts describe listed venues, excluding Online. Live site direct fetch failed."
+}
