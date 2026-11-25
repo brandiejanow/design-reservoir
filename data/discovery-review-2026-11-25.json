@@ -1,0 +1,110 @@
+{
+  "review_date": "2026-11-25",
+  "baseline": {
+    "active": 240,
+    "archive": 150,
+    "weeks": 83,
+    "resources": 581,
+    "countries": 83
+  },
+  "counts_after": {
+    "active": 246,
+    "archive": 153,
+    "weeks": 83,
+    "resources": 581,
+    "countries": 89
+  },
+  "new_countries": [
+    "Albania",
+    "Cambodia",
+    "Jamaica",
+    "Jordan",
+    "Mauritius",
+    "Tunisia"
+  ],
+  "active_added": [
+    {
+      "name": "Claiming Space: Scale as Creative Ambition (Exhibition Opening)",
+      "source": "https://nationalgalleryofjamaica.wordpress.com/2026/11/23/claiming-space-scale-as-creative-ambition-to-open-sunday-november-29-2026/"
+    },
+    {
+      "name": "ZEMCH 2027: Abstract Submission Deadline",
+      "source": "https://zemch2027.jea.org.jo/en/program"
+    },
+    {
+      "name": "BCCCE 2027: Abstract Submission Deadline",
+      "source": "https://bccce.epoka.edu.al/2027/category-topics-5320.html"
+    },
+    {
+      "name": "A-IDEES 2027: Governing Uncertainty in the Global South",
+      "source": "https://www.a-idees.com/"
+    },
+    {
+      "name": "ZEMCH 2027: Sustainability, Artificial Intelligence, and Modern Construction Technologies",
+      "source": "https://zemch2027.jea.org.jo/en/"
+    },
+    {
+      "name": "BCCCE 2027: 5th International Balkans Conference on Challenges of Civil Engineering",
+      "source": "https://bccce.epoka.edu.al/2027/"
+    }
+  ],
+  "archive_added": [
+    {
+      "name": "AEC 2026: Architecture & Engineering International Conference & Exhibition",
+      "source": "https://www.paragoniu.edu.kh/the-event/architecture-engineering-international-conference-exhibition-aec-2026/",
+      "status": "Institutional schedule verified; actual occurrence not independently established."
+    },
+    {
+      "name": "National AI and Data Science Research Center: Architectural Design Competition Results",
+      "source": "https://cadt.edu.kh/winners-of-architectural-design-competition-announced-for-the-national-ai-and-data-science-research-center/",
+      "status": "Institutional post-event report confirms October 19 awards announcement."
+    },
+    {
+      "name": "Museomix Mauritius 2026: L’Aventure du Sucre",
+      "source": "https://aventuredusucre.com/museomix-2026-a-laventure-du-sucre/",
+      "status": "Host museum documents completed prototypes and public demonstration; no assessment of longer-term outcomes inferred."
+    }
+  ],
+  "expired_transferred": [],
+  "design_week_changes": [],
+  "held": [
+    {
+      "name": "Cyprus Pavilion curator call",
+      "source": "https://www.gov.cy/en/culture/cyprus-participation-in-the-20th-international-architecture-exhibition-la-biennale-di-venezia-2027/",
+      "reason": "Official indexed deadline December 15, but direct source remains 403 and full eligibility terms unavailable."
+    },
+    {
+      "name": "A-IDEES proposal deadline",
+      "source": "https://www.a-idees.com/",
+      "reason": "November 27 vs 28 conflict. Congress indexed; standalone deadline held."
+    },
+    {
+      "name": "Guatemala Contar desde la forma",
+      "source": "https://udv.edu.gt/encuentro-academico-contar-desde-la-forma/",
+      "reason": "Post-event report confirms activity but precise event date not stated."
+    },
+    {
+      "name": "Kyrgyzstan Art & Design Symposium",
+      "source": "https://www.iksadkongre.com/art-design",
+      "reason": "Organizer schedule found; university corroboration and evidence of actual delivery not established; hold for further assessment."
+    },
+    {
+      "name": "Invisible Cities Lab Vol. 2",
+      "source": "https://lina.community/programme/event/250/invisible-cities-lab-vol-2/",
+      "reason": "Public presentation in April 2027, exact dates unannounced."
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Interbuild Near East 2027",
+      "source": "https://interbuild.jo/",
+      "reason": "Sales-led exhibition; separate scholarly program not verified."
+    },
+    {
+      "name": "ICMHCI Suva",
+      "source": "https://www.scienceguru.org/conferences/international-conference-on-museums-heritage-and-cultural-innovation-suva-fiji-4th-february-2027/",
+      "reason": "Generic conference provider; no sufficient evidence of local academic or museum partner."
+    }
+  ],
+  "notes": "No Saudi 2026 listings added. Original summaries, no reproduction of images or third-party content. Direct GitHub Pages retrieval unsuccessful. No visual changes. Counts describe cataloged geography, not regional activity."
+}
