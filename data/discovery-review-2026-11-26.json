@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-26",
+  "parent": "0f5da274b49bb1cf45c648b742c1eb21da4bc76a",
+  "baseline": {
+    "active": 248,
+    "archive": 153,
+    "design_weeks": 83,
+    "resources": 583,
+    "countries": 89
+  },
+  "added": [
+    {
+      "name": "Fiji 1838: Face to Face",
+      "url": "https://explorefijionline.com/fiji-1838-a-historic-exhibition-connecting-chartres-suva/",
+      "source": "Original EXPLORE Fiji article produced in partnership with Fiji Museum, including interviews with the museum's collections manager and curators; dates and venue reviewed 2026-11-26. French Ministry of Culture confirms the Suva collaboration: https://www.culture.gouv.fr/regions/drac-centre-val-de-loire/actualites-regionales-centre-val-de-loire/fidji-1838-face-a-face-une-exposition-d-interet-national ; opening reported by FBC News https://www.fbcnews.com.fj/news/exhibition-celebrates-shared-heritage-01/ ; museum general access https://fijimuseum.org.fj/ . No current exhibition-specific museum page located; no reuse rights inferred."
+    },
+    {
+      "name": "Mongolian Pride – Mongolian Script",
+      "url": "https://nmns.gov.mn/client/en/article/457",
+      "source": "Museum's official indexed announcement confirms November 11-30, 2026 and temporary exhibition hall; corroborated by MONTSAME November 9 schedule https://montsame.mn/en/article/mpost-415011 . Reviewed 2026-11-26; direct museum retrieval failed, actual opening and current visitor access not independently confirmed."
+    },
+    {
+      "name": "ISVS-15: Living Vernaculars: Heritage, Resilience and Innovation",
+      "url": "https://icihs.ku.edu.np/conferencedec26/",
+      "source": "Kathmandu University ICIHS dedicated conference site and ISVS official program https://www.isvshome.com/isvs_15.php reviewed 2026-11-26. Dates, host campus and registration window confirmed; not an assertion of occurrence."
+    },
+    {
+      "name": "Cyprus Pavilion 2027: Curator Proposal Deadline",
+      "url": "https://architecture.org.cy/en/cyprus-participation-in-the-20th-international-architecture-exhibition-la-biennale-di-venezia-2027/",
+      "source": "Cyprus Architects Association and Deputy Ministry of Culture announcements dated November 17, 2026, reviewed 2026-11-26: https://www.gov.cy/politismos/symmetochi-tis-kyprou-stin-20i-diethni-ekthesi-architektonikis-tis-la-biennale-di-venezia-2027/ . University of Cyprus department repost corroborates call; linked detailed terms not independently reviewed. No application submitted."
+    },
+    {
+      "name": "Constructionism 2027: Learning Across Cultures in a Changing World",
+      "url": "https://cyprusconferences.org/constructionism2027/",
+      "source": "Dedicated conference site operated by local logistics provider EasyConferences; organizer program, call and registration pages reviewed 2026-11-26: https://cyprusconferences.org/constructionism2027/call-for-abstracts/ ; https://cyprusconferences.org/constructionism2027/registration/ . Dates and venue explicit; university-host attribution from conference site, final academic program pending."
+    }
+  ],
+  "historical": [
+    {
+      "name": "Sāmoa Arts Fono 2026",
+      "url": "https://www.talanoaartsforum.ws/2026-samoa-arts-fono-a-landmark-gathering",
+      "source": "Organizer retrospective March 24, 2026 and dated registration/program notice https://www.talanoaartsforum.ws/registration-now-open ; reviewed 2026-11-26. Reported outcomes are organizer statements; no independent policy adoption claimed.",
+      "status": "Organizer retrospective confirms the three-day gathering concluded March 6, 2026."
+    },
+    {
+      "name": "Nambawan Haus Museum: Official Opening",
+      "url": "https://solomons.gov.sb/nambawan-haus-museum-in-tulagi-officially-opens-marking-significant-milestone-to-preserve-cultural-and-colonial-heritage-of-cip-and-solomon-islands/",
+      "source": "Government Ministry of Culture and Tourism July 30, 2026 retrospective and July 21 announcement https://solomons.gov.sb/nambawan-haus-museum-in-tulagi-will-officially-open-next-week/ ; reviewed 2026-11-26. General admission terms not established; original summary and links only.",
+      "status": "Government retrospective and photographs confirm the July 28 inauguration."
+    },
+    {
+      "name": "What the Landscape Holds",
+      "url": "https://nagb.org.bs/exhibitions/what-the-landscape-holds/",
+      "source": "Official museum exhibition page and past-exhibitions index https://nagb.org.bs/exhibitions-archive/ reviewed 2026-11-26. Exhibition dates and location (Floor 2) confirmed; historical admission terms and pamphlet reuse rights not established.",
+      "status": "Museum's own archive identifies the exhibition as past; individual attendance not established."
+    },
+    {
+      "name": "XIV Congreso de Ingeniería, Arquitectura y Diseño (CONIA 2026)",
+      "url": "https://conia.uca.edu.sv/es",
+      "source": "Official university congress schedule and call https://conia.uca.edu.sv/es/call-for-papers reviewed 2026-11-26; event dates and campus confirmed. Call contains different submission deadline dates; not presented as open.",
+      "status": "Published institutional schedule verified; actual occurrence and proceedings publication not independently confirmed."
+    },
+    {
+      "name": "The Tale of the Great Mountains: Cultural Programme and Workshops",
+      "url": "https://e-billet.gov.kg/en/events/35c0408f-9259-4053-b7ca-f7156aedd3f9",
+      "source": "Government event program and World Nomad Games September 4 report https://worldnomadgames.org/en/news/wng-news-57 reviewed 2026-11-26. Program dates from official ticketing; exhibition report corroborates associated activity, not every workshop.",
+      "status": "Games organizer confirms an exhibition was underway; individual workshop completion not independently verified."
+    }
+  ],
+  "transferred": [
+    {
+      "name": "DIASPONA: I'm Coming Home",
+      "end": "2026-11-25",
+      "url": "https://www.unsa.ba/en/novosti/exhibition-diaspona-im-coming-home-officially-opens-sarajevo"
+    },
+    {
+      "name": "Textile Futures 2040: Online Launch and Methods Webinar",
+      "end": "2026-11-25",
+      "url": "https://www.textilefutures2040.com/#launch"
+    }
+  ],
+  "duplicates": [],
+  "held": [
+    {
+      "name": "A Sum of Parts, Bahamas",
+      "url": "https://nagb.org.bs/exhibitions/a-sum-of-parts/",
+      "reason": "Closing month only, no exact date."
+    },
+    {
+      "name": "Fifth Nalawan Cultural Festival, Vanuatu",
+      "url": "https://tourism.gov.vu/en/news/general-updates/fifth-nalawan-cultural-festival-goes-ahead-at-south-west-bay-despite-the-weather",
+      "reason": "Occurrence documented but specific design/academic content not fully inspected."
+    },
+    {
+      "name": "Constructionism 2027 submission deadline",
+      "url": "https://cyprusconferences.org/constructionism2027/call-for-abstracts/",
+      "reason": "Separate deadline held because submission page still says not started."
+    },
+    {
+      "name": "Nepal ICCS 2027",
+      "reason": "Independent official conference page not located; social announcement insufficient."
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Fiji tourism trade events",
+      "url": "https://mtca.gov.fj/spte-and-fte-2027-dates-officially-announced/",
+      "reason": "Commercial tourism trade program."
+    },
+    {
+      "name": "Beyond the Blueprint, Trinidad",
+      "url": "https://beyondtheblueprintshow.com/",
+      "reason": "Commercial lifestyle showcase."
+    },
+    {
+      "name": "Fiji OCIS 2027",
+      "url": "https://ocis.org.au/2027-call-for-papers/",
+      "reason": "International politics focus; specific design or futures method not established."
+    }
+  ],
+  "after": {
+    "active": 251,
+    "archive": 160,
+    "design_weeks": 83,
+    "resources": 583,
+    "countries": 97
+  },
+  "live_site": "Direct browser retrieval failed for calendar and archive.",
+  "rights": "Original summaries and links only; no third-party images, documents or blanket licenses imported."
+}
