@@ -84,7 +84,7 @@ Design Reservoir is an academic-facing knowledge resource spanning **futures / f
 **Maintenance**
 
 - [Automated full-link audit](.github/workflows/link-check.yml): weekly or manually, checks directory resources, design weeks, events and HTML page links, publishing a downloadable report as a workflow artifact; the repository JSON is a historical snapshot. HTTP status is evidence of URL reachability, **not** evidence that an institution or event is still active.
-- [Daily event expiration](.github/workflows/refresh-events.yml): removes records whose end dates have passed from `data/events.csv`.
+- [Daily event expiration](.github/workflows/refresh-events.yml): transfers elapsed records from [`data/events.csv`](data/events.csv) to [`data/events-archive.csv`](data/events-archive.csv) and avoids repeating exact archive entries. Elapsed dates are not confirmation that an event took place.
 - Editorial checks of cancellations, replacements, new findings, classification quality, and evidence of continuing operation remain necessary: URL health alone cannot prove an event is happening.
 - Preserve original references, publisher credit and licensing constraints; the dataset has no blanket open license.
 
